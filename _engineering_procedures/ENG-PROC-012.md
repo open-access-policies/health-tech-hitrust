@@ -6,12 +6,6 @@ nav_order: 12
 
 # Guest Network Isolation and Security Procedures (ENG-PROC-012)
 
-**Document Classification**: Internal Use Only  
-**Version**: 1.0  
-**Effective Date**: **[Date]**  
-**Review Date**: **[Annual Review Date]**  
-**Document Owner**: **[Network Security Manager]**
-
 ## 1. Purpose
 
 This procedure establishes secure guest network infrastructure with complete isolation from corporate networks containing electronic Protected Health Information (ePHI) and sensitive business data. This procedure ensures guest access does not compromise organizational security while providing appropriate internet access for visitors, contractors, and business partners.
@@ -68,24 +62,3 @@ This procedure addresses the following regulatory and compliance requirements:
 | **4.1, 4.2, 4.14** | HIPAA Security Rule | 45 CFR § 164.312(e)(1) - Transmission Security |
 | **4.4, 4.13** | HIPAA Security Rule | 45 CFR § 164.308(a)(4) - Access Management |
 
-**Security Controls**:
-- **Network Isolation**: Complete Layer 2/3 isolation from corporate networks
-- **Access Control**: Sponsored access with time-limited credentials
-- **Content Filtering**: Web content filtering and malicious site blocking
-- **Bandwidth Management**: Per-device and total bandwidth limitations
-- **Traffic Monitoring**: Continuous monitoring with automated alerting
-
-**Performance Metrics**:
-- **Guest Access Response Time**: Maximum **[Duration, e.g., 5 minutes]** from request to credential provisioning
-- **Network Isolation Verification**: **[Frequency, e.g., Weekly]** penetration testing to verify isolation
-- **Security Event Response**: Maximum **[Duration, e.g., 30 minutes]** to investigate guest network alerts
-- **Credential Expiration**: **[Percentage, e.g., 100%]** automatic termination of expired guest access
-
-**Document Control**: This procedure shall be reviewed quarterly and updated as needed to reflect changes in network architecture, security requirements, and regulatory compliance. All changes must be approved by the **[Information Security Officer]** and **[Chief Technology Officer]**.
-
-**Training Requirements**: All network operations personnel must complete guest network security training within **[Duration, e.g., 30 days]** of role assignment and annually thereafter.
-
-**Related Documents**:
-- Infrastructure Security Policy (ENG-POL-003)
-- Network Security Monitoring Procedures (ENG-PROC-007)
-- Access Control Policy (AC-POL-001)

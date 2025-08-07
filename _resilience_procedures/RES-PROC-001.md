@@ -17,18 +17,18 @@ This procedure outlines the formal process for managing information security inc
 
 ### 4. Procedure
 
-| **Step** | **Phase** | **Who** | **What** |
-| --- | --- | --- | --- |
-| **1** | **Preparation** | Security Team | Conduct annual incident response training and exercises. |
-| **2** | | Security Team | Maintain and test incident response tools and systems. |
-| **3** | **Detection & Analysis** | All Personnel | Report suspected incidents to the Security Team immediately. |
-| **4** | | Security Analyst | Triage and classify incoming alerts and reports to determine if an incident has occurred. |
-| **5** | | Incident Commander | Activate the Incident Response Team (IRT) for confirmed incidents. |
-| **6** | **Containment, Eradication, & Recovery** | IRT | Isolate affected systems to prevent further damage. |
-| **7** | | IRT | Identify and remove the root cause of the incident (e.g., malware, unauthorized access). |
-| **8** | | IRT | Restore systems to normal operation from clean backups. |
-| **9** | **Post-Incident Activity** | Incident Commander | Conduct a post-incident review (lessons learned) meeting. |
-| **10** | | Incident Commander | Complete and file a formal Incident Report. |
+| **Step** | **Who** | **What** |
+| --- | --- | --- |
+| **1** | Security Team | Conduct annual incident response training and exercises. |
+| **2** | Security Team | Maintain and test incident response tools and systems. |
+| **3** | All Personnel | Report suspected incidents to the Security Team immediately. |
+| **4** | Security Analyst | Triage and classify incoming alerts and reports to determine if an incident has occurred. |
+| **5** | Incident Commander | Activate the Incident Response Team (IRT) for confirmed incidents. |
+| **6** | IRT | Isolate affected systems to prevent further damage. |
+| **7** | IRT | Identify and remove the root cause of the incident (e.g., malware, unauthorized access). |
+| **8** | IRT | Restore systems to normal operation from clean backups. |
+| **9** | Incident Commander | Conduct a post-incident review (lessons learned) meeting. |
+| **10** | Incident Commander | Complete and file a formal Incident Report. |
 
 ### 5. Standards Compliance
 

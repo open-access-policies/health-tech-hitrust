@@ -4,19 +4,11 @@ parent: Access Control Procedures
 nav_order: 5
 ---
 
-# Privileged Account Management Procedures (AC-PROC-005)
-
-**Document Classification**: Internal Use Only  
-**Version**: 1.0  
-**Effective Date**: **[Date]**  
-**Review Date**: **[Annual Review Date]**  
-**Document Owner**: **[Information Security Officer]**
-
-## 1. Purpose
+### 1. Purpose
 
 This procedure establishes comprehensive management controls for privileged accounts with elevated access to systems containing electronic Protected Health Information (ePHI) and critical business systems. This procedure ensures privileged accounts are properly provisioned, monitored, and controlled to minimize security risks while maintaining operational capabilities for authorized administrative functions.
 
-## 2. Scope
+### 2. Scope
 
 This procedure applies to all privileged accounts within **[Company Name]** systems and infrastructure, including:
 - Administrative accounts for servers, databases, and network devices
@@ -26,11 +18,11 @@ This procedure applies to all privileged accounts within **[Company Name]** syst
 - Vendor and contractor privileged access accounts
 - System service accounts and automated process accounts
 
-## 3. Overview
+### 3. Overview
 
 Privileged account management requires strict controls for account creation, access approval, monitoring, and periodic review. This includes multi-factor authentication, privileged access management (PAM) solutions, session recording, and comprehensive audit logging. All privileged account activities must be monitored and reviewed to detect unauthorized usage and ensure compliance with security policies.
 
-## 4. Procedure
+### 4. Procedure
 
 | **Step** | **Who** | **What** |
 | -------- | ------- | -------- |
@@ -52,7 +44,7 @@ Privileged account management requires strict controls for account creation, acc
 | **16** | **Compliance Officer** | Maintain privileged account audit logs and session recordings for minimum **[Retention Period, e.g., 7 years]** for regulatory compliance |
 | **17** | **Information Security Officer** | Generate annual privileged access risk assessment and update access controls based on threat landscape and business requirements |
 
-## 5. Standards Compliance
+### 5. Standards Compliance
 
 This procedure addresses the following regulatory and compliance requirements:
 
@@ -69,31 +61,31 @@ This procedure addresses the following regulatory and compliance requirements:
 | **4.1, 4.13** | HIPAA Security Rule | 45 CFR § 164.308(a)(4) - Access Management |
 | **4.8, 4.9, 4.16** | HIPAA Security Rule | 45 CFR § 164.312(b) - Audit Controls |
 
-**Privileged Account Types**:
-- **System Administrator**: Full system access for infrastructure management
-- **Database Administrator**: Database management and ePHI access
-- **Application Administrator**: Application configuration and user management
-- **Security Administrator**: Security tool configuration and monitoring
-- **Emergency Access**: Break-glass access for critical incidents
+### 6. Artifact(s)
 
-**Access Control Requirements**:
-- **Multi-Factor Authentication**: Required for all privileged accounts
-- **Session Approval**: Manager or security team approval for high-risk sessions
-- **Time-Based Access**: Temporary elevated access with automatic expiration
-- **IP Restrictions**: Geographic and network-based access limitations
-- **Concurrent Session Limits**: Maximum number of simultaneous privileged sessions
+- Privileged account request and approval documentation
+- PAM system session recordings and audit logs
+- Quarterly privileged account review reports
+- Annual privileged access risk assessment documentation
 
-**Performance Metrics**:
-- **Privileged Account Inventory**: **[Percentage, e.g., 100%]** of privileged accounts documented and managed through PAM
-- **Multi-Factor Authentication**: **[Percentage, e.g., 100%]** of privileged accounts with MFA enabled
-- **Session Recording**: **[Percentage, e.g., 100%]** of privileged sessions recorded and auditable
-- **Access Review Compliance**: **[Percentage, e.g., 95%]** of privileged accounts reviewed within required timeframes
+### 7. Definitions
 
-**Document Control**: This procedure shall be reviewed quarterly and updated as needed to reflect changes in privileged access requirements, security threats, and regulatory compliance. All changes must be approved by the **[Information Security Officer]** and **[Chief Technology Officer]**.
+**Privileged Access Management (PAM):** Security solution that helps organizations restrict privileged access within an existing Active Directory environment and control, monitor, and audit privileged users.
 
-**Training Requirements**: All privileged account users must complete privileged access security training within **[Duration, e.g., 5 business days]** of account provisioning and annually thereafter.
+**Break-Glass Access:** Emergency access procedure that allows authorized personnel to bypass normal access controls during critical situations.
 
-**Related Documents**:
-- Access Control Policy (AC-POL-001)
-- Password Policy (SEC-POL-002)
-- Multi-Factor Authentication Procedures (AC-PROC-002)
+**Multi-Factor Authentication (MFA):** Security method that requires multiple forms of verification to authenticate user identity.
+
+**Session Recording:** Automated capture of all activities performed during a privileged user session for audit and investigation purposes.
+
+### 8. Responsibilities
+
+| **Role** | **Responsibility** |
+| -------- | ---------------- |
+| **Information Security Officer** | Configure automated monitoring rules, approve privileged account requests, conduct quarterly reviews, and coordinate compliance assessments. |
+| **System Administrator** | Create privileged accounts, configure PAM systems, generate usage reports, and rotate passwords according to schedule. |
+| **Account Manager** | Conduct monthly reviews of assigned privileged accounts and verify continued business need for access. |
+| **Human Resources** | Immediately notify IT of employee terminations and role changes affecting privileged access. |
+| **Compliance Officer** | Maintain audit logs and session recordings for regulatory compliance and retention requirements. |
+
+

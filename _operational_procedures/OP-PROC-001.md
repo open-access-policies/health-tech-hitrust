@@ -145,6 +145,8 @@ This procedure is designed to comply with and support the following industry sta
 | **4.5** | NIST Cybersecurity Framework | PR.DS-1 - Data-at-rest Protection |
 | **4.4** | NIST Cybersecurity Framework | DE.AE-3 - Event Data Analysis |
 
+### 6. Artifact(s)
+
 ### 7. Artifact(s)
 
 - Cloud provider audit logs for all key management operations
@@ -153,7 +155,7 @@ This procedure is designed to comply with and support the following industry sta
 - Automated monitoring dashboards for key management services
 - Emergency access procedures and break-glass documentation
 
-### 8. Definitions
+### 7. Definitions
 
 **Customer-Managed Encryption Key (CMEK):** Encryption key created and managed by the customer using cloud provider key management services, providing control over key lifecycle while leveraging cloud infrastructure.
 
@@ -165,7 +167,7 @@ This procedure is designed to comply with and support the following industry sta
 
 **Cloud-Native Key Management:** Key management approach that leverages cloud provider managed services rather than on-premises hardware security modules or custom key management systems.
 
-### 9. Responsibilities
+### 8. Responsibilities
 
 | **Role** | **Responsibility** |
 | -------- | ---------------- |

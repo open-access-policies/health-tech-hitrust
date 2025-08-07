@@ -6,12 +6,6 @@ nav_order: 12
 
 # Threat Intelligence and Security Information Sharing Procedures (SEC-PROC-012)
 
-**Document Classification**: Internal Use Only  
-**Version**: 1.0  
-**Effective Date**: **[Date]**  
-**Review Date**: **[Annual Review Date]**  
-**Document Owner**: **[Information Security Officer]**
-
 ## 1. Purpose
 
 This procedure establishes comprehensive threat intelligence collection, analysis, and sharing processes to enhance security posture and incident response capabilities for systems handling electronic Protected Health Information (ePHI). This procedure ensures proactive threat detection, intelligence-driven security controls, and appropriate information sharing with industry partners and regulatory bodies.
@@ -67,31 +61,4 @@ This procedure addresses the following regulatory and compliance requirements:
 | **4.1, 4.4, 4.7** | HIPAA Security Rule | 45 CFR § 164.308(a)(1)(ii)(D) - Information Access Management |
 | **4.11, 4.12** | HIPAA Security Rule | 45 CFR § 164.308(a)(6) - Security Incident Procedures |
 
-**Intelligence Sources**:
-- **Government**: HHS HCCIC, FBI IC3, CISA, MS-ISAC
-- **Commercial**: **[Commercial Feeds, e.g., Recorded Future, ThreatConnect]**
-- **Industry**: Healthcare sector threat sharing groups
-- **Open Source**: OSINT feeds, security research, vulnerability databases
-- **Internal**: SIEM data, incident reports, security tool logs
 
-**Threat Categories**:
-- **Ransomware**: Healthcare-targeted ransomware campaigns and indicators
-- **Data Breach**: ePHI theft and exfiltration techniques
-- **Business Email Compromise**: Financial fraud targeting healthcare organizations
-- **Supply Chain**: Third-party and vendor compromise indicators
-- **Insider Threats**: Malicious and negligent insider activity patterns
-
-**Performance Metrics**:
-- **Intelligence Timeliness**: **[Percentage, e.g., 95%]** of critical threat intelligence processed within 4 hours
-- **Detection Improvement**: **[Percentage, e.g., 20%]** improvement in threat detection through intelligence integration
-- **Hunting Effectiveness**: **[Number, e.g., 2+]** advanced threats identified monthly through intelligence-driven hunting
-- **Sharing Participation**: **[Percentage, e.g., 90%]** of relevant threat intelligence shared with industry partners
-
-**Document Control**: This procedure shall be reviewed quarterly and updated as needed to reflect changes in threat landscape, intelligence sources, and regulatory requirements. All changes must be approved by the **[Information Security Officer]** and **[Chief Technology Officer]**.
-
-**Training Requirements**: All threat intelligence personnel must complete threat analysis training within **[Duration, e.g., 30 days]** of role assignment and maintain relevant industry certifications.
-
-**Related Documents**:
-- Incident Response Procedures (SEC-PROC-001)
-- Security Monitoring and Alerting Procedures (SEC-PROC-010)
-- Information Sharing Policy (SEC-POL-008)

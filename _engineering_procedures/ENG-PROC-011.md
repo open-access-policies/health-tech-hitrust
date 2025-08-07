@@ -6,12 +6,6 @@ nav_order: 11
 
 # Wireless Network Security Monitoring Procedures (ENG-PROC-011)
 
-**Document Classification**: Internal Use Only  
-**Version**: 1.0  
-**Effective Date**: **[Date]**  
-**Review Date**: **[Annual Review Date]**  
-**Document Owner**: **[Network Security Manager]**
-
 ## 1. Purpose
 
 This procedure establishes comprehensive monitoring and security controls for wireless network infrastructure to detect unauthorized access points, rogue devices, and security threats. This procedure ensures continuous oversight of wireless communications that may handle electronic Protected Health Information (ePHI) and maintains compliance with security frameworks requiring wireless network protection and monitoring.
@@ -67,17 +61,3 @@ This procedure addresses the following regulatory and compliance requirements:
 | **4.4, 4.6, 4.10** | HIPAA Security Rule | 45 CFR § 164.312(e)(1) - Transmission Security |
 | **4.7, 4.8, 4.12** | HIPAA Security Rule | 45 CFR § 164.312(b) - Audit Controls |
 
-**Performance Metrics**:
-- **Wireless Coverage**: Minimum **[Percentage, e.g., 95%]** facility coverage by WIDS sensors
-- **Detection Time**: Maximum **[Duration, e.g., 5 minutes]** to detect unauthorized access points
-- **Response Time**: Maximum **[Duration, e.g., 15 minutes]** to investigate wireless security alerts
-- **False Positive Rate**: Maximum **[Percentage, e.g., 5%]** false positive rate for wireless threat detection
-
-**Document Control**: This procedure shall be reviewed quarterly and updated as needed to reflect changes in wireless technology, threat landscape, and regulatory requirements. All changes must be approved by the **[Information Security Officer]** and **[Chief Technology Officer]**.
-
-**Training Requirements**: All network security personnel must complete wireless security training within **[Duration, e.g., 30 days]** of role assignment and annually thereafter.
-
-**Related Documents**:
-- Infrastructure Security Policy (ENG-POL-003)
-- Network Security Monitoring Procedures (ENG-PROC-007)
-- Incident Response Procedures (SEC-PROC-001)

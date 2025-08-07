@@ -6,12 +6,6 @@ nav_order: 11
 
 # Penetration Testing and Vulnerability Assessment Procedures (SEC-PROC-011)
 
-**Document Classification**: Internal Use Only  
-**Version**: 1.0  
-**Effective Date**: **[Date]**  
-**Review Date**: **[Annual Review Date]**  
-**Document Owner**: **[Information Security Officer]**
-
 ## 1. Purpose
 
 This procedure establishes comprehensive penetration testing and vulnerability assessment processes to identify security weaknesses in systems handling electronic Protected Health Information (ePHI) and other sensitive data. This procedure ensures systematic security testing, proper remediation of identified vulnerabilities, and compliance with regulatory requirements for security assessment and validation.
@@ -67,30 +61,3 @@ This procedure addresses the following regulatory and compliance requirements:
 | **4.1, 4.16, 4.17** | HIPAA Security Rule | 45 CFR § 164.308(a)(8) - Evaluation |
 | **4.4, 4.5, 4.6** | NIST SP 800-115 | Technical Guide to Information Security Testing |
 
-**Testing Methodology Standards**:
-- **Network Testing**: NIST SP 800-115, OWASP Testing Guide
-- **Web Application Testing**: OWASP Top 10, SANS Top 25
-- **Wireless Testing**: NIST SP 800-153, WiFi security best practices
-- **Social Engineering**: SET (Social Engineering Toolkit) methodology
-- **Cloud Testing**: Cloud Security Alliance (CSA) guidelines
-
-**Risk Classification**:
-- **Critical**: Immediate system compromise with ePHI access
-- **High**: Significant security control bypass or privilege escalation
-- **Medium**: Limited system access or information disclosure
-- **Low**: Configuration issues with minimal security impact
-
-**Performance Metrics**:
-- **Remediation Timeline**: **[Percentage, e.g., 95%]** of critical vulnerabilities resolved within 30 days
-- **Testing Coverage**: **[Percentage, e.g., 100%]** of in-scope systems tested annually
-- **False Positive Rate**: Maximum **[Percentage, e.g., 10%]** false positive rate for vulnerability scanning
-- **Validation Success**: **[Percentage, e.g., 100%]** of remediated vulnerabilities validated through retesting
-
-**Document Control**: This procedure shall be reviewed annually and updated as needed to reflect changes in testing methodology, regulatory requirements, and security threats. All changes must be approved by the **[Information Security Officer]** and **[Chief Technology Officer]**.
-
-**Training Requirements**: All security assessment personnel must complete penetration testing training within **[Duration, e.g., 30 days]** of role assignment and maintain relevant industry certifications.
-
-**Related Documents**:
-- Vulnerability Management Policy (SEC-POL-006)
-- Change Management Procedures (ENG-PROC-001)
-- Incident Response Procedures (SEC-PROC-001)

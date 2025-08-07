@@ -4,14 +4,6 @@ parent: Engineering Procedures
 nav_order: 10
 ---
 
-# Media Security Management Procedures (ENG-PROC-010)
-
-**Document Classification**: Internal Use Only  
-**Version**: 1.0  
-**Effective Date**: **[Date]**  
-**Review Date**: **[Annual Review Date]**  
-**Document Owner**: **[Information Security Officer]**
-
 ## 1. Purpose
 
 This procedure establishes standardized processes for the secure handling, labeling, transportation, and disposal of portable media and digital storage devices containing or potentially containing electronic Protected Health Information (ePHI) and other sensitive data. This procedure ensures compliance with regulatory requirements and organizational security policies for media protection throughout its lifecycle.
@@ -67,11 +59,3 @@ This procedure addresses the following regulatory and compliance requirements:
 | **4.13, 4.14** | HIPAA Security Rule | 45 CFR § 164.310(d)(2) - Data Disposal |
 | **4.11, 4.12** | NIST SP 800-88 | Media Sanitization Guidelines |
 
-**Document Control**: This procedure shall be reviewed annually and updated as needed to reflect changes in technology, regulatory requirements, and organizational security posture. All changes must be approved by the **[Information Security Officer]** and **[Chief Technology Officer]**.
-
-**Training Requirements**: All personnel handling portable media must complete media security training within **[Duration, e.g., 30 days]** of role assignment and annually thereafter.
-
-**Related Documents**:
-- Infrastructure Security Policy (ENG-POL-003)
-- Data Classification and Handling Policy (SEC-POL-004)
-- Incident Response Procedures (SEC-PROC-001)

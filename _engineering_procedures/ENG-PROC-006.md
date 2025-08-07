@@ -18,59 +18,20 @@ This procedure leverages automated RBAC systems, just-in-time access controls, a
 
 ### 4. Procedure
 
-#### 4.1 Automated Role-Based Access Control (RBAC) Implementation
-
 | **Step** | **Who** | **What** |
 | -------- | ------- | -------- |
-| **1** | IT Operations Team | **HR System Integration**: Configure identity management system (Azure AD, Okta, Google Workspace) to automatically synchronize employee data including role, department, manager, and employment status from HR systems. Enable real-time updates for role changes and terminations. |
-| **2** | Security Officer | **Role Definition and Mapping**: Define standard privileged access roles based on job functions (Platform Engineer, DevOps Engineer, Database Administrator, Security Engineer). Map each role to specific cloud resources and permission sets using infrastructure as code. |
-| **3** | Platform Engineer | **Automated Role Assignment**: Configure automated role assignment based on HR data and job function. Implement rules that automatically grant appropriate privileged access when employees are hired or change roles, and revoke access when roles change or employment ends. |
-| **4** | IT Operations Team | **Group-Based Access Management**: Implement group-based access control where privileged permissions are assigned to groups rather than individual users. Automatically add/remove users from groups based on their current role and organizational status. |
-
-#### 4.2 Just-In-Time (JIT) Privileged Access
-
-| **Step** | **Who** | **What** |
-| -------- | ------- | -------- |
-| **1** | Platform Engineer | **JIT Access System Configuration**: Configure cloud-native JIT access solutions (AWS IAM Access Analyzer, Azure PIM, GCP IAM Conditions) to provide temporary elevated access with automatic expiration. Set default access duration to **[Duration, e.g., 4-8 hours]** for most privileged operations. |
-| **2** | DevOps Engineer | **Self-Service Access Portal**: Implement self-service portal where engineers can request temporary privileged access with business justification. Configure automated approval workflows for standard access requests and escalation to managers for sensitive resources. |
-| **3** | Security Officer | **Break-Glass Access Procedures**: Configure emergency break-glass access procedures for critical system outages. Ensure break-glass access is logged, monitored, and automatically expires within **[Duration, e.g., 2-4 hours]** with mandatory post-incident review. |
-| **4** | Platform Engineer | **Access Session Recording**: Configure session recording and monitoring for all privileged access sessions. Implement automated analysis of privileged activities and alerting for suspicious or unauthorized actions during elevated access sessions. |
-
-#### 4.3 Continuous Access Monitoring and Anomaly Detection
-
-| **Step** | **Who** | **What** |
-| -------- | ------- | -------- |
-| **1** | Security Officer | **Automated Access Analytics**: Configure cloud-native access analytics tools to continuously monitor privileged access patterns. Set up machine learning-based anomaly detection to identify unusual access behaviors, geographic anomalies, or off-hours access. |
-| **2** | IT Operations Team | **Real-Time Access Alerts**: Configure real-time alerting for privileged access anomalies including: failed authentication attempts, access from unusual locations, privilege escalation activities, and dormant account activation. Integrate alerts with security monitoring systems. |
-| **3** | Platform Engineer | **Periodic Access Validation**: Implement automated monthly validation of privileged access assignments against current HR data. Generate exception reports for access that doesn't match current job roles or organizational structure for manual review. |
-| **4** | Security Officer | **Risk-Based Access Review**: Conduct targeted access reviews only for high-risk exceptions identified by automated monitoring rather than comprehensive quarterly reviews. Focus review efforts on dormant accounts, orphaned access, and privilege creep anomalies. |
-
-#### 4.4 Service Account and Non-Human Identity Management
-
-| **Step** | **Who** | **What** |
-| -------- | ------- | -------- |
-| **1** | DevOps Engineer | **Service Account Automation**: Implement automated service account lifecycle management tied to application deployments. Configure service accounts to use workload identity or managed service identities rather than long-lived credentials where possible. |
-| **2** | Platform Engineer | **Credential Rotation**: Configure automated credential rotation for service accounts and API keys with privileged access. Use cloud provider managed identity services to eliminate static credentials where possible. Set rotation schedules of **[Duration, e.g., 90 days]** for credentials that cannot be eliminated. |
-| **3** | Security Officer | **Service Account Monitoring**: Implement automated monitoring of service account activities and privilege usage. Generate alerts for service accounts accessing resources outside their expected scope or unusual activity patterns. |
-| **4** | DevOps Engineer | **Least Privilege Automation**: Implement automated least privilege assignment for service accounts using cloud provider tools (AWS IAM Access Analyzer, Azure recommendations, GCP recommender). Regularly review and optimize service account permissions based on actual usage patterns. |
-
-#### 4.5 Exception-Based Access Validation
-
-| **Step** | **Who** | **What** |
-| -------- | ------- | -------- |
-| **1** | IT Operations Team | **Automated Exception Detection**: Configure automated detection of access exceptions including: dormant accounts (no login for **[Duration, e.g., 60 days]**), orphaned accounts (employee no longer in HR system), excessive privileges, and role mismatches. |
-| **2** | Security Officer | **Manager Notification Automation**: Implement automated notifications to managers only for access exceptions requiring attention rather than comprehensive access lists. Include specific details about the exception and recommended action with one-click approval/denial options. |
-| **3** | Platform Engineer | **Automated Remediation**: Configure automated remediation for common access issues including: disabling dormant accounts, removing access for terminated employees, and adjusting permissions based on role changes. Implement safety controls to prevent accidental over-remediation. |
-| **4** | IT Operations Team | **Compliance Reporting**: Generate automated compliance reports showing access control effectiveness, exception remediation metrics, and audit trails for all access changes. Provide monthly dashboards for management rather than quarterly manual attestations. |
-
-#### 4.6 Emergency and Incident Response Access
-
-| **Step** | **Who** | **What** |
-| -------- | ------- | -------- |
-| **1** | Security Officer | **Incident Response Access Procedures**: Configure automated procedures for granting emergency privileged access during security incidents. Implement time-limited access with automatic revocation and mandatory post-incident access review. |
-| **2** | On-Call Engineer | **Emergency Access Activation**: Implement procedures for on-call engineers to activate emergency privileged access during critical outages. Ensure all emergency access is logged, monitored, and automatically expires within **[Duration, e.g., 4 hours]** unless explicitly extended. |
-| **3** | Platform Engineer | **Post-Incident Access Review**: Configure automated post-incident access review to validate that emergency access was appropriate and properly revoked. Generate reports for security team review within **[Duration, e.g., 24 hours]** of incident resolution. |
-| **4** | IT Operations Team | **Access Pattern Learning**: Implement machine learning systems that learn normal access patterns during incidents to improve automated detection and reduce false positives for legitimate emergency access scenarios. |
+| **1** | IT Operations Team | Configure identity management system to automatically synchronize employee data including role, department, manager, and employment status from HR systems. Enable real-time updates for role changes and terminations. |
+| **2** | Security Officer | Define standard privileged access roles based on job functions and map each role to specific cloud resources and permission sets using infrastructure as code. |
+| **3** | Platform Engineer | Configure automated role assignment based on HR data and job function. Implement rules that automatically grant appropriate privileged access when employees are hired or change roles. |
+| **4** | IT Operations Team | Implement group-based access control where privileged permissions are assigned to groups rather than individual users based on organizational status. |
+| **5** | Platform Engineer | Configure cloud-native JIT access solutions to provide temporary elevated access with automatic expiration. Set default access duration to **[Duration, e.g., 4-8 hours]**. |
+| **6** | DevOps Engineer | Implement self-service portal where engineers can request temporary privileged access with business justification and automated approval workflows. |
+| **7** | Security Officer | Configure emergency break-glass access procedures for critical system outages with automatic expiration within **[Duration, e.g., 2-4 hours]**. |
+| **8** | Platform Engineer | Configure session recording and monitoring for all privileged access sessions with automated analysis of privileged activities. |
+| **9** | Security Officer | Configure cloud-native access analytics tools to continuously monitor privileged access patterns with machine learning-based anomaly detection. |
+| **10** | IT Operations Team | Configure real-time alerting for privileged access anomalies and integrate alerts with security monitoring systems. |
+| **11** | Platform Engineer | Implement automated monthly validation of privileged access assignments against current HR data and generate exception reports. |
+| **12** | Security Officer | Conduct targeted access reviews only for high-risk exceptions identified by automated monitoring rather than comprehensive quarterly reviews. |
 
 ### 5. Standards Compliance
 
