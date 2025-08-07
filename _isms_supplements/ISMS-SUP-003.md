@@ -1,5 +1,5 @@
 ---
-title: 12-Month ISM| **5**     | **Training & Access Control:**<br> • Conduct the first company-wide Security Awareness Training campaign.<br> • Conduct the first `Quarterly User Access Review` for critical systems.<br> • Begin hardening critical systems based on defined baselines. | • **95%+** of workforce completes security awareness training.<br> • **100%** of mandated access reviews are completed and signed off by managers.<br> • **0** critical deviations from the security baseline on newly hardened systems.           | Implementation Roadmap (ISMS-SUP-003)
+title: 12-Month ISMS Roadmap (ISMS-SUP-003)
 parent: ISMS Supplements
 nav_order: 3
 ---
