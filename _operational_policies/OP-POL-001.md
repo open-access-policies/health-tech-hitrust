@@ -3,194 +3,141 @@ title: Encryption and Key Management Policy (OP-POL-001)
 parent: Operational Policies
 nav_order: 1
 ---
+
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive requirements for the implementation, management, and governance of cryptographic controls and encryption key management at **[Company Name]**. This policy ensures that sensitive information, particularly electronic Protected Health Information (ePHI), is protected through appropriate encryption technologies and that cryptographic keys are securely generated, distributed, stored, and disposed of in compliance with HIPAA, HITECH, and SOC 2 requirements.
+The objective of this policy is to establish practical requirements for implementing encryption and key management using cloud-native services and automated tools at **[Company Name]**. This policy ensures that sensitive information, particularly electronic Protected Health Information (ePHI), is protected through appropriate cloud-managed encryption technologies while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements in a cost-effective manner.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, and third parties who handle, process, store, or transmit encrypted information or manage cryptographic keys. It encompasses all information systems, applications, databases, storage devices, communication channels, and backup media containing sensitive data. This policy covers all encryption technologies, including symmetric and asymmetric encryption, digital signatures, and cryptographic hashing, across all computing environments including on-premises, cloud, and mobile platforms.
+This policy applies to all **[Company Name]** workforce members, contractors, and third parties who handle, process, store, or transmit encrypted information. It encompasses all cloud-based information systems, applications, and data storage containing sensitive data. This policy covers cloud-native encryption services, automated key management, and data protection across cloud platforms including AWS, Azure, and Google Cloud Platform.
 
 ### 3. Policy
 
-**[Company Name]** shall implement and maintain comprehensive, auditable cryptographic controls to protect the confidentiality, integrity, and authenticity of sensitive information throughout its lifecycle.
+**[Company Name]** shall implement cloud-native encryption controls to protect the confidentiality, integrity, and authenticity of sensitive information using automated, managed services that reduce operational complexity while maintaining security and compliance.
 
-**3.1 Encryption Requirements**
+**3.1 Cloud-Native Encryption Requirements**
 
-Encryption shall be implemented for all sensitive information based on data classification levels and regulatory requirements.
+Encryption shall be implemented using cloud provider managed services for all sensitive information based on data classification levels and regulatory requirements.
 
-**3.1.1 Mandatory Encryption Requirements**
+**3.1.1 Mandatory Encryption Implementations**
 
-The following data types and scenarios require mandatory encryption using algorithms approved in section 3.1.2 of this policy:
+The following data types and scenarios require encryption using cloud-managed services:
 
 **Electronic Protected Health Information (ePHI):**
-- ePHI at rest: Encrypted using AES-256 or a stronger approved algorithm.
-- ePHI in transit: Encrypted using TLS 1.2 or higher, with a strong cipher suite configuration.
-- ePHI on mobile devices and removable media: Full device/media encryption is mandatory.
+- **At Rest**: AWS S3 Server-Side Encryption, Azure Storage Service Encryption, or GCP encryption at rest using AES-256
+- **In Transit**: TLS 1.2 or higher automatically managed by cloud load balancers and API gateways
+- **Database**: AWS RDS/Aurora encryption, Azure SQL Database Transparent Data Encryption, or GCP Cloud SQL encryption
 
-**Confidential and Restricted Data:**
-- Database encryption for sensitive data fields using transparent data encryption (TDE) or column-level encryption
-- File system encryption for servers and workstations storing sensitive information
-- Email encryption for messages containing sensitive data
-- Backup encryption for all backup media and archives
+**Application and System Data:**
+- **Application Secrets**: AWS Secrets Manager, Azure Key Vault, or GCP Secret Manager for API keys, passwords, and connection strings
+- **Configuration Data**: Cloud-native parameter stores with automatic encryption (AWS Systems Manager Parameter Store, Azure App Configuration)
+- **File Storage**: Automatic encryption for cloud file storage (AWS EFS, Azure Files, GCP Filestore)
+- **Backup and Archives**: Cloud backup services with automatic encryption (AWS Backup, Azure Backup, GCP Cloud Storage)
 
-**Authentication Credentials:**
-- Password hashes using a strong, salted cryptographic hash function (e.g., bcrypt, Argon2).
-- API keys and tokens encrypted at rest.
-- Digital certificates and private keys protected by hardware security modules (HSMs) or equivalent secure key storage mechanisms.
+**3.1.2 Cloud-Native Encryption Standards**
 
-**3.1.2 Encryption Standards and Algorithms**
+Only cloud provider default encryption implementations and approved algorithms shall be used:
 
-Only cryptographically strong, industry-standard algorithms and protocols approved by the Security Officer shall be used. The use of any algorithm not on the approved list is prohibited.
+**Approved Cloud Encryption Services:**
+- **AWS**: KMS-managed keys, S3 encryption, RDS encryption, EBS encryption
+- **Azure**: Key Vault, Storage Service Encryption, SQL Database TDE, Disk Encryption
+- **GCP**: Cloud KMS, default encryption at rest, Cloud SQL encryption
 
-**Approved Symmetric Encryption Algorithms:**
-- AES (Advanced Encryption Standard) with key lengths of 128, 192, or 256 bits
-- ChaCha20-Poly1305 for authenticated encryption
+**Approved Algorithms (Cloud Provider Defaults):**
+- AES-256 for symmetric encryption (cloud provider default)
+- RSA-3072 or ECC-256 for asymmetric encryption (cloud provider managed)
+- SHA-256 for hashing and digital signatures (cloud provider managed)
 
-**Approved Asymmetric Encryption Algorithms:**
-- RSA with minimum key length of 3072 bits (4096 bits preferred).
-- Elliptic Curve Cryptography (ECC) with minimum key length of 256 bits.
+**Prohibited Implementations:**
+- Custom encryption implementations without Security Officer approval
+- Encryption using deprecated algorithms (DES, 3DES, MD5, SHA-1)
+- Unmanaged encryption keys or self-implemented key management
+- SSL/TLS versions below 1.2
 
-**Approved Hash Functions:**
-- SHA-256, SHA-384, SHA-512 for data integrity
-- bcrypt, scrypt, or Argon2 for password hashing
+**3.2 Cloud-Managed Key Management**
 
-**Prohibited Algorithms:**
-- DES (Data Encryption Standard) and 3DES
-- MD5 and SHA-1 hash functions
-- RC4 stream cipher
-- RSA keys shorter than 3072 bits
-- SSL v2, SSL v3, TLS 1.0, TLS 1.1
-
-**3.2 Key Management Framework**
-
-A comprehensive key management system shall be implemented to ensure the secure lifecycle management of all cryptographic keys.
+Cryptographic keys shall be managed using cloud provider key management services with automated lifecycle management and minimal manual intervention.
 
 **3.2.1 Key Management Principles**
 
-- **Separation of Duties:** Key management roles and responsibilities shall be formally assigned and separated to prevent any single individual from having unilateral control over a key's lifecycle.
-- **Least Privilege:** Access to cryptographic keys shall be restricted to the minimum necessary for an individual or system to perform its authorized function.
-- **Key Escrow:** Critical encryption keys required for data recovery shall be securely escrowed. The process for accessing escrowed keys shall require documented approval from at least two authorized individuals.
-- **Audit Trail:** All key management activities, including generation, distribution, rotation, and destruction, shall be logged in a secure, immutable audit trail and monitored for anomalies.
+- **Cloud-Native**: Use cloud provider key management services (AWS KMS, Azure Key Vault, GCP Cloud KMS) as the primary key management solution
+- **Customer-Managed Encryption Keys (CMEK)**: Implement CMEK for ePHI and sensitive data to maintain control over encryption keys
+- **Automated Lifecycle**: Leverage automatic key rotation, backup, and lifecycle management provided by cloud services
+- **Least Privilege Access**: Restrict key access using cloud IAM policies and service-specific permissions
 
-**3.2.2 Key Generation**
+**3.2.2 Cloud Key Management Implementation**
 
-- Keys shall be generated using approved cryptographically secure random number generators (CSRNGs)
-- Key generation shall occur in secure, controlled environments
-- Hardware Security Modules (HSMs) or equivalent secure hardware shall be used for high-value key generation
-- Weak or predictable keys shall be rejected through automated validation processes
+**AWS Key Management Service (KMS):**
+- Use AWS-managed keys for standard encryption requirements
+- Implement Customer-Managed Keys (CMK) for ePHI and sensitive data
+- Enable automatic key rotation where supported
+- Configure cross-region key replication for disaster recovery
 
-**3.2.3 Key Distribution and Exchange**
+**Azure Key Vault:**
+- Use Azure-managed keys for standard encryption requirements
+- Implement customer-managed keys for ePHI and sensitive data
+- Enable key auto-rotation and versioning
+- Configure geo-redundant backup for key availability
 
-- Key distribution shall use secure, authenticated channels (e.g., TLS 1.2 or higher).
-- Public key infrastructure (PKI) shall be the primary method for asymmetric key distribution.
-- Key exchange protocols shall be configured to provide perfect forward secrecy (PFS). Any deviation shall be documented and approved by the Security Officer.
-- Manual key distribution is prohibited without dual control and documented, time-bound approval from the Security Officer.
+**Google Cloud Key Management Service:**
+- Use Google-managed encryption keys for standard requirements
+- Implement customer-managed encryption keys (CMEK) for sensitive data
+- Enable automatic key rotation and version management
+- Configure multi-region key replication for availability
 
-**3.2.4 Key Storage and Protection**
+**3.2.3 Access Control and Monitoring**
 
-- Encryption keys shall be stored separately from the data they protect
-- Master keys shall be stored in HSMs or equivalent tamper-resistant hardware
-- Key storage systems shall be hardened and subject to strict access controls
-- Encryption keys shall themselves be encrypted at rest using a separate key encryption key (KEK).
-- Cloud-based key management services (e.g., AWS KMS, Azure Key Vault) must be configured in accordance with the **[Company Name]** `Infrastructure Security Policy (ENG-POL-003)` and `Vendor and Third-Party Risk Management Policy (SEC-POL-005)`.
+- **IAM Integration**: Key access controlled through cloud IAM roles and policies
+- **MFA Required**: Multi-factor authentication required for key management console access
+- **Automated Monitoring**: Cloud-native monitoring and alerting for key usage, access, and lifecycle events
+- **Audit Logging**: Automatic audit trail through cloud logging services (CloudTrail, Azure Monitor, Cloud Audit Logs)
 
-**3.2.5 Key Usage and Access Controls**
+**3.3 Application and Development Encryption**
 
-- Key access shall be granted only to authorized personnel and applications
-- Multi-factor authentication shall be required for access to key management systems
-- Key usage shall be logged and actively monitored for unauthorized access attempts or anomalous usage patterns.
-- Automated key rotation shall be implemented. Where automation is not technically feasible, the justification must be documented and approved by the Security Officer, and a manual rotation schedule must be tracked.
-- Emergency key access procedures shall be documented, tested annually, and require multi-person control.
+Encryption shall be integrated into application development using cloud-native services and secure coding practices.
 
-**3.2.6 Key Rotation and Lifecycle Management**
+**3.3.1 Application-Level Encryption**
 
-Encryption keys shall be rotated at or before the following minimum frequencies. A shorter rotation period shall be used if required by a specific regulation, standard, or risk assessment.
+- **Secrets Management**: Use cloud secrets management services (AWS Secrets Manager, Azure Key Vault, GCP Secret Manager) for application credentials
+- **API Security**: Implement TLS termination at cloud load balancers with automatic certificate management
+- **Data Processing**: Use cloud encryption APIs for data processing and storage operations
+- **Container Security**: Enable encryption for container orchestration platforms (EKS, AKS, GKE) using cloud-managed keys
 
-- Data encryption keys: Annually or after encrypting **[Amount, e.g., 1TB]** of data, whichever comes first.
-- Key encryption keys: Every 2 years.
-- SSL/TLS certificates: Annually, or as required by the Certificate Authority.
-- Authentication keys (e.g., API keys): Every 6 months.
+**3.3.2 Development and Deployment**
 
-- Emergency key rotation shall be performed immediately upon:
-  - Suspected key compromise
-  - Workforce member termination with key access
-  - System security incidents involving key management systems
-  - Vendor security breaches affecting key material
+- **Infrastructure as Code**: Define encryption configurations in infrastructure code (Terraform, CloudFormation, ARM templates)
+- **CI/CD Integration**: Implement encryption validation and configuration checks in automated deployment pipelines
+- **Environment Parity**: Ensure encryption configurations are consistent across development, staging, and production environments
+- **Security Scanning**: Use cloud security scanning tools to validate encryption implementations
 
-**3.2.7 Key Destruction and Disposal**
+**3.4 Performance and Cost Optimization**
 
-- Cryptographic keys shall be securely destroyed as soon as they are no longer required for business or legal purposes.
-- Key destruction shall use cryptographically secure deletion methods (e.g., cryptographic erasure, overwriting with random data multiple times).
-- HSMs shall perform secure key zeroization procedures.
-- Physical destruction of media that stored keys shall be performed in accordance with the `Data Retention and Disposal Policy (OP-POL-003)` and be verified and documented.
-- All key destruction activities shall be logged and auditable.
+Cloud-native encryption implementations shall be optimized for performance and cost-effectiveness.
 
-**3.3 Digital Certificates and Public Key Infrastructure (PKI)**
+**3.4.1 Performance Optimization**
 
-**[Company Name]** shall maintain appropriate PKI capabilities to support digital certificates and public key cryptography.
+- **Default Encryption**: Leverage cloud provider default encryption that provides minimal performance impact
+- **Regional Deployment**: Deploy encryption services in regions close to data and applications to minimize latency
+- **Caching**: Implement appropriate caching strategies for encrypted data and key operations
+- **Auto-Scaling**: Use cloud auto-scaling features to handle encryption processing loads
 
-**3.3.1 Certificate Authority (CA) Management**
+**3.4.2 Cost Management**
 
-- Internal CA infrastructure shall be established for organizational certificates
-- Root CA systems shall be offline and stored in physically secure locations
-- Intermediate CAs shall be used for day-to-day certificate issuance
-- External CAs shall be evaluated and approved for specific use cases
-
-**3.3.2 Certificate Lifecycle Management**
-
-- Certificate requests shall be validated and approved through a formal, documented process managed by the IT Security Team.
-- Certificate templates shall be used to enforce appropriate key usage, algorithm strength, and validity periods.
-- Certificate revocation capabilities shall be maintained and tested annually through Certificate Revocation Lists (CRLs) or Online Certificate Status Protocol (OCSP).
-- Automated monitoring and alerting shall be implemented to ensure expired or revoked certificates are removed from systems at least 7 days prior to expiration.
-
-**3.4 Cloud Encryption and Key Management**
-
-All use of cloud services must adhere to the following cryptographic requirements, as detailed in the `Infrastructure Security Policy (ENG-POL-003)`.
-
-**3.4.1 Cloud Encryption Requirements**
-
-- Customer-managed encryption keys (CMEK) shall be used for all production data stores containing ePHI or other Restricted data in cloud environments.
-- Encryption shall be implemented at multiple layers (e.g., application, database, storage, network) to provide defense-in-depth.
-- Cloud provider encryption services and configurations shall be reviewed and approved by the IT Security Team before use.
-- Data sovereignty and residency requirements shall be enforced through technical controls for all data stored in the cloud.
-
-**3.4.2 Cloud Key Management**
-
-- **[Company Name]**-controlled key management services (e.g., AWS KMS, Azure Key Vault) shall be the required standard for all cloud-based encryption.
-- Hybrid key management architectures (e.g., "Hold Your Own Key" or HYOK) shall be implemented where feasible to maintain on-premises control of master keys for the most sensitive data.
-- Cloud HSM services shall be used for high-security applications as determined by the Security Officer.
-- Key export capabilities shall be tested annually to ensure data can be decrypted and migrated, preventing vendor lock-in.
-
-**3.5 Encryption Performance and Monitoring**
-
-Encryption implementations shall be monitored for performance impact and security effectiveness.
-
-**3.5.1 Performance Monitoring**
-
-- Encryption overhead shall be measured and optimized
-- Hardware acceleration shall be used where available and appropriate
-- Application performance impact shall be assessed and mitigated
-- Capacity planning shall account for encryption processing requirements
-
-**3.5.2 Security Monitoring**
-
-- Cryptographic failures, errors, and misconfigurations shall be logged and trigger automated alerts to the IT Security Team for immediate investigation.
-- Key management system access and activity logs shall be ingested into a Security Information and Event Management (SIEM) system and monitored for suspicious activity.
-- Automated certificate expiration monitoring and alerting shall be implemented to prevent service disruptions.
-- An annual review of cryptographic standards shall be conducted to maintain a crypto-agility plan, addressing algorithm obsolescence and emerging threats such as quantum computing.
+- **Service Tier Selection**: Choose appropriate cloud encryption service tiers based on usage requirements
+- **Key Usage Optimization**: Optimize key usage patterns to minimize cloud KMS API charges
+- **Storage Class Selection**: Use appropriate cloud storage classes for encrypted backup and archive data
+- **Regular Review**: Conduct quarterly reviews of encryption service costs and optimization opportunities
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
+This policy is designed to comply with and support the following industry standards and regulations:
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
 |**All**|HITRUST CSF v11.2.0|09.a - Transmission Protection Policy|
 |**3.1**|HITRUST CSF v11.2.0|09.b - Cryptographic Controls|
 |**3.2**|HITRUST CSF v11.2.0|09.c - Key Management|
-|**3.3**|HITRUST CSF v11.2.0|09.d - Digital Signatures|
-|**3.4**|HITRUST CSF v11.2.0|09.e - Network Security Controls|
 |**3.1.1**|HIPAA Security Rule|45 CFR § 164.312(a)(2)(iv) - Encryption and Decryption|
 |**3.1.1**|HIPAA Security Rule|45 CFR § 164.312(e)(2)(ii) - Encryption|
 |**All**|HIPAA Security Rule|45 CFR § 164.312(e)(1) - Transmission Security|
@@ -199,42 +146,35 @@ This policy is designed to comply with and support the following industry standa
 |**3.2**|SOC 2 Trust Services Criteria|CC6.8 - Restricts Access to Encrypted Data|
 |**All**|NIST Cybersecurity Framework|PR.DS-1: Data-at-rest is protected.|
 |**All**|NIST Cybersecurity Framework|PR.DS-2: Data-in-transit is protected.|
-|**3.2**|NIST SP 800-57|Recommendation for Key Management|
 
 ### 5. Definitions
 
-**Advanced Encryption Standard (AES):** A symmetric encryption algorithm adopted as a U.S. Federal Government standard.
+**Advanced Encryption Standard (AES):** A symmetric encryption algorithm adopted as a U.S. Federal Government standard used by cloud providers.
 
-**Certificate Authority (CA):** An entity that issues digital certificates certifying the ownership of public keys.
+**Cloud Key Management Service (KMS):** A managed service that makes it easy to create and control cryptographic keys for encrypting data.
 
-**Cryptographically Secure Random Number Generator (CSRNG):** A random number generator that meets cryptographic security requirements.
+**Customer-Managed Encryption Keys (CMEK):** Encryption keys that are created, owned, and managed by the customer while using cloud encryption services.
 
-**Hardware Security Module (HSM):** A dedicated cryptographic device designed to securely generate, store, and manage cryptographic keys.
+**Infrastructure as Code (IaC):** The practice of managing and provisioning computing infrastructure through machine-readable definition files.
 
-**Key Escrow:** The practice of storing cryptographic keys with a trusted third party for recovery purposes.
+**Transport Layer Security (TLS):** A cryptographic protocol for secure communication over computer networks, successor to SSL.
 
-**Public Key Infrastructure (PKI):** A framework for managing digital certificates and public key encryption.
-
-**Transport Layer Security (TLS):** A cryptographic protocol for secure communication over computer networks.
-
-**Transparent Data Encryption (TDE):** Database encryption technology that encrypts data files at rest.
+**Transparent Data Encryption (TDE):** Database encryption technology that encrypts data files at rest without requiring application changes.
 
 ### 6. Responsibilities
 
 |**Role**|**Responsibility**|
 |---|---|
-|**Security Officer**|Develop encryption policies, oversee key management program, and ensure compliance with cryptographic standards.|
-|**IT Security Team**|Implement encryption technologies, manage key management systems, and monitor cryptographic controls.|
-|**System Administrators**|Configure and maintain encryption systems, perform key rotation procedures, and ensure proper encryption deployment.|
-|**Database Administrators**|Implement database encryption, manage database encryption keys, and ensure encrypted backup procedures.|
-|**Cloud Engineers**|Configure cloud encryption services, manage cloud-based key management, and ensure proper cloud cryptographic controls.|
-|**Application Developers**|Implement application-level encryption using approved cryptographic libraries, protect secrets in code, and follow secure coding practices as defined in the `Secure Software Development Policy (ENG-POL-001)`.|
-|**Privacy Officer**|Ensure encryption requirements meet privacy obligations, oversee ePHI encryption protections, and coordinate with the Security Officer on data protection strategies.|
-|**All Workforce Members**|Use encryption tools as required, protect credentials used for encryption systems, and immediately report suspected encryption failures or key compromises to the IT Security Team.|
+|**Security Officer**|Develop cloud encryption strategies, approve service configurations, and ensure compliance with cryptographic standards.|
+|**Cloud Engineering Team**|Configure and deploy cloud-native encryption services according to approved standards and security requirements.|
+|**DevOps Team**|Integrate encryption validation into CI/CD pipelines and maintain secure application secret management.|
+|**Development Team**|Implement encryption requirements in application code using cloud encryption APIs and best practices.|
+|**IT Operations Team**|Manage cloud encryption service accounts, access controls, and cost optimization strategies.|
+|**Compliance Team**|Provide audit support and ensure encryption practices meet regulatory requirements.|
 
 ### 7. Enforcement
 
-Failure to comply with this policy may result in disciplinary action, up to and including termination of employment or contract, in accordance with **[Company Name]**'s `Human Resources Security Policy (OP-POL-004)`. Violations may also carry civil and criminal penalties.
+Failure to comply with this policy may result in disciplinary action, up to and including termination of employment or contract, in accordance with **[Company Name]**'s Human Resources Security Policy. Violations may also carry civil and criminal penalties.
 
 ### 8. Exceptions
 

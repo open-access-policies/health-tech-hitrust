@@ -6,256 +6,218 @@ nav_order: 8
 
 ### 1. Purpose
 
-This procedure establishes comprehensive processes for deploying, configuring, maintaining, and operating Intrusion Detection and Prevention Systems (IDS/IPS) to detect and prevent network-based security attacks. These procedures support the Infrastructure Security Policy (ENG-POL-003) and ensure effective implementation of HITRUST CSF v11.2.0 Domain 08 - Network Protection controls.
+This procedure establishes processes for implementing and managing cloud-native intrusion detection and prevention capabilities to detect and respond to network-based security threats. These procedures support the Infrastructure Security Policy (ENG-POL-003) and ensure effective implementation of HITRUST CSF v11.2.0 Domain 08 - Network Protection controls using practical, automated approaches suitable for a growing health tech organization.
 
 ### 2. Scope
 
-This procedure applies to all Network Security Engineers, SOC Analysts, and Infrastructure Security team members responsible for deploying, configuring, and monitoring IDS/IPS systems across **[Company Name]**'s network infrastructure, including cloud environments, on-premises networks, and hybrid architectures.
+This procedure applies to the Security Officer, Platform Engineers, DevOps Engineers, and Cloud Infrastructure teams responsible for configuring and managing cloud-native IDS/IPS services and coordinating with managed security service providers across **[Company Name]**'s cloud infrastructure.
 
 ### 3. Overview
 
-Intrusion Detection and Prevention Systems provide automated monitoring, detection, and response capabilities to identify and block network-based security threats in real-time. This procedure defines the technical implementation, operational processes, and maintenance requirements for maintaining effective IDS/IPS coverage across the organization's network infrastructure.
+Intrusion detection and prevention leverages cloud-native security services, managed threat detection platforms, and automated response capabilities to identify and block network-based security threats. This approach eliminates the complexity of managing dedicated IDS/IPS infrastructure while providing enterprise-grade threat detection suitable for a **[Number, e.g., 120]**-person organization.
 
 ### 4. Procedure
 
 | **Step** | **Who** | **What** |
 | -------- | ------- | -------- |
-| **1** | Network Security Engineer | **IDS/IPS Architecture Design**: Design IDS/IPS deployment architecture to provide comprehensive coverage of network segments including: perimeter defense, internal network monitoring, cloud workload protection, and critical asset protection. Document sensor placement and coverage areas. |
-| **2** | Network Security Engineer | **System Deployment**: Deploy IDS/IPS sensors at strategic network locations including: internet gateway, DMZ segments, internal network choke points, data center ingress/egress, and cloud virtual network perimeters. Configure sensors for appropriate network segments and traffic volumes. |
-| **3** | Network Security Engineer | **Initial Configuration**: Configure IDS/IPS systems with baseline security policies including: signature-based detection rules, anomaly detection thresholds, protocol analysis settings, and geographic IP filtering. Import vendor-provided rule sets and customize for organizational requirements. |
-| **4** | Network Security Engineer | **Signature Management**: Implement automated signature update processes to ensure IDS/IPS systems receive the latest threat detection signatures within **[Timeframe, e.g., 24 hours]** of release. Configure update scheduling to minimize impact on network operations. |
-| **5** | SOC Analyst | **Rule Tuning and Optimization**: Perform initial rule tuning to reduce false positives while maintaining detection effectiveness. Analyze **[Duration, e.g., 2 weeks]** of baseline traffic to adjust thresholds and customize detection rules for the environment. |
-| **6** | SOC Analyst | **Alert Monitoring**: Monitor IDS/IPS alerts continuously through centralized management console and SIEM integration. Acknowledge and investigate alerts within **[Timeframe, e.g., 5 minutes]** for Critical severity and **[Timeframe, e.g., 15 minutes]** for High severity events. |
-| **7** | SOC Analyst | **Alert Analysis and Classification**: For each IDS/IPS alert, perform analysis to determine attack type, severity, and potential impact. Classify alerts as: **Critical** (active exploitation), **High** (reconnaissance/probing), **Medium** (policy violations), **Low** (informational), or **False Positive**. |
-| **8** | SOC Analyst | **Threat Investigation**: For valid security alerts, conduct detailed investigation including: analysis of attack signatures, review of source IP reputation, examination of target systems, and correlation with other security events. Document findings in incident tracking system. |
-| **9** | SOC Analyst | **Automated Response Actions**: Configure and monitor automated response actions including: blocking malicious IP addresses, resetting suspicious connections, quarantining affected systems, and generating high-priority alerts for incident response team. |
-| **10** | Network Security Engineer | **Prevention Policy Management**: Manage IPS prevention policies to balance security protection with network availability. Configure blocking actions for confirmed threats while implementing monitoring-only mode for new or untested signatures. |
-| **11** | Network Security Engineer | **Performance Monitoring**: Monitor IDS/IPS system performance including: throughput capacity, latency impact, CPU and memory utilization, and signature processing rates. Ensure systems maintain **[Percentage, e.g., 99%]** availability and minimal network impact. |
-| **12** | SOC Analyst | **Incident Escalation**: For confirmed attacks or critical security events, escalate to Incident Response Team per RES-PROC-001. Provide IDS/IPS evidence including alert details, packet captures, and attack analysis to support incident investigation. |
-| **13** | Network Security Engineer | **Log Management and Retention**: Configure IDS/IPS systems to forward security events to centralized SIEM system in real-time. Ensure local log retention for **[Duration, e.g., 30 days]** and compliance with SEC-POL-009 retention requirements. |
-| **14** | Network Security Engineer | **Custom Rule Development**: Develop custom detection rules for organization-specific threats, applications, and attack patterns not covered by vendor signatures. Test custom rules in monitoring mode before deploying prevention actions. |
-| **15** | SOC Analyst | **False Positive Management**: Investigate and document false positive alerts. Coordinate with Network Security Engineer to tune detection rules, adjust thresholds, or create exception rules to reduce false positives while maintaining security coverage. |
-| **16** | Network Security Engineer | **System Maintenance**: Perform regular maintenance activities including: software updates, signature database updates, configuration backups, hardware health checks, and capacity planning. Schedule maintenance during approved change windows. |
-| **17** | Network Security Engineer | **Monthly Effectiveness Review**: Conduct monthly review of IDS/IPS effectiveness including: detection rates, false positive trends, blocked attack statistics, and system performance metrics. Generate reports for security management and identify improvement opportunities. |
+| **1** | Platform Engineer | **Cloud IDS/IPS Service Activation**: Enable cloud-native intrusion detection services (AWS GuardDuty, Azure Defender for Network, GCP Cloud IDS) with default threat detection rule sets. Configure automatic threat intelligence updates and baseline learning. |
+| **2** | DevOps Engineer | **Network Security Group Configuration**: Configure cloud security groups and network access control lists (NACLs) to provide basic network-level intrusion prevention. Implement default-deny policies with explicit allow rules for required traffic. |
+| **3** | Platform Engineer | **Web Application Firewall (WAF) Deployment**: Deploy cloud WAF services (AWS WAF, Azure Front Door, CloudFlare) on internet-facing applications to detect and block common web attacks including SQL injection, XSS, and DDoS attempts. |
+| **4** | Security Officer | **Managed IDS/IPS Service Integration**: Integrate cloud-native IDS services with the managed security service provider's SIEM platform for 24/7 monitoring and analysis. Ensure proper log forwarding and alert escalation procedures. |
+| **5** | Platform Engineer | **Automated Threat Response Configuration**: Configure automated response actions including: automatic IP blocking through security groups, traffic inspection escalation, and alert generation for security team review. |
+| **6** | DevOps Engineer | **DNS Protection Implementation**: Enable DNS-based threat protection services (AWS Route 53 Resolver DNS Firewall, Azure DNS) to block access to known malicious domains and command & control servers automatically. |
+| **7** | MSSP SOC Analyst | **Continuous Threat Monitoring**: MSSP provides 24/7 monitoring of cloud IDS/IPS alerts and events. Performs initial threat analysis and escalates confirmed threats according to established service level agreements. |
+| **8** | Platform Engineer | **VPC/Virtual Network Monitoring**: Configure VPC Flow Logs and virtual network monitoring to capture network traffic metadata for analysis. Enable automated analysis for suspicious traffic patterns and geographic anomalies. |
+| **9** | Security Officer | **Alert Escalation Coordination**: Coordinate response to escalated threats from MSSP including implementation of recommended containment actions, system isolation, and incident response procedures per RES-PROC-001. |
+| **10** | DevOps Engineer | **Performance and Availability Monitoring**: Monitor cloud security service performance and availability. Ensure IDS/IPS services maintain **[Percentage, e.g., 99.5%]** availability and minimal impact on application performance. |
+| **11** | Platform Engineer | **Threat Intelligence Integration**: Configure automatic threat intelligence feeds for cloud security services. Enable integration with commercial threat intelligence providers and government threat feeds where available. |
+| **12** | Security Officer | **Monthly Security Review**: Review monthly security reports from cloud IDS/IPS services and MSSP including threat trends, blocked attacks, service performance, and recommendations for security posture improvements. |
 
-### 5. IDS/IPS Deployment Architecture
+### 5. Cloud-Native IDS/IPS Services
 
-#### 5.1 Network-Based IDS/IPS (NIDS/NIPS)
+#### 5.1 Amazon Web Services (AWS)
 
-**Perimeter Deployment:**
-- Internet gateway and firewall ingress/egress points
-- DMZ network segments and external-facing services
-- VPN termination points and remote access gateways
-- Cloud internet gateway and NAT gateway monitoring
+**AWS GuardDuty:**
+- Machine learning-based threat detection for AWS environments
+- Automatic analysis of VPC Flow Logs, DNS logs, and CloudTrail events
+- Built-in threat intelligence from AWS Security, CrowdStrike, and Proofpoint
+- Integration with AWS Security Hub for centralized security management
 
-**Internal Network Deployment:**
-- Core network switches and router choke points
-- Inter-VLAN communication monitoring points
-- Critical server network segments
-- Database and application tier networks
+**AWS Shield and WAF:**
+- DDoS protection and web application firewall capabilities
+- Automatic blocking of common web attacks and volumetric attacks
+- Custom rule creation for application-specific threats
+- Integration with CloudFront and Application Load Balancers
 
-#### 5.2 Host-Based IDS/IPS (HIDS/HIPS)
+**AWS Network Firewall:**
+- Managed network firewall service with intrusion prevention capabilities
+- Stateful inspection and automatic threat signature updates
+- Custom rule development for organization-specific threats
+- Integration with AWS Transit Gateway for centralized management
 
-**Critical System Protection:**
-- Database servers and application servers
-- Domain controllers and authentication systems
-- Management and administrative workstations
-- Cloud virtual machines and containers
+#### 5.2 Microsoft Azure
 
-**Endpoint Integration:**
-- Integration with endpoint detection and response (EDR) systems
-- Centralized management and policy distribution
-- Real-time threat detection and automated response
-- Compliance monitoring and reporting
+**Azure Defender for Networks:**
+- Advanced threat protection for Azure virtual networks
+- Network layer attack detection and automatic response
+- Integration with Azure Sentinel for centralized security monitoring
+- Just-in-time network access controls and adaptive network hardening
 
-### 6. Detection and Prevention Capabilities
+**Azure DDoS Protection:**
+- Automatic DDoS attack detection and mitigation
+- Real-time attack metrics and alerting
+- Integration with Azure Monitor for performance monitoring
+- Cost protection and automatic scaling during attacks
 
-#### 6.1 Signature-Based Detection
+**Azure Firewall:**
+- Managed cloud-native network security service
+- Application and network-level filtering with threat intelligence
+- Outbound traffic filtering and URL filtering capabilities
+- Integration with Azure Security Center for policy management
 
-**Attack Signatures:**
-- Known exploit patterns and vulnerability signatures
-- Malware communication and command-and-control patterns
-- Web application attack signatures (SQL injection, XSS)
-- Network protocol violations and anomalies
+#### 5.3 Google Cloud Platform (GCP)
 
-**Signature Management:**
-- Automated signature updates from vendor threat intelligence
-- Custom signature development for organization-specific threats
-- Signature testing and validation before production deployment
-- Performance impact assessment for new signatures
+**Google Cloud IDS:**
+- Managed intrusion detection service for GCP environments
+- Network traffic analysis with machine learning-based threat detection
+- Integration with Google Cloud Security Command Center
+- Automatic threat signature updates and custom rule support
 
-#### 6.2 Anomaly-Based Detection
+**Google Cloud Armor:**
+- Web application firewall and DDoS protection service
+- Edge security policies and geo-based access controls
+- Rate limiting and bot protection capabilities
+- Integration with Google Load Balancers and CDN services
 
-**Behavioral Analysis:**
-- Network traffic pattern analysis and baseline deviation
-- Protocol behavior monitoring and anomaly detection
-- Geographic location analysis and suspicious source detection
-- Time-based analysis for off-hours activity monitoring
+### 6. Managed Security Service Integration
 
-**Machine Learning Integration:**
-- Advanced analytics for unknown threat detection
-- User and entity behavior analytics (UEBA) integration
-- Adaptive learning from network traffic patterns
-- Continuous model training and accuracy improvement
+#### 6.1 MSSP IDS/IPS Monitoring Requirements
 
-### 7. Alert Management and Response
+**24/7 Security Operations Center:**
+- Continuous monitoring of cloud IDS/IPS alerts and events
+- Expert threat analysis and incident classification
+- Escalation procedures for confirmed security threats
+- Integration with existing incident response workflows
 
-#### 7.1 Alert Severity Classification
+**Threat Intelligence and Analysis:**
+- Access to premium threat intelligence feeds
+- Advanced analytics and correlation capabilities
+- Custom threat hunting and investigation services
+- Regular threat landscape briefings and security advisories
 
-| **Severity Level** | **Definition** | **Response Time** | **Automated Actions** |
-| ------------------ | -------------- | ----------------- | -------------------- |
-| **Critical** | Active exploitation or data breach | Immediate (5 minutes) | Block source IP, alert SOC, isolate systems |
-| **High** | Reconnaissance or attack attempts | 15 minutes | Monitor closely, alert security team |
-| **Medium** | Policy violations or suspicious activity | 2 hours | Log and analyze, investigate patterns |
-| **Low** | Informational events or minor anomalies | 24 hours | Document and trend analysis |
-| **False Positive** | Confirmed benign activity | Best effort | Tune rules, create exceptions |
+#### 6.2 Service Level Agreements
 
-#### 7.2 Response Procedures
+**Response Time Requirements:**
+- Critical threats: **[Timeframe, e.g., 15 minutes]** acknowledgment, **[Timeframe, e.g., 1 hour]** analysis
+- High severity threats: **[Timeframe, e.g., 1 hour]** acknowledgment, **[Timeframe, e.g., 4 hours]** analysis
+- Medium severity events: **[Timeframe, e.g., 4 hours]** acknowledgment, **[Timeframe, e.g., 24 hours]** analysis
 
-**Immediate Response (Critical):**
-1. Automatically block malicious source IP addresses
-2. Alert SOC analysts and incident response team
-3. Isolate affected systems from network if necessary
-4. Preserve network traffic captures for forensic analysis
-5. Initiate incident response procedures per RES-PROC-001
+**Availability and Performance:**
+- MSSP SOC availability: 99.9% uptime
+- Cloud service monitoring: 24/7/365 coverage
+- Threat analysis accuracy: >95% true positive rate
+- Customer notification: Within SLA response times
 
-**Investigation Response (High/Medium):**
-1. Analyze attack patterns and indicators of compromise
-2. Review source IP reputation and geographic location
-3. Examine target systems for signs of compromise
-4. Correlate with other security events and threat intelligence
-5. Document findings and recommendations for action
+### 7. Automated Threat Response
 
-### 8. Performance and Capacity Management
+#### 7.1 Automatic Response Actions
 
-#### 8.1 System Performance Metrics
+**Network-Level Responses:**
+- Automatic blocking of malicious IP addresses through security groups
+- Traffic redirection through inspection services for suspicious flows
+- DNS sinkholing for known malicious domains
+- Rate limiting and traffic shaping for potential DDoS attacks
+
+**Application-Level Responses:**
+- WAF rule activation for detected attack patterns
+- Automatic scaling of protection services during high-volume attacks
+- Session termination for confirmed malicious users
+- Geographic blocking for attacks from high-risk regions
+
+#### 7.2 Response Escalation Triggers
+
+**Immediate Escalation (Critical):**
+- Confirmed data exfiltration attempts
+- Command and control communications
+- Lateral movement indicators
+- Privilege escalation attempts
+- Multiple attack vectors from same source
+
+**Standard Escalation (High/Medium):**
+- Persistent reconnaissance activities
+- Application vulnerability exploitation attempts
+- Suspicious outbound communications
+- Failed authentication attack patterns
+- Policy violation accumulations
+
+### 8. Performance Monitoring and Optimization
+
+#### 8.1 Service Performance Metrics
 
 | **Metric** | **Target** | **Monitoring Frequency** |
 | ---------- | ---------- | ------------------------ |
-| System Availability | >99% uptime | Continuous |
-| Processing Latency | <10ms additional delay | Real-time |
-| Throughput Capacity | Handle peak traffic without drops | Daily |
-| Alert Response Time | <5 minutes for Critical | Real-time |
-| False Positive Rate | <5% of total alerts | Weekly |
+| Service Availability | >99.5% uptime | Real-time |
+| Detection Accuracy | >95% true positives | Weekly |
+| Response Time | <5ms latency impact | Real-time |
+| False Positive Rate | <10% of alerts | Monthly |
+| Blocked Threat Volume | Trending and reporting | Daily |
 
-#### 8.2 Capacity Planning
+#### 8.2 Cost Optimization
 
-**Traffic Volume Analysis:**
-- Daily, weekly, and monthly traffic pattern analysis
-- Peak capacity planning and system scaling requirements
-- Signature processing capacity and performance impact
-- Storage requirements for logs and packet captures
+**Service Right-Sizing:**
+- Regular review of cloud security service utilization
+- Optimization of traffic inspection and analysis volumes
+- Cost-effective threat intelligence feed selection
+- Elimination of redundant or overlapping security services
 
-**System Scaling:**
-- Horizontal scaling capabilities for increased traffic volumes
-- Load balancing across multiple IDS/IPS sensors
-- Cloud-based auto-scaling for variable workloads
-- Performance optimization and hardware upgrade planning
+**Automation Benefits:**
+- Reduced manual security operations overhead
+- Automatic scaling based on threat volume and traffic patterns
+- Self-tuning threat detection with machine learning
+- Streamlined incident response through automation
 
-### 9. Integration and Interoperability
-
-#### 9.1 SIEM Integration
-
-**Event Forwarding:**
-- Real-time forwarding of IDS/IPS alerts to SIEM system
-- Structured log format for automated correlation and analysis
-- Event enrichment with network context and threat intelligence
-- Custom parsing rules for vendor-specific log formats
-
-**Correlation Rules:**
-- Cross-system event correlation for advanced threat detection
-- Integration with endpoint, application, and infrastructure logs
-- Automated incident creation and escalation workflows
-- Threat intelligence integration for enhanced context
-
-#### 9.2 Security Orchestration Integration
-
-**Automated Response:**
-- Integration with security orchestration platforms (SOAR)
-- Automated containment and remediation actions
-- Workflow automation for common incident response tasks
-- Integration with network security tools for coordinated response
-
-### 10. Maintenance and Updates
-
-#### 10.1 Regular Maintenance Activities
-
-**Daily Tasks:**
-- Monitor system health and performance dashboards
-- Review and investigate high-priority alerts
-- Verify signature update success and system status
-- Check system capacity and resource utilization
-
-**Weekly Tasks:**
-- Analyze false positive trends and tune detection rules
-- Review blocked attack statistics and threat patterns
-- Update custom signatures and detection rules
-- Conduct system performance optimization
-
-**Monthly Tasks:**
-- Comprehensive effectiveness review and reporting
-- Signature database cleanup and optimization
-- System capacity planning and hardware assessment
-- Security policy review and update recommendations
-
-#### 10.2 Emergency Procedures
-
-**System Failure Response:**
-- Immediate notification of security team and management
-- Failover to backup IDS/IPS systems where available
-- Network traffic bypass procedures for critical business operations
-- Accelerated repair and restoration procedures
-
-**Security Incident Response:**
-- Preservation of IDS/IPS logs and evidence for investigation
-- Coordination with incident response team for forensic analysis
-- Emergency signature updates for active threats
-- Temporary prevention rule deployment for immediate protection
-
-### 11. Standards Compliance
+### 9. Standards Compliance
 
 This procedure is designed to comply with and support the following industry standards and regulations.
 
 | **Procedure Section** | **Standard/Framework** | **Control Reference** |
 | --------------------- | ---------------------- | --------------------- |
 | **All** | HITRUST CSF v11.2.0 | 08.e - Intrusion Detection/Prevention |
-| **4.6-4.8** | HITRUST CSF v11.2.0 | 08.c - Network Monitoring |
-| **4.9** | HITRUST CSF v11.2.0 | 08.b - Network Security Controls |
-| **7** | HITRUST CSF v11.2.0 | 15.a - Incident Response Process |
+| **5** | HITRUST CSF v11.2.0 | 08.c - Network Monitoring |
+| **7** | HITRUST CSF v11.2.0 | 08.b - Network Security Controls |
+| **7.2** | HITRUST CSF v11.2.0 | 15.a - Incident Response Process |
 | **All** | SOC 2 Trust Services Criteria | CC6.6 - Network Security |
-| **4.12** | SOC 2 Trust Services Criteria | CC7.1 - System Monitoring |
+| **8** | SOC 2 Trust Services Criteria | CC7.1 - System Monitoring |
 | **7** | SOC 2 Trust Services Criteria | CC7.2 - System Monitoring - Detection |
 | **All** | NIST Cybersecurity Framework | DE.CM - Security Continuous Monitoring |
 | **7** | NIST Cybersecurity Framework | RS.MI - Mitigation |
 
-### 12. Artifact(s)
+### 10. Artifact(s)
 
-- IDS/IPS deployment architecture documentation
-- System configuration and rule management procedures
-- Daily operational reports and alert summaries
-- Monthly effectiveness review reports
-- Incident investigation reports with IDS/IPS evidence
+- Cloud IDS/IPS service configuration documentation
+- MSSP service contract and business associate agreement (BAA)
+- Monthly threat detection and response reports
+- Automated response configuration and testing logs
+- Security incident escalation and coordination records
 
-### 13. Definitions
+### 11. Definitions
+
+**Cloud-Native IDS/IPS:** Security services provided by cloud service providers that integrate natively with cloud infrastructure and services.
+
+**Managed Security Service Provider (MSSP):** Third-party organization providing managed security services including 24/7 monitoring and threat analysis.
+
+**Automatic Response:** Pre-configured security actions that are triggered automatically upon detection of specific threats or attack patterns.
+
+**Threat Intelligence:** Real-time information about current and emerging security threats used to enhance detection and prevention capabilities.
 
 **False Positive:** An alert generated by IDS/IPS that incorrectly identifies benign activity as malicious.
 
-**Intrusion Detection System (IDS):** Security system that monitors network traffic and system activities for malicious activities.
-
-**Intrusion Prevention System (IPS):** Security system that monitors network traffic and can take automated actions to block detected threats.
-
-**Signature:** Predefined pattern or rule used to identify known attack methods or malicious activities.
-
-**Threat Intelligence:** Information about current and emerging security threats used to enhance detection capabilities.
-
-**Tuning:** Process of adjusting IDS/IPS rules and thresholds to optimize detection accuracy and reduce false positives.
-
-### 14. Responsibilities
+### 12. Responsibilities
 
 | **Role** | **Responsibility** |
 | -------- | ---------------- |
-| **Network Security Engineer** | IDS/IPS deployment, configuration, maintenance, and performance optimization. |
-| **SOC Analyst** | Real-time monitoring, alert investigation, and incident escalation for IDS/IPS events. |
-| **Security Officer** | Program oversight, policy compliance, and resource allocation for IDS/IPS capabilities. |
-| **Incident Response Team** | Investigation of confirmed security incidents and coordination with IDS/IPS evidence. |
-| **System Administrator** | Network infrastructure support and coordination for IDS/IPS deployment. |
+| **Security Officer** | MSSP coordination, escalation management, and security program oversight. |
+| **Platform Engineer** | Cloud IDS/IPS service configuration, integration, and performance monitoring. |
+| **DevOps Engineer** | Security group configuration, automated response implementation, and service availability. |
+| **MSSP SOC Analyst** | 24/7 threat monitoring, analysis, and escalation per service agreement. |
+| **Cloud Infrastructure Team** | Infrastructure security service deployment and maintenance. |

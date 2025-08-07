@@ -5,248 +5,338 @@ nav_order: 5
 ---
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive requirements for assessing, managing, and monitoring security and compliance risks associated with vendors, third-party service providers, and business associates. This policy ensures that **[Company Name]** maintains appropriate oversight of external parties who access, process, store, or transmit company information, particularly electronic Protected Health Information (ePHI), while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements.
+The objective of this policy is to establish practical, risk-based requirements for managing security risks associated with vendors and third-party service providers, with focus on regulatory compliance for electronic Protected Health Information (ePHI) while maintaining operational efficiency appropriate for a **[Number, e.g., 120]**-person organization.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members involved in vendor selection, contract negotiation, or ongoing vendor management. It encompasses all external parties including vendors, service providers, consultants, contractors, business associates, and any other third parties that have access to **[Company Name]** information systems, data, or facilities. This policy covers the entire vendor lifecycle from initial assessment through contract termination and data return.
+This policy applies to all **[Company Name]** workforce members involved in vendor selection and management. It covers external parties that access company data or systems, with streamlined procedures based on actual risk levels rather than comprehensive assessment requirements for all vendors.
 
 ### 3. Policy
 
-**[Company Name]** shall implement a comprehensive vendor risk management program to ensure that all third-party relationships meet security, privacy, and compliance requirements.
+**[Company Name]** shall implement a streamlined, risk-based vendor management approach that focuses resources on high-risk vendors while maintaining regulatory compliance through practical assessment and monitoring procedures.
 
-**3.1 Vendor Classification and Risk Assessment**
+**3.1 Simplified Vendor Risk Tiers**
 
-All vendors shall be classified based on their risk level and subject to appropriate due diligence and ongoing monitoring.
+Vendors shall be classified into three practical risk tiers with appropriate assessment requirements for each tier.
 
-**3.1.1 Vendor Risk Classification**
+**3.1.1 Risk-Based Vendor Classification**
 
-Vendors shall be classified into risk categories based on the following factors:
-- Type and sensitivity of data accessed (ePHI, Confidential, Internal, Public)
-- Level of system access required (network, applications, databases, privileged access)
-- Geographic location and regulatory jurisdiction
-- Financial impact and business criticality
-- Duration and scope of engagement
+**Tier 1 - Critical Risk (ePHI and Core Infrastructure):**
+- Cloud service providers (AWS, Azure, GCP)
+- Vendors with direct ePHI access (healthcare APIs, patient communication tools)
+- Core infrastructure providers (identity management, security tools)
+- Development and deployment platform providers
 
-**Risk Classifications:**
-- **High Risk:** Vendors with access to ePHI, Restricted data, or critical systems; cloud service providers; vendors with privileged access
-- **Medium Risk:** Vendors with access to Confidential data or internal systems; vendors providing business-critical services
-- **Low Risk:** Vendors with limited access to Internal data or no direct system access; vendors providing non-critical services
+**Tier 2 - Business Risk (Internal Data and Business-Critical Services):**
+- Business applications with internal data access (CRM, HR systems, financial tools)
+- Communication and collaboration platforms (Slack, email providers)
+- Backup and disaster recovery services
+- Legal and professional services with confidential data access
 
-**3.1.2 Pre-Engagement Risk Assessment**
+**Tier 3 - Standard Risk (Limited Access and Commodity Services):**
+- Marketing and analytics tools with minimal data access
+- Development tools and services without production data
+- Office productivity tools and subscriptions
+- Professional services without data access
 
-Prior to engaging any vendor, the designated Business Owner, in coordination with the Security Officer, shall conduct and document a formal risk assessment appropriate to the vendor's risk classification. The results of this assessment must be formally approved before contracts are executed.
+**3.1.2 Streamlined Assessment Requirements**
 
-**High-Risk Vendor Requirements:**
-- Comprehensive security questionnaire (e.g., SIG Lite, CAIQ, or equivalent)
-- Third-party security assessment report (SOC 2 Type II, ISO 27001, or equivalent)
-- Financial stability assessment
-- Reference checks with existing customers
-- On-site security assessment for critical vendors
-- Cyber insurance verification
-- Background check requirements for vendor personnel
+**Tier 1 - Critical Risk Assessment:**
+- **Security Certification**: SOC 2 Type II, ISO 27001, or equivalent certification required
+- **Business Associate Agreement**: Required for any ePHI access
+- **Financial Stability**: Basic financial stability verification
+- **Security Contact**: Established security contact and incident notification procedures
+- **Insurance**: Cyber liability insurance verification ($**[Amount, e.g., 5-10 million]** minimum)
 
-**Medium-Risk Vendor Requirements:**
-- Standard security questionnaire
-- Third-party assessment report or self-attestation
-- Financial stability review
-- Reference checks
-- Insurance verification
+**Tier 2 - Business Risk Assessment:**
+- **Basic Security Review**: Security questionnaire or self-attestation
+- **Contract Terms**: Standard security clauses in service agreement
+- **Data Protection**: Basic data protection and incident notification requirements
+- **Insurance**: General liability and professional insurance verification
 
-**Low-Risk Vendor Requirements:**
-- Basic security questionnaire or self-attestation
-- General insurance verification
+**Tier 3 - Standard Risk Assessment:**
+- **Service Agreement**: Standard terms of service with basic security provisions
+- **Privacy Policy**: Review of vendor privacy policy and data handling practices
+- **Minimal Due Diligence**: Basic vendor legitimacy and reputation verification
 
-**3.2 Business Associate Agreements and Contractual Requirements**
+**3.2 Automated Vendor Risk Assessment**
 
-All vendor contracts shall include appropriate security, privacy, and compliance provisions based on the vendor's risk level and data access requirements, as approved by the Legal and Security teams.
+Leverage automated tools and vendor risk assessment platforms to streamline the evaluation process.
 
-**3.2.1 Business Associate Agreements (BAAs)**
+**3.2.1 Third-Party Risk Assessment Platforms**
 
-A signed BAA shall be executed before any vendor is granted access to ePHI.
+- **Vendor Risk Management Tools**: Use platforms like SecurityScorecard, BitSight, or UpGuard for automated vendor security ratings
+- **Questionnaire Automation**: Leverage shared security questionnaire databases and automated assessment tools
+- **Continuous Monitoring**: Automated monitoring of vendor security posture and incident notifications
+- **Compliance Databases**: Use compliance databases to verify vendor certifications and attestations
 
-BAAs shall include:
-- Permitted uses and disclosures of ePHI
-- Prohibition of unauthorized use or disclosure
-- Safeguarding requirements equivalent to the HIPAA Security Rule
-- Requirement to report any Security Incident, including any Breach of Unsecured PHI, to **[Company Name]** without unreasonable delay and in no case later than 24 hours after discovery.
-- Access, amendment, and accounting of disclosures rights
-- Requirement to return or destroy all ePHI upon contract termination, and to provide a certificate of destruction.
-- Audit rights and compliance monitoring provisions
-- Subcontractor requirements and flow-down of all BAA obligations
+**3.2.2 Cloud Provider Security Posture**
 
-**3.2.2 Security Contract Provisions**
+- **Shared Responsibility Model**: Understand and document cloud provider vs. customer security responsibilities
+- **Compliance Center**: Regular review of cloud provider compliance center documentation and certifications
+- **Service Health**: Monitor cloud provider service health dashboards and security advisories
+- **Configuration Reviews**: Quarterly review of cloud service security configurations and settings
 
-All vendor contracts shall include security provisions appropriate to the risk level:
+**3.3 Business Associate Agreements and Practical Contract Terms**
 
-**Mandatory Security Clauses:**
-- Data protection and confidentiality requirements
-- Incident notification and response procedures, including a maximum notification timeframe.
-- Right to audit and conduct security assessments
-- Personnel security and background check requirements
-- Data location restrictions and cross-border transfer limitations
-- Insurance and liability provisions
-- Compliance with applicable laws and regulations
-- Requirement for secure data return or destruction upon contract termination, with verification.
+Focus contract negotiations on essential security requirements rather than comprehensive security clauses for all vendors.
 
-**Additional High-Risk Vendor Clauses:**
-- Specific security control requirements (encryption, access controls, logging)
-- Regular security reporting and metrics
-- Breach notification timelines and procedures
-- Limitation of data retention and use
-- Subcontractor approval and oversight requirements
-- Business continuity and disaster recovery provisions
-- Right to terminate for security violations
+**3.3.1 ePHI Business Associate Agreements**
 
-**3.3 Vendor Security Monitoring and Ongoing Assessment**
+For Tier 1 vendors with ePHI access:
+- **Standard BAA Template**: Use standardized BAA template covering HIPAA requirements
+- **Incident Notification**: **[Timeframe, e.g., 24-hour]** incident notification requirement
+- **Data Return**: Secure data return or destruction upon contract termination
+- **Audit Rights**: Right to review security practices and compliance evidence
+- **Subcontractor Requirements**: Flow-down of BAA requirements to subcontractors
 
-Ongoing monitoring shall be conducted to ensure vendors maintain appropriate security posture throughout the engagement lifecycle.
+**3.3.2 Standard Security Contract Provisions**
 
-**3.3.1 Continuous Monitoring Requirements**
+For Tier 2 vendors:
+- **Data Protection**: Basic data protection and confidentiality requirements
+- **Incident Notification**: **[Timeframe, e.g., 72-hour]** security incident notification
+- **Insurance**: Professional liability and cyber insurance requirements
+- **Data Location**: Geographic data storage and processing restrictions
+- **Termination**: Data return requirements upon contract termination
 
-- Annual security questionnaire updates for High and Medium-risk vendors
-- Review of updated security certifications and assessment reports
-- Monitoring of vendor security incidents and breach notifications
-- Financial stability monitoring for critical vendors
-- Performance and service level monitoring
-- Compliance with contractual security requirements
+**3.3.3 Commodity Service Agreements**
 
-**3.3.2 Periodic Assessments**
+For Tier 3 vendors:
+- **Terms of Service**: Accept standard vendor terms of service with privacy policy review
+- **Data Minimization**: Limit data shared to necessary business purposes only
+- **Account Security**: Require multi-factor authentication and strong password policies
+- **Access Controls**: Implement role-based access controls within vendor systems
 
-- High-Risk vendors: Annual comprehensive security assessment
-- Medium-Risk vendors: Biennial security assessment
-- Low-Risk vendors: Assessment upon contract renewal
+**3.4 Ongoing Vendor Monitoring**
 
-**3.3.3 Vendor Security Incident Management**
+Implement practical, automated monitoring focused on high-risk vendors while maintaining awareness of vendor security posture.
 
-- Vendors shall notify **[Company Name]** of security incidents within contractually specified timeframes
-- **[Company Name]** shall assess the impact of vendor incidents on company operations and data
-- Incident response coordination with vendors shall follow documented procedures
-- Lessons learned from vendor incidents shall be incorporated into future risk assessments
+**3.4.1 Tier 1 Vendor Monitoring**
 
-**3.4 Vendor Access Management**
+- **Annual Certification Review**: Review updated SOC 2 reports and security certifications
+- **Security Scorecard Monitoring**: Continuous monitoring through vendor risk assessment platforms
+- **Incident Notifications**: Active monitoring of vendor security incidents and advisories
+- **Contract Performance**: Annual review of contract compliance and service performance
+- **Access Review**: Quarterly review of vendor access and permissions
 
-Access granted to vendors shall be controlled and monitored in accordance with the principle of least privilege.
+**3.4.2 Tier 2 and 3 Vendor Monitoring**
 
-**3.4.1 Access Provisioning**
+- **Contract Renewal Review**: Security assessment during contract renewal cycle
+- **Incident Awareness**: Monitor for significant security incidents affecting vendor services
+- **Access Management**: Annual review of vendor access and account permissions
+- **Cost and Performance**: Monitor vendor performance and cost optimization opportunities
 
-- Vendor access requests shall be formally approved by the business owner and security team
-- Access shall be limited to the minimum necessary to perform contracted services
-- Vendor personnel shall be individually identified and authenticated
-- Shared or generic accounts shall not be used for vendor access
-- Multi-factor authentication shall be required for all High-risk vendor access
+**3.5 Vendor Access Management**
 
-**3.4.2 Access Monitoring and Review**
+Implement practical access controls that balance security with operational efficiency.
 
-- All vendor access shall be logged and monitored for inappropriate activity
-- Quarterly access reviews shall be conducted for High-risk vendors
-- Annual access reviews shall be conducted for Medium and Low-risk vendors
-- Access shall be promptly revoked upon contract termination or personnel changes
+**3.5.1 Access Provisioning**
 
-**3.5 Vendor Onboarding and Offboarding**
+- **Business Justification**: Clear business justification required for vendor access requests
+- **Least Privilege**: Limit vendor access to minimum necessary for contracted services
+- **Time-Limited Access**: Implement time-limited access for temporary or project-based vendors
+- **Multi-Factor Authentication**: Require MFA for all vendor access to critical systems
+- **Single Sign-On**: Use SSO integration where available to centralize access management
 
-Formal processes shall be established for vendor onboarding and offboarding to ensure security requirements are met.
+**3.5.2 Access Monitoring and Review**
 
-**3.5.1 Vendor Onboarding Process**
+- **Automated Logging**: Log vendor access activities through existing security monitoring tools
+- **Regular Access Review**: **[Frequency, e.g., Quarterly]** review of active vendor accounts and permissions
+- **Prompt Deprovisioning**: Immediate access revocation upon contract termination or project completion
+- **Exception Reporting**: Automated alerts for unusual vendor access patterns or failed authentication attempts
 
-1. Risk assessment and classification
-2. Security questionnaire and documentation review
-3. Contract negotiation including security provisions
-4. BAA execution (if handling ePHI)
-5. Security orientation and training (if required)
-6. Access provisioning and testing
-7. Ongoing monitoring setup
+**3.6 Cloud-Native Vendor Security**
 
-**3.5.2 Vendor Offboarding Process**
+Leverage cloud provider security capabilities to monitor and control vendor access to cloud resources.
 
-1. Access revocation and account deactivation
-2. Data return or secure destruction verification
-3. Equipment and credential return
-4. Final security assessment and documentation
-5. Contract closure and relationship termination
-6. Lessons learned documentation
+**3.6.1 Cloud Provider Selection**
 
-**3.6 Cloud Service Provider Management**
-
-Cloud service providers shall be subject to enhanced security requirements due to the sensitivity of data and critical nature of services.
-
-**3.6.1 Cloud Provider Requirements**
-
-- SOC 2 Type II certification or equivalent (ISO 27001, FedRAMP)
-- Compliance with relevant industry standards (HIPAA, PCI-DSS if applicable)
-- Data encryption at rest and in transit
-- Geographic data location controls and restrictions
-- Incident response and breach notification procedures
-- Business continuity and disaster recovery capabilities
-- Regular penetration testing and vulnerability assessments
+- **Major Cloud Providers**: Prefer major cloud providers (AWS, Azure, GCP) with comprehensive compliance certifications
+- **Shared Responsibility**: Clearly understand and document shared responsibility model
+- **Security Center**: Use cloud provider security centers for continuous compliance monitoring
+- **Cost Optimization**: Balance security requirements with cost-effective service selection
 
 **3.6.2 Cloud Service Monitoring**
 
-- Regular review of service provider security posture and certifications
-- Monitoring of provider security advisories and incident notifications
-- Assessment of configuration changes and security updates
-- Periodic review of data access logs and administrative activities
+- **Service Health Monitoring**: Monitor cloud provider service health and security advisory notifications
+- **Configuration Management**: Use cloud-native tools to monitor and enforce security configurations
+- **Access Analytics**: Leverage cloud provider access analytics and unusual activity detection
+- **Compliance Dashboards**: Use cloud provider compliance dashboards for ongoing attestation evidence
 
-**3.7 Subcontractor and Fourth-Party Risk Management**
+**3.7 Incident Response and Vendor Coordination**
 
-Vendors shall be required to manage risks associated with their subcontractors and ensure equivalent security standards.
+Establish practical procedures for coordinating security incidents involving vendor services.
 
-- Vendors shall obtain written approval before engaging subcontractors for services involving **[Company Name]** data
-- Subcontractors shall be subject to the same security requirements as primary vendors
-- Vendors shall maintain oversight of subcontractor security practices
-- Flow-down of security requirements through the entire supply chain
-- Notification requirements for subcontractor changes or incidents
+**3.7.1 Vendor Incident Notification**
 
-### 4. Standards Compliance
+- **Notification Procedures**: Clear procedures for vendors to report security incidents affecting **[Company Name]** data
+- **Response Coordination**: Designated Security Officer as primary contact for vendor incident coordination
+- **Impact Assessment**: Rapid assessment of vendor incident impact on company operations and data
+- **Communication**: Internal communication procedures for vendor-related security incidents
+
+**3.7.2 Vendor Support During Incidents**
+
+- **Technical Coordination**: Coordinate with vendors during security incidents affecting their services
+- **Evidence Collection**: Coordinate evidence collection and forensic activities with vendor support
+- **Recovery Planning**: Coordinate service recovery and business continuity with vendor teams
+- **Lessons Learned**: Document lessons learned from vendor incidents for future risk assessment
+
+### 4. Responsibilities
+
+**4.1 Security Officer**
+
+- **Vendor Risk Classification**: Classify vendors into appropriate risk tiers and approve assessment requirements
+- **Tier 1 Vendor Oversight**: Manage relationships with critical risk vendors including cloud providers and ePHI processors
+- **BAA Management**: Ensure Business Associate Agreements are executed for all ePHI access vendors
+- **Incident Coordination**: Serve as primary contact for vendor security incidents and coordinate internal response
+- **Automated Monitoring**: Implement and monitor automated vendor risk assessment tools and platforms
+
+**4.2 Business Owners**
+
+- **Vendor Selection**: Select appropriate vendors based on business requirements and approved risk tiers
+- **Business Justification**: Provide clear business justification for vendor engagement and data access requirements
+- **Contract Performance**: Monitor vendor service delivery and performance against business requirements
+- **Access Management**: Approve and manage vendor access requirements for their business areas
+- **Budget Management**: Manage vendor costs and contract terms within approved budgets
+
+**4.3 IT Operations Team**
+
+- **Technical Integration**: Implement technical integrations with vendor systems and services
+- **Access Provisioning**: Provision and manage vendor access through SSO and identity management systems
+- **Security Configuration**: Configure vendor systems according to security requirements and best practices
+- **Access Monitoring**: Monitor vendor access activities through existing security monitoring tools
+- **Incident Support**: Provide technical support during vendor-related security incidents
+
+**4.4 Legal/Contracts Team**
+
+- **Contract Negotiation**: Negotiate contract terms and security provisions with vendors
+- **BAA Execution**: Execute Business Associate Agreements and ensure HIPAA compliance terms
+- **Risk Review**: Review vendor contracts for legal and regulatory compliance issues
+- **Termination Management**: Manage contract termination procedures and data return requirements
+- **Regulatory Updates**: Monitor regulatory changes affecting vendor management requirements
+
+**4.5 Finance Team**
+
+- **Vendor Financial Assessment**: Conduct basic financial stability assessment for Tier 1 vendors
+- **Insurance Verification**: Verify vendor insurance coverage and liability requirements
+- **Cost Management**: Monitor vendor costs and identify optimization opportunities
+- **Payment Processing**: Manage vendor payment processes and contract billing requirements
+- **Budget Planning**: Include vendor management costs in annual budget planning
+
+**4.6 Development Team**
+
+- **API Integration**: Implement secure API integrations with vendor services
+- **Data Minimization**: Ensure only necessary data is shared with vendor systems
+- **Security Controls**: Implement application-level security controls for vendor data access
+- **Testing and Validation**: Test vendor integrations for security and performance requirements
+- **Documentation**: Document vendor integrations and security implementations
+
+### 5. Implementation Guidelines
+
+**5.1 Practical Implementation Approach**
+
+**Phase 1: Vendor Inventory and Classification (Month 1)**
+- Create inventory of current vendors and classify into risk tiers
+- Identify vendors requiring immediate BAA execution (ePHI access)
+- Implement automated vendor risk assessment platform
+- Establish vendor management procedures and templates
+
+**Phase 2: Critical Vendor Assessment (Months 2-3)**
+- Complete comprehensive assessment of Tier 1 vendors
+- Execute required Business Associate Agreements
+- Implement enhanced monitoring for critical vendors
+- Review and optimize high-cost vendor relationships
+
+**Phase 3: Automation and Monitoring (Months 3-6)**
+- Deploy automated vendor security monitoring tools
+- Establish regular review cycles for vendor relationships
+- Optimize vendor access management through SSO integration
+- Implement cost optimization and contract management processes
+
+**5.2 Vendor Management Tools and Automation**
+
+**Automated Risk Assessment Platforms**
+- **SecurityScorecard** or **BitSight**: Continuous vendor security rating and monitoring
+- **UpGuard** or **RiskRecon**: Automated security questionnaires and vendor assessment
+- **ServiceNow Vendor Risk Management**: Integrated vendor lifecycle management
+- **Shared Assessments SIG**: Standardized security questionnaire automation
+
+**Contract and Compliance Management**
+- **DocuSign** or **PandaDoc**: Electronic contract execution and BAA management
+- **ContractWorks** or **Ironclad**: Contract lifecycle management and automated renewals
+- **LogicGate** or **Resolver**: Risk management and compliance tracking
+- **Google Workspace** or **Microsoft 365**: Document collaboration and approval workflows
+
+**Access and Identity Management**
+- **Okta** or **Azure AD**: Single sign-on and vendor access management
+- **LastPass** or **1Password**: Shared credential management for vendor systems
+- **AWS IAM** or **Azure RBAC**: Cloud vendor access controls and monitoring
+- **Privileged Access Management**: Just-in-time access for vendor support activities
+
+**5.3 Cost-Effective Vendor Management**
+
+**Vendor Consolidation Opportunities**
+- Identify overlapping vendor capabilities and consolidation opportunities
+- Negotiate volume discounts for multi-service vendor relationships
+- Standardize on major cloud platforms to simplify compliance management
+- Eliminate redundant or underutilized vendor services
+
+**Contract Optimization Strategies**
+- Use standard contract templates to reduce legal review costs
+- Negotiate standardized security terms across similar vendor types
+- Implement automatic renewal with security review checkpoints
+- Focus contract negotiations on business terms rather than security boilerplate
+
+**Compliance Efficiency**
+- Accept major cloud provider compliance certifications as sufficient for most use cases
+- Use vendor compliance databases and shared assessment results
+- Implement automated compliance monitoring rather than manual audits
+- Focus on outcome-based security requirements rather than prescriptive controls
+
+### 6. Standards Compliance
 
 This policy is designed to comply with and support the following industry standards and regulations.
 
-|**Policy Section**|**Standard/Framework**|**Control Reference**|
-|---|---|---|
-|**All**|HITRUST CSF v11.2.0|14.a - Third Party Assurance Policy|
-|**3.1, 3.3**|HITRUST CSF v11.2.0|14.b - Third Party Risk Assessment|
-|**3.2**|HITRUST CSF v11.2.0|14.c - Third Party Service Agreements|
-|**3.4**|HITRUST CSF v11.2.0|14.d - Third Party Access Management|
-|**3.5**|HITRUST CSF v11.2.0|14.e - Third Party Monitoring|
-|**3.6**|HITRUST CSF v11.2.0|14.f - Service Delivery Management|
-|**3.2.1**|HIPAA Security Rule|45 CFR § 164.314(a)(1) - Business Associate Contracts|
-|**3.2.1**|HIPAA Security Rule|45 CFR § 164.314(a)(2) - Business Associate Safeguards|
-|**3.1, 3.3**|HIPAA Security Rule|45 CFR § 164.308(a)(1)(ii)(A) - Risk Assessment|
-|**3.4**|HIPAA Security Rule|45 CFR § 164.308(a)(4) - Information Access Management|
-|**3.3.3**|HIPAA Security Rule|45 CFR § 164.308(a)(6) - Security Incident Procedures|
-|**All**|SOC 2 Trust Services Criteria|CC9.1 - Vendor Management|
-|**3.1, 3.3**|SOC 2 Trust Services Criteria|CC9.2 - Vendor Risk Assessment|
-|**3.2**|SOC 2 Trust Services Criteria|CC9.3 - Vendor Agreements|
-|**3.6**|SOC 2 Trust Services Criteria|A1.2 - System Capacity|
+| **Policy Section** | **Standard/Framework** | **Control Reference** |
+| ------------------ | ---------------------- | --------------------- |
+| **3.1, 3.4** | HITRUST CSF v11.2.0 | 14.a - Third Party Assurance Policy |
+| **3.1, 3.4** | HITRUST CSF v11.2.0 | 14.b - Third Party Risk Assessment |
+| **3.3** | HITRUST CSF v11.2.0 | 14.c - Third Party Service Agreements |
+| **3.5** | HITRUST CSF v11.2.0 | 14.d - Third Party Access Management |
+| **3.4** | HITRUST CSF v11.2.0 | 14.e - Third Party Monitoring |
+| **3.3.1** | HIPAA Security Rule | 45 CFR § 164.314(a)(1) - Business Associate Contracts |
+| **3.3.1** | HIPAA Security Rule | 45 CFR § 164.314(a)(2) - Business Associate Safeguards |
+| **3.1** | HIPAA Security Rule | 45 CFR § 164.308(a)(1)(ii)(A) - Risk Assessment |
+| **3.5** | HIPAA Security Rule | 45 CFR § 164.308(a)(4) - Information Access Management |
+| **3.7** | HIPAA Security Rule | 45 CFR § 164.308(a)(6) - Security Incident Procedures |
+| **All** | SOC 2 Trust Services Criteria | CC9.1 - Vendor Management |
+| **3.1, 3.4** | SOC 2 Trust Services Criteria | CC9.2 - Vendor Risk Assessment |
+| **3.3** | SOC 2 Trust Services Criteria | CC9.3 - Vendor Agreements |
 
-### 5. Definitions
+### 7. Definitions
 
-**Business Associate:** A person or entity that performs functions or activities on behalf of a covered entity that involve access to ePHI.
+**Business Associate Agreement (BAA):** A written contract between a covered entity and a business associate required by HIPAA for any ePHI access.
 
-**Business Associate Agreement (BAA):** A written contract between a covered entity and a business associate required by HIPAA.
+**Cloud Service Provider:** A company that offers network services, infrastructure, or business applications in the cloud (e.g., AWS, Azure, GCP).
 
-**Cloud Service Provider:** A company that offers network services, infrastructure, or business applications in the cloud.
+**Risk Tier:** Classification system for vendors based on data access and business criticality (Tier 1-Critical, Tier 2-Business, Tier 3-Standard).
 
-**Due Diligence:** The investigation or exercise of care that a reasonable business or person is expected to take before entering into an agreement or contract.
+**Security Scorecard:** Automated security rating system that continuously monitors vendor security posture using external security indicators.
 
-**Fourth Party:** A subcontractor or service provider used by a third-party vendor.
+**Single Sign-On (SSO):** Authentication system that allows users to access multiple vendor systems with one set of credentials.
 
-**Service Level Agreement (SLA):** A contract between a service provider and customer that defines the level of service expected.
+**Vendor Risk Assessment:** Streamlined evaluation process appropriate to vendor risk tier and data access requirements.
 
-**Subcontractor:** An entity engaged by a business associate to perform functions or activities on behalf of the business associate.
+### 8. Related Policies and Procedures
 
-**Vendor Risk Assessment:** The process of evaluating the potential risks associated with engaging a third-party vendor.
+This policy shall be implemented in conjunction with the following organizational policies:
 
-### 6. Responsibilities
+- **Data Classification and Handling Policy (SEC-POL-001)**: Defines data sensitivity levels for vendor risk classification
+- **Access Control Policy (AC-POL-001)**: Establishes access control requirements for vendor systems
+- **Incident Response Policy (SEC-POL-006)**: Addresses vendor-related security incident procedures
+- **Encryption and Key Management Policy (OP-POL-001)**: Covers encryption requirements for vendor data protection
 
-|**Role**|**Responsibility**|
-|---|---|
-|**Procurement Team**|Coordinate vendor selection process, ensure security requirements are included in RFPs, and facilitate contract negotiations.|
-|**Security Officer**|Develop vendor security requirements, conduct risk assessments, and monitor vendor security compliance.|
-|**Privacy Officer**|Ensure BAA requirements are met, oversee ePHI handling by vendors, and manage privacy impact assessments.|
-|**Legal/Contracts Team**|Negotiate security contract provisions, ensure legal compliance, and manage contract lifecycle.|
-|**Business Owners**|Define business requirements, approve vendor selections, and monitor service delivery performance.|
-|**IT Department**|Implement technical controls for vendor access, monitor vendor system activity, and manage vendor integrations.|
-|**Risk Management Team**|Assess vendor-related risks, maintain vendor risk register, and coordinate risk treatment activities.|
-|**Finance Team**|Assess vendor financial stability, manage vendor insurance requirements, and oversee payment processes.|
-|**All Workforce Members**|Report vendor security concerns, comply with vendor interaction policies, and protect company information shared with vendors.|
+**Supporting Procedures:**
+- **Vendor Risk Assessment Procedure (SEC-PROC-013)**: Detailed procedures for vendor risk assessment and classification
+- **Business Associate Agreement Management Procedure (SEC-PROC-014)**: BAA execution and management procedures
+- **Vendor Access Management Procedure (AC-PROC-006)**: Technical procedures for vendor access provisioning and management

@@ -6,134 +6,219 @@ nav_order: 10
 
 ### 1. Purpose
 
-This procedure establishes standardized processes for monitoring, analyzing, and responding to security events captured in audit logs across **[Company Name]**'s information systems. These procedures support the Audit Logging and Monitoring Policy (SEC-POL-009) and ensure timely detection, investigation, and response to security incidents while maintaining compliance with HIPAA, SOC 2, and HITRUST CSF v11.2.0 requirements.
+This procedure establishes processes for monitoring, analyzing, and responding to security events captured in audit logs through cloud-native tools and managed security service providers. These procedures support the Audit Logging and Monitoring Policy (SEC-POL-009) and ensure timely detection, investigation, and response to security incidents while maintaining compliance with HIPAA, SOC 2, and HITRUST CSF v11.2.0 requirements.
 
 ### 2. Scope
 
-This procedure applies to all Security Team members, System Administrators, and Incident Response Team members responsible for monitoring and analyzing audit logs from **[Company Name]**'s information systems, applications, network devices, and cloud services.
+This procedure applies to the Security Officer, Platform Engineers, DevOps Engineers, and designated on-call personnel responsible for coordinating with managed security service providers and responding to escalated security alerts from **[Company Name]**'s information systems, applications, and cloud services.
 
 ### 3. Overview
 
-The Security Operations Center (SOC) function, whether internal or outsourced, provides continuous monitoring of security events through the centralized SIEM system. This procedure defines the roles, responsibilities, and specific steps for log monitoring, alert triage, incident escalation, and periodic log analysis activities.
+Log monitoring and analysis leverages cloud-native security analytics, automated threat detection, and managed security service providers to provide continuous monitoring of security events. This approach eliminates the need for dedicated internal SOC operations while maintaining comprehensive security event monitoring and incident response capabilities appropriate for a **[Number, e.g., 120]**-person organization.
 
 ### 4. Procedure
 
 | **Step** | **Who** | **What** |
 | -------- | ------- | -------- |
-| **1** | SOC Analyst | **Daily Shift Handover**: Review outstanding alerts from previous shift, check system health dashboards, and verify all monitoring systems are operational. Document any ongoing investigations or system issues in the SOC log. |
-| **2** | SOC Analyst | **Continuous Alert Monitoring**: Monitor SIEM dashboard for real-time security alerts. Acknowledge new alerts within **[Timeframe, e.g., 5 minutes]** of generation and begin initial triage procedures. |
-| **3** | SOC Analyst | **Alert Triage and Classification**: For each new alert, perform initial analysis to determine alert validity and severity. Classify alerts as: **Critical** (immediate escalation), **High** (investigate within 30 minutes), **Medium** (investigate within 2 hours), **Low** (investigate within 24 hours), or **False Positive** (document and close). |
-| **4** | SOC Analyst | **Initial Investigation**: For valid alerts, gather additional context by searching related logs, checking user activity patterns, and correlating with threat intelligence feeds. Document findings in the SIEM case management system. |
-| **5** | SOC Analyst | **Critical Alert Escalation**: For Critical severity alerts, immediately notify the Security Officer and Incident Response Team via phone and email. Initiate incident response procedures per RES-PROC-001. |
-| **6** | SOC Analyst | **High Priority Investigation**: For High severity alerts, conduct detailed log analysis within 30 minutes. Review user authentication history, data access patterns, and system activities. Escalate to Security Team Lead if indicators of compromise are identified. |
-| **7** | Security Team Lead | **Advanced Analysis**: For escalated alerts, perform deep analysis using advanced correlation rules, behavioral analytics, and threat hunting techniques. Coordinate with System Administrators for additional data collection if required. |
-| **8** | Security Team Lead | **Incident Determination**: Based on investigation findings, determine if the alert represents a confirmed security incident. If confirmed, activate incident response procedures and notify the Security Officer. If not confirmed, document findings and close the alert. |
-| **9** | SOC Analyst | **Medium/Low Priority Processing**: For Medium and Low priority alerts, complete investigation within specified timeframes. Document analysis results and resolution actions in the SIEM system. Identify patterns that may indicate larger security issues. |
-| **10** | SOC Analyst | **False Positive Management**: For alerts determined to be false positives, document the root cause and coordinate with Security Team Lead to tune detection rules. Update SIEM configurations to reduce future false positives while maintaining detection capability. |
-| **11** | System Administrator | **Log Source Health Monitoring**: Monitor log collection systems for failures, capacity issues, or configuration problems. Address any log forwarding failures within **[Timeframe, e.g., 1 hour]** to ensure continuous monitoring coverage. |
-| **12** | System Administrator | **SIEM System Maintenance**: Perform daily health checks of SIEM infrastructure, including storage capacity, processing performance, and correlation rule functionality. Address any system issues immediately to maintain monitoring capabilities. |
-| **13** | Security Team Lead | **Daily Security Summary**: Generate daily summary report of security events, including alert volumes, incident counts, trending issues, and system health status. Distribute to Security Officer and management team. |
-| **14** | Security Team Lead | **Weekly Threat Analysis**: Conduct weekly analysis of security trends, attack patterns, and emerging threats affecting the organization. Update correlation rules and detection capabilities based on new threat intelligence. |
-| **15** | Compliance Analyst | **Monthly Access Review**: Generate monthly reports of privileged access activities, administrative actions, and ePHI access patterns for compliance review. Identify any unusual access patterns or policy violations for investigation. |
-| **16** | Security Officer | **Quarterly Program Review**: Conduct quarterly review of log monitoring effectiveness, including alert accuracy, response times, and detection capabilities. Identify improvement opportunities and update procedures as needed. |
-| **17** | SOC Analyst | **End of Shift Documentation**: Document all activities, outstanding alerts, and investigation status in the SOC log. Brief incoming shift personnel on any ongoing incidents or system issues requiring attention. |
+| **1** | Platform Engineer | **Cloud Log Analytics Setup**: Configure cloud-native log analytics services (AWS CloudWatch, Azure Monitor, GCP Cloud Logging) to centralize and analyze security logs from all systems. Enable automated threat detection and anomaly analysis capabilities. |
+| **2** | DevOps Engineer | **Automated Alert Configuration**: Configure automated alerting for security events including: failed authentication attempts, privilege escalation, unusual data access patterns, and compliance violations. Set appropriate thresholds to minimize false positives. |
+| **3** | Security Officer | **MSSP SIEM Integration**: Integrate cloud log sources with managed security service provider's SIEM platform for 24/7 monitoring and expert analysis. Ensure proper data retention and compliance with regulatory requirements. |
+| **4** | Platform Engineer | **Log Source Configuration**: Ensure all critical systems forward security logs to centralized logging platform including: application servers, databases, authentication systems, network devices, and cloud service audit logs. |
+| **5** | MSSP SOC Analyst | **Continuous Monitoring**: MSSP provides 24/7 monitoring of security events and automated alert triage. Performs initial analysis of security alerts and escalates confirmed threats according to established service level agreements. |
+| **6** | MSSP SOC Analyst | **Alert Analysis and Classification**: MSSP security analysts perform detailed analysis of security events, correlate with threat intelligence, and classify threats by severity. Provide initial incident assessment and recommended response actions. |
+| **7** | Security Officer | **Escalation Response Coordination**: Coordinate response to escalated security incidents from MSSP including: review of analysis findings, authorization of containment actions, and activation of internal incident response procedures per RES-PROC-001. |
+| **8** | DevOps Engineer | **Automated Response Implementation**: Implement automated response capabilities for common security events including: account lockouts for failed authentication, automatic scaling during attacks, and isolation of compromised resources. |
+| **9** | Platform Engineer | **Compliance Monitoring**: Configure automated compliance monitoring for HIPAA, SOC 2, and HITRUST requirements including: ePHI access logging, administrative action monitoring, and privileged account usage tracking. |
+| **10** | On-Call Engineer | **After-Hours Response**: Provide after-hours response to critical security escalations from MSSP. Perform initial containment actions and coordinate with Security Officer during business hours for incident response. |
+| **11** | Security Officer | **Weekly Security Review**: Review weekly security reports from MSSP and cloud security services including: threat trends, blocked attacks, compliance events, and service performance metrics. |
+| **12** | MSSP Account Manager | **Monthly Service Review**: MSSP provides monthly executive reports including: security event analysis, threat intelligence updates, compliance status, and recommendations for security program improvements. |
 
-### 5. Alert Response Matrix
+### 5. Managed Security Service Requirements
 
-| **Alert Severity** | **Response Time** | **Escalation Required** | **Documentation Level** |
-| ------------------ | ----------------- | ----------------------- | ----------------------- |
-| **Critical** | Immediate (5 minutes) | Security Officer, Incident Response Team | Detailed incident report |
-| **High** | 30 minutes | Security Team Lead if IOCs identified | Comprehensive investigation notes |
-| **Medium** | 2 hours | Team Lead for pattern analysis | Standard investigation summary |
-| **Low** | 24 hours | None unless part of larger pattern | Basic resolution documentation |
-| **Informational** | Best effort | None | Log entry only |
+#### 5.1 MSSP Capabilities and Services
 
-### 6. Log Analysis Procedures
+**24/7 Security Operations Center:**
+- Continuous monitoring of log sources and security events
+- Expert threat analysis and incident classification
+- Escalation procedures for confirmed security threats
+- Integration with cloud-native security services
 
-#### 6.1 Real-Time Monitoring Requirements
+**Advanced Analytics and Correlation:**
+- Machine learning-based anomaly detection
+- Cross-system event correlation and analysis
+- Threat intelligence integration and enrichment
+- Behavioral analytics for insider threat detection
 
-**Continuous Monitoring:**
-- Monitor SIEM dashboard continuously during business hours
-- Automated after-hours monitoring with on-call escalation
-- Review all Critical and High priority alerts within response timeframes
-- Maintain situational awareness of current threat landscape
+#### 5.2 Service Level Agreements
 
-**Correlation Analysis:**
-- Cross-reference alerts with external threat intelligence
-- Identify patterns across multiple systems and users
-- Correlate failed authentication attempts with successful access
-- Analyze data access patterns for unusual behavior
+**Response Time Requirements:**
+- Critical security events: **[Timeframe, e.g., 15 minutes]** acknowledgment, **[Timeframe, e.g., 1 hour]** analysis
+- High severity events: **[Timeframe, e.g., 1 hour]** acknowledgment, **[Timeframe, e.g., 4 hours]** analysis
+- Medium severity events: **[Timeframe, e.g., 4 hours]** acknowledgment, **[Timeframe, e.g., 24 hours]** analysis
+- Compliance events: **[Timeframe, e.g., 24 hours]** analysis and reporting
 
-#### 6.2 Incident Investigation Workflow
+**Availability and Performance:**
+- SOC availability: 99.9% uptime
+- SIEM platform availability: 99.5% uptime
+- Log ingestion and processing: Real-time with <5 minute latency
+- Monthly service reporting and quarterly business reviews
 
-**Initial Analysis Steps:**
-1. Gather alert details and associated log entries
-2. Identify affected systems, users, and data
-3. Check user authentication and authorization history
-4. Review network connection and data transfer activities
-5. Correlate with known attack patterns and indicators
+### 6. Cloud-Native Log Analytics
 
-**Deep Analysis Procedures:**
-1. Collect additional logs from affected systems
-2. Perform timeline analysis of related events
-3. Check for lateral movement or privilege escalation
-4. Analyze data access and exfiltration indicators
-5. Coordinate with System Administrators for forensic data
+#### 6.1 AWS CloudWatch and Security Services
 
-### 7. Performance Metrics
+**CloudWatch Logs and Insights:**
+- Centralized log collection and real-time analysis
+- Custom metric creation and automated alerting
+- SQL-like query language for log analysis
+- Integration with AWS Lambda for automated response
 
-| **Metric** | **Target** | **Frequency** |
-| ---------- | ---------- | ------------- |
-| Alert Response Time | <5 minutes for Critical | Real-time |
-| False Positive Rate | <10% of total alerts | Weekly |
-| System Uptime | >99.5% availability | Daily |
-| Log Collection Coverage | 100% of critical systems | Daily |
-| Mean Time to Detection | <1 hour for security incidents | Monthly |
-| Mean Time to Response | <2 hours for confirmed incidents | Monthly |
+**AWS Security Hub:**
+- Centralized security findings from multiple services
+- Compliance monitoring dashboard and reporting
+- Integration with AWS Config for configuration monitoring
+- Automated remediation workflows with AWS Systems Manager
 
-### 8. Standards Compliance
+**AWS GuardDuty:**
+- Machine learning-based threat detection
+- DNS log analysis and malicious domain detection
+- VPC Flow Log analysis for network anomalies
+- Integration with AWS WAF for automated blocking
+
+#### 6.2 Azure Monitor and Security Services
+
+**Azure Monitor Logs:**
+- Kusto Query Language (KQL) for advanced log analysis
+- Automated alerting and action groups
+- Custom dashboards and workbooks for security monitoring
+- Integration with Azure Logic Apps for automated response
+
+**Azure Sentinel:**
+- Cloud-native SIEM with built-in connectors
+- Machine learning analytics for threat detection
+- Automated investigation and response capabilities
+- Threat intelligence integration and hunting queries
+
+**Azure Security Center:**
+- Security posture management and recommendations
+- Compliance dashboard and regulatory reporting
+- Integration with Azure Policy for automated governance
+- Advanced threat protection across Azure services
+
+#### 6.3 Google Cloud Platform Security Services
+
+**Google Cloud Logging:**
+- Centralized logging with real-time analysis capabilities
+- BigQuery integration for large-scale log analytics
+- Automated alerting and notification policies
+- Integration with Cloud Functions for automated response
+
+**Google Cloud Security Command Center:**
+- Centralized security and compliance dashboard
+- Asset discovery and security findings management
+- Integration with Chronicle for security analytics
+- Compliance monitoring and reporting capabilities
+
+### 7. Automated Alerting and Response
+
+#### 7.1 Critical Alert Triggers
+
+**Security Event Triggers:**
+- Multiple failed authentication attempts
+- Privilege escalation or administrative access from unusual locations
+- Large-scale data download or unusual access patterns
+- Network communication with known malicious domains
+- Compliance violations or policy exceptions
+
+**Automated Response Actions:**
+- Account lockout or access restriction
+- Network isolation or traffic blocking
+- Automatic scaling of security controls
+- Evidence preservation and logging
+- Notification of security team and management
+
+#### 7.2 Compliance Monitoring
+
+**HIPAA/HITECH Monitoring:**
+- ePHI access tracking and unusual access pattern detection
+- Administrative action logging and review
+- Breach risk assessment and notification procedures
+- Business associate activity monitoring
+
+**SOC 2 and HITRUST Monitoring:**
+- Access control effectiveness monitoring
+- Change management compliance tracking
+- System monitoring and availability reporting
+- Security control operation and testing evidence
+
+### 8. Performance Metrics and Optimization
+
+#### 8.1 Service Performance Metrics
+
+| **Metric** | **Target** | **Monitoring Frequency** |
+| ---------- | ---------- | ------------------------ |
+| Log Ingestion Latency | <5 minutes | Real-time |
+| Alert Response Time | <15 minutes for Critical | Real-time |
+| False Positive Rate | <15% of alerts | Weekly |
+| System Availability | >99.5% uptime | Daily |
+| Compliance Coverage | 100% of requirements | Monthly |
+
+#### 8.2 Cost Optimization
+
+**Log Volume Management:**
+- Automatic log retention policy implementation
+- Intelligent log filtering and sampling
+- Cost-effective storage tier utilization
+- Regular review of log source necessity and value
+
+**Service Optimization:**
+- Right-sizing of cloud analytics services
+- Optimization of MSSP service scope and coverage
+- Automation of routine monitoring and response tasks
+- Focus on high-value security events and threats
+
+### 9. Standards Compliance
 
 This procedure is designed to comply with and support the following industry standards and regulations.
 
 | **Procedure Section** | **Standard/Framework** | **Control Reference** |
 | --------------------- | ---------------------- | --------------------- |
 | **All** | HITRUST CSF v11.2.0 | 12.c - Log Monitoring |
-| **4.13-4.16** | HITRUST CSF v11.2.0 | 12.f - Audit Review |
+| **7.2** | HITRUST CSF v11.2.0 | 12.f - Audit Review |
 | **6** | HITRUST CSF v11.2.0 | 12.a - Audit Logging Policy |
 | **All** | HIPAA Security Rule | 45 CFR § 164.308(a)(1)(ii)(D) - Information System Activity Review |
-| **4.5** | HIPAA Security Rule | 45 CFR § 164.308(a)(6) - Security Incident Procedures |
+| **4.7** | HIPAA Security Rule | 45 CFR § 164.308(a)(6) - Security Incident Procedures |
 | **All** | SOC 2 Trust Services Criteria | CC7.1 - System Monitoring |
-| **4.1-4.8** | SOC 2 Trust Services Criteria | CC7.2 - System Monitoring - Detection |
+| **5** | SOC 2 Trust Services Criteria | CC7.2 - System Monitoring - Detection |
 | **All** | NIST Cybersecurity Framework | DE.AE - Anomalies and Events |
 | **6** | NIST Cybersecurity Framework | DE.CM - Security Continuous Monitoring |
 
-### 9. Artifact(s)
+### 10. Artifact(s)
 
-- Daily SOC shift logs and activity summaries
-- Alert investigation reports and resolution documentation
-- Monthly compliance access reports
-- Quarterly program effectiveness reviews
-- SIEM system health and performance reports
+- Cloud log analytics configuration documentation
+- MSSP service contract and business associate agreement (BAA)
+- Weekly security reports and threat analysis summaries
+- Monthly compliance monitoring reports
+- Automated response configuration and testing documentation
 
-### 10. Definitions
+### 11. Definitions
 
-**False Positive:** An alert generated by monitoring systems that does not represent an actual security threat or incident.
+**Cloud-Native Analytics:** Security monitoring and analysis capabilities provided natively by cloud service providers.
 
-**Indicators of Compromise (IOCs):** Pieces of forensic data that identify potentially malicious activity on a system or network.
+**Managed Security Service Provider (MSSP):** Third-party organization providing managed security services including 24/7 monitoring and analysis.
 
-**Security Information and Event Management (SIEM):** Technology that provides real-time analysis of security alerts generated by applications and network hardware.
+**Security Information and Event Management (SIEM):** Technology platform that provides real-time analysis of security alerts and events.
 
-**Security Operations Center (SOC):** A centralized unit that deals with security issues on an organizational and technical level.
+**Automated Response:** Pre-configured security actions triggered automatically upon detection of specific events or threats.
 
-**Threat Intelligence:** Information about current and potential attacks that threaten an organization.
+**Mean Time to Detection (MTTD):** Average time between when a security incident occurs and when it is detected.
 
-### 11. Responsibilities
+### 12. Responsibilities
 
 | **Role** | **Responsibility** |
 | -------- | ---------------- |
-| **SOC Analyst** | Continuous monitoring of security alerts, initial investigation, and alert triage and classification. |
-| **Security Team Lead** | Advanced analysis of escalated alerts, incident determination, and daily/weekly reporting. |
-| **System Administrator** | Log source health monitoring, SIEM system maintenance, and infrastructure support. |
-| **Security Officer** | Program oversight, quarterly reviews, and approval of major changes to monitoring procedures. |
-| **Compliance Analyst** | Monthly access reviews, compliance reporting, and regulatory requirement coordination. |
-| **Incident Response Team** | Response to confirmed security incidents and coordination with SOC for evidence collection. |
+| **Security Officer** | MSSP coordination, escalation management, and security program oversight. |
+| **Platform Engineer** | Cloud log analytics configuration, integration, and service optimization. |
+| **DevOps Engineer** | Automated alerting configuration, response implementation, and system monitoring. |
+| **On-Call Engineer** | After-hours security incident response and MSSP coordination. |
+| **MSSP SOC Analyst** | 24/7 log monitoring, threat analysis, and escalation per service agreement. |

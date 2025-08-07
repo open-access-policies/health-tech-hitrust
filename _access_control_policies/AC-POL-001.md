@@ -3,6 +3,7 @@ title: Access Control Policy (AC-POL-001)
 parent: Access Control Policies
 nav_order: 1
 ---
+
 ### 1. Objective
 
 The objective of this policy is to define the requirements for managing access to **[Company Name]**'s information systems, data, and physical facilities. This policy ensures that access is granted based on the principles of least privilege and separation of duties, thereby protecting the confidentiality, integrity, and availability of corporate and customer information, including electronic Protected Health Information (ePHI).
@@ -27,33 +28,33 @@ Access rights shall be managed throughout the entire duration of a user's relati
     
 - **Modification:** When a workforce member changes roles or responsibilities within the company, their manager shall submit a request to modify access rights. All previous access rights that are no longer required for the new role shall be revoked, and new access rights shall be granted according to the principle of least privilege.
     
-- **Deprovisioning:** Upon termination of employment or contract, all access to company systems, applications, and physical facilities shall be revoked in a timely manner, not to exceed **[Number, e.g., 24]** hours from the official termination time. For involuntary terminations or other high-risk separation events, all logical and physical access shall be revoked immediately, concurrent with the termination event whenever possible.
+- **Deprovisioning:** Upon termination of employment or contract, all access to company systems, applications, and physical facilities shall be revoked in a timely manner. **Critical/High-Risk Terminations** (involuntary terminations, security incidents, executive departures): All logical and physical access shall be revoked within **[Number, e.g., 2]** hours. **Standard Terminations** (voluntary resignations, contract completions): All access shall be revoked within **[Number, e.g., 24]** hours from the official termination time. **Low-Risk Extended Transitions** (retirements, internal transfers): Access revocation may be coordinated over **[Number, e.g., 72]** hours to ensure smooth knowledge transfer.
     
 
-**3.3 Access Reviews**
+**3.3 Automated Access Reviews and Monitoring**
 
-To ensure access rights remain appropriate, formal access reviews shall be conducted periodically. The designation of systems as containing ePHI or Confidential data shall be formally documented in the **[Company Name]** System & Data Inventory.
+To ensure access rights remain appropriate while minimizing administrative overhead, access reviews shall utilize automated monitoring and exception-based reviews rather than manual quarterly attestations.
 
-- Access to systems containing ePHI or other data classified as Confidential shall be reviewed by the respective system owner or manager on a quarterly basis.
+- **Automated Monitoring:** Identity and access management systems shall be configured to automatically detect and alert on access anomalies including: dormant accounts (no login for **[Duration, e.g., 90 days]**), privilege escalation, unusual access patterns, and accounts without recent manager validation.
     
-- All other user access rights shall be reviewed on at least an annual basis.
+- **Role-Based Access Control (RBAC):** Access rights shall be primarily managed through automated role assignment based on job function, department, and manager hierarchy integrated with the HR information system. When employees change roles, access shall be automatically adjusted based on their new role assignment.
     
-- The review shall require a formal, documented attestation (e.g., digital sign-off via a ticket) from the designated manager or system owner. Failure to complete a required access review within **[Number, e.g., 14]** days of the deadline shall result in an automatic escalation to the Security Officer and the manager's direct superior.
+- **Exception-Based Reviews:** Formal access reviews shall be triggered by specific events rather than fixed quarterly schedules: **High-Risk Systems** (ePHI, financial data, production environments): Semi-annual reviews or when automated monitoring identifies exceptions. **Standard Systems**: Annual reviews or when significant access anomalies are detected. **Low-Risk Systems** (internal tools, development environments): Exception-based reviews only when security concerns are identified.
     
-- The results of all access reviews, including any modifications made, shall be documented and retained as evidence of compliance.
+- **Escalation and Remediation:** Automated alerts for access anomalies shall be sent to system owners and managers for resolution within **[Number, e.g., 7]** business days. Failure to respond to access alerts shall result in automatic escalation to the Security Officer and potential access suspension for high-risk systems.
     
 
 **3.4 Privileged Access Management**
 
-Accounts with elevated (administrative) privileges pose a significant risk and shall be subject to stricter controls.
+Accounts with elevated (administrative) privileges pose a significant risk and shall be subject to enhanced controls utilizing modern just-in-time access principles.
 
-- Administrative access shall be granted on a limited, as-needed basis. For accounts with the highest level of administrative privilege (e.g., 'root' or 'global administrator'), access shall be granted on a time-bound, just-in-time (JIT) basis where technically feasible. All such access sessions shall require explicit approval and be automatically logged and terminated after the approved duration.
+- **Just-In-Time (JIT) Access:** Administrative access shall be granted on a limited, time-bound basis using automated JIT access systems where technically feasible. **Critical Infrastructure Access** (production databases, cloud administrative consoles): Maximum session duration of **[Duration, e.g., 4 hours]** with automatic termination. **Standard Administrative Access** (system administration, application management): Maximum session duration of **[Duration, e.g., 8 hours]** with renewal available. **Development and Testing Access**: Maximum session duration of **[Duration, e.g., 24 hours]** with self-service renewal.
     
-- Workforce members with administrative privileges shall use a dedicated, separate account for performing administrative tasks. Standard day-to-day activities shall be performed using a non-privileged user account.
+- **Separated Administrative Accounts:** Workforce members with administrative privileges shall use dedicated administrative accounts separate from their standard user accounts. Standard day-to-day activities shall be performed using non-privileged accounts with automatic elevation requests for administrative tasks when needed.
     
-- Multi-Factor Authentication (MFA) is mandatory for all privileged access accounts.
+- **Enhanced Authentication:** Multi-Factor Authentication (MFA) is mandatory for all privileged access accounts. Additional authentication factors (hardware tokens, biometrics) may be required for critical infrastructure access.
     
-- All activities performed using a privileged account shall be logged and monitored for suspicious behavior.
+- **Automated Monitoring and Alerting:** All privileged account activities shall be automatically logged and monitored. Real-time alerts shall be generated for unusual privileged access patterns, after-hours usage, and potential privilege abuse.
     
 
 **3.5 System and Network Access Controls**

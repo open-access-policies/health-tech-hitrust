@@ -5,305 +5,332 @@ nav_order: 3
 ---
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive requirements for the retention, archival, and secure disposal of **[Company Name]**'s information assets throughout their lifecycle. This policy ensures that information is retained for appropriate periods to meet business, legal, and regulatory requirements, particularly for electronic Protected Health Information (ePHI), while ensuring secure disposal when information is no longer needed, in compliance with HIPAA, HITECH, state privacy laws, and SOC 2 requirements.
+The objective of this policy is to establish practical, cloud-native data retention and disposal practices that meet regulatory requirements for electronic Protected Health Information (ePHI) and business data while leveraging automated technical controls to minimize administrative overhead for a **[Number, e.g., 120]**-person organization.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, and third parties who create, process, store, or dispose of company information. It encompasses all information in any format (electronic, physical, audio, video) and storage medium (databases, file systems, email, backup media, cloud storage, paper documents, optical media). This policy covers all phases of the information lifecycle from creation through final disposition, including active use, archival storage, and secure destruction.
+This policy applies to all **[Company Name]** workforce members who create, process, or access company information in cloud environments and systems. It covers electronic information stored in cloud services, databases, applications, and backup systems, with focus on automated lifecycle management rather than manual governance processes.
 
 ### 3. Policy
 
-**[Company Name]** shall implement systematic data retention and disposal practices that balance business needs, legal requirements, regulatory compliance, and security considerations.
+**[Company Name]** shall implement automated data retention and disposal practices using cloud-native services and technical controls to ensure regulatory compliance while minimizing manual administrative overhead.
 
-**3.1 Data Retention Framework**
+**3.1 Automated Data Retention Framework**
 
-All information assets shall be subject to defined retention periods based on their type, sensitivity, regulatory requirements, and business value. These periods shall be formally documented in the official **[Company Name]** Data Retention Schedule.
+Data retention shall be implemented through automated technical controls rather than manual governance processes, leveraging cloud service provider capabilities and application-level lifecycle management.
 
-**3.1.1 Data Retention Schedule**
+**3.1.1 Cloud-Native Retention Implementation**
 
-The Records Manager, in coordination with the Retention Committee, shall develop and maintain a formal Data Retention Schedule. This schedule is the official source of truth for all data retention periods and shall be reviewed and approved annually by the Retention Committee. The schedule shall, at a minimum, categorize data types and assign a specific, non-ambiguous retention period for each. Examples of categories include:
+**Electronic Protected Health Information (ePHI):**
+- **Database Retention**: Automated deletion based on configurable retention periods (minimum 6 years per HIPAA requirements)
+- **Cloud Storage Lifecycle**: AWS S3 Lifecycle, Azure Blob Lifecycle, or GCP Object Lifecycle policies for automatic data tiering and deletion
+- **Application Data**: Built-in retention logic within applications with automated background processing
+- **Backup Retention**: Cloud backup services configured with automatic retention policy enforcement
 
-- **Corporate Governance:** Records related to the legal and operational structure of the company.
-- **Financial and Tax:** Records required for financial reporting and tax compliance.
-- **Personnel Records:** Information related to employees and human resources.
-- **Contracts and Agreements:** Legal agreements with customers, vendors, and partners.
-- **Electronic Protected Health Information (ePHI):** Health data subject to HIPAA and state laws.
-- **Operational Data:** General business records, correspondence, and system data.
+**Business and Operational Data:**
+- **Application Logs**: Automated log rotation and retention (typically **[Duration, e.g., 1-2 years]**)
+- **System Logs**: Cloud logging services with configurable retention periods
+- **Development Data**: Automated cleanup of staging and development environments
+- **Analytics Data**: Automated data lifecycle management within analytics platforms
 
-**3.1.2 Electronic Protected Health Information (ePHI) Retention**
+**3.1.2 Retention Period Configuration**
 
-ePHI shall be retained in accordance with HIPAA requirements and applicable state laws, as specified in the Data Retention Schedule:
+Instead of complex retention schedules, use simplified categorization with automated enforcement:
 
-- **Minimum Retention Period:** All policies, procedures, and other documentation required by the HIPAA Security Rule shall be retained for a minimum of six (6) years from the date of their creation or the date when they were last in effect, whichever is later. State-specific laws may require longer retention periods.
-- **Extended Retention:** ePHI for minors shall be retained in accordance with applicable state laws, as documented in the Data Retention Schedule.
-- **Research Records:** ePHI used in research retained per research protocol requirements
-- **Legal Hold:** ePHI subject to litigation hold retained until legal matter resolution
-- **State Requirements:** Compliance with state-specific retention requirements where more stringent
+**Regulatory Data (ePHI and Compliance):**
+- **Retention Period**: 6 years minimum (HIPAA requirement)
+- **Implementation**: Database triggers, application logic, cloud storage policies
+- **Monitoring**: Automated alerts for retention policy violations or failures
 
-**3.1.3 Backup and Archive Retention**
+**Business Data (Operational Records):**
+- **Retention Period**: **[Duration, e.g., 3-7 years]** based on business requirements
+- **Implementation**: Application-level retention with cloud storage lifecycle policies
+- **Monitoring**: Dashboard reporting on data lifecycle status
 
-- **Operational Backups:** Retained for **[Duration, e.g., 30 days]** for immediate recovery needs
-- **Monthly Archives:** Retained for **[Duration, e.g., 12 months]** for historical recovery
-- **Annual Archives:** Retained per data classification retention requirements
-- **Legal Hold Archives:** Retained until legal matter resolution and hold release
-- **Disaster Recovery Archives:** Maintained at geographically separate locations
+**System Data (Logs, Monitoring, Backups):**
+- **Retention Period**: **[Duration, e.g., 1-2 years]** for operational needs
+- **Implementation**: Cloud service automatic retention and deletion
+- **Monitoring**: Service-level monitoring and alerting
 
-**3.2 Legal Hold and Litigation Support**
+**3.1.3 Legal Hold Automation**
 
-Special procedures shall govern information retention when legal proceedings are anticipated or active.
+- **Technical Implementation**: Application flags or database fields to prevent automated deletion
+- **Integration**: Legal hold status integrated with automated retention systems
+- **Notification**: Automated alerts when legal hold affects normal retention processes
+- **Release**: Automated restoration of normal retention policies upon legal hold release
 
-**3.2.1 Legal Hold Procedures**
+**3.2 Cloud-Native Data Disposal**
 
-- Legal hold notices shall be issued immediately upon notification of potential litigation
-- All relevant custodians shall be notified and acknowledge receipt of legal hold instructions
-- Automated deletion processes shall be suspended for information subject to legal hold
-- Legal hold inventory shall be maintained documenting preserved information
-- Regular legal hold reminders shall be sent to ensure ongoing compliance
+Data disposal shall leverage cloud provider certified deletion processes and automated technical controls rather than manual oversight.
 
-**3.2.2 eDiscovery Support**
+**3.2.1 Automated Disposal Triggers**
 
-- Information systems shall be capable of identifying, preserving, and producing relevant information
-- Search and collection capabilities shall be maintained for electronic information
-- Chain of custody procedures shall be followed for all collected information
-- Metadata preservation shall be maintained during collection and production processes
-- Privileged information shall be identified and protected during discovery processes
+- **Application Logic**: Built-in data lifecycle management within applications
+- **Cloud Storage Policies**: Automatic deletion through cloud provider lifecycle management
+- **Database Maintenance**: Automated database cleanup jobs and archival processes
+- **Backup Expiration**: Automatic backup deletion based on cloud service retention policies
 
-**3.3 Data Disposal Framework**
+**3.2.2 Cloud Provider Disposal Methods**
 
-Information shall be securely disposed of when retention periods expire or when no longer needed for business purposes.
+**Amazon Web Services (AWS):**
+- **S3 Object Deletion**: Leverages AWS's secure deletion processes with cryptographic erasure
+- **EBS Volume Deletion**: AWS handles secure wiping per NIST SP 800-88 guidelines
+- **RDS Deletion**: Automated secure deletion of database instances and snapshots
+- **Backup Deletion**: AWS Backup automatically handles secure disposal of expired backups
 
-**3.3.1 Disposal Triggers**
+**Microsoft Azure:**
+- **Blob Storage Deletion**: Azure's certified secure deletion processes
+- **Managed Disk Deletion**: Cryptographic erasure and physical overwriting
+- **SQL Database Deletion**: Automated secure deletion of database resources
+- **Azure Backup Deletion**: Automatic secure disposal through Azure Recovery Services
 
-Information disposal shall be triggered by:
-- Expiration of defined retention periods
-- Completion of business processes requiring the information
-- System decommissioning or migration activities
-- Employee termination (personal information only)
-- Contract termination with appropriate notice periods
-- Legal hold release after litigation conclusion
+**Google Cloud Platform (GCP):**
+- **Cloud Storage Deletion**: Google's certified data destruction processes
+- **Persistent Disk Deletion**: Cryptographic erasure and secure overwriting
+- **Cloud SQL Deletion**: Automated secure deletion of database instances
+- **Cloud Backup Deletion**: Automatic secure disposal through Google Cloud backup services
 
-**3.3.2 Disposal Classification Requirements**
+**3.2.3 Disposal Verification**
 
-Disposal methods shall correspond to information sensitivity levels:
+- **Cloud Provider Certifications**: Rely on SOC 2, ISO 27001, and other certifications for disposal assurance
+- **Automated Logging**: Cloud service logs provide audit trail for deletion activities
+- **Compliance Reporting**: Automated reports demonstrating disposal compliance
+- **Exception Monitoring**: Automated alerts for disposal failures or anomalies
 
-**Public Information:**
-- Standard deletion or disposal methods acceptable
-- No special security requirements
-- Standard recycling procedures for physical media
+**3.3 Application-Level Data Lifecycle Management**
 
-**Internal Information:**
-- Secure deletion using approved software tools
-- Physical media shredding or incineration
-- Verification of deletion completion
+Applications shall implement built-in data lifecycle management to automate retention and disposal without manual intervention.
 
-**Confidential Information:**
-- Cryptographic erasure or secure overwriting (minimum 3 passes)
-- Cross-cut shredding for physical documents
-- Degaussing for magnetic media
-- Certificate of destruction required for third-party disposal
+**3.3.1 Database Lifecycle Management**
 
-**Restricted Information (including ePHI):**
-- Cryptographic erasure using approved methods
-- Physical destruction for all storage media
-- Witnessed destruction with certificates of completion
-- Chain of custody documentation throughout disposal process
-- Hardware Security Module (HSM) secure deletion for cryptographic keys
+- **Automated Archival**: Database jobs to move aging data to archive tables or storage tiers
+- **Partition Management**: Date-based table partitioning for efficient lifecycle management
+- **Trigger-Based Deletion**: Database triggers to enforce retention policies during normal operations
+- **Soft Deletion**: Application-level logical deletion with automated physical cleanup
 
-**3.4 Secure Disposal Methods**
+**3.3.2 File and Document Management**
 
-Specific disposal methods shall be employed based on media type and information sensitivity.
+- **Metadata-Based Lifecycle**: File metadata drives automated retention and disposal decisions
+- **Version Control**: Automated cleanup of old file versions based on retention requirements
+- **Integration with Cloud Storage**: Applications leverage cloud storage lifecycle policies
+- **Automated Classification**: Applications automatically classify data for appropriate retention treatment
 
-**3.4.1 Electronic Media Disposal**
+**3.3.3 Development and Testing Data**
 
-**Hard Disk Drives:**
-- Software-based secure deletion using NIST SP 800-88 approved methods
-- Cryptographic erasure where full disk encryption is implemented
-- Physical destruction for Restricted information or failed drives
-- Degaussing using approved degaussing equipment
+- **Environment Refresh**: Automated refresh of development/staging environments with production data subset
+- **Test Data Lifecycle**: Automated cleanup of synthetic and anonymized test data
+- **Development Artifact Cleanup**: Automated deletion of old build artifacts and temporary files
+- **Database Anonymization**: Automated anonymization processes for development data retention
 
-**Solid State Drives (SSDs):**
-- Cryptographic erasure preferred method
-- Manufacturer secure erase commands
-- Physical destruction for high-sensitivity information
-- Verification of successful deletion
+**3.4 Monitoring and Compliance Automation**
 
-**Removable Media:**
-- Physical destruction for all Confidential and Restricted information
-- Secure overwriting for reusable media containing less sensitive information
-- Degaussing for magnetic media (tapes, floppy disks)
+Compliance monitoring shall be automated through technical controls and service-level monitoring rather than manual audits.
 
-**Mobile Devices:**
-- Factory reset combined with encryption
-- Physical destruction of storage components for Restricted information
-- Remote wipe verification for lost or stolen devices
-- Removal of SIM cards and memory cards
+**3.4.1 Automated Compliance Monitoring**
 
-**3.4.2 Physical Document Disposal**
+- **Retention Policy Enforcement**: Automated monitoring of retention policy implementation and compliance
+- **Disposal Verification**: Automated verification that data is being disposed according to policy requirements
+- **Exception Detection**: Automated detection and alerting for retention policy violations
+- **Regulatory Reporting**: Automated generation of compliance reports for HIPAA and other requirements
 
-- Cross-cut shredding with particle size **[Size, e.g., 4mm x 32mm]** or smaller
-- Incineration for highly sensitive documents
-- Pulping for large volumes of confidential documents
-- Witnessed destruction for Restricted information
+**3.4.2 Performance and Cost Optimization**
 
-**3.4.3 Cloud Data Disposal**
+- **Storage Cost Monitoring**: Automated monitoring of storage costs related to retention policies
+- **Performance Impact Assessment**: Monitoring of retention policy impact on application performance
+- **Optimization Recommendations**: Automated recommendations for retention policy optimization
+- **Resource Utilization**: Monitoring of compute and storage resources used for retention processing
 
-- Cryptographic erasure using customer-managed encryption keys
-- Verification of data deletion from all storage tiers and backups
-- Certificate of deletion from cloud service providers
-- Contractual guarantees for secure disposal processes
+**3.5 Emergency and Legal Hold Procedures**
 
-**3.5 Disposal Documentation and Verification**
+Streamlined procedures for emergency data preservation and legal hold requirements without complex governance overhead.
 
-All disposal activities shall be documented and verified to ensure completeness and compliance.
+**3.5.1 Emergency Data Preservation**
 
-**3.5.1 Documentation Requirements**
+- **Technical Implementation**: Database flags or API calls to suspend automated deletion
+- **Rapid Response**: Ability to preserve data within **[Timeframe, e.g., 2 hours]** of notification
+- **Documentation**: Automated logging of preservation actions and affected data
+- **Coordination**: Clear escalation to Security Officer for emergency preservation requests
 
-**Disposal records shall include:**
-- Description of information or systems disposed
-- Disposal method used and justification
-- Date and time of disposal activities
-- Personnel involved in disposal process
-- Verification of successful disposal
-- Certificates of destruction from third-party vendors
-- Chain of custody documentation
+**3.5.2 Simplified Legal Hold**
 
-**3.5.2 Verification Procedures**
+- **Technical Hold**: Application-level flags to prevent automated deletion of specific data sets
+- **Automated Notification**: System notifications when legal hold affects normal data lifecycle
+- **Impact Assessment**: Automated reporting on storage and cost impact of legal holds
+- **Release Process**: Streamlined process for releasing legal holds and resuming normal lifecycle
 
-- Independent verification of disposal completion
-- Random sampling and testing of disposal processes
-- Third-party validation for high-sensitivity disposals
-- Photographic evidence for physical destruction
-- Digital signatures for electronic disposal certificates
+**3.6 Vendor and Service Provider Management**
 
-**3.6 Third-Party Disposal Services**
+Simplified approach to third-party data disposal leveraging cloud provider certifications and automated processes.
 
-External disposal services shall meet **[Company Name]** security requirements and provide appropriate assurances.
+**3.6.1 Cloud Provider Reliance**
 
-**3.6.1 Vendor Requirements**
+- **Certification Acceptance**: Accept major cloud provider (AWS, Azure, GCP) disposal certifications as sufficient assurance
+- **Contract Terms**: Standard cloud provider terms for data disposal and destruction
+- **Audit Reports**: Annual review of cloud provider SOC 2 and security certification reports
+- **Service Level Agreements**: Rely on cloud provider SLAs for disposal timelines and assurance
 
-- Security assessment and approval before engagement
-- Appropriate certifications (e.g., NAID AAA, R2, e-Stewards)
-- Comprehensive insurance coverage for data breaches
-- Signed confidentiality and security agreements
-- On-site destruction capabilities or secure chain of custody
+**3.6.2 Specialized Disposal Services**
 
-**3.6.2 Vendor Oversight**
+For rare cases requiring specialized disposal:
+- **Pre-Approved Vendors**: Maintain short list of certified disposal vendors for edge cases
+- **Simplified Assessment**: Basic vendor qualification process focused on certifications
+- **Automated Documentation**: Electronic certificates of destruction and audit trails
+- **Cost Management**: Focus on cost-effective disposal for limited specialized requirements
 
-- Regular audits of disposal vendor processes
-- Witness disposal activities for high-sensitivity information
-- Validation of certificates of destruction
-- Incident reporting requirements for disposal failures
-- Performance monitoring and contract compliance reviews
+### 4. Responsibilities
 
-**3.7 Data Retention Governance**
+**4.1 Security Officer**
 
-Formal governance processes shall ensure consistent application of retention and disposal policies.
+- **Policy Oversight**: Review and approve automated data retention configurations and procedures
+- **Compliance Monitoring**: Ensure automated systems maintain regulatory compliance (HIPAA, HITRUST, SOC 2)
+- **Legal Hold Coordination**: Serve as primary contact for legal hold requests and coordinate technical implementation
+- **Exception Management**: Review and approve exceptions to automated retention policies
+- **Vendor Management**: Oversee cloud provider disposal certifications and specialized disposal vendor relationships
 
-**3.7.1 Retention Committee**
+**4.2 Platform Engineering Team**
 
-- A cross-functional committee including Legal, Compliance, IT, and Records Management shall be maintained.
-- The committee shall meet at least quarterly to review retention and disposal activities.
-- The committee is responsible for the annual review and formal approval of the Data Retention Schedule and this policy.
-- Resolution of retention conflicts and exceptions
-- Approval of retention schedule modifications
+- **Technical Implementation**: Configure and maintain cloud-native retention and disposal systems
+- **Automation Development**: Develop and maintain automated data lifecycle management within applications
+- **Cloud Service Configuration**: Set up and maintain cloud storage lifecycle policies and retention rules
+- **Monitoring Implementation**: Implement automated monitoring and alerting for retention policy compliance
+- **Integration Management**: Ensure retention systems integrate properly with applications and cloud services
 
-**3.7.2 Records Management Program**
+**4.3 Development Team**
 
-- A designated Records Manager shall be responsible for program oversight.
-- The Records Manager is responsible for the maintenance, accuracy, and communication of the official Data Retention Schedule.
-- Training programs for workforce members
-- Compliance monitoring and reporting
-- Technology solutions for automated retention management
+- **Application Lifecycle**: Build data retention and disposal logic into application design and development
+- **Database Management**: Implement automated database cleanup, archival, and retention procedures
+- **Testing and Validation**: Test data lifecycle functionality during application development and deployment
+- **Documentation**: Document application-level retention and disposal implementations
+- **Performance Optimization**: Ensure retention processes don't negatively impact application performance
 
-**3.8 Monitoring and Compliance**
+**4.4 DevOps Team**
 
-Regular monitoring shall ensure adherence to retention and disposal requirements.
+- **Infrastructure Automation**: Automate infrastructure-level retention and disposal processes
+- **Backup Management**: Configure automated backup retention and disposal through cloud services
+- **Environment Management**: Implement automated cleanup of development and staging environments
+- **Cost Optimization**: Monitor and optimize storage costs related to data retention policies
+- **Deployment Integration**: Ensure retention configurations are part of automated deployment processes
 
-**3.8.1 Compliance Monitoring**
+**4.5 Legal Team**
 
-- Automated monitoring of retention periods and disposal triggers
-- Regular audits of disposal activities and documentation
-- Compliance reporting to management and regulators
-- Exception reporting and corrective action procedures
-- Key performance indicators (KPIs) for retention and disposal programs
+- **Retention Requirements**: Define minimum retention periods based on regulatory and business requirements
+- **Legal Hold Requests**: Initiate legal hold procedures and coordinate with Security Officer for technical implementation
+- **Regulatory Compliance**: Ensure retention practices meet evolving legal and regulatory requirements
+- **Disposal Authorization**: Approve disposal of data when legal hold requirements are lifted
+- **Contract Terms**: Review cloud provider and vendor disposal terms in service agreements
 
-**3.8.2 Training and Awareness**
+**4.6 Compliance Team**
 
-- Annual training on retention and disposal requirements
-- Role-specific training for records custodians
-- New employee orientation including retention policies
-- Regular communications on policy updates
-- Testing and validation of training effectiveness
+- **Regulatory Mapping**: Map retention requirements to specific regulatory frameworks (HIPAA, HITRUST, SOC 2)
+- **Audit Support**: Provide automated retention reports and evidence for internal and external audits
+- **Policy Updates**: Recommend policy updates based on regulatory changes or compliance findings
+- **Risk Assessment**: Assess risks related to automated retention and disposal processes
+- **Training Coordination**: Coordinate training on retention requirements for relevant team members
 
-### 4. Standards Compliance
+### 5. Implementation Guidelines
+
+**5.1 Phased Implementation Approach**
+
+**Phase 1: Cloud Service Configuration (Months 1-2)**
+- Configure cloud storage lifecycle policies for automatic data tiering and deletion
+- Set up automated backup retention policies through cloud provider services
+- Implement basic retention rules for system logs and monitoring data
+- Establish automated monitoring and alerting for retention policy violations
+
+**Phase 2: Application Integration (Months 2-4)**
+- Develop and deploy application-level data lifecycle management
+- Implement database-level retention and archival automation
+- Create automated cleanup processes for development and staging environments
+- Integrate legal hold capabilities into application systems
+
+**Phase 3: Monitoring and Optimization (Months 4-6)**
+- Deploy comprehensive automated compliance monitoring and reporting
+- Optimize retention policies for cost and performance
+- Establish automated exception detection and alerting
+- Implement automated regulatory reporting capabilities
+
+**5.2 Technical Architecture**
+
+**Cloud-Native Foundation**
+- Use cloud provider managed services as primary retention and disposal mechanism
+- Implement Infrastructure as Code (IaC) for retention policy configuration
+- Leverage cloud provider APIs for automated lifecycle management
+- Use cloud logging and monitoring services for retention compliance tracking
+
+**Application Integration**
+- Build retention logic into application data models and business logic
+- Use database triggers and scheduled jobs for automated cleanup
+- Implement API endpoints for legal hold management and data preservation
+- Create automated reporting dashboards for retention status and compliance
+
+**Automation and Monitoring**
+- Deploy automated retention policy enforcement across all data systems
+- Implement real-time monitoring and alerting for retention violations
+- Create automated compliance reports for HIPAA and other regulatory requirements
+- Use cost monitoring to optimize retention policies and storage efficiency
+
+**5.3 Compliance Validation**
+
+**HIPAA/HITECH Compliance**
+- Automated monitoring ensures ePHI retention meets 6-year minimum requirement
+- Cloud provider disposal processes certified to meet HIPAA disposal requirements
+- Business Associate Agreements (BAAs) cover automated disposal processes
+- Automated audit trails provide evidence of compliant retention and disposal
+
+**HITRUST CSF v11.2.0 Compliance**
+- Technical controls address HITRUST media security and data retention requirements
+- Automated implementation reduces human error and improves control effectiveness
+- Cloud provider certifications support HITRUST assessment requirements
+- Continuous monitoring provides ongoing evidence of control effectiveness
+
+**SOC 2 Compliance**
+- Trust services criteria addressed through automated retention and disposal controls
+- System monitoring and security controls implemented through technical automation
+- Cloud provider SOC 2 reports support organizational SOC 2 compliance
+- Automated documentation and reporting support audit requirements
+
+### 6. Standards Compliance
 
 This policy is designed to comply with and support the following industry standards and regulations.
 
-|**Policy Section**|**Standard/Framework**|**Control Reference**|
-|---|---|---|
-|**All**|HITRUST CSF v11.2.0|03.a - Portable Media Security Policy|
-|**3.2, 3.3**|HITRUST CSF v11.2.0|03.b - Media Handling|
-|**3.4**|HITRUST CSF v11.2.0|03.c - Secure Media Disposal|
-|**3.1**|HITRUST CSF v11.2.0|19.e - Data Retention Requirements|
-|**3.5**|HITRUST CSF v11.2.0|03.d - Media Transportation|
-|**3.6**|HITRUST CSF v11.2.0|03.e - Media Access Controls|
-|**3.1.2**|HIPAA Security Rule|45 CFR § 164.308(a)(4)(ii)(A) - Information Access Management|
-|**3.3, 3.4**|HIPAA Security Rule|45 CFR § 164.310(d)(2)(i) - Media Disposal|
-|**3.1.2**|HIPAA Privacy Rule|45 CFR § 164.530(j)(2) - Record Retention|
-|**3.4**|NIST SP 800-88|Guidelines for Media Sanitization|
-|**All**|SOC 2 Trust Services Criteria|CC6.5 - Data Disposal|
-|**3.7**|SOC 2 Trust Services Criteria|CC2.1 - Communication and Information|
-|**3.8**|SOC 2 Trust Services Criteria|CC4.1 - Monitoring Activities|
+| **Policy Section** | **Standard/Framework** | **Control Reference** |
+| ------------------ | ---------------------- | --------------------- |
+| **3.1, 3.2** | HITRUST CSF v11.2.0 | 19.e - Data Retention Requirements |
+| **3.2** | HITRUST CSF v11.2.0 | 03.c - Secure Media Disposal |
+| **3.4** | HITRUST CSF v11.2.0 | 03.b - Media Handling |
+| **3.1.1** | HIPAA Security Rule | 45 CFR § 164.308(a)(4)(ii)(A) - Information Access Management |
+| **3.2** | HIPAA Security Rule | 45 CFR § 164.310(d)(2)(i) - Media Disposal |
+| **3.1.1** | HIPAA Privacy Rule | 45 CFR § 164.530(j)(2) - Record Retention |
+| **3.2** | NIST SP 800-88 | Guidelines for Media Sanitization |
+| **All** | SOC 2 Trust Services Criteria | CC6.5 - Data Disposal |
+| **4, 5** | SOC 2 Trust Services Criteria | CC2.1 - Communication and Information |
+| **3.4** | SOC 2 Trust Services Criteria | CC4.1 - Monitoring Activities |
 
-### 5. Definitions
+### 7. Definitions
 
-**Chain of Custody:** Documentation of the chronological transfer of evidence or information from collection to disposal.
+**Automated Lifecycle Management:** Technology-driven processes that manage data retention and disposal without manual intervention.
 
-**Cryptographic Erasure:** Data destruction method that renders data unrecoverable by destroying encryption keys.
+**Cloud Storage Lifecycle:** Cloud provider services that automatically move or delete data based on predefined rules and timelines.
 
-**Degaussing:** Process of reducing or eliminating magnetic fields from magnetic storage media.
+**Cryptographic Erasure:** Data destruction method that renders data unrecoverable by destroying encryption keys rather than overwriting data.
 
-**eDiscovery:** Process of identifying, preserving, and producing electronically stored information for legal proceedings.
+**Legal Hold:** Technical flag or process that prevents automated deletion of specific data sets during legal proceedings.
 
-**Legal Hold:** Suspension of normal records disposal to preserve information that may be relevant to litigation.
+**Retention Policy:** Automated rules that determine how long data is kept before deletion or archival.
 
-**Media Sanitization:** Process of removing information from storage media such that recovery is not feasible.
+**Soft Deletion:** Application-level logical deletion that marks data as deleted while preserving it temporarily before physical removal.
 
-**Retention Schedule:** Documented plan specifying how long different types of records should be kept.
+### 8. Related Policies and Procedures
 
-**Secure Deletion:** Method of data destruction that makes recovery of deleted data infeasible.
+This policy shall be implemented in conjunction with the following organizational policies:
 
-### 6. Responsibilities
+- **Data Classification and Handling Policy (SEC-POL-001)**: Defines data sensitivity levels for retention classification
+- **Encryption and Key Management Policy (OP-POL-001)**: Addresses cryptographic erasure and key lifecycle for disposal
+- **Infrastructure Security Policy (ENG-POL-003)**: Covers cloud infrastructure retention and disposal capabilities
+- **Incident Response Policy (SEC-POL-006)**: Addresses data preservation during security incidents
+- **Business Continuity and Disaster Recovery Policy (RES-POL-001)**: Covers backup retention and recovery requirements
 
-|**Role**|**Responsibility**|
-|---|---|
-|**Records Manager**|Develop and maintain retention schedules, oversee disposal activities, coordinate legal holds, and ensure compliance with retention policies.|
-|**Legal Team**|Establish legal retention requirements, issue legal hold notices, support eDiscovery activities, and ensure compliance with legal obligations.|
-|**Privacy Officer**|Ensure ePHI retention complies with HIPAA requirements, oversee privacy-related disposals, and coordinate with legal team on privacy matters.|
-|**IT Security Team**|Implement secure disposal technologies, verify disposal completion, manage disposal vendors, and ensure security of disposal processes.|
-|**System Administrators**|Execute disposal procedures, maintain disposal documentation, implement automated retention controls, and support legal hold activities.|
-|**Information Owners**|Determine business retention requirements, approve disposal activities, participate in retention reviews, and ensure appropriate information handling.|
-|**Compliance Team**|Monitor retention compliance, conduct disposal audits, report compliance status, and coordinate regulatory requirements.|
-|**All Workforce Members**|Comply with retention requirements, participate in legal holds, properly dispose of information, and report retention violations.|
-|**Audit Team**|Conduct retention and disposal audits, validate compliance with policies, review disposal documentation, and report audit findings.|
-**Legal Hold:** Suspension of normal records disposal to preserve information that may be relevant to litigation.
-
-**Media Sanitization:** Process of removing information from storage media such that recovery is not feasible.
-
-**Retention Schedule:** Documented plan specifying how long different types of records should be kept.
-
-**Secure Deletion:** Method of data destruction that makes recovery of deleted data infeasible.
-
-### 6. Responsibilities
-
-|**Role**|**Responsibility**|
-|---|---|
-|**Records Manager**|Develop and maintain retention schedules, oversee disposal activities, coordinate legal holds, and ensure compliance with retention policies.|
-|**Legal Team**|Establish legal retention requirements, issue legal hold notices, support eDiscovery activities, and ensure compliance with legal obligations.|
-|**Privacy Officer**|Ensure ePHI retention complies with HIPAA requirements, oversee privacy-related disposals, and coordinate with legal team on privacy matters.|
-|**IT Security Team**|Implement secure disposal technologies, verify disposal completion, manage disposal vendors, and ensure security of disposal processes.|
-|**System Administrators**|Execute disposal procedures, maintain disposal documentation, implement automated retention controls, and support legal hold activities.|
-|**Information Owners**|Determine business retention requirements, approve disposal activities, participate in retention reviews, and ensure appropriate information handling.|
-|**Compliance Team**|Monitor retention compliance, conduct disposal audits, report compliance status, and coordinate regulatory requirements.|
-|**All Workforce Members**|Comply with retention requirements, participate in legal holds, properly dispose of information, and report retention violations.|
-|**Audit Team**|Conduct retention and disposal audits, validate compliance with policies, review disposal documentation, and report audit findings.|
+**Supporting Procedures:**
+- **Automated Data Lifecycle Implementation Procedure (OP-PROC-004)**: Technical implementation of automated retention and disposal
+- **Legal Hold Management Procedure (OP-PROC-005)**: Streamlined legal hold procedures for technical teams
+- **Cloud Data Lifecycle Configuration Procedure**: Configuration of cloud provider retention services

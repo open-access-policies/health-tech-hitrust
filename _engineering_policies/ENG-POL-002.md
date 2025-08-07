@@ -3,6 +3,7 @@ title: Change Control Policy (ENG-POL-002)
 parent: Engineering Policies
 nav_order: 2
 ---
+
 ### 1. Objective
 
 The objective of this policy is to establish a formal process for managing all changes to **[Company Name]**'s production systems, applications, and infrastructure. This policy ensures that all modifications are properly authorized, tested, documented, and reviewed to maintain system stability, security, and integrity, thereby protecting sensitive data, including electronic Protected Health Information (ePHI).
@@ -25,35 +26,35 @@ All non-emergency changes shall follow this standard process:
     
 - **Peer Code Review:** Before a change can be promoted for testing, it shall be submitted as a pull request in GitHub and receive a formal, documented approval from at least one other qualified engineer who was not an author of the change. A qualified reviewer is defined as an engineer with equivalent or greater seniority or subject-matter expertise. The review shall assess code quality, functionality, and adherence to secure coding standards.
     
-- **Security Review:** All pull request templates shall include a mandatory security checklist. If the developer indicates the change touches sensitive data, authentication, authorization, encryption, or ePHI, a security review is automatically required and shall be completed by the Security Team before merging.
+- **Security Review:** All pull request templates shall include a mandatory security checklist. If the developer indicates the change touches sensitive data, authentication, authorization, encryption, ePHI, or external integrations, a security review is required and shall be completed by the Security Officer or designated security team member before merging. For low-risk changes (documentation, minor UI updates, configuration updates with no security implications), the security checklist can be completed by the developer without additional review.
     
-- **Testing:** All changes shall pass a full suite of automated tests. Evidence of successful test runs (e.g., a link to the CI/CD build results) shall be included in the pull request. Additionally, the Quality Assurance (QA) team shall conduct manual testing where applicable and provide formal sign-off within the pull request, confirming the change meets requirements and does not introduce regressions.
+- **Testing:** All changes shall pass a full suite of automated tests. Evidence of successful test runs (e.g., a link to the CI/CD build results) shall be included in the pull request. Quality Assurance (QA) involvement is risk-based: **High-risk changes** (new features, database schema changes, authentication/authorization modifications, ePHI handling) require formal QA sign-off. **Medium-risk changes** (bug fixes, configuration updates, UI improvements) require QA review only if the change affects user-facing functionality. **Low-risk changes** (documentation, internal tooling, minor refactoring) do not require QA sign-off but must pass automated testing.
     
 - **Deployment Approval:** Final approval to merge the change into the production release branch shall be granted by authorized personnel (e.g., Engineering Lead or Manager) within the GitHub pull request. This approval signifies that the approver has verified that all required steps, including peer review, security review, and QA sign-off, have been successfully completed and documented. All approved production release branches shall be tagged to ensure traceability and that the exact code deployed to production can be identified.
     
 
 **3.2 Emergency Changes**
 
-An emergency change is defined as a modification required to resolve a critical production outage, a severe service degradation, or to patch a critical security vulnerability.
+An emergency change is defined as a modification required to resolve a critical production outage, a severe service degradation, or to patch a critical security vulnerability that requires immediate remediation.
 
-- **Authorization:** An emergency change shall require documented approval from at least one authorized Engineering Lead and one member of the Security Team.
+- **Authorization:** An emergency change shall require documented approval from at least one Engineering Lead or the CTO. For security-related emergency changes, the Security Officer must also be notified immediately, but approval may proceed without waiting for Security Officer availability to prevent business disruption.
     
-- **Expedited Review:** Peer code review and security review are still mandatory but may be expedited. The focus is on validating the fix and assessing any immediate risks.
+- **Expedited Review:** Peer code review is still mandatory but may be expedited. For critical outages, the review can be performed during or immediately after deployment to restore service quickly. Security review requirements follow the same risk-based approach as standard changes but with expedited timelines.
     
-- **Post-Mortem:** All emergency changes shall be followed by a formal post-mortem review within **[Number, e.g., 3]** business days to analyze the root cause and identify opportunities for process improvement. The standard change documentation, including linking the pull request to a ticket, shall be completed retroactively.
+- **Post-Implementation Review:** All emergency changes shall be followed by a formal post-implementation review within **[Number, e.g., 5]** business days (extended from 3 days to allow for proper analysis). This review analyzes the root cause, validates the emergency response, and identifies opportunities for process improvement. The standard change documentation shall be completed retroactively within **[Number, e.g., 2]** business days.
     
-- **Oversight:** A log of all emergency changes shall be maintained and reviewed on a quarterly basis by Engineering Management to identify trends and ensure the emergency process is not being used to bypass standard change controls.
+- **Oversight:** A log of all emergency changes shall be maintained and reviewed on a quarterly basis by Engineering Management to identify trends and ensure the emergency process is not being misused to bypass standard change controls.
     
 
 **3.3 Data-Only Changes**
 
-Data-only changes, such as manual database updates that are not part of a standard code release, shall be treated with extreme caution.
+Data-only changes, such as manual database updates that are not part of a standard code release, shall follow a streamlined but secure process appropriate for a growing organization.
 
-- **Formal Request:** All data-only changes require a formal request ticket that includes the script to be run, the business justification, the expected impact, and a detailed rollback plan.
+- **Formal Request:** All data-only changes require a formal request ticket that includes the script to be run, the business justification, the expected impact, and a rollback plan. For routine operational changes (e.g., updating configuration values, correcting data entry errors), a simplified approval process may be used.
     
-- **Approval:** The request must be approved by the data or system owner. If the change affects ePHI or other Confidential data, approval from the Security Officer is also required.
+- **Risk-Based Approval:** **High-risk changes** affecting ePHI, financial data, or critical business operations require approval from both the data/system owner and the Security Officer. **Medium-risk changes** affecting operational data require approval from the data/system owner only. **Low-risk changes** (configuration updates, non-sensitive data corrections) require approval from the requesting team lead.
     
-- **Execution:** Changes must be executed as peer-reviewed scripts by authorized personnel with privileged database access (e.g., a Database Administrator). The execution of the approved script, including the system-generated output (e.g., number of rows affected), must be captured and appended to the original request ticket upon completion. Direct production database access for developers is prohibited.
+- **Execution:** Changes must be executed using approved, peer-reviewed scripts by authorized personnel with privileged database access. For routine changes, a qualified Database Administrator or DevOps Engineer may execute the change. The execution output must be captured and appended to the original request ticket. Direct production database access for developers is prohibited except for emergency troubleshooting under supervision.
     
 
 **3.4 Change Documentation and Tracking**
