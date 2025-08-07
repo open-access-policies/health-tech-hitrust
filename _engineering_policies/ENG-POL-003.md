@@ -100,6 +100,36 @@ Network security controls shall provide comprehensive protection against unautho
 - DMZ (demilitarized zone) for external-facing services and applications
 - Management network isolation for administrative access and monitoring
 
+**3.3.2 Network Segregation Implementation**
+
+**Production Network Isolation:**
+- Dedicated VLANs or VPCs for production, staging, development, and management networks
+- Inter-VLAN routing restrictions with explicit allow rules only
+- Production database isolation with application-layer access controls
+- DMZ implementation for external-facing services with restricted internal access
+- Network address translation (NAT) and firewall controls for internet access
+
+**Micro-Segmentation Strategy:**
+- Application-tier segmentation isolating web, application, and database layers
+- East-west traffic inspection and filtering between network segments
+- Zero-trust network access implementation for privileged users
+- Software-defined perimeter (SDP) implementation where technically feasible
+- Container network policies for microservices isolation
+
+**Segregation Monitoring and Enforcement:**
+- Continuous monitoring of network traffic between segments
+- Automated violation detection and remediation for unauthorized cross-segment communication
+- Regular testing of segregation effectiveness through penetration testing
+- Documentation and approval required for all cross-segment communication
+- Quarterly review of network segregation policies and implementation
+
+**Security Zone Access Controls:**
+- **Internet Zone**: External internet access with full inspection and filtering
+- **DMZ Zone**: External-facing services with restricted internal network access
+- **Internal Zone**: Corporate network with standard access controls and monitoring
+- **Restricted Zone**: High-security network segments with enhanced access controls
+- **Management Zone**: Administrative network with privileged access and monitoring
+
 **Traffic Control and Filtering:**
 - Default-deny network access policies with explicit allow rules
 - Application-layer firewalls and web application firewalls (WAF) deployment
