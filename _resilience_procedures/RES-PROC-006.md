@@ -43,9 +43,9 @@ This plan provides a framework for responding to a business disruption. It detai
 
 ### 7. Definitions
 
-**Emergency Operations Center (EOC):** A central command and control facility responsible for carrying out the principles of emergency preparedness and emergency management, or disaster management functions at a strategic level during an emergency.
+- **Emergency Operations Center (EOC):** A central command and control facility responsible for carrying out the principles of emergency preparedness and emergency management, or disaster management functions at a strategic level during an emergency.
 
-**Emergency Notification System:** A platform used to rapidly communicate with employees, stakeholders, and other contacts in the event of an emergency.
+- **Emergency Notification System:** A platform used to rapidly communicate with employees, stakeholders, and other contacts in the event of an emergency.
 
 ### 8. Responsibilities
 

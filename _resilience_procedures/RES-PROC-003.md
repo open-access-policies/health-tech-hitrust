@@ -40,7 +40,7 @@ A Post-Incident Report including a "lessons learned" section and an action item 
 
 ### 7. Definitions
 
-**Action Item Tracking Log:** A formal record used to document, assign, and monitor the status of corrective actions identified during a post-incident review.
+- **Action Item Tracking Log:** A formal record used to document, assign, and monitor the status of corrective actions identified during a post-incident review.
 
 ### 8. Responsibilities
 

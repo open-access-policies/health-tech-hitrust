@@ -59,15 +59,15 @@ This procedure is designed to comply with and support the following industry sta
 
 ### 7. Definitions
 
-**Role-Based Access Control (RBAC):** Access control method that assigns permissions to users based on their organizational roles rather than individual identity.
+- **Role-Based Access Control (RBAC):** Access control method that assigns permissions to users based on their organizational roles rather than individual identity.
 
-**Just-In-Time (JIT) Access:** Security approach that provides temporary elevated access for specific tasks with automatic expiration.
+- **Just-In-Time (JIT) Access:** Security approach that provides temporary elevated access for specific tasks with automatic expiration.
 
-**Exception-Based Monitoring:** Monitoring approach that focuses on identifying and alerting on deviations from normal patterns rather than comprehensive periodic reviews.
+- **Exception-Based Monitoring:** Monitoring approach that focuses on identifying and alerting on deviations from normal patterns rather than comprehensive periodic reviews.
 
-**Break-Glass Access:** Emergency access procedure that allows bypassing normal access controls during critical incidents with comprehensive logging and review.
+- **Break-Glass Access:** Emergency access procedure that allows bypassing normal access controls during critical incidents with comprehensive logging and review.
 
-**Workload Identity:** Cloud-native identity management for applications and services that eliminates the need for static credentials.
+- **Workload Identity:** Cloud-native identity management for applications and services that eliminates the need for static credentials.
 
 ### 8. Responsibilities
 

@@ -13,11 +13,11 @@ This policy applies to all **[Company Name]** workforce members, including emplo
 
 ### 3. Policy
 
-**[Company Name]** is committed to implementing and maintaining a comprehensive information security program that protects information assets and ensures regulatory compliance.
+- **[Company Name]** is committed to implementing and maintaining a comprehensive information security program that protects information assets and ensures regulatory compliance.
 
-**3.1 Information Security Governance**
+#### 3.1 Information Security Governance
 
-**[Company Name]** shall establish and maintain a formal information security governance structure to oversee the implementation and effectiveness of the ISMS.
+- **[Company Name]** shall establish and maintain a formal information security governance structure to oversee the implementation and effectiveness of the ISMS.
 
 - A designated Security Officer shall be appointed with ultimate responsibility for the information security program. The Security Officer shall report directly to executive leadership and have the authority to implement security controls across the organization.
 
@@ -27,9 +27,9 @@ This policy applies to all **[Company Name]** workforce members, including emplo
 
 - Security roles and responsibilities shall be clearly defined, documented, and communicated to all workforce members through formal job descriptions and training programs.
 
-**3.2 Risk Management Framework**
+#### 3.2 Risk Management Framework
 
-**[Company Name]** shall implement a systematic approach to identifying, assessing, and managing information security risks.
+- **[Company Name]** shall implement a systematic approach to identifying, assessing, and managing information security risks.
 
 - A formal risk assessment shall be conducted annually and whenever significant changes occur to the business environment, technology infrastructure, or regulatory landscape.
 
@@ -39,7 +39,7 @@ This policy applies to all **[Company Name]** workforce members, including emplo
 
 - A risk register shall be maintained to track all identified risks, treatment actions, and ownership assignments.
 
-**3.3 Information Classification and Handling**
+#### 3.3 Information Classification and Handling
 
 All information assets shall be classified according to their sensitivity level and handled in accordance with established security controls.
 
@@ -51,7 +51,7 @@ All information assets shall be classified according to their sensitivity level 
 
 - Information owners shall be designated for all critical information assets and shall be responsible for classification decisions and access approvals.
 
-**3.4 Access Control and Authentication**
+#### 3.4 Access Control and Authentication
 
 Access to information systems and data shall be controlled through formal processes that implement the principles of least privilege and separation of duties.
 
@@ -63,7 +63,7 @@ Access to information systems and data shall be controlled through formal proces
 
 - Privileged access shall be subject to additional controls, including time-limited sessions, enhanced monitoring, and separate administrative accounts.
 
-**3.5 Security Awareness and Training**
+#### 3.5 Security Awareness and Training
 
 All workforce members shall receive comprehensive security awareness training to understand their security responsibilities and recognize potential threats.
 
@@ -75,9 +75,9 @@ All workforce members shall receive comprehensive security awareness training to
 
 - Targeted awareness campaigns shall be conducted to address emerging threats and security trends.
 
-**3.6 Incident Management**
+#### 3.6 Incident Management
 
-**[Company Name]** shall maintain the capability to detect, respond to, and recover from security incidents in a timely and effective manner.
+- **[Company Name]** shall maintain the capability to detect, respond to, and recover from security incidents in a timely and effective manner.
 
 - A formal incident response plan shall be maintained and tested regularly through tabletop exercises and simulations.
 
@@ -87,7 +87,7 @@ All workforce members shall receive comprehensive security awareness training to
 
 - Regulatory notification requirements shall be met for incidents involving ePHI or other regulated data.
 
-**3.7 Business Continuity and Resilience**
+#### 3.7 Business Continuity and Resilience
 
 Critical business functions and information systems shall be protected through comprehensive business continuity and disaster recovery planning.
 
@@ -99,7 +99,7 @@ Critical business functions and information systems shall be protected through c
 
 - Full recovery testing shall be performed annually and after significant infrastructure changes, with results documented and reviewed by the Information Security Committee.
 
-**3.8 Vendor and Third-Party Management**
+#### 3.8 Vendor and Third-Party Management
 
 Security requirements shall be established and enforced for all vendors and third parties with access to **[Company Name]** information or systems.
 
@@ -111,9 +111,9 @@ Security requirements shall be established and enforced for all vendors and thir
 
 - Vendor security performance shall be monitored through regular assessments and security questionnaires.
 
-**3.9 Compliance and Audit**
+#### 3.9 Compliance and Audit
 
-**[Company Name]** shall maintain compliance with all applicable laws, regulations, and contractual obligations related to information security.
+- **[Company Name]** shall maintain compliance with all applicable laws, regulations, and contractual obligations related to information security.
 
 - Regular compliance assessments shall be conducted to verify adherence to HIPAA, SOC 2, and other applicable requirements.
 
@@ -123,7 +123,7 @@ Security requirements shall be established and enforced for all vendors and thir
 
 - Audit findings and corrective actions shall be tracked to completion and reported to appropriate management levels.
 
-**3.10 Continuous Improvement**
+#### 3.10 Continuous Improvement
 
 The information security program shall be subject to continuous monitoring and improvement based on changing threats, business requirements, and industry best practices.
 
@@ -167,17 +167,17 @@ This policy is designed to comply with and support the following industry standa
 
 ### 5. Definitions
 
-**Business Associate Agreement (BAA):** A written contract between a covered entity and a business associate as required by HIPAA, establishing permitted uses and disclosures of ePHI.
+- **Business Associate Agreement (BAA):** A written contract between a covered entity and a business associate as required by HIPAA, establishing permitted uses and disclosures of ePHI.
 
-**Electronic Protected Health Information (ePHI):** Individually identifiable health information that is created, stored, transmitted, or maintained electronically.
+- **Electronic Protected Health Information (ePHI):** Individually identifiable health information that is created, stored, transmitted, or maintained electronically.
 
-**Information Security Management System (ISMS):** A systematic approach to managing sensitive company information to keep it secure, including policies, procedures, and controls.
+- **Information Security Management System (ISMS):** A systematic approach to managing sensitive company information to keep it secure, including policies, procedures, and controls.
 
-**Least Privilege:** The security principle of restricting access rights for users to the bare minimum permissions needed to perform their work.
+- **Least Privilege:** The security principle of restricting access rights for users to the bare minimum permissions needed to perform their work.
 
-**Risk Assessment:** The process of identifying vulnerabilities and threats to information assets and determining the risk posed by those threats.
+- **Risk Assessment:** The process of identifying vulnerabilities and threats to information assets and determining the risk posed by those threats.
 
-**Security Incident:** Any event that could result in unauthorized access to, or disclosure, modification, or destruction of information assets.
+- **Security Incident:** Any event that could result in unauthorized access to, or disclosure, modification, or destruction of information assets.
 
 ### 6. Responsibilities
 

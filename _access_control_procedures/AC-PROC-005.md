@@ -70,13 +70,13 @@ This procedure addresses the following regulatory and compliance requirements:
 
 ### 7. Definitions
 
-**Privileged Access Management (PAM):** Security solution that helps organizations restrict privileged access within an existing Active Directory environment and control, monitor, and audit privileged users.
+- **Privileged Access Management (PAM):** Security solution that helps organizations restrict privileged access within an existing Active Directory environment and control, monitor, and audit privileged users.
 
-**Break-Glass Access:** Emergency access procedure that allows authorized personnel to bypass normal access controls during critical situations.
+- **Break-Glass Access:** Emergency access procedure that allows authorized personnel to bypass normal access controls during critical situations.
 
-**Multi-Factor Authentication (MFA):** Security method that requires multiple forms of verification to authenticate user identity.
+- **Multi-Factor Authentication (MFA):** Security method that requires multiple forms of verification to authenticate user identity.
 
-**Session Recording:** Automated capture of all activities performed during a privileged user session for audit and investigation purposes.
+- **Session Recording:** Automated capture of all activities performed during a privileged user session for audit and investigation purposes.
 
 ### 8. Responsibilities
 

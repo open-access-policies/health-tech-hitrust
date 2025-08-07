@@ -43,7 +43,7 @@ An updated Risk Register and a formal Risk Assessment Report.
 
 ### 7. Definitions
 
-**Risk Register:** A log of identified risks, their characteristics, and their status.
+- **Risk Register:** A log of identified risks, their characteristics, and their status.
 
 ### 8. Responsibilities
 

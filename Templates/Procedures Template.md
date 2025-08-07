@@ -42,9 +42,9 @@ Describe the record or evidence that is created upon completion of the procedure
 
 Define any specialized terms, acronyms, or phrases used in the procedure. If none, state "N/A".
 
-**[Term 1]:** [Definition of the term.]
+- **[Term 1]:** [Definition of the term.]
 
-**[Term 2]:** [Definition of the term.]
+- **[Term 2]:** [Definition of the term.]
 
 ### 8. Responsibilities
 

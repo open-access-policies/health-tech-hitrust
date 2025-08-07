@@ -43,9 +43,9 @@ A formal disciplinary action form or memo detailing the policy violation, the fi
 
 ### 7. Definitions
 
-**Sanction:** A penalty or disciplinary action imposed for violating a policy or rule.
+- **Sanction:** A penalty or disciplinary action imposed for violating a policy or rule.
 
-**Commensurate:** Corresponding in size, extent, amount, or degree; proportionate.
+- **Commensurate:** Corresponding in size, extent, amount, or degree; proportionate.
 
 ### 8. Responsibilities
 

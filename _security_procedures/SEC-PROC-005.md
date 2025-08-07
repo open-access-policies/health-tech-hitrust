@@ -43,7 +43,7 @@ A completed Vendor Risk Assessment Report.
 
 ### 7. Definitions
 
-**SOC 2 Report:** A report on controls at a service organization relevant to security, availability, processing integrity, confidentiality, or privacy.
+- **SOC 2 Report:** A report on controls at a service organization relevant to security, availability, processing integrity, confidentiality, or privacy.
 
 ### 8. Responsibilities
 

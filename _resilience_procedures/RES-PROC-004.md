@@ -40,9 +40,9 @@ A formally approved Business Impact Analysis (BIA) Report.
 
 ### 7. Definitions
 
-**Recovery Time Objective (RTO):** The maximum tolerable length of time that a computer, system, network, or application can be down after a failure or disaster occurs.
+- **Recovery Time Objective (RTO):** The maximum tolerable length of time that a computer, system, network, or application can be down after a failure or disaster occurs.
 
-**Recovery Point Objective (RPO):** The maximum acceptable amount of data loss an organization can tolerate, measured in time.
+- **Recovery Point Objective (RPO):** The maximum acceptable amount of data loss an organization can tolerate, measured in time.
 
 ### 8. Responsibilities
 

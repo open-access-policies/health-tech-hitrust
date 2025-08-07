@@ -53,15 +53,15 @@ This procedure describes the automated approach to access monitoring and excepti
 
 ### 7. Definitions
 
-**Role-Based Access Control (RBAC):** Access control method that restricts system access based on pre-defined roles within an organization.
+- **Role-Based Access Control (RBAC):** Access control method that restricts system access based on pre-defined roles within an organization.
 
-**Access Anomaly:** Deviation from normal access patterns that may indicate security risks or policy violations.
+- **Access Anomaly:** Deviation from normal access patterns that may indicate security risks or policy violations.
 
-**Exception-Based Review:** Access review process triggered by specific events or risk indicators rather than fixed time schedules.
+- **Exception-Based Review:** Access review process triggered by specific events or risk indicators rather than fixed time schedules.
 
-**Just-In-Time (JIT) Access:** Security feature that provides temporary, time-limited access to resources when needed.
+- **Just-In-Time (JIT) Access:** Security feature that provides temporary, time-limited access to resources when needed.
 
-**Principle of Least Privilege:** Security concept that users should have the minimum levels of access necessary to complete their job functions.
+- **Principle of Least Privilege:** Security concept that users should have the minimum levels of access necessary to complete their job functions.
 
 ### 8. Responsibilities
 

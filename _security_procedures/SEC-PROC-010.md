@@ -37,13 +37,13 @@ Log monitoring and analysis leverages cloud-native security analytics, automated
 
 #### 5.1 MSSP Capabilities and Services
 
-**24/7 Security Operations Center:**
+- **24/7 Security Operations Center:**
 - Continuous monitoring of log sources and security events
 - Expert threat analysis and incident classification
 - Escalation procedures for confirmed security threats
 - Integration with cloud-native security services
 
-**Advanced Analytics and Correlation:**
+- **Advanced Analytics and Correlation:**
 - Machine learning-based anomaly detection
 - Cross-system event correlation and analysis
 - Threat intelligence integration and enrichment
@@ -51,13 +51,13 @@ Log monitoring and analysis leverages cloud-native security analytics, automated
 
 #### 5.2 Service Level Agreements
 
-**Response Time Requirements:**
+- **Response Time Requirements:**
 - Critical security events: **[Timeframe, e.g., 15 minutes]** acknowledgment, **[Timeframe, e.g., 1 hour]** analysis
 - High severity events: **[Timeframe, e.g., 1 hour]** acknowledgment, **[Timeframe, e.g., 4 hours]** analysis
 - Medium severity events: **[Timeframe, e.g., 4 hours]** acknowledgment, **[Timeframe, e.g., 24 hours]** analysis
 - Compliance events: **[Timeframe, e.g., 24 hours]** analysis and reporting
 
-**Availability and Performance:**
+- **Availability and Performance:**
 - SOC availability: 99.9% uptime
 - SIEM platform availability: 99.5% uptime
 - Log ingestion and processing: Real-time with <5 minute latency
@@ -67,19 +67,19 @@ Log monitoring and analysis leverages cloud-native security analytics, automated
 
 #### 6.1 AWS CloudWatch and Security Services
 
-**CloudWatch Logs and Insights:**
+- **CloudWatch Logs and Insights:**
 - Centralized log collection and real-time analysis
 - Custom metric creation and automated alerting
 - SQL-like query language for log analysis
 - Integration with AWS Lambda for automated response
 
-**AWS Security Hub:**
+- **AWS Security Hub:**
 - Centralized security findings from multiple services
 - Compliance monitoring dashboard and reporting
 - Integration with AWS Config for configuration monitoring
 - Automated remediation workflows with AWS Systems Manager
 
-**AWS GuardDuty:**
+- **AWS GuardDuty:**
 - Machine learning-based threat detection
 - DNS log analysis and malicious domain detection
 - VPC Flow Log analysis for network anomalies
@@ -87,19 +87,19 @@ Log monitoring and analysis leverages cloud-native security analytics, automated
 
 #### 6.2 Azure Monitor and Security Services
 
-**Azure Monitor Logs:**
+- **Azure Monitor Logs:**
 - Kusto Query Language (KQL) for advanced log analysis
 - Automated alerting and action groups
 - Custom dashboards and workbooks for security monitoring
 - Integration with Azure Logic Apps for automated response
 
-**Azure Sentinel:**
+- **Azure Sentinel:**
 - Cloud-native SIEM with built-in connectors
 - Machine learning analytics for threat detection
 - Automated investigation and response capabilities
 - Threat intelligence integration and hunting queries
 
-**Azure Security Center:**
+- **Azure Security Center:**
 - Security posture management and recommendations
 - Compliance dashboard and regulatory reporting
 - Integration with Azure Policy for automated governance
@@ -107,13 +107,13 @@ Log monitoring and analysis leverages cloud-native security analytics, automated
 
 #### 6.3 Google Cloud Platform Security Services
 
-**Google Cloud Logging:**
+- **Google Cloud Logging:**
 - Centralized logging with real-time analysis capabilities
 - BigQuery integration for large-scale log analytics
 - Automated alerting and notification policies
 - Integration with Cloud Functions for automated response
 
-**Google Cloud Security Command Center:**
+- **Google Cloud Security Command Center:**
 - Centralized security and compliance dashboard
 - Asset discovery and security findings management
 - Integration with Chronicle for security analytics
@@ -123,14 +123,14 @@ Log monitoring and analysis leverages cloud-native security analytics, automated
 
 #### 7.1 Critical Alert Triggers
 
-**Security Event Triggers:**
+- **Security Event Triggers:**
 - Multiple failed authentication attempts
 - Privilege escalation or administrative access from unusual locations
 - Large-scale data download or unusual access patterns
 - Network communication with known malicious domains
 - Compliance violations or policy exceptions
 
-**Automated Response Actions:**
+- **Automated Response Actions:**
 - Account lockout or access restriction
 - Network isolation or traffic blocking
 - Automatic scaling of security controls
@@ -139,13 +139,13 @@ Log monitoring and analysis leverages cloud-native security analytics, automated
 
 #### 7.2 Compliance Monitoring
 
-**HIPAA/HITECH Monitoring:**
+- **HIPAA/HITECH Monitoring:**
 - ePHI access tracking and unusual access pattern detection
 - Administrative action logging and review
 - Breach risk assessment and notification procedures
 - Business associate activity monitoring
 
-**SOC 2 and HITRUST Monitoring:**
+- **SOC 2 and HITRUST Monitoring:**
 - Access control effectiveness monitoring
 - Change management compliance tracking
 - System monitoring and availability reporting
@@ -165,13 +165,13 @@ Log monitoring and analysis leverages cloud-native security analytics, automated
 
 #### 8.2 Cost Optimization
 
-**Log Volume Management:**
+- **Log Volume Management:**
 - Automatic log retention policy implementation
 - Intelligent log filtering and sampling
 - Cost-effective storage tier utilization
 - Regular review of log source necessity and value
 
-**Service Optimization:**
+- **Service Optimization:**
 - Right-sizing of cloud analytics services
 - Optimization of MSSP service scope and coverage
 - Automation of routine monitoring and response tasks
@@ -203,15 +203,15 @@ This procedure is designed to comply with and support the following industry sta
 
 ### 11. Definitions
 
-**Cloud-Native Analytics:** Security monitoring and analysis capabilities provided natively by cloud service providers.
+- **Cloud-Native Analytics:** Security monitoring and analysis capabilities provided natively by cloud service providers.
 
-**Managed Security Service Provider (MSSP):** Third-party organization providing managed security services including 24/7 monitoring and analysis.
+- **Managed Security Service Provider (MSSP):** Third-party organization providing managed security services including 24/7 monitoring and analysis.
 
-**Security Information and Event Management (SIEM):** Technology platform that provides real-time analysis of security alerts and events.
+- **Security Information and Event Management (SIEM):** Technology platform that provides real-time analysis of security alerts and events.
 
-**Automated Response:** Pre-configured security actions triggered automatically upon detection of specific events or threats.
+- **Automated Response:** Pre-configured security actions triggered automatically upon detection of specific events or threats.
 
-**Mean Time to Detection (MTTD):** Average time between when a security incident occurs and when it is detected.
+- **Mean Time to Detection (MTTD):** Average time between when a security incident occurs and when it is detected.
 
 ### 12. Responsibilities
 

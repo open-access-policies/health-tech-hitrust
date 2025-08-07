@@ -45,9 +45,9 @@ A completed background check report and the candidate's consent form, stored sec
 
 ### 7. Definitions
 
-**Contingent Offer:** An offer of employment that is dependent on the successful fulfillment of certain conditions, such as a background check or drug screening.
+- **Contingent Offer:** An offer of employment that is dependent on the successful fulfillment of certain conditions, such as a background check or drug screening.
 
-**Adverse Findings:** Information discovered during a background check that could negatively impact a hiring decision (e.g., a criminal conviction).
+- **Adverse Findings:** Information discovered during a background check that could negatively impact a hiring decision (e.g., a criminal conviction).
 
 ### 8. Responsibilities
 

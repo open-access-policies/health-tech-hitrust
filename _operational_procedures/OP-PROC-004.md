@@ -51,11 +51,11 @@ A completed disposal record in the asset management system or a certificate of d
 
 ### 7. Definitions
 
-**Cryptographic Erasure:** The process of using encryption software to render targeted data on a storage device unreadable.
+- **Cryptographic Erasure:** The process of using encryption software to render targeted data on a storage device unreadable.
 
-**Degaussing:** The process of reducing or eliminating an unwanted magnetic field (or data) stored on tape and disk media.
+- **Degaussing:** The process of reducing or eliminating an unwanted magnetic field (or data) stored on tape and disk media.
 
-**Physical Destruction:** The process of rendering media unusable and its data unrecoverable by physically altering it (e.g., shredding, pulverizing).
+- **Physical Destruction:** The process of rendering media unusable and its data unrecoverable by physically altering it (e.g., shredding, pulverizing).
 
 ### 8. Responsibilities
 

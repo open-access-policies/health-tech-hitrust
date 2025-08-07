@@ -25,9 +25,9 @@ This policy applies to all information systems and assets owned or managed by *
 
 ### 3. Policy
 
-**[Company Name]** shall implement and maintain a comprehensive vulnerability management program that covers the full lifecycle of a vulnerability.
+- **[Company Name]** shall implement and maintain a comprehensive vulnerability management program that covers the full lifecycle of a vulnerability.
 
-**3.1 Vulnerability Management Lifecycle**
+#### 3.1 Vulnerability Management Lifecycle
 
 The program is structured around a continuous four-phase lifecycle:
 
@@ -80,7 +80,7 @@ The program is structured around a continuous four-phase lifecycle:
 - **4. Verification:** After remediation has been applied, the Security Team must perform a verification scan to confirm that the vulnerability has been successfully resolved. All verification results must be documented in the vulnerability tracking system.
     
 
-**3.2 Vulnerability Scanning**
+#### 3.2 Vulnerability Scanning
 
 To ensure comprehensive discovery, the following scanning schedule will be maintained:
 
@@ -93,7 +93,7 @@ To ensure comprehensive discovery, the following scanning schedule will be maint
 - **Scan Result Processing:** All vulnerability scan results must be automatically ingested into a centralized tracking system. The Security Team is responsible for reviewing scan reports within **[Number, e.g., 1]** business day(s) and initiating the Prioritization and Remediation lifecycle for all new, valid findings.
     
 
-**3.3 Exception Management and Risk Acceptance**
+#### 3.3 Exception Management and Risk Acceptance
 
 In cases where a vulnerability cannot be remediated within the defined SLA (e.g., due to a lack of a vendor patch or a high risk of business disruption), a formal exception shall be requested.
 

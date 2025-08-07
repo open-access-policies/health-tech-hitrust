@@ -45,9 +45,9 @@ A log of all recovery activities performed, including timelines, actions taken, 
 
 ### 7. Definitions
 
-**Failover:** The process of switching to a redundant or standby computer server, system, or network upon the failure or abnormal termination of the previously active application, server, system, or network.
+- **Failover:** The process of switching to a redundant or standby computer server, system, or network upon the failure or abnormal termination of the previously active application, server, system, or network.
 
-**Disaster Recovery (DR) Site:** A secondary location where an organization can relocate its technology and operations following a disaster.
+- **Disaster Recovery (DR) Site:** A secondary location where an organization can relocate its technology and operations following a disaster.
 
 ### 8. Responsibilities
 

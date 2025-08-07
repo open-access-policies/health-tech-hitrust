@@ -15,7 +15,7 @@ This policy applies to all **[Company Name]** workforce members (including emplo
 
 All systems and applications must be configured to enforce the following password parameters. Exceptions must be formally documented and approved by the Security Officer through the risk management process.
 
-**3.1 Password Construction Requirements**
+#### 3.1 Password Construction Requirements
 
 To ensure passwords are resistant to common attack vectors, all user-created passwords must adhere to the following complexity standards:
 
@@ -42,7 +42,7 @@ To ensure passwords are resistant to common attack vectors, all user-created pas
     - Consecutive or repeating characters (e.g., "111111", "abcdefg").
         
 
-**3.2 Password Lifecycle Management**
+#### 3.2 Password Lifecycle Management
 
 Passwords must be actively managed throughout their lifecycle to limit the window of opportunity should a credential be compromised.
 
@@ -53,7 +53,7 @@ Passwords must be actively managed throughout their lifecycle to limit the windo
 - **Account Lockout:** User accounts must be automatically locked for a minimum of **[Duration, e.g., 30 minutes]** after **[Number, e.g., 5]** consecutive failed login attempts. The lockout must only be reversible by an authorized administrator or after the lockout duration has expired.
     
 
-**3.3 Multi-Factor Authentication (MFA)**
+#### 3.3 Multi-Factor Authentication (MFA)
 
 MFA is required to provide an additional layer of security and shall be enforced for all workforce members across all company systems where the feature is supported.
 
@@ -64,7 +64,7 @@ MFA is required to provide an additional layer of security and shall be enforced
 - Approved MFA methods include authenticator applications (TOTP), hardware tokens, or biometric identifiers. SMS-based MFA is prohibited for accessing systems containing Restricted data.
     
 
-**3.4 Password Protection and Storage**
+#### 3.4 Password Protection and Storage
 
 Workforce members are responsible for the protection of their credentials.
 
@@ -75,7 +75,7 @@ Workforce members are responsible for the protection of their credentials.
 - Systems must store passwords in a secure, salted, and hashed format using a strong, industry-recognized cryptographic algorithm (e.g., bcrypt, Argon2).
     
 
-**3.5 Initial Password Management and Resets**
+#### 3.5 Initial Password Management and Resets
 
 The process for establishing and resetting passwords must be secure.
 
@@ -86,7 +86,7 @@ The process for establishing and resetting passwords must be secure.
 - The identity of a user requesting a password reset must be verified by an authorized administrator through a secure, pre-defined process before the reset is performed.
     
 
-**3.6 System and Service Accounts**
+#### 3.6 System and Service Accounts
 
 Non-interactive accounts (e.g., service accounts, API keys) must be securely managed.
 

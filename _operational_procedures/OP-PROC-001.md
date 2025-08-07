@@ -76,13 +76,13 @@ This procedure leverages cloud provider managed key services to automate key lif
 
 #### 5.1 AWS Key Management Service (KMS)
 
-**Customer-Managed Keys (CMK) Setup:**
+- **Customer-Managed Keys (CMK) Setup:**
 - Create CMK for ePHI encryption with appropriate key policies
 - Enable automatic key rotation for symmetric keys (annual rotation)
 - Configure cross-region key replication for disaster recovery
 - Set up key usage monitoring through CloudWatch metrics
 
-**Integration Examples:**
+- **Integration Examples:**
 ```bash
 # Create customer-managed key via AWS CLI
 aws kms create-key --description "ePHI Encryption Key" --key-usage ENCRYPT_DECRYPT
@@ -96,13 +96,13 @@ aws s3api put-bucket-encryption --bucket [bucket-name] --server-side-encryption-
 
 #### 5.2 Azure Key Vault
 
-**Key Vault Configuration:**
+- **Key Vault Configuration:**
 - Create Key Vault with soft-delete and purge protection enabled
 - Configure customer-managed keys with appropriate access policies
 - Enable Key Vault logging and monitoring through Azure Monitor
 - Set up automatic key rotation schedules
 
-**Integration Examples:**
+- **Integration Examples:**
 ```bash
 # Create Key Vault and customer-managed key
 az keyvault create --name [vault-name] --resource-group [rg-name] --enable-soft-delete --enable-purge-protection
@@ -113,13 +113,13 @@ az keyvault key create --vault-name [vault-name] --name [key-name] --size 2048 -
 
 #### 5.3 Google Cloud Key Management Service
 
-**Cloud KMS Setup:**
+- **Cloud KMS Setup:**
 - Create key rings and customer-managed encryption keys (CMEK)
 - Configure automatic key rotation for supported key types
 - Set up IAM bindings for proper access control
 - Enable audit logging through Cloud Audit Logs
 
-**Integration Examples:**
+- **Integration Examples:**
 ```bash
 # Create key ring and encryption key
 gcloud kms keyrings create [keyring-name] --location [location]
@@ -157,15 +157,15 @@ This procedure is designed to comply with and support the following industry sta
 
 ### 7. Definitions
 
-**Customer-Managed Encryption Key (CMEK):** Encryption key created and managed by the customer using cloud provider key management services, providing control over key lifecycle while leveraging cloud infrastructure.
+- **Customer-Managed Encryption Key (CMEK):** Encryption key created and managed by the customer using cloud provider key management services, providing control over key lifecycle while leveraging cloud infrastructure.
 
-**Envelope Encryption:** Encryption method where data is encrypted with a data encryption key (DEK), and the DEK is encrypted with a key encryption key (KEK) managed by cloud services.
+- **Envelope Encryption:** Encryption method where data is encrypted with a data encryption key (DEK), and the DEK is encrypted with a key encryption key (KEK) managed by cloud services.
 
-**Infrastructure as Code (IaC):** Practice of managing infrastructure through code and automation, enabling version control and repeatable deployments of key management configurations.
+- **Infrastructure as Code (IaC):** Practice of managing infrastructure through code and automation, enabling version control and repeatable deployments of key management configurations.
 
-**Key Rotation:** Automated process of replacing encryption keys with new keys on a scheduled basis to maintain security while preserving access to encrypted data.
+- **Key Rotation:** Automated process of replacing encryption keys with new keys on a scheduled basis to maintain security while preserving access to encrypted data.
 
-**Cloud-Native Key Management:** Key management approach that leverages cloud provider managed services rather than on-premises hardware security modules or custom key management systems.
+- **Cloud-Native Key Management:** Key management approach that leverages cloud provider managed services rather than on-premises hardware security modules or custom key management systems.
 
 ### 8. Responsibilities
 

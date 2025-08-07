@@ -39,8 +39,8 @@ A completed and approved Exception Request Form documented in the risk register.
 
 ### 7. Definitions
 
-**SLA:** Service Level Agreement.
-**CTO:** Chief Technology Officer.
+- **SLA:** Service Level Agreement.
+- **CTO:** Chief Technology Officer.
 
 ### 8. Responsibilities
 

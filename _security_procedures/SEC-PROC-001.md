@@ -40,7 +40,7 @@ Signed and dated meeting minutes are stored in the company's document management
 
 ### 7. Definitions
 
-**ISMS:** Information Security Management System.
+- **ISMS:** Information Security Management System.
 
 ### 8. Responsibilities
 

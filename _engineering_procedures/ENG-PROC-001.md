@@ -60,11 +60,11 @@ A test report from the relevant security tool (SAST, DAST) or a final penetratio
 
 ### 7. Definitions
 
-**DAST (Dynamic Application Security Testing):** A method of testing an application during its running state to find security vulnerabilities.
+- **DAST (Dynamic Application Security Testing):** A method of testing an application during its running state to find security vulnerabilities.
 
-**ePHI (electronic Protected Health Information):** Any protected health information that is created, stored, transmitted, or received in any electronic format.
+- **ePHI (electronic Protected Health Information):** Any protected health information that is created, stored, transmitted, or received in any electronic format.
 
-**SAST (Static Application Security Testing):** A method of testing an application's source code, bytecode, or binary code to find security vulnerabilities without executing the application.
+- **SAST (Static Application Security Testing):** A method of testing an application's source code, bytecode, or binary code to find security vulnerabilities without executing the application.
 
 ### 8. Responsibilities
 

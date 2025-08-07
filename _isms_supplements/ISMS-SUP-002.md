@@ -4,7 +4,7 @@ parent: ISMS Supplements
 nav_order: 2
 ---
 
-**RACI Definitions:**
+- **RACI Definitions:**
 
 - **R = Responsible:** The person(s) who does the work to achieve the task.
 - **A = Accountable:** The person ultimately answerable for the correct and thorough completion of the deliverable or task (the "owner"). There is only one 'A' per task.
@@ -12,7 +12,7 @@ nav_order: 2
 - **I = Informed:** The person(s) kept up-to-date on progress or completion (one-way communication).
     
 
-**Consolidated Roles for a ~50-Person Company:**
+- **Consolidated Roles for a ~50-Person Company:**
 
 - **Leadership:** CEO / Executive Team
 - **CISO:** Chief Information Security Officer (also assumes Privacy Officer & AI Ethics Officer roles)

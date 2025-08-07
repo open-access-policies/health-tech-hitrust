@@ -41,7 +41,7 @@ A final internal audit report and a corrective action tracking log.
 
 ### 7. Definitions
 
-**ISMS:** Information Security Management System.
+- **ISMS:** Information Security Management System.
 
 ### 8. Responsibilities
 

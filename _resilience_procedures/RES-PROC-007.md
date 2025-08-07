@@ -42,9 +42,9 @@ This procedure ensures that the organization's BCDR plans are effective and up-t
 
 ### 7. Definitions
 
-**Tabletop Exercise:** A discussion-based session where team members meet in an informal, classroom setting to discuss their roles during an emergency and their responses to a particular emergency situation.
+- **Tabletop Exercise:** A discussion-based session where team members meet in an informal, classroom setting to discuss their roles during an emergency and their responses to a particular emergency situation.
 
-**Full DR Simulation:** A comprehensive test where the organization's IT systems are actually failed over to the disaster recovery site and operated from there for a period of time.
+- **Full DR Simulation:** A comprehensive test where the organization's IT systems are actually failed over to the disaster recovery site and operated from there for a period of time.
 
 ### 8. Responsibilities
 

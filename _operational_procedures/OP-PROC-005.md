@@ -42,9 +42,9 @@ This section maps the procedure steps to specific controls from relevant informa
 
 ### 7. Definitions
 
-**Legal Hold:** A process that an organization uses to preserve all forms of relevant information when litigation is reasonably anticipated.
+- **Legal Hold:** A process that an organization uses to preserve all forms of relevant information when litigation is reasonably anticipated.
 
-**Custodian:** An individual who has possession, custody, or control of potentially relevant information.
+- **Custodian:** An individual who has possession, custody, or control of potentially relevant information.
 
 ### 8. Responsibilities
 

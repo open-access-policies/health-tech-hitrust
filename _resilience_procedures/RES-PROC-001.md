@@ -50,9 +50,9 @@ A completed Incident Report for each declared incident.
 
 ### 7. Definitions
 
-**Incident:** An event that actually or potentially jeopardizes the confidentiality, integrity, or availability of an information system or the information the system processes, stores, or transmits.
+- **Incident:** An event that actually or potentially jeopardizes the confidentiality, integrity, or availability of an information system or the information the system processes, stores, or transmits.
 
-**Incident Response Team (IRT):** A dedicated or virtual team responsible for responding to security incidents.
+- **Incident Response Team (IRT):** A dedicated or virtual team responsible for responding to security incidents.
 
 ### 8. Responsibilities
 

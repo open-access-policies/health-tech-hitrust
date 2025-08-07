@@ -16,7 +16,7 @@ This policy applies to all workforce members involved in the development, testin
 
 All changes to the production environment shall adhere to a structured and auditable lifecycle, from initiation to deployment and post-implementation review. GitHub is the designated system of record for tracking all code and configuration changes.
 
-**3.1 Standard Change Process**
+#### 3.1 Standard Change Process
 
 All non-emergency changes shall follow this standard process:
 
@@ -33,7 +33,7 @@ All non-emergency changes shall follow this standard process:
 - **Deployment Approval:** Final approval to merge the change into the production release branch shall be granted by authorized personnel (e.g., Engineering Lead or Manager) within the GitHub pull request. This approval signifies that the approver has verified that all required steps, including peer review, security review, and QA sign-off, have been successfully completed and documented. All approved production release branches shall be tagged to ensure traceability and that the exact code deployed to production can be identified.
     
 
-**3.2 Emergency Changes**
+#### 3.2 Emergency Changes
 
 An emergency change is defined as a modification required to resolve a critical production outage, a severe service degradation, or to patch a critical security vulnerability that requires immediate remediation.
 
@@ -46,7 +46,7 @@ An emergency change is defined as a modification required to resolve a critical 
 - **Oversight:** A log of all emergency changes shall be maintained and reviewed on a quarterly basis by Engineering Management to identify trends and ensure the emergency process is not being misused to bypass standard change controls.
     
 
-**3.3 Data-Only Changes**
+#### 3.3 Data-Only Changes
 
 Data-only changes, such as manual database updates that are not part of a standard code release, shall follow a streamlined but secure process appropriate for a growing organization.
 
@@ -57,7 +57,7 @@ Data-only changes, such as manual database updates that are not part of a standa
 - **Execution:** Changes must be executed using approved, peer-reviewed scripts by authorized personnel with privileged database access. For routine changes, a qualified Database Administrator or DevOps Engineer may execute the change. The execution output must be captured and appended to the original request ticket. Direct production database access for developers is prohibited except for emergency troubleshooting under supervision.
     
 
-**3.4 Change Documentation and Tracking**
+#### 3.4 Change Documentation and Tracking
 
 - **System of Record:** GitHub pull requests serve as the auditable record for all code and configuration changes.
     
@@ -68,14 +68,14 @@ Data-only changes, such as manual database updates that are not part of a standa
 - **Pull Request Template:** All pull requests must use a standardized template that includes sections for the change description, testing performed, security checklist, and links to related tickets. This template must be enforced via GitHub repository settings.
     
 
-**3.5 Change Notifications**
+#### 3.5 Change Notifications
 
 - **Internal Notification:** The engineering team must notify relevant internal stakeholders (e.g., Customer Support, Operations) of all upcoming production deployments via designated communication channels (e.g., Slack, email).
     
 - **External Notification:** For changes that will have a noticeable impact on customers or partners, the Product Management team is responsible for providing advance notification with sufficient lead time.
     
 
-**3.6 Branch Protection**
+#### 3.6 Branch Protection
 
 To enforce the change control process described in this policy, all `main`, `production`, and `release` branches in repositories within the scope of this policy must have GitHub branch protection rules configured. At a minimum, these rules must be enabled to:
 

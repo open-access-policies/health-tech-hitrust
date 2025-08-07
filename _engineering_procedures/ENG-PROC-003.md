@@ -44,9 +44,9 @@ A merged GitHub pull request containing all required reviews, approvals, test re
 
 ### 7. Definitions
 
-**Pull Request:** A mechanism for a developer to notify team members that they have completed a feature. It allows others to review, discuss, and approve the code before it is merged into the main codebase.
+- **Pull Request:** A mechanism for a developer to notify team members that they have completed a feature. It allows others to review, discuss, and approve the code before it is merged into the main codebase.
 
-**Feature Branch:** A source-control branch used to develop a new feature in isolation. When the feature is complete, the branch is merged back into the main branch.
+- **Feature Branch:** A source-control branch used to develop a new feature in isolation. When the feature is complete, the branch is merged back into the main branch.
 
 ### 8. Responsibilities
 

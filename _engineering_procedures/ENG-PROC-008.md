@@ -37,19 +37,19 @@ Intrusion detection and prevention leverages cloud-native security services, man
 
 #### 5.1 Amazon Web Services (AWS)
 
-**AWS GuardDuty:**
+- **AWS GuardDuty:**
 - Machine learning-based threat detection for AWS environments
 - Automatic analysis of VPC Flow Logs, DNS logs, and CloudTrail events
 - Built-in threat intelligence from AWS Security, CrowdStrike, and Proofpoint
 - Integration with AWS Security Hub for centralized security management
 
-**AWS Shield and WAF:**
+- **AWS Shield and WAF:**
 - DDoS protection and web application firewall capabilities
 - Automatic blocking of common web attacks and volumetric attacks
 - Custom rule creation for application-specific threats
 - Integration with CloudFront and Application Load Balancers
 
-**AWS Network Firewall:**
+- **AWS Network Firewall:**
 - Managed network firewall service with intrusion prevention capabilities
 - Stateful inspection and automatic threat signature updates
 - Custom rule development for organization-specific threats
@@ -57,19 +57,19 @@ Intrusion detection and prevention leverages cloud-native security services, man
 
 #### 5.2 Microsoft Azure
 
-**Azure Defender for Networks:**
+- **Azure Defender for Networks:**
 - Advanced threat protection for Azure virtual networks
 - Network layer attack detection and automatic response
 - Integration with Azure Sentinel for centralized security monitoring
 - Just-in-time network access controls and adaptive network hardening
 
-**Azure DDoS Protection:**
+- **Azure DDoS Protection:**
 - Automatic DDoS attack detection and mitigation
 - Real-time attack metrics and alerting
 - Integration with Azure Monitor for performance monitoring
 - Cost protection and automatic scaling during attacks
 
-**Azure Firewall:**
+- **Azure Firewall:**
 - Managed cloud-native network security service
 - Application and network-level filtering with threat intelligence
 - Outbound traffic filtering and URL filtering capabilities
@@ -77,13 +77,13 @@ Intrusion detection and prevention leverages cloud-native security services, man
 
 #### 5.3 Google Cloud Platform (GCP)
 
-**Google Cloud IDS:**
+- **Google Cloud IDS:**
 - Managed intrusion detection service for GCP environments
 - Network traffic analysis with machine learning-based threat detection
 - Integration with Google Cloud Security Command Center
 - Automatic threat signature updates and custom rule support
 
-**Google Cloud Armor:**
+- **Google Cloud Armor:**
 - Web application firewall and DDoS protection service
 - Edge security policies and geo-based access controls
 - Rate limiting and bot protection capabilities
@@ -93,13 +93,13 @@ Intrusion detection and prevention leverages cloud-native security services, man
 
 #### 6.1 MSSP IDS/IPS Monitoring Requirements
 
-**24/7 Security Operations Center:**
+- **24/7 Security Operations Center:**
 - Continuous monitoring of cloud IDS/IPS alerts and events
 - Expert threat analysis and incident classification
 - Escalation procedures for confirmed security threats
 - Integration with existing incident response workflows
 
-**Threat Intelligence and Analysis:**
+- **Threat Intelligence and Analysis:**
 - Access to premium threat intelligence feeds
 - Advanced analytics and correlation capabilities
 - Custom threat hunting and investigation services
@@ -107,12 +107,12 @@ Intrusion detection and prevention leverages cloud-native security services, man
 
 #### 6.2 Service Level Agreements
 
-**Response Time Requirements:**
+- **Response Time Requirements:**
 - Critical threats: **[Timeframe, e.g., 15 minutes]** acknowledgment, **[Timeframe, e.g., 1 hour]** analysis
 - High severity threats: **[Timeframe, e.g., 1 hour]** acknowledgment, **[Timeframe, e.g., 4 hours]** analysis
 - Medium severity events: **[Timeframe, e.g., 4 hours]** acknowledgment, **[Timeframe, e.g., 24 hours]** analysis
 
-**Availability and Performance:**
+- **Availability and Performance:**
 - MSSP SOC availability: 99.9% uptime
 - Cloud service monitoring: 24/7/365 coverage
 - Threat analysis accuracy: >95% true positive rate
@@ -122,13 +122,13 @@ Intrusion detection and prevention leverages cloud-native security services, man
 
 #### 7.1 Automatic Response Actions
 
-**Network-Level Responses:**
+- **Network-Level Responses:**
 - Automatic blocking of malicious IP addresses through security groups
 - Traffic redirection through inspection services for suspicious flows
 - DNS sinkholing for known malicious domains
 - Rate limiting and traffic shaping for potential DDoS attacks
 
-**Application-Level Responses:**
+- **Application-Level Responses:**
 - WAF rule activation for detected attack patterns
 - Automatic scaling of protection services during high-volume attacks
 - Session termination for confirmed malicious users
@@ -136,14 +136,14 @@ Intrusion detection and prevention leverages cloud-native security services, man
 
 #### 7.2 Response Escalation Triggers
 
-**Immediate Escalation (Critical):**
+- **Immediate Escalation (Critical):**
 - Confirmed data exfiltration attempts
 - Command and control communications
 - Lateral movement indicators
 - Privilege escalation attempts
 - Multiple attack vectors from same source
 
-**Standard Escalation (High/Medium):**
+- **Standard Escalation (High/Medium):**
 - Persistent reconnaissance activities
 - Application vulnerability exploitation attempts
 - Suspicious outbound communications
@@ -164,13 +164,13 @@ Intrusion detection and prevention leverages cloud-native security services, man
 
 #### 8.2 Cost Optimization
 
-**Service Right-Sizing:**
+- **Service Right-Sizing:**
 - Regular review of cloud security service utilization
 - Optimization of traffic inspection and analysis volumes
 - Cost-effective threat intelligence feed selection
 - Elimination of redundant or overlapping security services
 
-**Automation Benefits:**
+- **Automation Benefits:**
 - Reduced manual security operations overhead
 - Automatic scaling based on threat volume and traffic patterns
 - Self-tuning threat detection with machine learning
@@ -202,15 +202,15 @@ This procedure is designed to comply with and support the following industry sta
 
 ### 11. Definitions
 
-**Cloud-Native IDS/IPS:** Security services provided by cloud service providers that integrate natively with cloud infrastructure and services.
+- **Cloud-Native IDS/IPS:** Security services provided by cloud service providers that integrate natively with cloud infrastructure and services.
 
-**Managed Security Service Provider (MSSP):** Third-party organization providing managed security services including 24/7 monitoring and threat analysis.
+- **Managed Security Service Provider (MSSP):** Third-party organization providing managed security services including 24/7 monitoring and threat analysis.
 
-**Automatic Response:** Pre-configured security actions that are triggered automatically upon detection of specific threats or attack patterns.
+- **Automatic Response:** Pre-configured security actions that are triggered automatically upon detection of specific threats or attack patterns.
 
-**Threat Intelligence:** Real-time information about current and emerging security threats used to enhance detection and prevention capabilities.
+- **Threat Intelligence:** Real-time information about current and emerging security threats used to enhance detection and prevention capabilities.
 
-**False Positive:** An alert generated by IDS/IPS that incorrectly identifies benign activity as malicious.
+- **False Positive:** An alert generated by IDS/IPS that incorrectly identifies benign activity as malicious.
 
 ### 12. Responsibilities
 

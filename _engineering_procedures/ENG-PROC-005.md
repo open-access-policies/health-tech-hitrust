@@ -45,11 +45,11 @@ A compliance scan report confirming adherence to the security baseline.
 
 ### 7. Definitions
 
-**CIS Benchmarks:** A set of globally recognized and consensus-developed best practices for the secure configuration of a target system.
+- **CIS Benchmarks:** A set of globally recognized and consensus-developed best practices for the secure configuration of a target system.
 
-**Configuration Drift:** The process by which a system's configuration changes over time from its established, secure baseline.
+- **Configuration Drift:** The process by which a system's configuration changes over time from its established, secure baseline.
 
-**Infrastructure as Code (IaC):** The management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same versioning as DevOps team uses for source code.
+- **Infrastructure as Code (IaC):** The management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same versioning as DevOps team uses for source code.
 
 ### 8. Responsibilities
 

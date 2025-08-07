@@ -42,7 +42,7 @@ Firewall management encompasses the complete lifecycle of firewall systems inclu
 
 #### 5.1 Rule Request Process
 
-**Request Requirements:**
+- **Request Requirements:**
 - Business justification and approver identification
 - Specific source and destination network definitions
 - Required services and ports with protocol details
@@ -50,7 +50,7 @@ Firewall management encompasses the complete lifecycle of firewall systems inclu
 - Rule expiration date and review requirements
 - Risk assessment and security impact analysis
 
-**Approval Matrix:**
+- **Approval Matrix:**
 
 | **Rule Risk Level** | **Required Approvals** | **Additional Requirements** |
 | ------------------- | ---------------------- | --------------------------- |
@@ -61,7 +61,7 @@ Firewall management encompasses the complete lifecycle of firewall systems inclu
 
 #### 5.2 Rule Documentation Standards
 
-**Mandatory Documentation:**
+- **Mandatory Documentation:**
 - Rule identifier and descriptive name
 - Business purpose and technical justification
 - Source and destination network specifications
@@ -70,7 +70,7 @@ Firewall management encompasses the complete lifecycle of firewall systems inclu
 - Expiration date and renewal requirements
 - Responsible business owner and technical contact
 
-**Configuration Management:**
+- **Configuration Management:**
 - Version control for all firewall configurations
 - Change tracking and audit trail maintenance
 - Configuration baseline documentation
@@ -80,14 +80,14 @@ Firewall management encompasses the complete lifecycle of firewall systems inclu
 
 #### 6.1 Security Event Monitoring
 
-**Critical Events:**
+- **Critical Events:**
 - Multiple failed authentication attempts
 - Blocked connection attempts from external sources
 - High-volume traffic patterns indicating DDoS
 - Policy violations and rule bypass attempts
 - Administrative access from unauthorized locations
 
-**Alert Configuration:**
+- **Alert Configuration:**
 
 | **Event Type** | **Alert Threshold** | **Severity** | **Response Time** |
 | -------------- | ------------------- | ------------ | ----------------- |
@@ -99,14 +99,14 @@ Firewall management encompasses the complete lifecycle of firewall systems inclu
 
 #### 6.2 Performance Monitoring
 
-**Key Performance Indicators:**
+- **Key Performance Indicators:**
 - Throughput utilization and capacity planning
 - Session table utilization and connection tracking
 - Rule processing performance and optimization needs
 - High availability status and failover testing
 - Log generation rates and storage capacity
 
-**Capacity Management:**
+- **Capacity Management:**
 - Daily monitoring of firewall resource utilization
 - Weekly trend analysis and capacity forecasting
 - Monthly performance optimization review
@@ -116,13 +116,13 @@ Firewall management encompasses the complete lifecycle of firewall systems inclu
 
 #### 7.1 Standard Change Procedures
 
-**Low-Risk Changes:**
+- **Low-Risk Changes:**
 - Rule additions with standard business justification
 - Rule modifications within approved parameters
 - Temporary rule additions with automatic expiration
 - Log configuration and monitoring adjustments
 
-**Normal Change Procedures:**
+- **Normal Change Procedures:**
 - Architecture modifications and new firewall deployments
 - Security policy changes affecting multiple rules
 - Software updates and firmware upgrades
@@ -130,13 +130,13 @@ Firewall management encompasses the complete lifecycle of firewall systems inclu
 
 #### 7.2 Emergency Change Procedures
 
-**Emergency Criteria:**
+- **Emergency Criteria:**
 - Active security incidents requiring immediate blocking
 - Critical business operations requiring urgent firewall changes
 - System failures requiring immediate configuration recovery
 - Regulatory compliance requiring immediate access restrictions
 
-**Emergency Process:**
+- **Emergency Process:**
 1. Document emergency justification and business impact
 2. Implement minimum necessary changes with approval
 3. Test functionality and monitor for adverse impacts
@@ -147,13 +147,13 @@ Firewall management encompasses the complete lifecycle of firewall systems inclu
 
 #### 8.1 Default Security Policies
 
-**Default Deny Stance:**
+- **Default Deny Stance:**
 - Block all traffic not explicitly permitted by rules
 - Log all blocked connection attempts for analysis
 - Implement least-privilege access principles
 - Regular review and justification of allow rules
 
-**Zone-Based Controls:**
+- **Zone-Based Controls:**
 - Enforce traffic flow restrictions between security zones
 - Implement application-layer inspection where required
 - Control administrative access to firewall systems
@@ -161,13 +161,13 @@ Firewall management encompasses the complete lifecycle of firewall systems inclu
 
 #### 8.2 Compliance and Audit Support
 
-**Audit Requirements:**
+- **Audit Requirements:**
 - Maintain complete firewall rule documentation
 - Provide access logs and configuration change history
 - Demonstrate compliance with security policies
 - Support penetration testing and vulnerability assessments
 
-**Compliance Reporting:**
+- **Compliance Reporting:**
 - Monthly firewall rule review reports
 - Quarterly security policy compliance assessments
 - Annual firewall security architecture reviews
@@ -177,13 +177,13 @@ Firewall management encompasses the complete lifecycle of firewall systems inclu
 
 #### 9.1 High Availability Configuration
 
-**Redundancy Requirements:**
+- **Redundancy Requirements:**
 - Active-passive or active-active firewall pairs
 - Automatic failover with minimal service disruption
 - Configuration synchronization between firewall pairs
 - Regular testing of failover procedures and timing
 
-**Recovery Procedures:**
+- **Recovery Procedures:**
 - Documented procedures for firewall system recovery
 - Priority restoration order for critical business functions
 - Alternative network routing during firewall maintenance
@@ -191,13 +191,13 @@ Firewall management encompasses the complete lifecycle of firewall systems inclu
 
 #### 9.2 Backup and Recovery
 
-**Backup Requirements:**
+- **Backup Requirements:**
 - Daily automated configuration backups
 - Weekly verified backup restoration testing
 - Offsite backup storage with appropriate security
 - Version control and configuration change tracking
 
-**Recovery Testing:**
+- **Recovery Testing:**
 - Quarterly backup restoration testing
 - Annual disaster recovery exercise participation
 - Configuration recovery time testing and optimization
@@ -207,13 +207,13 @@ Firewall management encompasses the complete lifecycle of firewall systems inclu
 
 #### 10.1 Administrator Training
 
-**Required Skills:**
+- **Required Skills:**
 - Firewall technology and security architecture concepts
 - Network protocols and traffic analysis techniques
 - Change management and documentation procedures
 - Incident response and emergency change procedures
 
-**Ongoing Education:**
+- **Ongoing Education:**
 - Annual firewall technology training and certification
 - Security conference attendance and knowledge sharing
 - Vendor training for new features and capabilities
@@ -221,7 +221,7 @@ Firewall management encompasses the complete lifecycle of firewall systems inclu
 
 #### 10.2 Competency Assessment
 
-**Assessment Areas:**
+- **Assessment Areas:**
 - Firewall rule configuration and troubleshooting
 - Security policy interpretation and implementation
 - Performance monitoring and optimization techniques
@@ -253,17 +253,17 @@ This procedure is designed to comply with and support the following industry sta
 
 ### 13. Definitions
 
-**Defense in Depth:** Security approach using multiple layers of protection to defend against threats.
+- **Defense in Depth:** Security approach using multiple layers of protection to defend against threats.
 
-**Default Deny:** Security principle where all traffic is blocked unless explicitly permitted by rules.
+- **Default Deny:** Security principle where all traffic is blocked unless explicitly permitted by rules.
 
-**Firewall Rule:** Configuration that defines how firewall should handle specific network traffic.
+- **Firewall Rule:** Configuration that defines how firewall should handle specific network traffic.
 
-**Security Zone:** Network segment with defined security requirements and access controls.
+- **Security Zone:** Network segment with defined security requirements and access controls.
 
-**Web Application Firewall (WAF):** Firewall that filters, monitors, and blocks HTTP/HTTPS traffic to web applications.
+- **Web Application Firewall (WAF):** Firewall that filters, monitors, and blocks HTTP/HTTPS traffic to web applications.
 
-**Zero Trust:** Security model requiring verification for every user and device trying to access resources.
+- **Zero Trust:** Security model requiring verification for every user and device trying to access resources.
 
 ### 14. Responsibilities
 

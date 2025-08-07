@@ -13,11 +13,11 @@ This policy applies to all **[Company Name]** workforce members, contractors, an
 
 ### 3. Policy
 
-**[Company Name]** shall implement and maintain a systematic risk management process that is integrated into all business activities and decision-making processes.
+- **[Company Name]** shall implement and maintain a systematic risk management process that is integrated into all business activities and decision-making processes.
 
-**3.1 Risk Management Framework**
+#### 3.1 Risk Management Framework
 
-**[Company Name]** shall establish and maintain a formal risk management framework based on industry best practices and regulatory requirements.
+- **[Company Name]** shall establish and maintain a formal risk management framework based on industry best practices and regulatory requirements.
 
 - The risk management process shall follow a continuous cycle of identification, assessment, treatment, monitoring, and review.
 
@@ -27,9 +27,9 @@ This policy applies to all **[Company Name]** workforce members, contractors, an
 
 - Risk management shall be integrated into strategic planning, project management, system development, and vendor management processes.
 
-**3.2 Risk Identification**
+#### 3.2 Risk Identification
 
-**[Company Name]** shall proactively identify information security risks through multiple sources and methods.
+- **[Company Name]** shall proactively identify information security risks through multiple sources and methods.
 
 - Comprehensive risk assessments shall be conducted at least annually and whenever significant changes occur to systems, processes, or the business environment.
 
@@ -47,7 +47,7 @@ This policy applies to all **[Company Name]** workforce members, contractors, an
   - Regulatory and compliance changes
   - Third-party and vendor risks
 
-**3.3 Risk Assessment and Analysis**
+#### 3.3 Risk Assessment and Analysis
 
 All identified risks shall be analyzed to determine their potential impact and likelihood of occurrence.
 
@@ -68,9 +68,9 @@ All identified risks shall be analyzed to determine their potential impact and l
 
 - Risk levels shall be determined using a standardized risk matrix. The criteria for impact, likelihood, and the resulting risk levels (**High**, **Medium**, **Low**) shall be formally documented and approved by the Information Security Committee.
 
-**3.4 Risk Treatment**
+#### 3.4 Risk Treatment
 
-**[Company Name]** shall implement appropriate risk treatment strategies based on risk levels and business priorities.
+- **[Company Name]** shall implement appropriate risk treatment strategies based on risk levels and business priorities.
 
 - Risk treatment options include:
   - **Accept:** Acknowledge and monitor risks that fall within acceptable tolerance levels
@@ -88,9 +88,9 @@ All identified risks shall be analyzed to determine their potential impact and l
 
 - The effectiveness of risk treatments shall be monitored and measured regularly.
 
-**3.5 Risk Monitoring and Review**
+#### 3.5 Risk Monitoring and Review
 
-**[Company Name]** shall continuously monitor the risk environment and the effectiveness of risk treatments.
+- **[Company Name]** shall continuously monitor the risk environment and the effectiveness of risk treatments.
 
 - A formal risk register shall be maintained to track all identified risks, their assessments, treatments, and current status.
 
@@ -102,7 +102,7 @@ All identified risks shall be analyzed to determine their potential impact and l
 
 - Annual risk assessment reviews shall validate the continued relevance of identified risks and assess the effectiveness of the overall risk management program.
 
-**3.6 Risk Communication and Reporting**
+#### 3.6 Risk Communication and Reporting
 
 Risk information shall be communicated effectively to all relevant stakeholders to support informed decision-making.
 
@@ -117,7 +117,7 @@ Risk information shall be communicated effectively to all relevant stakeholders 
   - Recommendations for risk mitigation
   - Compliance and regulatory implications
 
-**3.7 Third-Party Risk Management**
+#### 3.7 Third-Party Risk Management
 
 Risks associated with third-party vendors, business associates, and service providers shall be assessed and managed as part of the overall risk management program.
 
@@ -129,7 +129,7 @@ Risks associated with third-party vendors, business associates, and service prov
 
 - Third-party incidents and security events shall be tracked and incorporated into risk assessments.
 
-**3.8 Business Continuity and Operational Risk**
+#### 3.8 Business Continuity and Operational Risk
 
 Risk management shall include consideration of business continuity and operational resilience requirements.
 
@@ -171,23 +171,23 @@ This policy is designed to comply with and support the following industry standa
 
 ### 5. Definitions
 
-**Business Impact Assessment (BIA):** Analysis to identify and evaluate potential impacts resulting from business disruption.
+- **Business Impact Assessment (BIA):** Analysis to identify and evaluate potential impacts resulting from business disruption.
 
-**Inherent Risk:** The level of risk that exists before any controls or mitigation measures are applied.
+- **Inherent Risk:** The level of risk that exists before any controls or mitigation measures are applied.
 
-**Key Risk Indicators (KRIs):** Metrics that provide early warning signals of increasing risk exposure.
+- **Key Risk Indicators (KRIs):** Metrics that provide early warning signals of increasing risk exposure.
 
-**Residual Risk:** The level of risk remaining after controls and mitigation measures have been applied.
+- **Residual Risk:** The level of risk remaining after controls and mitigation measures have been applied.
 
-**Risk Appetite:** The level of risk that an organization is willing to accept in pursuit of its objectives.
+- **Risk Appetite:** The level of risk that an organization is willing to accept in pursuit of its objectives.
 
-**Risk Assessment:** The systematic process of identifying, analyzing, and evaluating risks.
+- **Risk Assessment:** The systematic process of identifying, analyzing, and evaluating risks.
 
-**Risk Register:** A document that records identified risks, their analysis, and risk response plans.
+- **Risk Register:** A document that records identified risks, their analysis, and risk response plans.
 
-**Risk Tolerance:** The acceptable level of variation around risk appetite.
+- **Risk Tolerance:** The acceptable level of variation around risk appetite.
 
-**Threat Intelligence:** Information about current and emerging security threats and vulnerabilities.
+- **Threat Intelligence:** Information about current and emerging security threats and vulnerabilities.
 
 ### 6. Responsibilities
 

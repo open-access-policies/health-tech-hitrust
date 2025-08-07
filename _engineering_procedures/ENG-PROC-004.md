@@ -42,9 +42,9 @@ An emergency change ticket with documented approvals and a link to a post-mortem
 
 ### 7. Definitions
 
-**Post-Mortem Review:** A formal meeting and report that analyzes an incident or emergency change to understand the cause, impact, and actions taken, and to identify lessons learned to prevent recurrence.
+- **Post-Mortem Review:** A formal meeting and report that analyzes an incident or emergency change to understand the cause, impact, and actions taken, and to identify lessons learned to prevent recurrence.
 
-**Critical Issue:** An issue that causes a service outage, data corruption, a severe security vulnerability, or significantly impacts customers' ability to use the service.
+- **Critical Issue:** An issue that causes a service outage, data corruption, a severe security vulnerability, or significantly impacts customers' ability to use the service.
 
 ### 8. Responsibilities
 

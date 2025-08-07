@@ -40,9 +40,9 @@ A completed incident report documenting the loss/theft, response actions, and re
 
 ### 7. Definitions
 
-**Remote Lock:** A feature of MDM software that allows an administrator to remotely make a device inaccessible.
+- **Remote Lock:** A feature of MDM software that allows an administrator to remotely make a device inaccessible.
 
-**Remote Wipe:** A feature of MDM software that allows an administrator to remotely delete all data from a device.
+- **Remote Wipe:** A feature of MDM software that allows an administrator to remotely delete all data from a device.
 
 ### 8. Responsibilities
 

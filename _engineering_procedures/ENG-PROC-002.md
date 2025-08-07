@@ -41,9 +41,9 @@ A record of the SCA scan results and a formal approval or denial for the compone
 
 ### 7. Definitions
 
-**SCA (Software Composition Analysis):** An automated process that identifies the open-source software in a codebase to evaluate security, license compliance, and code quality.
+- **SCA (Software Composition Analysis):** An automated process that identifies the open-source software in a codebase to evaluate security, license compliance, and code quality.
 
-**CVE (Common Vulnerabilities and Exposures):** A list of publicly disclosed computer security flaws.
+- **CVE (Common Vulnerabilities and Exposures):** A list of publicly disclosed computer security flaws.
 
 ### 8. Responsibilities
 

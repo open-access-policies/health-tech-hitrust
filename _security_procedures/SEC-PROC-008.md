@@ -39,8 +39,8 @@ An entry in the vulnerability tracking system showing the lifecycle of a vulnera
 
 ### 7. Definitions
 
-**CVSS:** Common Vulnerability Scoring System. A standard for assessing the severity of computer system security vulnerabilities.
-**SLA:** Service Level Agreement. A commitment between a service provider and a client.
+- **CVSS:** Common Vulnerability Scoring System. A standard for assessing the severity of computer system security vulnerabilities.
+- **SLA:** Service Level Agreement. A commitment between a service provider and a client.
 
 ### 8. Responsibilities
 

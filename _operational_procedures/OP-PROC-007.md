@@ -51,11 +51,11 @@ A completed and signed onboarding/offboarding checklist stored in the employee's
 
 ### 7. Definitions
 
-**Onboarding:** The process of integrating a new employee into an organization.
+- **Onboarding:** The process of integrating a new employee into an organization.
 
-**Offboarding:** The formal process of separation when an employee leaves a company.
+- **Offboarding:** The formal process of separation when an employee leaves a company.
 
-**AUP (Acceptable Use Policy):** A document stipulating constraints and practices that a user must agree to for access to a corporate network or the Internet.
+- **AUP (Acceptable Use Policy):** A document stipulating constraints and practices that a user must agree to for access to a corporate network or the Internet.
 
 ### 8. Responsibilities
 

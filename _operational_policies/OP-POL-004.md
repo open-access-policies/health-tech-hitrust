@@ -13,9 +13,9 @@ This policy applies to all prospective, current, and former workforce members of
 
 ### 3. Policy
 
-**[Company Name]** shall implement and maintain procedures to ensure that the workforce is managed securely and in accordance with all applicable legal and regulatory requirements.
+- **[Company Name]** shall implement and maintain procedures to ensure that the workforce is managed securely and in accordance with all applicable legal and regulatory requirements.
 
-**3.1 Screening and Background Checks**
+#### 3.1 Screening and Background Checks
 
 To ensure a trusted workforce, all candidates for employment or engagement shall undergo a formal screening process before being granted access to company information assets.
 
@@ -26,7 +26,7 @@ To ensure a trusted workforce, all candidates for employment or engagement shall
 - **Adverse Findings:** Any adverse findings from a background check will be reviewed by the Human Resources Department and the Security Officer to determine eligibility for employment based on the nature of the finding and the requirements of the role.
     
 
-**3.2 Onboarding and Security Training**
+#### 3.2 Onboarding and Security Training
 
 Upon joining the company, all new workforce members must complete a formal onboarding process to ensure they understand their security responsibilities.
 
@@ -37,7 +37,7 @@ Upon joining the company, all new workforce members must complete a formal onboa
 - **Access Provisioning:** Access to systems and data will be provisioned in accordance with the Access Control Policy (SEC-POL-001), based on the principle of least privilege.
     
 
-**3.3 Termination and Separation**
+#### 3.3 Termination and Separation
 
 A formal process must be followed to ensure a secure and orderly separation when a workforce member leaves the company, regardless of the reason.
 
@@ -50,7 +50,7 @@ A formal process must be followed to ensure a secure and orderly separation when
 - **Exit Interview:** Where appropriate, the Human Resources Department will conduct an exit interview to remind the departing workforce member of their ongoing confidentiality obligations.
     
 
-**3.4 Sanction Policy**
+#### 3.4 Sanction Policy
 
 Failure to comply with **[Company Name]**'s information security policies may result in disciplinary action.
 

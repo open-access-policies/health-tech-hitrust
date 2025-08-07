@@ -38,9 +38,9 @@ A completed and signed HIPAA Breach Risk Assessment form.
 
 ### 7. Definitions
 
-**ePHI (electronic Protected Health Information):** Any protected health information (PHI) that is created, stored, transmitted, or received in any electronic format.
+- **ePHI (electronic Protected Health Information):** Any protected health information (PHI) that is created, stored, transmitted, or received in any electronic format.
 
-**Breach:** The acquisition, access, use, or disclosure of protected health information in a manner not permitted under the HIPAA Privacy Rule which compromises the security or privacy of the protected health information.
+- **Breach:** The acquisition, access, use, or disclosure of protected health information in a manner not permitted under the HIPAA Privacy Rule which compromises the security or privacy of the protected health information.
 
 ### 8. Responsibilities
 

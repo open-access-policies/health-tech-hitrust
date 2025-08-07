@@ -38,7 +38,7 @@ A completed AI Risk Assessment and Approval Form.
 
 ### 7. Definitions
 
-**AI:** Artificial Intelligence.
+- **AI:** Artificial Intelligence.
 
 ### 8. Responsibilities
 

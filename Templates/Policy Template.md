@@ -13,15 +13,15 @@ Define who and what this policy applies to. Be specific. For example: "This poli
 
 This is the main section of the document. Detail the specific rules, requirements, and guidelines of the policy. Use numbered or lettered sub-sections for clarity, just as the existing policies do.
 
-**3.1 [Sub-section Title]**
+#### 3.1 [Sub-section Title]
 
 Detail the specific rule or requirement here.
 
-**3.2 [Sub-section Title]**
+#### 3.2 [Sub-section Title]
 
 Detail the specific rule or requirement here.
 
-**3.3 [Sub-section Title]**
+#### 3.3 [Sub-section Title]
 
 Detail the specific rule or requirement here.
 
@@ -40,9 +40,9 @@ This section maps the policy requirements to specific controls from relevant inf
 
 Define any specialized terms, acronyms, or phrases used in the policy to ensure clear understanding. If there are no terms that need defining, you can state "N/A".
 
-**[Term 1]:** [Definition of the term.]
+- **[Term 1]:** [Definition of the term.]
 
-**[Term 2]:** [Definition of the term.]
+- **[Term 2]:** [Definition of the term.]
 
 ### 6. Responsibilities
 

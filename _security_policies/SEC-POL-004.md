@@ -15,27 +15,27 @@ This policy applies to all **[Company Name]** workforce members, including emplo
 
 All **[Company Name]** information shall be classified according to its sensitivity level and handled in accordance with established security controls that protect confidentiality, integrity, and availability.
 
-**3.1 Information Classification Framework**
+#### 3.1 Information Classification Framework
 
-**[Company Name]** shall use a four-tier classification system to categorize all information assets:
+- **[Company Name]** shall use a four-tier classification system to categorize all information assets:
 
-**Public:** Information that can be freely shared with the general public without risk to **[Company Name]** or its stakeholders.
+- **Public:** Information that can be freely shared with the general public without risk to **[Company Name]** or its stakeholders.
 - Examples: Marketing materials, public website content, published research, press releases
 - No special handling requirements beyond standard business practices
 
-**Internal:** Information intended for use within **[Company Name]** that should not be disclosed to external parties without authorization.
+- **Internal:** Information intended for use within **[Company Name]** that should not be disclosed to external parties without authorization.
 - Examples: Internal policies, organizational charts, general business communications, non-sensitive system documentation
 - Requires basic access controls and confidentiality agreements
 
-**Confidential:** Sensitive information that could cause significant harm to **[Company Name]**, its customers, or business partners if disclosed without authorization.
+- **Confidential:** Sensitive information that could cause significant harm to **[Company Name]**, its customers, or business partners if disclosed without authorization.
 - Examples: Financial records, strategic plans, customer lists, proprietary technology, employee personal information
 - Requires enhanced security controls, encryption for transmission, and formal access approval
 
-**Restricted:** Highly sensitive information that could cause severe harm if disclosed and is subject to regulatory protection requirements.
+- **Restricted:** Highly sensitive information that could cause severe harm if disclosed and is subject to regulatory protection requirements.
 - Examples: ePHI, payment card data, social security numbers, authentication credentials, encryption keys
 - Requires maximum security controls, encryption at rest and in transit, audit logging, and compliance with specific regulations
 
-**3.2 Information Classification Responsibilities**
+#### 3.2 Information Classification Responsibilities
 
 Information classification shall be assigned by designated information owners and applied consistently throughout the information lifecycle. The Security Officer shall maintain an Information Asset Inventory that documents all major information assets, their designated Information Owner, and their classification level.
 
@@ -47,24 +47,24 @@ Information classification shall be assigned by designated information owners an
 
 - Information owners shall review the classification of their information assets at least annually. This review shall be documented to provide an audit trail.
 
-**3.3 Handling Requirements by Classification Level**
+#### 3.3 Handling Requirements by Classification Level
 
 Specific security controls shall be implemented based on information classification levels.
 
-**3.3.1 Public Information**
+##### 3.3.1 Public Information
 - No special access restrictions required
 - Standard backup and archival procedures apply
 - May be stored on standard business systems
 - Can be transmitted via standard email or file sharing
 
-**3.3.2 Internal Information**
+##### 3.3.2 Internal Information
 - Access restricted to authorized **[Company Name]** workforce members
 - Password-protected when stored on portable devices
 - Transmitted via secure channels (encrypted email, secure file transfer)
 - Stored on company-approved systems with appropriate access controls
 - Covered by confidentiality agreements for third-party access
 
-**3.3.3 Confidential Information**
+##### 3.3.3 Confidential Information
 - Access granted only on a need-to-know basis with formal approval
 - Encrypted when stored on laptops, mobile devices, or removable media
 - Transmitted only via encrypted channels (secure email, VPN, HTTPS)
@@ -73,7 +73,7 @@ Specific security controls shall be implemented based on information classificat
 - Requires Non-Disclosure Agreements (NDAs) for third-party access
 - Must be clearly labeled or marked to indicate classification level
 
-**3.3.4 Restricted Information**
+##### 3.3.4 Restricted Information
 - Access granted only to specifically authorized individuals with business justification
 - Encrypted at rest using **[Encryption Standard, e.g., AES-256]** or equivalent
 - Encrypted in transit using **[Protocol, e.g., TLS 1.3]** or equivalent
@@ -84,7 +84,7 @@ Specific security controls shall be implemented based on information classificat
 - Must be clearly labeled and handled according to regulatory requirements
 - Subject to data loss prevention (DLP) monitoring and controls
 
-**3.4 Electronic Protected Health Information (ePHI) Handling**
+#### 3.4 Electronic Protected Health Information (ePHI) Handling
 
 ePHI represents a subset of Restricted information requiring special handling under HIPAA regulations.
 
@@ -96,7 +96,7 @@ ePHI represents a subset of Restricted information requiring special handling un
 - Regular audits conducted to verify appropriate ePHI access and usage
 - Breach notification procedures followed for any suspected ePHI compromise
 
-**3.5 Data Labeling and Marking**
+#### 3.5 Data Labeling and Marking
 
 Information classification shall be clearly indicated through appropriate labeling mechanisms.
 
@@ -107,7 +107,7 @@ Information classification shall be clearly indicated through appropriate labeli
 - System interfaces shall display classification levels for data being accessed
 - Classification labels shall remain with information throughout its lifecycle
 
-**3.6 Information Storage and Access Controls**
+#### 3.6 Information Storage and Access Controls
 
 Storage requirements shall be implemented based on information classification levels.
 
@@ -117,7 +117,7 @@ Storage requirements shall be implemented based on information classification le
 - Regular access reviews shall be conducted quarterly for Restricted information and annually for Confidential information
 - Automated tools shall be used where possible to enforce classification-based access controls
 
-**3.7 Information Transmission and Sharing**
+#### 3.7 Information Transmission and Sharing
 
 Information transmission methods shall align with classification requirements and recipient authorization levels.
 
@@ -127,7 +127,7 @@ Information transmission methods shall align with classification requirements an
 - File sharing services shall be approved for specific classification levels and configured with appropriate security settings
 - Email systems shall include data loss prevention capabilities to prevent unauthorized transmission of sensitive information
 
-**3.8 Information Retention and Disposal**
+#### 3.8 Information Retention and Disposal
 
 Information shall be retained according to business requirements and regulatory obligations, then securely disposed of when no longer needed.
 
@@ -140,7 +140,7 @@ Information shall be retained according to business requirements and regulatory 
 - Disposal activities shall be documented and verified for Restricted information
 - Third-party disposal services shall provide certificates of destruction and maintain appropriate insurance coverage
 
-**3.9 Data Loss Prevention (DLP)**
+#### 3.9 Data Loss Prevention (DLP)
 
 Technical controls shall be implemented to prevent unauthorized disclosure of sensitive information.
 
@@ -150,7 +150,7 @@ Technical controls shall be implemented to prevent unauthorized disclosure of se
 - DLP policies shall be regularly updated to address new data types and transmission methods
 - Incident response procedures shall address DLP alerts and potential data loss events
 
-**3.10 Mobile Device and Remote Access**
+#### 3.10 Mobile Device and Remote Access
 
 Special considerations shall apply to information access via mobile devices and remote locations.
 
@@ -186,17 +186,17 @@ This policy is designed to comply with and support the following industry standa
 
 ### 5. Definitions
 
-**Business Associate Agreement (BAA):** A written contract between a covered entity and a business associate establishing permitted uses and disclosures of ePHI.
+- **Business Associate Agreement (BAA):** A written contract between a covered entity and a business associate establishing permitted uses and disclosures of ePHI.
 
-**Data Loss Prevention (DLP):** Technology and processes designed to detect and prevent unauthorized transmission of sensitive information.
+- **Data Loss Prevention (DLP):** Technology and processes designed to detect and prevent unauthorized transmission of sensitive information.
 
-**Electronic Protected Health Information (ePHI):** Protected health information that is created, stored, transmitted, or maintained electronically.
+- **Electronic Protected Health Information (ePHI):** Protected health information that is created, stored, transmitted, or maintained electronically.
 
-**Information Owner:** The person responsible for the business content and context of information, including classification and access decisions.
+- **Information Owner:** The person responsible for the business content and context of information, including classification and access decisions.
 
-**Minimum Necessary:** The HIPAA principle requiring that uses and disclosures of ePHI be limited to the smallest amount necessary to accomplish the intended purpose.
+- **Minimum Necessary:** The HIPAA principle requiring that uses and disclosures of ePHI be limited to the smallest amount necessary to accomplish the intended purpose.
 
-**Non-Disclosure Agreement (NDA):** A legal contract establishing confidential relationships and restricting information sharing.
+- **Non-Disclosure Agreement (NDA):** A legal contract establishing confidential relationships and restricting information sharing.
 
 ### 6. Responsibilities
 

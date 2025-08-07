@@ -15,7 +15,7 @@ This policy applies to all **[Company Name]** workforce members (including emplo
 
 All remote work must be conducted in a manner that actively protects company information and systems from unauthorized access, disclosure, or damage.
 
-**3.1 Secure Network Connectivity**
+#### 3.1 Secure Network Connectivity
 
 Workforce members are responsible for ensuring they use a secure network connection for all remote work.
 
@@ -26,7 +26,7 @@ Workforce members are responsible for ensuring they use a secure network connect
 - **Home Network Security:** Workforce members shall secure their home wireless networks with strong encryption (WPA2 or better) and a complex, unique password. As part of their annual security attestation, all workforce members shall formally attest that their primary remote work network is secured in accordance with this policy.
     
 
-**3.2 Device Security Requirements**
+#### 3.2 Device Security Requirements
 
 Any device used to access company resources remotely, whether company-provided or personally-owned, shall meet the following minimum security standards. Compliance with these requirements is enforced through the company's security software (such as Mobile Device Management (MDM) or Endpoint Detection and Response (EDR) solutions). Devices that do not meet these minimum standards may be blocked from accessing corporate resources.
 
@@ -39,7 +39,7 @@ Any device used to access company resources remotely, whether company-provided o
 - **Patch Management:** The operating system and all applications shall be kept up-to-date with the latest security patches.
     
 
-**3.3 Data Handling and Physical Security**
+#### 3.3 Data Handling and Physical Security
 
 Workforce members shall take precautions to protect the physical and digital privacy of information when working remotely.
 
@@ -56,7 +56,7 @@ Workforce members shall take precautions to protect the physical and digital pri
 - **Data Removal After Employment:** Upon termination, workforce members shall cooperate with the IT Department to ensure the secure removal of all company data, applications, and access credentials from any personally-owned devices used for work.
     
 
-**3.4 Use of Personal Equipment (BYOD)**
+#### 3.4 Use of Personal Equipment (BYOD)
 
 The use of personally-owned devices to access company resources is a privilege and is contingent upon adherence to specific security requirements. As a condition of using a personal device for work, workforce members shall provide formal consent to the installation of required security software and acknowledge **[Company Name]**'s right to remotely wipe corporate data (a process that targets only company information and applications, not personal data like photos, texts, or contacts). All personal devices shall be formally registered with the IT Department and may be required to have company-managed security software installed before access is granted, as further defined in the Bring Your Own Device (BYOD) Policy.
 

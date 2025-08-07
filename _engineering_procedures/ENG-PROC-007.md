@@ -37,14 +37,14 @@ Network security monitoring leverages cloud-native security tools, automated thr
 
 #### 5.1 Service Provider Qualifications
 
-**Required Certifications and Compliance:**
+- **Required Certifications and Compliance:**
 - SOC 2 Type II certified security operations center
 - HIPAA Business Associate Agreement (BAA) executed
 - HITRUST CSF v11.2.0 certification preferred
 - 24/7/365 security operations center coverage
 - Incident response capabilities and procedures
 
-**Technical Requirements:**
+- **Technical Requirements:**
 - Cloud security expertise (AWS, Azure, GCP)
 - Advanced threat intelligence capabilities
 - Machine learning and behavioral analysis tools
@@ -53,13 +53,13 @@ Network security monitoring leverages cloud-native security tools, automated thr
 
 #### 5.2 Service Level Agreements
 
-**Response Time Requirements:**
+##### Response Time Requirements:
 - Critical alerts: **[Timeframe, e.g., 15 minutes]** acknowledgment, **[Timeframe, e.g., 1 hour]** analysis
 - High severity alerts: **[Timeframe, e.g., 1 hour]** acknowledgment, **[Timeframe, e.g., 4 hours]** analysis  
 - Medium severity alerts: **[Timeframe, e.g., 4 hours]** acknowledgment, **[Timeframe, e.g., 24 hours]** analysis
 - Low severity alerts: **[Timeframe, e.g., 24 hours]** acknowledgment, **[Timeframe, e.g., 3 days]** analysis
 
-**Availability Requirements:**
+##### Availability Requirements:
 - SOC availability: 99.9% uptime
 - SIEM platform availability: 99.5% uptime
 - Incident escalation capabilities: 24/7/365
@@ -69,19 +69,19 @@ Network security monitoring leverages cloud-native security tools, automated thr
 
 #### 6.1 AWS Security Services
 
-**Amazon GuardDuty:**
+##### Amazon GuardDuty:
 - Threat detection using machine learning and behavioral analysis
 - Integration with AWS VPC Flow Logs and DNS logs
 - Automatic detection of cryptocurrency mining, command & control communications
 - Built-in threat intelligence from AWS Security, CrowdStrike, and Proofpoint
 
-**AWS Security Hub:**
+##### AWS Security Hub:
 - Centralized security findings from multiple AWS security services
 - Compliance monitoring for HIPAA, PCI DSS, and other frameworks
 - Integration with third-party security tools
 - Automated remediation workflows
 
-**AWS CloudTrail:**
+##### AWS CloudTrail:
 - API logging and monitoring for AWS account activity
 - Detection of unusual administrative activities
 - Integration with CloudWatch for real-time alerting
@@ -89,13 +89,13 @@ Network security monitoring leverages cloud-native security tools, automated thr
 
 #### 6.2 Azure Security Services
 
-**Azure Sentinel:**
+##### Azure Sentinel:
 - Cloud-native SIEM with machine learning capabilities
 - Built-in connectors for Office 365, Azure services, and third-party tools
 - Automated investigation and response capabilities
 - Threat intelligence integration and hunting queries
 
-**Azure Security Center:**
+##### Azure Security Center:
 - Unified security management and advanced threat protection
 - Compliance dashboard for regulatory requirements
 - Security recommendations and vulnerability assessments
@@ -103,7 +103,7 @@ Network security monitoring leverages cloud-native security tools, automated thr
 
 #### 6.3 Google Cloud Security Services
 
-**Google Cloud Security Command Center:**
+##### Google Cloud Security Command Center:
 - Centralized security and risk management platform
 - Asset discovery and security findings management
 - Integration with Chronicle for security analytics
@@ -113,14 +113,14 @@ Network security monitoring leverages cloud-native security tools, automated thr
 
 #### 7.1 MSSP Escalation Triggers
 
-**Immediate Escalation (Critical):**
+##### Immediate Escalation (Critical):
 - Confirmed data exfiltration or breach attempt
 - Command and control communications detected
 - Active lateral movement or privilege escalation
 - Ransomware or destructive malware detection
 - Administrative account compromise indicators
 
-**Standard Escalation (High/Medium):**
+##### Standard Escalation (High/Medium):
 - Persistent advanced threats or APT indicators
 - Multiple security control bypass attempts
 - Suspicious insider threat activities
@@ -129,19 +129,19 @@ Network security monitoring leverages cloud-native security tools, automated thr
 
 #### 7.2 Internal Response Coordination
 
-**Security Officer Responsibilities:**
+##### Security Officer Responsibilities:
 - Primary point of contact for MSSP escalations
 - Coordination with internal incident response team
 - Communication with executive management and legal counsel
 - Regulatory notification decisions and execution
 
-**Platform Engineer Responsibilities:**
+##### Platform Engineer Responsibilities:
 - Technical response to MSSP recommendations
 - Implementation of containment and mitigation measures
 - System isolation and forensic evidence preservation
 - Coordination with DevOps for service availability
 
-**On-Call Engineer Responsibilities:**
+##### On-Call Engineer Responsibilities:
 - After-hours response to critical security escalations
 - Initial assessment and containment actions
 - MSSP coordination until Security Officer availability
@@ -172,13 +172,13 @@ Network security monitoring leverages cloud-native security tools, automated thr
 
 #### 9.1 HIPAA/HITECH Compliance
 
-**Business Associate Agreement (BAA):**
+##### Business Associate Agreement (BAA):
 - MSSP executes comprehensive BAA covering ePHI handling
 - Detailed data processing and security requirements
 - Incident notification and reporting procedures
 - Regular compliance auditing and assessment requirements
 
-**Data Handling Requirements:**
+##### Data Handling Requirements:
 - ePHI access limited to necessary MSSP personnel
 - Encryption in transit and at rest for all security data
 - Geographic data residency requirements (US-based SOCs)
@@ -186,7 +186,7 @@ Network security monitoring leverages cloud-native security tools, automated thr
 
 #### 9.2 HITRUST CSF Integration
 
-**Control Mapping:**
+##### Control Mapping:
 - MSSP services mapped to specific HITRUST CSF v11.2.0 controls
 - Regular assessment of control effectiveness
 - Evidence collection for HITRUST certification requirements
@@ -196,12 +196,12 @@ Network security monitoring leverages cloud-native security tools, automated thr
 
 #### 10.1 Service Cost Structure
 
-**Fixed Costs:**
+##### Fixed Costs:
 - Base MSSP monitoring service fee: $**[Amount, e.g., 15,000-25,000]** monthly
 - Cloud security service fees: $**[Amount, e.g., 5,000-10,000]** monthly
 - Additional integrations and customizations as needed
 
-**Variable Costs:**
+##### Variable Costs:
 - Security incident investigation fees (per incident)
 - Advanced threat hunting services (as requested)
 - Additional log ingestion beyond baseline volumes
@@ -209,13 +209,13 @@ Network security monitoring leverages cloud-native security tools, automated thr
 
 #### 10.2 Cost Optimization Strategies
 
-**Service Right-Sizing:**
+##### Service Right-Sizing:
 - Regular review of monitoring scope and log volumes
 - Optimization of cloud security service configurations
 - Elimination of duplicate or redundant monitoring capabilities
 - Focus on high-value security events and threat indicators
 
-**Automation and Self-Service:**
+##### Automation and Self-Service:
 - Automated response to common security events
 - Self-service access to security dashboards and reports
 - Reduced dependency on MSSP for routine activities
@@ -246,15 +246,15 @@ This procedure is designed to comply with and support the following industry sta
 
 ### 13. Definitions
 
-**Managed Security Service Provider (MSSP):** Third-party organization providing 24/7 security monitoring, threat detection, and incident response services.
+- **Managed Security Service Provider (MSSP):** Third-party organization providing 24/7 security monitoring, threat detection, and incident response services.
 
-**Security Operations Center (SOC):** Centralized facility where security professionals monitor, analyze, and respond to security events.
+- **Security Operations Center (SOC):** Centralized facility where security professionals monitor, analyze, and respond to security events.
 
-**Cloud-Native Security:** Security tools and services built specifically for cloud infrastructure and provided by cloud service providers.
+- **Cloud-Native Security:** Security tools and services built specifically for cloud infrastructure and provided by cloud service providers.
 
-**Security Information and Event Management (SIEM):** Technology that provides real-time analysis of security alerts and events.
+- **Security Information and Event Management (SIEM):** Technology that provides real-time analysis of security alerts and events.
 
-**Mean Time to Containment:** Average time between security threat detection and successful containment or mitigation.
+- **Mean Time to Containment:** Average time between security threat detection and successful containment or mitigation.
 
 ### 14. Responsibilities
 

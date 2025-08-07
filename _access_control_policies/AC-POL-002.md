@@ -15,7 +15,7 @@ This policy applies to all **[Company Name]** workforce members (including emplo
 
 All use of **[Company Name]**'s network resources must be conducted in a legal, ethical, and secure manner that is consistent with the company's professional standards.
 
-**3.1 General Use and Ownership**
+#### 3.1 General Use and Ownership
 
 - **Company Property:** All network infrastructure, systems, and the data created or transmitted over them are the property of **[Company Name]**.
     
@@ -24,7 +24,7 @@ All use of **[Company Name]**'s network resources must be conducted in a legal, 
 - **Business Purpose:** Network resources are provided primarily for business-related activities. Limited and incidental personal use is permitted, provided it does not interfere with job performance, consume significant resources, or violate any other provision of this policy.
     
 
-**3.2 Security and Data Protection**
+#### 3.2 Security and Data Protection
 
 Workforce members are responsible for maintaining the security of the network and protecting company data.
 
@@ -37,7 +37,7 @@ Workforce members are responsible for maintaining the security of the network an
 - **Data Handling:** The transmission of ePHI or other data classified as Confidential over the network shall be done using company-approved, encrypted methods.
     
 
-**3.3 Prohibited Activities**
+#### 3.3 Prohibited Activities
 
 The following activities are strictly prohibited when using **[Company Name]**'s network resources:
 

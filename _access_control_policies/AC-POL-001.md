@@ -16,11 +16,11 @@ This policy applies to all **[Company Name]** workforce members, third-party con
 
 Access to all **[Company Name]** information assets shall be managed through a formal, documented process that is consistently applied and audited.
 
-**3.1 Principle of Least Privilege**
+#### 3.1 Principle of Least Privilege
 
 All access rights shall be granted based on the principle of least privilege. Workforce members shall only be provided with the minimum level of access to data and systems necessary to perform their assigned job responsibilities. Access that is not explicitly granted is implicitly denied.
 
-**3.2 User Access Lifecycle Management**
+#### 3.2 User Access Lifecycle Management
 
 Access rights shall be managed throughout the entire duration of a user's relationship with the company.
 
@@ -31,7 +31,7 @@ Access rights shall be managed throughout the entire duration of a user's relati
 - **Deprovisioning:** Upon termination of employment or contract, all access to company systems, applications, and physical facilities shall be revoked in a timely manner. **Critical/High-Risk Terminations** (involuntary terminations, security incidents, executive departures): All logical and physical access shall be revoked within **[Number, e.g., 2]** hours. **Standard Terminations** (voluntary resignations, contract completions): All access shall be revoked within **[Number, e.g., 24]** hours from the official termination time. **Low-Risk Extended Transitions** (retirements, internal transfers): Access revocation may be coordinated over **[Number, e.g., 72]** hours to ensure smooth knowledge transfer.
     
 
-**3.3 Automated Access Reviews and Monitoring**
+#### 3.3 Automated Access Reviews and Monitoring
 
 To ensure access rights remain appropriate while minimizing administrative overhead, access reviews shall utilize automated monitoring and exception-based reviews rather than manual quarterly attestations.
 
@@ -44,7 +44,7 @@ To ensure access rights remain appropriate while minimizing administrative overh
 - **Escalation and Remediation:** Automated alerts for access anomalies shall be sent to system owners and managers for resolution within **[Number, e.g., 7]** business days. Failure to respond to access alerts shall result in automatic escalation to the Security Officer and potential access suspension for high-risk systems.
     
 
-**3.4 Privileged Access Management**
+#### 3.4 Privileged Access Management
 
 Accounts with elevated (administrative) privileges pose a significant risk and shall be subject to enhanced controls utilizing modern just-in-time access principles.
 
@@ -57,7 +57,7 @@ Accounts with elevated (administrative) privileges pose a significant risk and s
 - **Automated Monitoring and Alerting:** All privileged account activities shall be automatically logged and monitored. Real-time alerts shall be generated for unusual privileged access patterns, after-hours usage, and potential privilege abuse.
     
 
-**3.5 System and Network Access Controls**
+#### 3.5 System and Network Access Controls
 
 Logical access to systems and networks shall be secured as follows:
 
@@ -70,7 +70,7 @@ Logical access to systems and networks shall be secured as follows:
 - **Network Segregation:** The corporate network shall be segregated into logical zones (e.g., production, development, DMZ) with access controls and firewalls in place to restrict traffic between zones to only what is explicitly authorized.
     
 
-**3.6 Third-Party Access**
+#### 3.6 Third-Party Access
 
 Prior to granting any access, all third parties shall undergo a formal security and compliance review, as defined in the Vendor Management Policy. Any third party that will access, store, or process ePHI on behalf of **[Company Name]** shall have a signed Business Associate Agreement (BAA) in place before access is provisioned.
 

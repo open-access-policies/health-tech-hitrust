@@ -42,9 +42,9 @@ A record of MDM enrollment and a compliance verification report stored within th
 
 ### 7. Definitions
 
-**MDM (Mobile Device Management):** Software that allows an organization to secure, monitor, and manage mobile devices, such as smartphones and tablets.
+- **MDM (Mobile Device Management):** Software that allows an organization to secure, monitor, and manage mobile devices, such as smartphones and tablets.
 
-**BYOD (Bring Your Own Device):** A policy that allows employees to use their personal devices for work-related purposes.
+- **BYOD (Bring Your Own Device):** A policy that allows employees to use their personal devices for work-related purposes.
 
 ### 8. Responsibilities
 

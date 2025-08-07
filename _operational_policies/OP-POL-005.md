@@ -16,7 +16,7 @@ This policy applies to all [Company Name] workforce members (including employees
 
 All software installed on company endpoints shall be properly licensed, have a valid business justification, and be approved in accordance with the procedures outlined in this policy. The principle of least functionality shall be applied, meaning only necessary software shall be installed.
 
-**3.1 Software Governance Model**
+#### 3.1 Software Governance Model
 
 [Company Name] employs a hybrid governance model to manage software risk effectively:
 
@@ -25,7 +25,7 @@ All software installed on company endpoints shall be properly licensed, have a v
 - **Blocklist (for Prohibited Software):** Certain categories of software are explicitly prohibited and are maintained on a **Software Blocklist**.
     
 
-**3.2 Software Approval Process**
+#### 3.2 Software Approval Process
 
 Workforce members who wish to install software that is not already on the Software Allowlist must submit a formal request.
 
@@ -36,7 +36,7 @@ Workforce members who wish to install software that is not already on the Softwa
 - **Approval or Denial:** Based on the risk assessment, the Security Team will either approve or deny the request. Approved software will be added to the Software Allowlist. The decision will be documented in the IT ticket.
     
 
-**3.3 Prohibited Software Categories**
+#### 3.3 Prohibited Software Categories
 
 The installation and use of software in the following categories are strictly prohibited on any company endpoint:
 
@@ -55,7 +55,7 @@ The installation and use of software in the following categories are strictly pr
 - Software that is known to have significant security vulnerabilities or is no longer supported by the vendor.
     
 
-**3.4 Browser Extension Security**
+#### 3.4 Browser Extension Security
 
 Browser extensions pose a unique risk and are subject to heightened scrutiny.
 
@@ -68,7 +68,7 @@ Browser extensions pose a unique risk and are subject to heightened scrutiny.
 - **End-of-Life Extensions:** Extensions that are no longer maintained or updated by the vendor will be removed from all company endpoints to mitigate security risks.
     
 
-**3.5 Auditing and Enforcement**
+#### 3.5 Auditing and Enforcement
 
 The IT Department will use endpoint management tools to enforce this policy and maintain system integrity.
 
