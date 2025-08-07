@@ -171,11 +171,3 @@ This policy is designed to comply with and support the following industry standa
 |**Development Team**|Implement encryption requirements in application code using cloud encryption APIs and best practices.|
 |**IT Operations Team**|Manage cloud encryption service accounts, access controls, and cost optimization strategies.|
 |**Compliance Team**|Provide audit support and ensure encryption practices meet regulatory requirements.|
-
-### 7. Enforcement
-
-Failure to comply with this policy may result in disciplinary action, up to and including termination of employment or contract, in accordance with **[Company Name]**'s Human Resources Security Policy. Violations may also carry civil and criminal penalties.
-
-### 8. Exceptions
-
-Any exception to this policy must be documented, identifying the associated risks and mitigating controls, and must be submitted to the Security Officer for formal written approval. Approved exceptions will be reviewed on an annual basis.

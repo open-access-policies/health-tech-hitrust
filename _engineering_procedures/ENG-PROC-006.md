@@ -72,51 +72,7 @@ This procedure leverages automated RBAC systems, just-in-time access controls, a
 | **3** | Platform Engineer | **Post-Incident Access Review**: Configure automated post-incident access review to validate that emergency access was appropriate and properly revoked. Generate reports for security team review within **[Duration, e.g., 24 hours]** of incident resolution. |
 | **4** | IT Operations Team | **Access Pattern Learning**: Implement machine learning systems that learn normal access patterns during incidents to improve automated detection and reduce false positives for legitimate emergency access scenarios. |
 
-### 5. Implementation Technologies and Tools
-
-#### 5.1 Cloud-Native Identity and Access Management
-
-**AWS Implementation:**
-- **AWS IAM Identity Center**: Centralized identity management with RBAC and JIT access
-- **AWS IAM Access Analyzer**: Automated privilege analysis and least privilege recommendations
-- **AWS CloudTrail**: Comprehensive audit logging for all privileged access activities
-- **AWS Organizations**: Account-level access controls and cross-account role management
-
-**Azure Implementation:**
-- **Azure Active Directory**: Identity management with conditional access and risk-based authentication
-- **Azure Privileged Identity Management (PIM)**: JIT access with approval workflows and access reviews
-- **Azure Monitor**: Real-time monitoring and alerting for privileged access activities
-- **Azure Policy**: Automated compliance and access control enforcement
-
-**Google Cloud Implementation:**
-- **Google Cloud Identity**: Centralized identity management with organization-level policies
-- **Google Cloud IAM**: Fine-grained access controls with conditional access based on context
-- **Google Cloud Asset Inventory**: Automated discovery and monitoring of privileged access
-- **Google Cloud Audit Logs**: Comprehensive audit trail for all access and privilege changes
-
-#### 5.2 Automation and Integration Tools
-
-**Identity Management Integration:**
-- **Okta** or **Azure AD**: Single sign-on and automated provisioning/deprovisioning
-- **SCIM Integration**: Automated user lifecycle management with HR systems
-- **SAML/OIDC**: Federated access across cloud and on-premises systems
-- **API Integration**: Real-time synchronization between HR systems and access management
-
-**Privileged Access Management Tools:**
-- **HashiCorp Boundary**: Dynamic infrastructure access with session recording
-- **Teleport**: Certificate-based access to infrastructure with audit capabilities
-- **AWS Systems Manager Session Manager**: Secure shell access without SSH keys
-- **Google Cloud IAP**: Identity-aware proxy for secure application access
-
-#### 5.3 Monitoring and Analytics Platforms
-
-**Access Analytics:**
-- **Splunk** or **Elastic Security**: Log analysis and access pattern monitoring
-- **AWS GuardDuty**: Machine learning-based anomaly detection for access activities
-- **Azure Sentinel**: Cloud-native SIEM with automated access investigation
-- **Google Chronicle**: Security analytics platform with access behavior analysis
-
-### 6. Standards Compliance
+### 5. Standards Compliance
 
 This procedure is designed to comply with and support the following industry standards and regulations.
 
@@ -132,7 +88,7 @@ This procedure is designed to comply with and support the following industry sta
 | **4.3** | NIST Cybersecurity Framework | PR.AC-4 - Access Permissions Management |
 | **4.2** | NIST Cybersecurity Framework | PR.AC-6 - Identity and Credential Management |
 
-### 7. Artifact(s)
+### 6. Artifact(s)
 
 - Automated access control logs and audit trails from cloud provider services
 - Monthly exception reports showing access anomalies and remediation actions
@@ -140,7 +96,7 @@ This procedure is designed to comply with and support the following industry sta
 - Automated compliance dashboards showing access control effectiveness
 - Break-glass access logs and post-incident review documentation
 
-### 8. Definitions
+### 7. Definitions
 
 **Role-Based Access Control (RBAC):** Access control method that assigns permissions to users based on their organizational roles rather than individual identity.
 
@@ -152,7 +108,7 @@ This procedure is designed to comply with and support the following industry sta
 
 **Workload Identity:** Cloud-native identity management for applications and services that eliminates the need for static credentials.
 
-### 9. Responsibilities
+### 8. Responsibilities
 
 | **Role** | **Responsibility** |
 | -------- | ---------------- |
@@ -161,12 +117,3 @@ This procedure is designed to comply with and support the following industry sta
 | **Platform Engineer** | Implement JIT access systems, configure cloud access controls, manage service account automation, and optimize privilege assignments. |
 | **DevOps Engineer** | Integrate access controls into CI/CD pipelines, manage service account lifecycle, implement session recording, and automate credential rotation. |
 | **Managers** | Approve exception-based access requests, validate access during role changes, and support incident response access procedures. |
-
-### 10. Related Procedures
-
-This procedure shall be implemented in conjunction with the following organizational procedures:
-
-- **Access Control Policy (AC-POL-001)**: Provides policy framework for automated access control implementation
-- **User Access Review Procedure (AC-PROC-003)**: Covers broader user access management beyond privileged access
-- **Incident Response Procedure (RES-PROC-001)**: Addresses emergency access procedures during security incidents
-- **Employee Onboarding and Offboarding Procedure (OP-PROC-007)**: Covers access provisioning and deprovisioning during role changes

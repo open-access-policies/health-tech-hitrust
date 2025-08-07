@@ -181,119 +181,7 @@ Establish practical procedures for coordinating security incidents involving ven
 - **Recovery Planning**: Coordinate service recovery and business continuity with vendor teams
 - **Lessons Learned**: Document lessons learned from vendor incidents for future risk assessment
 
-### 4. Responsibilities
-
-**4.1 Security Officer**
-
-- **Vendor Risk Classification**: Classify vendors into appropriate risk tiers and approve assessment requirements
-- **Tier 1 Vendor Oversight**: Manage relationships with critical risk vendors including cloud providers and ePHI processors
-- **BAA Management**: Ensure Business Associate Agreements are executed for all ePHI access vendors
-- **Incident Coordination**: Serve as primary contact for vendor security incidents and coordinate internal response
-- **Automated Monitoring**: Implement and monitor automated vendor risk assessment tools and platforms
-
-**4.2 Business Owners**
-
-- **Vendor Selection**: Select appropriate vendors based on business requirements and approved risk tiers
-- **Business Justification**: Provide clear business justification for vendor engagement and data access requirements
-- **Contract Performance**: Monitor vendor service delivery and performance against business requirements
-- **Access Management**: Approve and manage vendor access requirements for their business areas
-- **Budget Management**: Manage vendor costs and contract terms within approved budgets
-
-**4.3 IT Operations Team**
-
-- **Technical Integration**: Implement technical integrations with vendor systems and services
-- **Access Provisioning**: Provision and manage vendor access through SSO and identity management systems
-- **Security Configuration**: Configure vendor systems according to security requirements and best practices
-- **Access Monitoring**: Monitor vendor access activities through existing security monitoring tools
-- **Incident Support**: Provide technical support during vendor-related security incidents
-
-**4.4 Legal/Contracts Team**
-
-- **Contract Negotiation**: Negotiate contract terms and security provisions with vendors
-- **BAA Execution**: Execute Business Associate Agreements and ensure HIPAA compliance terms
-- **Risk Review**: Review vendor contracts for legal and regulatory compliance issues
-- **Termination Management**: Manage contract termination procedures and data return requirements
-- **Regulatory Updates**: Monitor regulatory changes affecting vendor management requirements
-
-**4.5 Finance Team**
-
-- **Vendor Financial Assessment**: Conduct basic financial stability assessment for Tier 1 vendors
-- **Insurance Verification**: Verify vendor insurance coverage and liability requirements
-- **Cost Management**: Monitor vendor costs and identify optimization opportunities
-- **Payment Processing**: Manage vendor payment processes and contract billing requirements
-- **Budget Planning**: Include vendor management costs in annual budget planning
-
-**4.6 Development Team**
-
-- **API Integration**: Implement secure API integrations with vendor services
-- **Data Minimization**: Ensure only necessary data is shared with vendor systems
-- **Security Controls**: Implement application-level security controls for vendor data access
-- **Testing and Validation**: Test vendor integrations for security and performance requirements
-- **Documentation**: Document vendor integrations and security implementations
-
-### 5. Implementation Guidelines
-
-**5.1 Practical Implementation Approach**
-
-**Phase 1: Vendor Inventory and Classification (Month 1)**
-- Create inventory of current vendors and classify into risk tiers
-- Identify vendors requiring immediate BAA execution (ePHI access)
-- Implement automated vendor risk assessment platform
-- Establish vendor management procedures and templates
-
-**Phase 2: Critical Vendor Assessment (Months 2-3)**
-- Complete comprehensive assessment of Tier 1 vendors
-- Execute required Business Associate Agreements
-- Implement enhanced monitoring for critical vendors
-- Review and optimize high-cost vendor relationships
-
-**Phase 3: Automation and Monitoring (Months 3-6)**
-- Deploy automated vendor security monitoring tools
-- Establish regular review cycles for vendor relationships
-- Optimize vendor access management through SSO integration
-- Implement cost optimization and contract management processes
-
-**5.2 Vendor Management Tools and Automation**
-
-**Automated Risk Assessment Platforms**
-- **SecurityScorecard** or **BitSight**: Continuous vendor security rating and monitoring
-- **UpGuard** or **RiskRecon**: Automated security questionnaires and vendor assessment
-- **ServiceNow Vendor Risk Management**: Integrated vendor lifecycle management
-- **Shared Assessments SIG**: Standardized security questionnaire automation
-
-**Contract and Compliance Management**
-- **DocuSign** or **PandaDoc**: Electronic contract execution and BAA management
-- **ContractWorks** or **Ironclad**: Contract lifecycle management and automated renewals
-- **LogicGate** or **Resolver**: Risk management and compliance tracking
-- **Google Workspace** or **Microsoft 365**: Document collaboration and approval workflows
-
-**Access and Identity Management**
-- **Okta** or **Azure AD**: Single sign-on and vendor access management
-- **LastPass** or **1Password**: Shared credential management for vendor systems
-- **AWS IAM** or **Azure RBAC**: Cloud vendor access controls and monitoring
-- **Privileged Access Management**: Just-in-time access for vendor support activities
-
-**5.3 Cost-Effective Vendor Management**
-
-**Vendor Consolidation Opportunities**
-- Identify overlapping vendor capabilities and consolidation opportunities
-- Negotiate volume discounts for multi-service vendor relationships
-- Standardize on major cloud platforms to simplify compliance management
-- Eliminate redundant or underutilized vendor services
-
-**Contract Optimization Strategies**
-- Use standard contract templates to reduce legal review costs
-- Negotiate standardized security terms across similar vendor types
-- Implement automatic renewal with security review checkpoints
-- Focus contract negotiations on business terms rather than security boilerplate
-
-**Compliance Efficiency**
-- Accept major cloud provider compliance certifications as sufficient for most use cases
-- Use vendor compliance databases and shared assessment results
-- Implement automated compliance monitoring rather than manual audits
-- Focus on outcome-based security requirements rather than prescriptive controls
-
-### 6. Standards Compliance
+### 4. Standards Compliance
 
 This policy is designed to comply with and support the following industry standards and regulations.
 
@@ -313,7 +201,7 @@ This policy is designed to comply with and support the following industry standa
 | **3.1, 3.4** | SOC 2 Trust Services Criteria | CC9.2 - Vendor Risk Assessment |
 | **3.3** | SOC 2 Trust Services Criteria | CC9.3 - Vendor Agreements |
 
-### 7. Definitions
+### 5. Definitions
 
 **Business Associate Agreement (BAA):** A written contract between a covered entity and a business associate required by HIPAA for any ePHI access.
 
@@ -327,16 +215,13 @@ This policy is designed to comply with and support the following industry standa
 
 **Vendor Risk Assessment:** Streamlined evaluation process appropriate to vendor risk tier and data access requirements.
 
-### 8. Related Policies and Procedures
+### 6. Responsibilities
 
-This policy shall be implemented in conjunction with the following organizational policies:
-
-- **Data Classification and Handling Policy (SEC-POL-001)**: Defines data sensitivity levels for vendor risk classification
-- **Access Control Policy (AC-POL-001)**: Establishes access control requirements for vendor systems
-- **Incident Response Policy (SEC-POL-006)**: Addresses vendor-related security incident procedures
-- **Encryption and Key Management Policy (OP-POL-001)**: Covers encryption requirements for vendor data protection
-
-**Supporting Procedures:**
-- **Vendor Risk Assessment Procedure (SEC-PROC-013)**: Detailed procedures for vendor risk assessment and classification
-- **Business Associate Agreement Management Procedure (SEC-PROC-014)**: BAA execution and management procedures
-- **Vendor Access Management Procedure (AC-PROC-006)**: Technical procedures for vendor access provisioning and management
+|**Role**|**Responsibility**|
+|---|---|
+|**Security Officer**|Classify vendors into appropriate risk tiers, manage relationships with critical risk vendors, ensure BAA execution for ePHI access vendors, and serve as primary contact for vendor security incidents.|
+|**Business Owners**|Select appropriate vendors based on business requirements, provide business justification for vendor engagement, monitor vendor service delivery, and manage vendor costs within approved budgets.|
+|**IT Operations Team**|Implement technical integrations with vendor systems, provision and manage vendor access through SSO systems, configure vendor systems according to security requirements, and provide technical support during vendor incidents.|
+|**Legal/Contracts Team**|Negotiate contract terms and security provisions, execute Business Associate Agreements, review vendor contracts for compliance issues, and manage contract termination procedures.|
+|**Finance Team**|Conduct financial stability assessments for Tier 1 vendors, verify vendor insurance coverage, monitor vendor costs and optimization opportunities, and include vendor management costs in budget planning.|
+|**Development Team**|Implement secure API integrations with vendor services, ensure data minimization in vendor integrations, implement application-level security controls, and document vendor integrations and security implementations.|

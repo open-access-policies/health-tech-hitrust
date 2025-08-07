@@ -174,12 +174,3 @@ This procedure is designed to comply with and support the following industry sta
 | **DevOps Engineer** | Integrate key management into CI/CD pipelines, monitor service performance, implement automated key rotation, and optimize costs. |
 | **Development Team** | Implement application-level encryption using cloud key management APIs, handle key rotation events in application code, and follow secure coding practices. |
 | **IT Operations** | Monitor key management service availability, coordinate disaster recovery testing, manage emergency access procedures, and support incident response. |
-
-### 10. Related Procedures
-
-This procedure shall be implemented in conjunction with the following organizational procedures:
-
-- **Encryption and Key Management Policy (OP-POL-001)**: Provides policy framework for cloud-native encryption implementation
-- **Cloud Infrastructure Security Procedure (ENG-PROC-005)**: Covers broader cloud security configuration including key management integration
-- **Disaster Recovery Procedure (RES-PROC-006)**: Addresses key recovery and business continuity requirements
-- **Security Monitoring Procedure (SEC-PROC-010)**: Covers monitoring and alerting for key management operations
