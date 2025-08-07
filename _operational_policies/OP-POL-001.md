@@ -45,15 +45,15 @@ Only cloud provider default encryption implementations and approved algorithms s
 - **GCP**: Cloud KMS, default encryption at rest, Cloud SQL encryption
 
 - **Approved Algorithms (Cloud Provider Defaults):**
-- AES-256 for symmetric encryption (cloud provider default)
-- RSA-3072 or ECC-256 for asymmetric encryption (cloud provider managed)
-- SHA-256 for hashing and digital signatures (cloud provider managed)
+    - AES-256 for symmetric encryption (cloud provider default)
+    - RSA-3072 or ECC-256 for asymmetric encryption (cloud provider managed)
+    - SHA-256 for hashing and digital signatures (cloud provider managed)
 
 - **Prohibited Implementations:**
-- Custom encryption implementations without Security Officer approval
-- Encryption using deprecated algorithms (DES, 3DES, MD5, SHA-1)
-- Unmanaged encryption keys or self-implemented key management
-- SSL/TLS versions below 1.2
+    - Custom encryption implementations without Security Officer approval
+    - Encryption using deprecated algorithms (DES, 3DES, MD5, SHA-1)
+    - Unmanaged encryption keys or self-implemented key management
+    - SSL/TLS versions below 1.2
 
 #### 3.2 Cloud-Managed Key Management
 
@@ -69,22 +69,22 @@ Cryptographic keys shall be managed using cloud provider key management services
 ##### 3.2.2 Cloud Key Management Implementation
 
 - **AWS Key Management Service (KMS):**
-- Use AWS-managed keys for standard encryption requirements
-- Implement Customer-Managed Keys (CMK) for ePHI and sensitive data
-- Enable automatic key rotation where supported
-- Configure cross-region key replication for disaster recovery
+    - Use AWS-managed keys for standard encryption requirements
+    - Implement Customer-Managed Keys (CMK) for ePHI and sensitive data
+    - Enable automatic key rotation where supported
+    - Configure cross-region key replication for disaster recovery
 
 - **Azure Key Vault:**
-- Use Azure-managed keys for standard encryption requirements
-- Implement customer-managed keys for ePHI and sensitive data
-- Enable key auto-rotation and versioning
-- Configure geo-redundant backup for key availability
+    - Use Azure-managed keys for standard encryption requirements
+    - Implement customer-managed keys for ePHI and sensitive data
+    - Enable key auto-rotation and versioning
+    - Configure geo-redundant backup for key availability
 
 - **Google Cloud Key Management Service:**
-- Use Google-managed encryption keys for standard requirements
-- Implement customer-managed encryption keys (CMEK) for sensitive data
-- Enable automatic key rotation and version management
-- Configure multi-region key replication for availability
+    - Use Google-managed encryption keys for standard requirements
+    - Implement customer-managed encryption keys (CMEK) for sensitive data
+    - Enable automatic key rotation and version management
+    - Configure multi-region key replication for availability
 
 ##### 3.2.3 Access Control and Monitoring
 
@@ -92,6 +92,44 @@ Cryptographic keys shall be managed using cloud provider key management services
 - **MFA Required**: Multi-factor authentication required for key management console access
 - **Automated Monitoring**: Cloud-native monitoring and alerting for key usage, access, and lifecycle events
 - **Audit Logging**: Automatic audit trail through cloud logging services (CloudTrail, Azure Monitor, Cloud Audit Logs)
+
+##### 3.2.4 Cloud-Native Key Management Implementation
+
+- **Cloud Key Management Service Setup:**
+    - AWS KMS shall be configured for primary cloud environment with customer-managed keys (CMK) for ePHI and sensitive data encryption with automatic key rotation enabled
+    - Azure Key Vault shall be configured for multi-cloud environments with customer-managed keys, appropriate access policies, and soft-delete protection enabled
+    - GCP Cloud KMS shall be configured for GCP workloads with customer-managed encryption keys (CMEK), appropriate IAM bindings, and automatic rotation schedules
+    - Key usage policies, access controls, and rotation schedules shall be defined and approved to meet HIPAA and HITRUST requirements
+
+- **Automated Key Generation and Management:**
+    - Infrastructure as Code (IaC) shall define key management resources using Terraform, CloudFormation, or ARM templates including key policies, rotation schedules, and access controls in version-controlled infrastructure code
+    - Applications shall be configured to use cloud key management APIs for encryption operations with proper error handling and fallback mechanisms for service unavailability
+    - Cross-region key replication shall be configured for disaster recovery ensuring replicated keys maintain the same access policies and rotation schedules as primary keys
+    - Automatic key rotation shall be enabled for supported key types with application logic implemented to handle key rotation events without service interruption
+
+- **Application-Level Encryption Integration:**
+    - Cloud provider SDKs and APIs shall be integrated for encryption operations within applications using envelope encryption patterns for large data objects and direct encryption for smaller data elements
+    - Database systems shall be configured to use cloud-managed transparent data encryption (TDE) with customer-managed keys ensuring ePHI database fields use appropriate encryption methods
+    - Cloud storage services shall be configured to use customer-managed keys for automatic encryption at rest including all storage tiers for backup and archive storage
+    - Applications shall retrieve encryption keys and secrets from cloud secret management services rather than embedded credentials
+
+- **Monitoring and Compliance Automation:**
+    - Comprehensive audit logging shall be enabled for all key management operations using cloud provider audit services with log retention according to compliance requirements
+    - Automated monitoring and alerting shall be configured for key usage anomalies, failed encryption operations, and unauthorized access attempts with integration to existing security monitoring systems
+    - Automated compliance reporting shall be established for key management activities with monthly reports on key usage, rotation status, and access patterns for audit and compliance purposes
+    - Key management service performance and latency impact shall be monitored with automated scaling and failover mechanisms for high-availability operations
+
+- **Key Recovery and Disaster Response:**
+    - Automated backup of key metadata and access policies shall be configured to secure storage with cross-region replication for disaster recovery scenarios
+    - Key recovery procedures shall be documented and tested for disaster scenarios ensuring recovery procedures can restore key access within **[Timeframe, e.g., 4 hours]** to meet business continuity requirements
+    - Emergency access procedures shall be configured for key management services during outages with break-glass access controls that maintain audit trails and security controls
+    - Quarterly testing of key management service failover and recovery procedures shall be conducted with documented results and procedure updates based on findings
+
+- **Cost Optimization and Management:**
+    - Key management service usage and costs shall be monitored through cloud billing and cost management tools with identification of cost optimization opportunities through efficient key usage patterns
+    - Appropriate caching strategies shall be implemented for key operations to reduce API call costs while maintaining security including data encryption keys (DEK) caching for high-volume operations
+    - Key management service tiers and features shall be reviewed and optimized based on actual usage patterns and security requirements eliminating unused or redundant features
+    - Automated lifecycle management shall be implemented for unused or expired keys with automatic deletion schedules for development and testing environments while preserving production keys according to retention policies
 
 #### 3.3 Application and Development Encryption
 
@@ -138,14 +176,22 @@ This policy is designed to comply with and support the following industry standa
 |**All**|HITRUST CSF v11.2.0|09.a - Transmission Protection Policy|
 |**3.1**|HITRUST CSF v11.2.0|09.b - Cryptographic Controls|
 |**3.2**|HITRUST CSF v11.2.0|09.c - Key Management|
+|**3.2.4**|HITRUST CSF v11.2.0|01.k - Cryptographic Key Management|
+|**3.2.4**|HITRUST CSF v11.2.0|01.c - Encryption Implementation|
+|**3.2.4**|HITRUST CSF v11.2.0|12.c - Audit Logging and Monitoring|
 |**3.1.1**|HIPAA Security Rule|45 CFR § 164.312(a)(2)(iv) - Encryption and Decryption|
 |**3.1.1**|HIPAA Security Rule|45 CFR § 164.312(e)(2)(ii) - Encryption|
+|**3.2.4**|HIPAA Security Rule|45 CFR § 164.312(a)(2)(iv) - Encryption|
+|**3.2.4**|HIPAA Security Rule|45 CFR § 164.312(e)(2)(ii) - Encryption of ePHI|
 |**All**|HIPAA Security Rule|45 CFR § 164.312(e)(1) - Transmission Security|
 |**3.2**|SOC 2 Trust Services Criteria|CC6.1 - Logical Access Security|
 |**3.1, 3.2**|SOC 2 Trust Services Criteria|CC6.6 - Other Controls to Achieve Logical Access Security Objectives|
 |**3.2**|SOC 2 Trust Services Criteria|CC6.8 - Restricts Access to Encrypted Data|
+|**3.2.4**|SOC 2 Trust Services Criteria|CC6.8 - Data Encryption|
 |**All**|NIST Cybersecurity Framework|PR.DS-1: Data-at-rest is protected.|
 |**All**|NIST Cybersecurity Framework|PR.DS-2: Data-in-transit is protected.|
+|**3.2.4**|NIST Cybersecurity Framework|PR.DS-1 - Data-at-rest Protection|
+|**3.2.4**|NIST Cybersecurity Framework|DE.AE-3 - Event Data Analysis|
 
 ### 5. Definitions
 

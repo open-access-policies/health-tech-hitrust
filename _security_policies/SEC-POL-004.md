@@ -20,20 +20,20 @@ All **[Company Name]** information shall be classified according to its sensitiv
 - **[Company Name]** shall use a four-tier classification system to categorize all information assets:
 
 - **Public:** Information that can be freely shared with the general public without risk to **[Company Name]** or its stakeholders.
-- Examples: Marketing materials, public website content, published research, press releases
-- No special handling requirements beyond standard business practices
+    - Examples: Marketing materials, public website content, published research, press releases
+    - No special handling requirements beyond standard business practices
 
 - **Internal:** Information intended for use within **[Company Name]** that should not be disclosed to external parties without authorization.
-- Examples: Internal policies, organizational charts, general business communications, non-sensitive system documentation
-- Requires basic access controls and confidentiality agreements
+    - Examples: Internal policies, organizational charts, general business communications, non-sensitive system documentation
+    - Requires basic access controls and confidentiality agreements
 
 - **Confidential:** Sensitive information that could cause significant harm to **[Company Name]**, its customers, or business partners if disclosed without authorization.
-- Examples: Financial records, strategic plans, customer lists, proprietary technology, employee personal information
-- Requires enhanced security controls, encryption for transmission, and formal access approval
+    - Examples: Financial records, strategic plans, customer lists, proprietary technology, employee personal information
+    - Requires enhanced security controls, encryption for transmission, and formal access approval
 
 - **Restricted:** Highly sensitive information that could cause severe harm if disclosed and is subject to regulatory protection requirements.
-- Examples: ePHI, payment card data, social security numbers, authentication credentials, encryption keys
-- Requires maximum security controls, encryption at rest and in transit, audit logging, and compliance with specific regulations
+    - Examples: ePHI, payment card data, social security numbers, authentication credentials, encryption keys
+    - Requires maximum security controls, encryption at rest and in transit, audit logging, and compliance with specific regulations
 
 #### 3.2 Information Classification Responsibilities
 
@@ -160,6 +160,49 @@ Special considerations shall apply to information access via mobile devices and 
 - Cloud synchronization services shall be approved and configured appropriately for each classification level
 - Lost or stolen devices shall be reported immediately and remotely wiped if containing sensitive information
 
+#### 3.11 Portable Media Security Management
+
+Comprehensive security controls shall be implemented for portable media and digital storage devices containing or potentially containing sensitive information throughout their lifecycle.
+
+##### 3.11.1 Media Classification and Inventory
+
+- Media inventory entries shall be created in **[Asset Management System]** with unique identifiers, content classification, encryption status, and assigned custodians
+- All media shall be appropriately labeled indicating classification level (Public, Internal, Confidential, Restricted) and handling requirements
+- Media classification shall follow the same framework as other information assets with the highest classification determining overall media handling requirements
+- Physical inventory verification shall be conducted monthly comparing actual media location with inventory system records
+- Missing, damaged, or compromised media shall be reported immediately to the Information Security Officer with incident response initiation
+
+##### 3.11.2 Media Encryption and Protection
+
+- All media containing Confidential or Restricted data shall be encrypted using **[Approved Encryption Standards, e.g., AES-256]** with organization-managed keys
+- Encryption implementation shall be verified and data accessibility tested before initial use or distribution
+- Media storage shall be in appropriate secure locations based on classification: locked cabinet (Internal), safe (Confidential), or vault (Restricted)
+- Tamper-evident packaging with chain of custody documentation shall be used for media transportation
+- Continuous custody shall be maintained during transport or bonded courier services with tracking and signature confirmation utilized
+
+##### 3.11.3 Media Reuse and Sanitization
+
+- Secure data sanitization using **[NIST SP 800-88]** compliant methods shall be performed before media reassignment
+- Sanitization methods shall be documented with verification of data removal and approval for reuse recorded in asset management system
+- Media custodians shall verify package integrity, validate chain of custody documentation, and test media accessibility upon receipt
+- Reuse approval shall require Information Security Officer verification of complete data sanitization
+
+##### 3.11.4 Media Disposal and Destruction
+
+- End-of-life media shall use certified destruction services with certificate of destruction for all Confidential and Restricted media
+- Media containing ePHI shall ensure destruction methods meet HIPAA requirements with detailed destruction certificates obtained
+- Destruction certificates and inventory records shall be maintained for minimum **[Retention Period, e.g., 7 years]** for audit and regulatory compliance
+- Disposal personnel shall be vetted and bonded for handling sensitive media destruction
+- Physical destruction methods shall render data unrecoverable using industry-recognized standards
+
+##### 3.11.5 Media Security Monitoring and Assessment
+
+- Monthly media inventory reports shall be reviewed by the Information Security Officer with investigation of discrepancies or unauthorized usage
+- Quarterly assessment of media security controls shall be conducted with procedure updates based on risk assessment findings
+- Media handling violations shall be reported through the incident response process with appropriate corrective actions
+- Annual media security training shall be provided to all personnel handling portable media
+- Compliance audits shall verify adherence to media handling requirements and regulatory obligations
+
 ### 4. Standards Compliance
 
 This policy is designed to comply with and support the following industry standards and regulations.
@@ -173,16 +216,23 @@ This policy is designed to comply with and support the following industry standa
 |**3.5, 3.6**|HITRUST CSF v11.2.0|09.a - Transmission Protection|
 |**3.7**|HITRUST CSF v11.2.0|19.d - Data Retention and Disposal|
 |**3.8**|HITRUST CSF v11.2.0|11.f - Application and Information Access|
+|**3.11**|HITRUST CSF v11.2.0|03.a - Portable Media Security|
+|**3.11**|HITRUST CSF v11.2.0|03.b - Portable Media Management|
+|**3.11**|HITRUST CSF v11.2.0|03.c - Information Disposal|
 |**All**|HIPAA Security Rule|45 CFR § 164.308(a)(4) - Information Access Management|
 |**3.4**|HIPAA Security Rule|45 CFR § 164.502(b) - Minimum Necessary|
 |**3.4, 3.8**|HIPAA Security Rule|45 CFR § 164.312(a)(1) - Access Control|
 |**3.3.4, 3.7**|HIPAA Security Rule|45 CFR § 164.312(e)(1) - Transmission Security|
 |**3.3.4, 3.6**|HIPAA Security Rule|45 CFR § 164.312(a)(2)(iv) - Encryption|
 |**3.4**|HIPAA Security Rule|45 CFR § 164.312(b) - Audit Controls|
+|**3.11**|HIPAA Security Rule|45 CFR § 164.310(d)(1) - Device and Media Controls|
+|**3.11**|HIPAA Security Rule|45 CFR § 164.310(d)(2) - Data Disposal|
 |**All**|SOC 2 Trust Services Criteria|CC6.1 - Logical Access Security|
 |**3.6, 3.7**|SOC 2 Trust Services Criteria|CC6.7 - Data Transmission|
 |**3.8**|SOC 2 Trust Services Criteria|CC6.5 - Data Disposal|
 |**3.9**|SOC 2 Trust Services Criteria|CC7.2 - System Monitoring|
+|**3.11**|SOC 2 Trust Services Criteria|CC6.7 - Data Transmission and Disposal|
+|**3.11**|NIST SP 800-88|Media Sanitization Guidelines|
 
 ### 5. Definitions
 

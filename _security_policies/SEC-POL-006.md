@@ -22,11 +22,11 @@ Physical access to all **[Company Name]** facilities shall be controlled and mon
 ##### 3.1.1 Office Facility Security
 
 - **Access Control Systems:**
-- Electronic badge access systems shall be implemented for all corporate facilities
-- Multi-factor authentication required for access to areas containing sensitive information
-- Visitor management system with registration, identification verification, and escort requirements
-- Access permissions based on role and business need with quarterly access reviews
-- Emergency access procedures and override capabilities for authorized personnel
+    - Electronic badge access systems shall be implemented for all corporate facilities
+    - Multi-factor authentication required for access to areas containing sensitive information
+    - Visitor management system with registration, identification verification, and escort requirements
+    - Access permissions based on role and business need with quarterly access reviews
+    - Emergency access procedures and override capabilities for authorized personnel
 
 - **Physical Security Zones:**
 - **Public Areas:** Reception, common areas - basic access controls and monitoring
@@ -35,27 +35,27 @@ Physical access to all **[Company Name]** facilities shall be controlled and mon
 - **Highly Restricted:** Server rooms, telecommunications closets - maximum security controls with biometric access
 
 - **Facility Monitoring:**
-- CCTV surveillance systems covering all entry/exit points and sensitive areas
-- Motion detection systems for after-hours monitoring
-- 24/7 monitoring service or security personnel for critical facilities
-- Video retention for minimum **[Duration, e.g., 90 days]** with secure storage
-- Integration with local law enforcement and emergency services
+    - CCTV surveillance systems covering all entry/exit points and sensitive areas
+    - Motion detection systems for after-hours monitoring
+    - 24/7 monitoring service or security personnel for critical facilities
+    - Video retention for minimum **[Duration, e.g., 90 days]** with secure storage
+    - Integration with local law enforcement and emergency services
 
 ##### 3.1.2 Remote Work Environment Security
 
 - **Home Office Security Requirements:**
-- Dedicated workspace with physical security measures to prevent unauthorized access
-- Locking mechanisms for desks, filing cabinets, and storage areas containing company information
-- Privacy screens or positioning to prevent visual access to company information
-- Secure storage for company equipment when not in use
-- Environmental protections against theft, damage, and unauthorized access
+    - Dedicated workspace with physical security measures to prevent unauthorized access
+    - Locking mechanisms for desks, filing cabinets, and storage areas containing company information
+    - Privacy screens or positioning to prevent visual access to company information
+    - Secure storage for company equipment when not in use
+    - Environmental protections against theft, damage, and unauthorized access
 
 - **Co-working and Public Space Restrictions:**
-- Prohibition of accessing ePHI or Restricted information in public spaces
-- Privacy screens required when working on Confidential information in shared spaces
-- Secure Wi-Fi requirements and VPN usage for all company system access
-- Physical security of devices and materials in temporary work environments
-- Clean desk practices and secure storage of sensitive materials
+    - Prohibition of accessing ePHI or Restricted information in public spaces
+    - Privacy screens required when working on Confidential information in shared spaces
+    - Secure Wi-Fi requirements and VPN usage for all company system access
+    - Physical security of devices and materials in temporary work environments
+    - Clean desk practices and secure storage of sensitive materials
 
 #### 3.2 Equipment and Asset Protection
 
@@ -64,34 +64,34 @@ All company equipment and physical assets shall be protected against theft, dama
 ##### 3.2.1 Endpoint Device Security
 
 - **Physical Device Protection:**
-- Cable locks or security devices required for desktop computers in office environments
-- Laptop encryption and remote wipe capabilities for all mobile devices
-- Asset tagging and inventory tracking for all company equipment
-- Secure storage requirements for devices containing sensitive information
-- Insurance coverage for high-value equipment and mobile devices
+    - Cable locks or security devices required for desktop computers in office environments
+    - Laptop encryption and remote wipe capabilities for all mobile devices
+    - Asset tagging and inventory tracking for all company equipment
+    - Secure storage requirements for devices containing sensitive information
+    - Insurance coverage for high-value equipment and mobile devices
 
 - **Device Lifecycle Management:**
-- Secure provisioning process with pre-configured security settings
-- Regular physical inventory audits (quarterly for mobile devices, annually for fixed assets)
-- Maintenance and repair procedures that protect data confidentiality
-- Secure decommissioning with verified data destruction
-- Return procedures for workforce member separation or equipment refresh
+    - Secure provisioning process with pre-configured security settings
+    - Regular physical inventory audits (quarterly for mobile devices, annually for fixed assets)
+    - Maintenance and repair procedures that protect data confidentiality
+    - Secure decommissioning with verified data destruction
+    - Return procedures for workforce member separation or equipment refresh
 
 ##### 3.2.2 Removable Media and Storage Security
 
 - **Media Handling Requirements:**
-- Encrypted storage required for all removable media containing company information
-- Locked storage for backup media, USB drives, and optical media
-- Chain of custody procedures for media transportation
-- Inventory management system for tracking media location and usage
-- Environmental protection for media storage (temperature, humidity, magnetic fields)
+    - Encrypted storage required for all removable media containing company information
+    - Locked storage for backup media, USB drives, and optical media
+    - Chain of custody procedures for media transportation
+    - Inventory management system for tracking media location and usage
+    - Environmental protection for media storage (temperature, humidity, magnetic fields)
 
 - **Secure Disposal Procedures:**
-- Physical destruction required for all media containing ePHI or Restricted information
-- Certified disposal vendors with appropriate security clearances and insurance
-- Witnessed destruction for high-sensitivity media with certificates of completion
-- Degaussing or physical destruction for magnetic media
-- Secure overwriting followed by physical destruction for solid-state media
+    - Physical destruction required for all media containing ePHI or Restricted information
+    - Certified disposal vendors with appropriate security clearances and insurance
+    - Witnessed destruction for high-sensitivity media with certificates of completion
+    - Degaussing or physical destruction for magnetic media
+    - Secure overwriting followed by physical destruction for solid-state media
 
 #### 3.3 Cloud Provider Physical Security Oversight
 
@@ -100,27 +100,27 @@ All company equipment and physical assets shall be protected against theft, dama
 ##### 3.3.1 Cloud Provider Assessment
 
 - **Physical Security Requirements:**
-- SOC 2 Type II certification or equivalent demonstrating physical security controls
-- Multi-factor authentication and biometric access controls for data center facilities
-- 24/7 physical security monitoring and surveillance systems
-- Environmental controls including fire suppression, climate control, and power management
-- Geographic separation of data centers for disaster recovery and business continuity
+    - SOC 2 Type II certification or equivalent demonstrating physical security controls
+    - Multi-factor authentication and biometric access controls for data center facilities
+    - 24/7 physical security monitoring and surveillance systems
+    - Environmental controls including fire suppression, climate control, and power management
+    - Geographic separation of data centers for disaster recovery and business continuity
 
 - **Compliance Validation:**
-- The Cloud Security Team shall conduct and document an annual review of all critical cloud providers' security certifications (e.g., SOC 2 Type II, ISO 27001) and audit reports.
-- Validation of physical security controls through review of third-party assessments.
-- Contractual agreements must include requirements for physical security standards and incident notification within a defined timeframe.
-- Right-to-audit clauses shall be included in contracts for critical cloud services where feasible.
-- Geographic data location controls shall be configured to align with legal and regulatory requirements.
+    - The Cloud Security Team shall conduct and document an annual review of all critical cloud providers' security certifications (e.g., SOC 2 Type II, ISO 27001) and audit reports.
+    - Validation of physical security controls through review of third-party assessments.
+    - Contractual agreements must include requirements for physical security standards and incident notification within a defined timeframe.
+    - Right-to-audit clauses shall be included in contracts for critical cloud services where feasible.
+    - Geographic data location controls shall be configured to align with legal and regulatory requirements.
 
 ##### 3.3.2 Cloud Security Monitoring
 
 - **Ongoing Oversight:**
-- The Cloud Security Team shall conduct and document a quarterly review of cloud provider security incident reports and notifications.
-- Continuous monitoring of cloud provider security advisories and documentation for significant control changes.
-- An annual assessment of cloud provider business continuity and disaster recovery test results shall be conducted and documented.
-- The Cloud Security Team shall validate that data center certifications and compliance status remain active and in good standing.
-- Coordination with cloud providers for security investigations and incident response shall be managed by the Security Officer and Incident Response Team.
+    - The Cloud Security Team shall conduct and document a quarterly review of cloud provider security incident reports and notifications.
+    - Continuous monitoring of cloud provider security advisories and documentation for significant control changes.
+    - An annual assessment of cloud provider business continuity and disaster recovery test results shall be conducted and documented.
+    - The Cloud Security Team shall validate that data center certifications and compliance status remain active and in good standing.
+    - Coordination with cloud providers for security investigations and incident response shall be managed by the Security Officer and Incident Response Team.
 
 #### 3.4 Physical Document and Information Security
 
@@ -129,34 +129,34 @@ Physical documents and printed materials containing sensitive information shall 
 ##### 3.4.1 Document Handling Requirements
 
 - **Secure Document Management:**
-- Classification and marking of all physical documents based on sensitivity levels
-- Locked storage for documents containing Confidential or Restricted information
-- Clean desk policy requiring secure storage of sensitive documents when unattended
-- Controlled access to document storage areas with access logging
-- Regular inventory and review of stored documents
+    - Classification and marking of all physical documents based on sensitivity levels
+    - Locked storage for documents containing Confidential or Restricted information
+    - Clean desk policy requiring secure storage of sensitive documents when unattended
+    - Controlled access to document storage areas with access logging
+    - Regular inventory and review of stored documents
 
 - **Document Transportation:**
-- Secure transportation methods for sensitive documents between facilities
-- Chain of custody documentation for document transfers
-- Encrypted digital alternatives preferred over physical document transportation
-- Approval requirements for removing sensitive documents from secure facilities
-- Insurance coverage for valuable or sensitive document shipments
+    - Secure transportation methods for sensitive documents between facilities
+    - Chain of custody documentation for document transfers
+    - Encrypted digital alternatives preferred over physical document transportation
+    - Approval requirements for removing sensitive documents from secure facilities
+    - Insurance coverage for valuable or sensitive document shipments
 
 ##### 3.4.2 Printing and Output Security
 
 - **Secure Printing Controls:**
-- Follow-me printing or secure print release for sensitive documents
-- Physical presence required at printer for document retrieval
-- Automatic deletion of print jobs after specified time periods
-- Monitoring and logging of all print activities for sensitive information
-- Secure disposal of misprints and unwanted printouts
+    - Follow-me printing or secure print release for sensitive documents
+    - Physical presence required at printer for document retrieval
+    - Automatic deletion of print jobs after specified time periods
+    - Monitoring and logging of all print activities for sensitive information
+    - Secure disposal of misprints and unwanted printouts
 
 - **Print Environment Security:**
-- Printers located in secure areas with appropriate access controls
-- Network printing security with authentication and encryption
-- Regular maintenance and service with data protection requirements
-- Secure disposal of printer components containing data (hard drives, memory)
-- Vendor agreements for secure printer maintenance and support
+    - Printers located in secure areas with appropriate access controls
+    - Network printing security with authentication and encryption
+    - Regular maintenance and service with data protection requirements
+    - Secure disposal of printer components containing data (hard drives, memory)
+    - Vendor agreements for secure printer maintenance and support
 
 #### 3.5 Environmental and Infrastructure Security
 
@@ -165,34 +165,34 @@ Environmental controls and infrastructure security measures shall protect agains
 ##### 3.5.1 Environmental Controls
 
 - **Climate and Power Management:**
-- Uninterruptible Power Supply (UPS) systems for critical equipment and systems
-- Surge protection and power conditioning for all electronic equipment
-- Emergency lighting and communication systems for facility emergencies
-- Temperature and humidity monitoring for equipment areas
-- Backup power systems for extended outages
+    - Uninterruptible Power Supply (UPS) systems for critical equipment and systems
+    - Surge protection and power conditioning for all electronic equipment
+    - Emergency lighting and communication systems for facility emergencies
+    - Temperature and humidity monitoring for equipment areas
+    - Backup power systems for extended outages
 
 - **Fire and Safety Protection:**
-- Fire detection and suppression systems appropriate for electronic equipment
-- Emergency evacuation procedures and regular drills
-- First aid and emergency response equipment and training
-- Safety equipment and procedures for equipment maintenance
-- Integration with local emergency services and authorities
+    - Fire detection and suppression systems appropriate for electronic equipment
+    - Emergency evacuation procedures and regular drills
+    - First aid and emergency response equipment and training
+    - Safety equipment and procedures for equipment maintenance
+    - Integration with local emergency services and authorities
 
 ##### 3.5.2 Physical Infrastructure Security
 
 - **Building and Perimeter Security:**
-- Secure building construction with reinforced entry points
-- Perimeter fencing and lighting for standalone facilities
-- Vehicle access controls and parking security measures
-- Landscape design that supports security monitoring and access control
-- Regular security assessments and penetration testing of physical controls
+    - Secure building construction with reinforced entry points
+    - Perimeter fencing and lighting for standalone facilities
+    - Vehicle access controls and parking security measures
+    - Landscape design that supports security monitoring and access control
+    - Regular security assessments and penetration testing of physical controls
 
 - **Utility and Service Protection:**
-- Secure access to utility rooms and service areas
-- Protection of telecommunications and network infrastructure
-- Backup communication systems for emergency situations
-- Service provider security requirements and background checks
-- Regular inspection and maintenance of physical infrastructure
+    - Secure access to utility rooms and service areas
+    - Protection of telecommunications and network infrastructure
+    - Backup communication systems for emergency situations
+    - Service provider security requirements and background checks
+    - Regular inspection and maintenance of physical infrastructure
 
 #### 3.6 Workplace Security and Safety
 
@@ -201,34 +201,34 @@ Comprehensive workplace security measures shall protect workforce members and ma
 ##### 3.6.1 Personnel Security
 
 - **Workplace Safety:**
-- Background check requirements for personnel with physical access to sensitive areas
-- Security awareness training including physical security procedures
-- Identification badge requirements for all workforce members and visitors
-- Reporting procedures for suspicious activities and security incidents
-- Security escort requirements for unauthorized individuals
+    - Background check requirements for personnel with physical access to sensitive areas
+    - Security awareness training including physical security procedures
+    - Identification badge requirements for all workforce members and visitors
+    - Reporting procedures for suspicious activities and security incidents
+    - Security escort requirements for unauthorized individuals
 
 - **Emergency Procedures:**
-- Emergency contact information and notification procedures
-- Evacuation plans and assembly points for different emergency scenarios
-- Emergency communication systems and backup procedures
-- Business continuity procedures for facility unavailability
-- Coordination with law enforcement and emergency services
+    - Emergency contact information and notification procedures
+    - Evacuation plans and assembly points for different emergency scenarios
+    - Emergency communication systems and backup procedures
+    - Business continuity procedures for facility unavailability
+    - Coordination with law enforcement and emergency services
 
 ##### 3.6.2 Visitor and Contractor Management
 
 - **Visitor Control Procedures:**
-- Advance registration and approval for all visitors
-- Photo identification verification and temporary badge issuance
-- Continuous escort requirements for visitors in sensitive areas
-- Visitor activity logging and monitoring
-- Background check requirements for contractors with extended facility access
+    - Advance registration and approval for all visitors
+    - Photo identification verification and temporary badge issuance
+    - Continuous escort requirements for visitors in sensitive areas
+    - Visitor activity logging and monitoring
+    - Background check requirements for contractors with extended facility access
 
 - **Contractor Security Requirements:**
-- Security agreements and confidentiality requirements for all contractors
-- Equipment and tool inspection procedures for maintenance personnel
-- Supervised access for contractors working on sensitive systems
-- Verification of contractor personnel authorization and identification
-- Secure disposal of any materials generated during contractor activities
+    - Security agreements and confidentiality requirements for all contractors
+    - Equipment and tool inspection procedures for maintenance personnel
+    - Supervised access for contractors working on sensitive systems
+    - Verification of contractor personnel authorization and identification
+    - Secure disposal of any materials generated during contractor activities
 
 ### 4. Standards Compliance
 

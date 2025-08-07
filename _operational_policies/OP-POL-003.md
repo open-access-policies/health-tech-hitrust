@@ -5,7 +5,7 @@ nav_order: 3
 ---
 ### 1. Objective
 
-The objective of this policy is to establish practical, cloud-native data retention and disposal practices that meet regulatory requirements for electronic Protected Health Information (ePHI) and business data while leveraging automated technical controls to minimize administrative overhead for a **[Number, e.g., 120]**-person organization.
+The objective of this policy is to establish practical, cloud-native data retention and disposal practices that meet regulatory requirements for electronic Protected Health Information (ePHI) and business data while leveraging automated technical controls to minimize administrative overhead.
 
 ### 2. Scope
 

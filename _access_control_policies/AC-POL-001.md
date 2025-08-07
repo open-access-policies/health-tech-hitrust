@@ -42,6 +42,45 @@ To ensure access rights remain appropriate while minimizing administrative overh
 - **Exception-Based Reviews:** Formal access reviews shall be triggered by specific events rather than fixed quarterly schedules: **High-Risk Systems** (ePHI, financial data, production environments): Semi-annual reviews or when automated monitoring identifies exceptions. **Standard Systems**: Annual reviews or when significant access anomalies are detected. **Low-Risk Systems** (internal tools, development environments): Exception-based reviews only when security concerns are identified.
     
 - **Escalation and Remediation:** Automated alerts for access anomalies shall be sent to system owners and managers for resolution within **[Number, e.g., 7]** business days. Failure to respond to access alerts shall result in automatic escalation to the Security Officer and potential access suspension for high-risk systems.
+
+##### 3.3.1 Automated Access Review Implementation
+
+- **RBAC Configuration and Management:**
+    - Identity and access management (IAM) systems shall be configured to automatically assign access based on job roles, department, and manager hierarchy integrated with HR systems
+    - Role definitions shall align with job functions and be automatically updated when employees change positions
+    - Access assignments shall be standardized across the organization based on pre-defined role templates and business function requirements
+    - Integration with HR systems shall ensure real-time synchronization of organizational changes affecting access requirements
+
+- **Access Monitoring Rules and Alerting:**
+    - Automated monitoring rules shall be configured to detect access anomalies including accounts with no login activity for **[Duration, e.g., 90 days]**, privilege escalation events, access from unusual locations, and users with access beyond their role requirements
+    - Automated alerts shall be configured for access anomalies that require review: dormant accounts, excessive privileges, failed access attempts, and role misalignments
+    - Alert thresholds shall be configured to minimize false positives while maintaining security visibility and effectiveness
+    - Daily automated monitoring shall continuously assess user access patterns, login activities, and privilege usage without requiring manual intervention
+
+- **Exception-Based Review Process:**
+    - Weekly automated reports of access anomalies and security alerts shall be generated for Security Officer review
+    - High-priority alerts shall be investigated within **[Timeframe, e.g., 3 business days]** with coordination between Security Officers and system managers
+    - Managers and system owners shall review and validate access requirements within **[Timeframe, e.g., 5 business days]** when alerted about access anomalies for their team members or systems
+    - Approval of continued access or requests for access modification shall be processed through automated workflows with proper documentation and audit trails
+
+- **Automated Access Remediation:**
+    - Automated access remediation shall be implemented for common scenarios including: disabling dormant accounts after **[Duration, e.g., 120 days]** of inactivity, removing access for terminated employees, and adjusting access based on role changes automatically synced from HR systems
+    - Remediation actions shall be logged and reviewed to ensure appropriate application and effectiveness
+    - Emergency access suspension capabilities shall be available for immediate response to security incidents or policy violations
+    - Automated workflows shall handle routine access modifications while preserving audit trails and management oversight
+
+- **Risk-Based Targeted Reviews:**
+    - Targeted access reviews shall be conducted for high-risk scenarios based on automated risk assessment and monitoring:
+    - **Critical Systems** (ePHI, production databases): Semi-annual automated reviews with manager attestation and usage analysis
+    - **Privileged Accounts**: Quarterly automated validation with detailed usage analysis and anomaly detection
+    - **Third-Party Access**: Event-driven reviews when contracts change, security incidents occur, or automated monitoring identifies anomalies
+    - Risk-based review schedules shall be dynamically adjusted based on threat intelligence, business changes, and compliance requirements
+
+- **Compliance Reporting and Assessment:**
+    - Automated compliance reports shall be generated showing access control effectiveness, review completion rates, remediation actions, and audit trail documentation for regulatory requirements
+    - Quarterly program assessments shall evaluate the effectiveness of automated access monitoring, review alert accuracy and response times, and optimize automation rules to reduce false positives while maintaining security coverage
+    - Monthly metrics shall be maintained on access anomaly detection rates, remediation times, and manager response compliance
+    - Annual reviews of the automated access monitoring program shall include effectiveness assessment, cost-benefit analysis, and recommendations for process improvements
     
 
 #### 3.4 Privileged Access Management
@@ -55,6 +94,43 @@ Accounts with elevated (administrative) privileges pose a significant risk and s
 - **Enhanced Authentication:** Multi-Factor Authentication (MFA) is mandatory for all privileged access accounts. Additional authentication factors (hardware tokens, biometrics) may be required for critical infrastructure access.
     
 - **Automated Monitoring and Alerting:** All privileged account activities shall be automatically logged and monitored. Real-time alerts shall be generated for unusual privileged access patterns, after-hours usage, and potential privilege abuse.
+
+##### 3.4.1 Privileged Account Management Implementation
+
+- **Privileged Account Provisioning and Approval:**
+    - Privileged account requests shall be submitted through **[Access Management System]** with business justification, required access level, and duration specification
+    - Hiring managers shall review and approve privileged account requests confirming business need and appropriate access level for role responsibilities
+    - Information Security Officer shall conduct risk assessment for privileged account requests evaluating access scope, duration, and potential security impact
+    - Privileged accounts shall be created with minimum necessary permissions and configured with multi-factor authentication requirements
+    - All privileged accounts shall be enrolled in Privileged Access Management (PAM) system with session recording and access approval workflows
+
+- **Privileged Account Security Controls:**
+    - Account owners shall complete privileged account security training within **[Duration, e.g., 5 business days]** of account creation
+    - PAM system shall require approval for each privileged session through **[Approval Process, e.g., manager approval, security team approval]**
+    - All privileged account usage shall be monitored in real-time by the Security Operations Center with investigation of suspicious activities within **[Duration, e.g., 15 minutes]**
+    - PAM system shall record all privileged sessions including keystrokes, commands, and file access for audit and investigation purposes
+    - Emergency access accounts and break-glass procedures shall be implemented with enhanced monitoring and immediate notification requirements
+
+- **Privileged Account Monitoring and Reporting:**
+    - Daily privileged account usage reports shall be generated including login times, commands executed, and systems accessed
+    - Weekly privileged account activity reports shall be reviewed by the Information Security Officer to investigate any anomalous or unauthorized usage patterns
+    - Monthly reviews of assigned privileged accounts shall be conducted by account managers to verify continued business need and appropriate access levels
+    - Real-time monitoring shall include detection of privileged access anomalies, unusual command execution, and potential abuse patterns
+    - Integration with SIEM systems shall provide comprehensive visibility into privileged account activities across all systems and platforms
+
+- **Privileged Account Lifecycle Management:**
+    - Human Resources shall immediately disable privileged accounts upon employee termination, role change, or extended leave of absence
+    - Quarterly comprehensive review of all privileged accounts shall be performed including access validation, usage analysis, and compliance assessment
+    - Privileged account passwords shall be rotated quarterly using **[Password Management System]** with **[Complexity Requirements, e.g., 20+ characters]**
+    - Annual privileged access risk assessment shall be conducted with updates to access controls based on threat landscape and business requirements
+    - Privileged account deprovisioning shall include secure deletion of recorded sessions and access logs according to retention policies
+
+- **Privileged Account Compliance and Audit:**
+    - Privileged account audit logs and session recordings shall be maintained for minimum **[Retention Period, e.g., 7 years]** for regulatory compliance requirements
+    - Compliance officer shall maintain documentation of privileged account requests, approvals, reviews, and modifications for audit purposes
+    - Regular compliance assessments shall ensure privileged account management meets regulatory requirements and industry standards
+    - Incident response procedures shall address privileged account compromise and unauthorized usage scenarios
+    - Integration with organizational privacy and data protection requirements for privileged account audit data and session recordings
     
 
 #### 3.5 System and Network Access Controls
@@ -91,14 +167,28 @@ This policy is designed to comply with and support the following industry standa
 | ------------------ | ----------------------------- | ------------------------------------------------------------- |
 | **All**            | HITRUST CSF v11.2.0          | 11.a - Access Control Policy                                 |
 | **3.2, 3.3**       | HITRUST CSF v11.2.0          | 11.b - User Access Management                                |
+| **3.3.1**          | HITRUST CSF v11.2.0          | 11.c - User Responsibilities                                 |
 | **3.4**            | HITRUST CSF v11.2.0          | 11.c - User Responsibilities                                 |
+| **3.4.1**          | HITRUST CSF v11.2.0          | 11.a - User Access Provisioning                              |
+| **3.4.1**          | HITRUST CSF v11.2.0          | 11.b - Privileged Access Management                          |
+| **3.4.1**          | HITRUST CSF v11.2.0          | 11.c - User Access Review                                    |
+| **3.4.1**          | HITRUST CSF v11.2.0          | 11.d - User Access Revocation                                |
+| **3.4.1**          | HITRUST CSF v11.2.0          | 12.a - Audit Logging and Monitoring                          |
 | **3.5**            | HITRUST CSF v11.2.0          | 11.d - Network Access Control                                |
 | **3.6**            | HITRUST CSF v11.2.0          | 11.e - Operating System Access Control                       |
 | **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(4) - Information Access Management        |
 | **3.2, 3.5**       | HIPAA Security Rule           | 45 CFR § 164.312(a)(1) - Access Control                       |
+| **3.3.1**          | HIPAA Security Rule           | 45 CFR § 164.312(a)(1) - Access Control                       |
+| **3.4.1**          | HIPAA Security Rule           | 45 CFR § 164.308(a)(4) - Access Management                    |
+| **3.4.1**          | HIPAA Security Rule           | 45 CFR § 164.312(b) - Audit Controls                          |
 | **3.5**            | HIPAA Security Rule           | 45 CFR § 164.312(a)(2)(i) - Unique User Identification        |
 | **All**            | SOC 2 Trust Services Criteria | CC6.1 - Logical Access Security                               |
 | **3.2, 3.3**       | SOC 2 Trust Services Criteria | CC6.2 - Prior to issuing system credentials...                |
+| **3.3.1**          | SOC 2 Trust Services Criteria | CC6.2 - Access Authorization                                  |
+| **3.3.1**          | SOC 2 Trust Services Criteria | CC6.3 - Access Reviews                                        |
+| **3.4.1**          | SOC 2 Trust Services Criteria | CC6.2 - Logical Access Controls                               |
+| **3.4.1**          | SOC 2 Trust Services Criteria | CC6.3 - Multi-Factor Authentication                           |
+| **3.4.1**          | SOC 2 Trust Services Criteria | CC7.2 - System Monitoring                                     |
 | **3.2, 3.6**       | SOC 2 Trust Services Criteria | CC6.3 - Authorization, modification, and removal of access... |
 
 ### 5. Definitions
@@ -116,7 +206,12 @@ This policy is designed to comply with and support the following industry standa
 
 | **Role**                     | **Responsibility**                                                                                                                |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| **Security Officer / Team**  | Own, review, and update this policy annually. Audit access controls and review compliance.                                        |
+| **Security Officer / Team**  | Own, review, and update this policy annually. Audit access controls and review compliance. Configure automated monitoring rules, review access anomalies, and coordinate exception-based reviews. Approve privileged account requests, conduct quarterly reviews, and coordinate compliance assessments. |
 | **IT Department**            | Implement, manage, and monitor technical access controls. Process access provisioning, modification, and deprovisioning requests. |
-| **Managers / System Owners** | Request and approve access for their direct reports. Conduct periodic access reviews for their teams and systems.                 |
+| **Platform Engineer**        | Implement RBAC systems, configure automated remediation, and maintain IAM integrations with HR systems. |
+| **System Administrator**     | Create privileged accounts, configure PAM systems, generate usage reports, and rotate passwords according to schedule. |
+| **DevOps Engineer**          | Set up automated alerting, monitor system performance, and optimize alert thresholds. |
+| **Managers / System Owners** | Request and approve access for their direct reports. Conduct periodic access reviews for their teams and systems. Respond to access validation requests and approve access changes for their team members or systems. Conduct monthly reviews of assigned privileged accounts and verify continued business need for access. |
+| **HR Department**            | Maintain accurate role and manager information in HR systems for automated access management. Immediately notify IT of employee terminations and role changes affecting privileged access. |
+| **Compliance Officer**       | Maintain audit logs and session recordings for regulatory compliance and retention requirements. |
 | **All Workforce Members**    | Adhere to this policy, use only their assigned accounts, and report any unauthorized access or suspicious activity.               |

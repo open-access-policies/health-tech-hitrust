@@ -39,6 +39,32 @@ This policy applies to all **[Company Name]** workforce members, contractors, an
 
 - Business process reviews shall be conducted to identify operational and procedural risks.
 
+#### 3.2.1 Penetration Testing and Vulnerability Assessment Implementation
+
+- **[Company Name]** shall implement comprehensive penetration testing and vulnerability assessment processes as follows:
+
+- **Annual Penetration Testing Plan:** The Information Security Officer shall develop an annual penetration testing plan identifying scope, methodology, timeline, and resource requirements for comprehensive security assessment.
+
+- **Third-Party Testing Providers:** Qualified third-party penetration testing vendors with **[Required Certifications, e.g., CISSP, CEH, OSCP]** and healthcare industry experience shall be engaged for testing activities.
+
+- **Testing Methodology:** Penetration testing shall include:
+  - Pre-testing reconnaissance to identify external-facing systems, network ranges, and application attack surfaces
+  - Automated vulnerability scanning using **[Scanning Tools, e.g., Nessus, Qualys, OpenVAS]** across all in-scope systems
+  - Network penetration testing including external perimeter testing, internal network lateral movement, and wireless network security assessment
+  - Web application security testing using **[Testing Methodology, e.g., OWASP Testing Guide]** for all applications handling sensitive data
+  - Social engineering assessment including phishing simulation, physical security testing, and employee security awareness validation
+  - Cloud infrastructure security testing including IAM controls, storage security, network configurations, and container security
+
+- **Vulnerability Documentation:** All identified vulnerabilities shall be documented with risk ratings using **[Risk Rating System, e.g., CVSS v3.1]** and exploitation evidence.
+
+- **Remediation Requirements:** Critical and high-risk vulnerabilities shall be remediated within **[Duration, e.g., 30 days]** of testing completion, medium-risk vulnerabilities within **[Duration, e.g., 90 days]**, and low-risk vulnerabilities within **[Duration, e.g., 180 days]**.
+
+- **Validation Testing:** Validation testing shall be conducted to confirm successful remediation of all critical and high-risk vulnerabilities.
+
+- **Quarterly Vulnerability Assessments:** Automated vulnerability assessments shall be conducted quarterly with monthly scan result reviews for ongoing security validation.
+
+- **Targeted Testing:** Penetration testing shall be performed within **[Duration, e.g., 30 days]** of significant system changes, new application deployments, or security incidents.
+
 - Risk identification shall consider internal and external threats, including but not limited to:
   - Cybersecurity threats (malware, phishing, unauthorized access)
   - Natural disasters and environmental hazards
@@ -150,6 +176,10 @@ This policy is designed to comply with and support the following industry standa
 |**All**|HITRUST CSF v11.2.0|17.a - Risk Management Program|
 |**3.1**|HITRUST CSF v11.2.0|17.b - Risk Management Framework|
 |**3.2, 3.3**|HITRUST CSF v11.2.0|17.c - Risk Assessment Process|
+|**3.2.1**|HITRUST CSF v11.2.0|07.a - Vulnerability Management|
+|**3.2.1**|HITRUST CSF v11.2.0|07.b - Vulnerability Assessment|
+|**3.2.1**|HITRUST CSF v11.2.0|07.c - Vulnerability Remediation|
+|**3.2.1**|HITRUST CSF v11.2.0|08.b - Network Security Testing|
 |**3.4, 3.5**|HITRUST CSF v11.2.0|17.d - Risk Treatment|
 |**3.6**|HITRUST CSF v11.2.0|17.e - Risk Monitoring and Review|
 |**3.7**|HITRUST CSF v11.2.0|14.b - Third Party Risk Assessment|
@@ -157,10 +187,13 @@ This policy is designed to comply with and support the following industry standa
 |**All**|HIPAA Security Rule|45 CFR § 164.308(a)(1)(ii)(A) - Conduct risk assessments|
 |**All**|HIPAA Security Rule|45 CFR § 164.308(a)(1)(ii)(B) - Implement security measures|
 |**3.3**|HIPAA Security Rule|45 CFR § 164.308(a)(1)(ii)(A) - Periodic risk assessment|
+|**3.2.1**|HIPAA Security Rule|45 CFR § 164.308(a)(8) - Evaluation|
 |**All**|SOC 2 Trust Services Criteria|CC3.1 - Risk Assessment Process|
 |**3.2, 3.3**|SOC 2 Trust Services Criteria|CC3.2 - Risk Identification|
 |**3.4, 3.5**|SOC 2 Trust Services Criteria|CC3.3 - Risk Mitigation|
 |**3.6**|SOC 2 Trust Services Criteria|CC3.4 - Risk Assessment Updates|
+|**3.2.1**|SOC 2 Trust Services Criteria|CC7.1 - System Security|
+|**3.2.1**|SOC 2 Trust Services Criteria|CC8.1 - Change Management|
 |**3.7**|HIPAA Security Rule|45 CFR § 164.314(a)(1) - Business Associate contracts|
 |**All**|SOC 2 Trust Services Criteria|CC3.1 - Risk Assessment Process|
 |**3.2, 3.3**|SOC 2 Trust Services Criteria|CC3.2 - Risk Identification and Analysis|
@@ -168,6 +201,7 @@ This policy is designed to comply with and support the following industry standa
 |**3.5**|SOC 2 Trust Services Criteria|CC3.4 - Risk Monitoring Activities|
 |**3.8**|SOC 2 Trust Services Criteria|A1.1 - Availability and Business Continuity|
 |**All**|ISO/IEC 27001:2022|A.5.2 - Information security risk management|
+|**3.2.1**|NIST SP 800-115|Technical Guide to Information Security Testing|
 
 ### 5. Definitions
 
@@ -194,7 +228,7 @@ This policy is designed to comply with and support the following industry standa
 |**Role**|**Responsibility**|
 |---|---|
 |**Executive Leadership**|Formally document, approve, and annually review the company's risk appetite and tolerance levels. Approve risk treatment strategies for high-risk items. Provide resources for risk management activities.|
-|**Security Officer**|Own and maintain the risk management program. Conduct risk assessments and coordinate risk treatment activities. Report risk status to leadership.|
+|**Security Officer**|Own and maintain the risk management program. Conduct risk assessments and coordinate risk treatment activities. Report risk status to leadership. Oversee penetration testing and vulnerability assessment programs.|
 |**Information Security Committee**|Review and approve risk management policies and procedures. Oversee high-risk treatment decisions and resource allocation.|
 |**Risk Management Team**|Support risk assessment activities, maintain the risk register, and monitor risk treatment effectiveness.|
 |**IT Department**|Identify technical risks and vulnerabilities. Implement technical risk controls and participate in risk assessments.|
@@ -202,3 +236,5 @@ This policy is designed to comply with and support the following industry standa
 |**Asset/System Owners**|Assess risks for their assigned assets or systems. Implement and maintain appropriate risk controls.|
 |**All Workforce Members**|Report potential risks and security concerns. Comply with risk mitigation controls and procedures.|
 |**Audit and Compliance Team**|Validate risk assessment processes and control effectiveness. Ensure regulatory compliance requirements are addressed.|
+|**Third-Party Testing Vendors**|Conduct comprehensive penetration testing and vulnerability assessments according to defined methodologies and healthcare industry standards.|
+|**System Administrators**|Remediate identified vulnerabilities within specified timeframes based on risk level and impact assessment.|

@@ -135,6 +135,34 @@ The information security program shall be subject to continuous monitoring and i
 
 - Employee feedback and suggestions for security improvements shall be encouraged and evaluated.
 
+#### 3.10.1 Threat Intelligence and Security Information Sharing Implementation
+
+- **[Company Name]** shall implement comprehensive threat intelligence and security information sharing processes as follows:
+
+- **Healthcare-Specific Threat Intelligence:** Subscriptions to healthcare-specific threat intelligence feeds including **[Threat Feeds, e.g., HHS HCCIC, FBI IC3, MS-ISAC]** shall be maintained to receive current threat information relevant to the healthcare sector.
+
+- **Automated Threat Indicator Ingestion:** Automated ingestion of threat indicators including IoCs, TTPs, and vulnerability information shall be configured into **[Threat Intelligence Platform]** for systematic processing and analysis.
+
+- **Internal Security Data Collection:** Internal security data from SIEM, IDS/IPS, endpoint detection, and vulnerability scanners shall be collected and analyzed for threat pattern identification.
+
+- **Daily Threat Analysis:** Daily analysis of threat intelligence feeds shall be performed to identify threats relevant to healthcare sector and organizational infrastructure, with correlation to internal security events.
+
+- **Security Monitoring Integration:** Threat intelligence indicators shall be integrated into security monitoring tools for automated detection and alerting capabilities.
+
+- **Proactive Threat Hunting:** Weekly proactive threat hunting using intelligence-driven hypotheses shall be conducted to identify advanced persistent threats and sophisticated attack activities.
+
+- **Intelligence Briefings:** Weekly threat intelligence briefings shall be generated for security teams including emerging threats, attack trends, and recommended countermeasures.
+
+- **External Information Sharing:** Sanitized threat indicators shall be shared with **[Sharing Partners, e.g., HC3, industry peers]** through secure information sharing platforms, subject to approval processes to protect sensitive organizational information.
+
+- **Incident Response Intelligence:** Threat intelligence shall be leveraged during incident response to understand attacker tactics, techniques, and procedures (TTPs), with analysis of security incidents to extract new threat intelligence.
+
+- **Vulnerability Prioritization:** Vulnerability remediation shall be prioritized based on threat intelligence indicating active exploitation in healthcare sector.
+
+- **Security Control Updates:** Security controls and monitoring rules shall be updated based on threat intelligence findings and emerging attack techniques.
+
+- **Documentation and Retention:** Threat intelligence records and sharing documentation shall be maintained for minimum **[Retention Period, e.g., 2 years]** for audit compliance purposes.
+
 ### 4. Standards Compliance
 
 This policy is designed to comply with and support the following industry standards and regulations.
@@ -150,6 +178,10 @@ This policy is designed to comply with and support the following industry standa
 |**3.7**|HITRUST CSF v11.2.0|16.a - Business Continuity Management|
 |**3.8**|HITRUST CSF v11.2.0|14.a - Third Party Assurance|
 |**3.9**|HITRUST CSF v11.2.0|12.a - Audit Logging and Monitoring|
+|**3.10.1**|HITRUST CSF v11.2.0|12.a - Audit Logging and Monitoring|
+|**3.10.1**|HITRUST CSF v11.2.0|15.a - Incident Response|
+|**3.10.1**|HITRUST CSF v11.2.0|15.b - Incident Analysis and Response|
+|**3.10.1**|HITRUST CSF v11.2.0|08.a - Network Controls|
 |**All**|HIPAA Security Rule|45 CFR § 164.308(a)(1) - Security Management Process|
 |**3.1**|HIPAA Security Rule|45 CFR § 164.308(a)(2) - Assigned Security Responsibility|
 |**3.2**|HIPAA Security Rule|45 CFR § 164.308(a)(1)(ii)(A) - Conduct periodic risk assessment|
@@ -158,12 +190,16 @@ This policy is designed to comply with and support the following industry standa
 |**3.6**|HIPAA Security Rule|45 CFR § 164.308(a)(6) - Security Incident Procedures|
 |**3.7**|HIPAA Security Rule|45 CFR § 164.308(a)(7) - Contingency Plan|
 |**3.9**|HIPAA Security Rule|45 CFR § 164.308(a)(8) - Evaluation|
+|**3.10.1**|HIPAA Security Rule|45 CFR § 164.308(a)(1)(ii)(D) - Information Access Management|
+|**3.10.1**|HIPAA Security Rule|45 CFR § 164.308(a)(6) - Security Incident Procedures|
 |**All**|SOC 2 Trust Services Criteria|CC1.1 - Control Environment|
 |**3.1**|SOC 2 Trust Services Criteria|CC2.1 - Communication and Information|
 |**3.2**|SOC 2 Trust Services Criteria|CC3.1 - Risk Assessment Process|
 |**3.4**|SOC 2 Trust Services Criteria|CC6.1 - Logical Access Security|
 |**3.6**|SOC 2 Trust Services Criteria|CC7.1 - System Monitoring|
 |**3.7**|SOC 2 Trust Services Criteria|A1.1 - Availability|
+|**3.10.1**|SOC 2 Trust Services Criteria|CC7.2 - System Monitoring|
+|**3.10.1**|SOC 2 Trust Services Criteria|CC7.4 - Incident Response|
 
 ### 5. Definitions
 
@@ -192,3 +228,9 @@ This policy is designed to comply with and support the following industry standa
 |**Information Owners**|Classify information assets, approve access requests, and ensure appropriate handling of sensitive data.|
 |**All Workforce Members**|Comply with security policies, complete required training, and report security incidents or concerns.|
 |**Managers/Supervisors**|Ensure their teams comply with security policies, approve access requests, and conduct regular access reviews.|
+|**Threat Intelligence Analyst**|Collect, analyze, and disseminate threat intelligence. Correlate external threats with internal security events and generate intelligence briefings.|
+|**Security Operations Center**|Integrate threat intelligence into monitoring tools and respond to intelligence-driven alerts and detections.|
+|**Threat Hunting Team**|Conduct proactive threat hunting using intelligence-driven hypotheses to identify advanced threats and attack activities.|
+|**Incident Response Team**|Leverage threat intelligence during incident response and analyze incidents to extract new threat intelligence.|
+|**Vulnerability Management Team**|Prioritize vulnerability remediation based on threat intelligence indicating active exploitation patterns.|
+|**Security Architecture Team**|Update security controls and monitoring rules based on threat intelligence findings and emerging attack techniques.|

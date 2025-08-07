@@ -5,7 +5,7 @@ nav_order: 5
 ---
 ### 1. Objective
 
-The objective of this policy is to establish practical, risk-based requirements for managing security risks associated with vendors and third-party service providers, with focus on regulatory compliance for electronic Protected Health Information (ePHI) while maintaining operational efficiency appropriate for a **[Number, e.g., 120]**-person organization.
+The objective of this policy is to establish practical, risk-based requirements for managing security risks associated with vendors and third-party service providers, with focus on regulatory compliance for electronic Protected Health Information (ePHI) while maintaining operational efficiency.
 
 ### 2. Scope
 
@@ -22,22 +22,22 @@ Vendors shall be classified into three practical risk tiers with appropriate ass
 ##### 3.1.1 Risk-Based Vendor Classification
 
 - **Tier 1 - Critical Risk (ePHI and Core Infrastructure):**
-- Cloud service providers (AWS, Azure, GCP)
-- Vendors with direct ePHI access (healthcare APIs, patient communication tools)
-- Core infrastructure providers (identity management, security tools)
-- Development and deployment platform providers
+    - Cloud service providers (AWS, Azure, GCP)
+    - Vendors with direct ePHI access (healthcare APIs, patient communication tools)
+    - Core infrastructure providers (identity management, security tools)
+    - Development and deployment platform providers
 
 - **Tier 2 - Business Risk (Internal Data and Business-Critical Services):**
-- Business applications with internal data access (CRM, HR systems, financial tools)
-- Communication and collaboration platforms (Slack, email providers)
-- Backup and disaster recovery services
-- Legal and professional services with confidential data access
+    - Business applications with internal data access (CRM, HR systems, financial tools)
+    - Communication and collaboration platforms (Slack, email providers)
+    - Backup and disaster recovery services
+    - Legal and professional services with confidential data access
 
 - **Tier 3 - Standard Risk (Limited Access and Commodity Services):**
-- Marketing and analytics tools with minimal data access
-- Development tools and services without production data
-- Office productivity tools and subscriptions
-- Professional services without data access
+    - Marketing and analytics tools with minimal data access
+    - Development tools and services without production data
+    - Office productivity tools and subscriptions
+    - Professional services without data access
 
 ##### 3.1.2 Streamlined Assessment Requirements
 

@@ -22,41 +22,41 @@ Mobile devices shall be classified based on their access to company information 
 ##### 3.1.1 Device Classification Levels
 
 - **Level 1 - Basic Access:** Devices with access only to email and basic business applications
-- Standard security configuration required
-- Basic mobile device management (MDM) enrollment
-- Passcode/PIN protection mandatory
+    - Standard security configuration required
+    - Basic mobile device management (MDM) enrollment
+    - Passcode/PIN protection mandatory
 
 - **Level 2 - Standard Access:** Devices with access to internal systems and Confidential information
-- Enhanced security configuration required
-- Full MDM enrollment with compliance monitoring
-- Multi-factor authentication required
-- Encryption mandatory
+    - Enhanced security configuration required
+    - Full MDM enrollment with compliance monitoring
+    - Multi-factor authentication required
+    - Encryption mandatory
 
 - **Level 3 - Restricted Access:** Devices with access to ePHI or other Restricted information
-- Maximum security configuration required
-- Shall be company-owned devices only
-- Advanced MDM with containerization/app wrapping
-- Hardware-based encryption required
-- Continuous compliance monitoring
-- Dedicated business profile/container
+    - Maximum security configuration required
+    - Shall be company-owned devices only
+    - Advanced MDM with containerization/app wrapping
+    - Hardware-based encryption required
+    - Continuous compliance monitoring
+    - Dedicated business profile/container
 
 ##### 3.1.2 Acceptable Mobile Devices
 
 Only approved mobile device types and operating systems shall be permitted to access company information:
 
 - **Approved Device Types:**
-- Smartphones running iOS **[Version, e.g., 15.0]** or later
-- Smartphones running Android **[Version, e.g., 11.0]** or later with security patch level within **[Timeframe, e.g., 90 days]**
-- Tablets running iPadOS **[Version, e.g., 15.0]** or later
-- Tablets running Android **[Version, e.g., 11.0]** or later with security patch level within **[Timeframe, e.g., 90 days]**
-- Laptops running Windows **[Version, e.g., 10]** or later with latest security updates
-- Laptops running macOS **[Version, e.g., 12.0]** or later with latest security updates
+    - Smartphones running iOS **[Version, e.g., 15.0]** or later
+    - Smartphones running Android **[Version, e.g., 11.0]** or later with security patch level within **[Timeframe, e.g., 90 days]**
+    - Tablets running iPadOS **[Version, e.g., 15.0]** or later
+    - Tablets running Android **[Version, e.g., 11.0]** or later with security patch level within **[Timeframe, e.g., 90 days]**
+    - Laptops running Windows **[Version, e.g., 10]** or later with latest security updates
+    - Laptops running macOS **[Version, e.g., 12.0]** or later with latest security updates
 
 - **Prohibited Devices:**
-- The Mobile Device Management (MDM) system shall be configured to automatically block access from devices with modified firmware (jailbroken/rooted devices).
-- Devices running unsupported or end-of-life operating systems
-- Devices with known critical vulnerabilities that are unpatched
-- Personal gaming devices or IoT devices
+    - The Mobile Device Management (MDM) system shall be configured to automatically block access from devices with modified firmware (jailbroken/rooted devices).
+    - Devices running unsupported or end-of-life operating systems
+    - Devices with known critical vulnerabilities that are unpatched
+    - Personal gaming devices or IoT devices
 
 #### 3.2 Mobile Device Management (MDM)
 
@@ -74,25 +74,25 @@ All mobile devices accessing company information shall be enrolled in the **[Com
 The following security policies shall be enforced through MDM:
 
 - **Device Configuration:**
-- Minimum passcode/password complexity requirements (shall use 6-digits or more for passcodes, gesture-based authentication is not acceptable)
-- Automatic screen lock after **[Duration, e.g., 5 minutes]** of inactivity
-- Maximum failed unlock attempts before device lock/wipe
-- Automatic device encryption enforcement
-- Bluetooth and Wi-Fi security restrictions
-- Camera and microphone restrictions for high-security areas
+    - Minimum passcode/password complexity requirements (shall use 6-digits or more for passcodes, gesture-based authentication is not acceptable)
+    - Automatic screen lock after **[Duration, e.g., 5 minutes]** of inactivity
+    - Maximum failed unlock attempts before device lock/wipe
+    - Automatic device encryption enforcement
+    - Bluetooth and Wi-Fi security restrictions
+    - Camera and microphone restrictions for high-security areas
 
 - **Application Management:**
-- Approved application catalog with pre-approved business applications
-- Prohibition of unauthorized application installation
-- Automatic application updates for security patches
-- Application sandboxing and data isolation
-- Mobile application management (MAM) for business applications
+    - Approved application catalog with pre-approved business applications
+    - Prohibition of unauthorized application installation
+    - Automatic application updates for security patches
+    - Application sandboxing and data isolation
+    - Mobile application management (MAM) for business applications
 
 - **Network Security:**
-- VPN requirements for accessing internal systems
-- Prohibition of unsecured Wi-Fi networks for business use
-- Corporate Wi-Fi certificate installation and management
-- Network traffic monitoring and filtering
+    - VPN requirements for accessing internal systems
+    - Prohibition of unsecured Wi-Fi networks for business use
+    - Corporate Wi-Fi certificate installation and management
+    - Network traffic monitoring and filtering
 
 #### 3.3 Bring Your Own Device (BYOD) Program
 
@@ -109,19 +109,19 @@ Personal devices may be used for business purposes under the BYOD program with a
 ##### 3.3.2 BYOD Security Requirements
 
 - **Mandatory Requirements for all BYOD devices:**
-- Current operating system with latest security patches
-- Strong device passcode/biometric authentication
-- Automatic screen lock configuration
-- Full device encryption enabled
-- Remote wipe capability acceptance
-- Separation of business and personal data through containerization
+    - Current operating system with latest security patches
+    - Strong device passcode/biometric authentication
+    - Automatic screen lock configuration
+    - Full device encryption enabled
+    - Remote wipe capability acceptance
+    - Separation of business and personal data through containerization
 
 - **Additional Requirements for Restricted Access:**
-- Dedicated business profile or secure container application
-- Hardware-based key storage for encryption
-- Regular malware scanning and threat detection
-- Geolocation services for device tracking
-- Prohibition of certain high-risk applications
+    - Dedicated business profile or secure container application
+    - Hardware-based key storage for encryption
+    - Regular malware scanning and threat detection
+    - Geolocation services for device tracking
+    - Prohibition of certain high-risk applications
 
 ##### 3.3.3 BYOD Data Separation
 
@@ -176,12 +176,12 @@ Business applications on mobile devices shall meet specific security requirement
 ##### 3.5.2 Application Security Standards
 
 - **Mandatory Security Features:**
-- Local data encryption and secure storage
-- Certificate pinning for network communications
-- Application sandboxing and isolation
-- Secure authentication mechanisms
-- Session management and timeout controls
-- Anti-tampering and runtime application self-protection (RASP)
+    - Local data encryption and secure storage
+    - Certificate pinning for network communications
+    - Application sandboxing and isolation
+    - Secure authentication mechanisms
+    - Session management and timeout controls
+    - Anti-tampering and runtime application self-protection (RASP)
 
 #### 3.6 Incident Response and Device Management
 
@@ -199,23 +199,23 @@ Procedures shall be established for responding to mobile device security inciden
 ##### 3.6.2 Device Lifecycle Management
 
 - **Device Onboarding:**
-- Security assessment and approval process
-- MDM enrollment and configuration
-- User training on security requirements
-- Initial compliance verification
+    - Security assessment and approval process
+    - MDM enrollment and configuration
+    - User training on security requirements
+    - Initial compliance verification
 
 - **Device Maintenance:**
-- Regular compliance monitoring and reporting
-- Security patch management and updates
-- Periodic security assessments
-- User training and awareness updates
+    - Regular compliance monitoring and reporting
+    - Security patch management and updates
+    - Periodic security assessments
+    - User training and awareness updates
 
 - **Device Offboarding:**
-- Complete data wipe and sanitization
-- MDM unenrollment and access revocation
-- Certificate and credential removal
-- Device return procedures (company-owned devices)
-- Exit interview and security debriefing
+    - Complete data wipe and sanitization
+    - MDM unenrollment and access revocation
+    - Certificate and credential removal
+    - Device return procedures (company-owned devices)
+    - Exit interview and security debriefing
 
 #### 3.7 Privacy and Legal Considerations
 
