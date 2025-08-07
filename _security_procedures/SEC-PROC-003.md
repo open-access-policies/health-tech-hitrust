@@ -27,6 +27,9 @@ This procedure outlines the steps for submitting, evaluating, and documenting re
 
 | **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**           |
 | --------------------- | -------------------------- | ------------------------------- |
+| **1-3**               | HITRUST CSF v11.2.0       | 10.c - Password Protection Systems |
+| **2**                 | HITRUST CSF v11.2.0       | 17.c - Risk Assessment Process |
+| **3**                 | HITRUST CSF v11.2.0       | 01.g - Information Security Management Program Review |
 | **1-3**               | SOC 2                      | CC6.1                           |
 | **1-3**               | HIPAA/HITECH               | 45 CFR § 164.308(a)(5)(ii)(D)   |
 

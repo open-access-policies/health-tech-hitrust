@@ -243,6 +243,12 @@ This policy is designed to comply with and support the following industry standa
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
+|**All**|HITRUST CSF v11.2.0|04.a - Mobile Device Security Policy|
+|**3.2, 3.3**|HITRUST CSF v11.2.0|04.b - Mobile Device Management|
+|**3.4.1**|HITRUST CSF v11.2.0|04.c - Mobile Device Access Control|
+|**3.4.2**|HITRUST CSF v11.2.0|04.d - Mobile Device Encryption|
+|**3.5**|HITRUST CSF v11.2.0|04.e - Mobile Application Security|
+|**3.6**|HITRUST CSF v11.2.0|04.f - Mobile Device Monitoring|
 |**All**|HIPAA Security Rule|45 CFR § 164.308(a)(4) - Information Access Management|
 |**3.4.2**|HIPAA Security Rule|45 CFR § 164.312(a)(2)(iv) - Encryption|
 |**3.4.2**|HIPAA Security Rule|45 CFR § 164.312(e)(1) - Transmission Security|

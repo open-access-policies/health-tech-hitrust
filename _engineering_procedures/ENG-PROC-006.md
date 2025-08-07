@@ -29,6 +29,10 @@ This procedure describes the quarterly access review process. It begins with the
 
 | **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**     |
 | --------------------- | -------------------------- | ------------------------- |
+| **1-5**               | HITRUST CSF v11.2.0       | 11.a - User Access Management |
+| **1-5**               | HITRUST CSF v11.2.0       | 11.d - User Access Review |
+| **1-5**               | HITRUST CSF v11.2.0       | 11.f - Privileged Access Management |
+| **1-5**               | HITRUST CSF v11.2.0       | 02.b - Information Security Roles and Responsibilities |
 | **1-5**               | SOC 2                      | CC6.1                     |
 | **1-5**               | HIPAA Security Rule        | 45 CFR § 164.308(a)(4)    |
 

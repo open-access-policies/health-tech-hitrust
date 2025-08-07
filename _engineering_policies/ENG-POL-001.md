@@ -304,6 +304,12 @@ This policy is designed to comply with and support the following industry standa
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
+|**All**|HITRUST CSF v11.2.0|07.a - Vulnerability Management Policy|
+|**3.2**|HITRUST CSF v11.2.0|07.b - Vulnerability Identification|
+|**3.3, 3.4**|HITRUST CSF v11.2.0|07.c - Vulnerability Assessment|
+|**3.5**|HITRUST CSF v11.2.0|07.d - Vulnerability Remediation|
+|**3.6**|HITRUST CSF v11.2.0|06.e - Secure Development|
+|**3.7**|HITRUST CSF v11.2.0|14.g - Third Party Development|
 |**All**|HIPAA Security Rule|45 CFR § 164.308(a)(1) - Security Management Process|
 |**3.1, 3.2**|HIPAA Security Rule|45 CFR § 164.312(a)(1) - Access Control|
 |**3.2.1**|HIPAA Security Rule|45 CFR § 164.312(a)(2)(i) - Unique User Identification|

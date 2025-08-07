@@ -29,6 +29,9 @@ This procedure describes the process for managing the security of third-party co
 
 | **Procedure Step(s)** | **Standard/Framework**     | **Control Reference** |
 | --------------------- | -------------------------- | --------------------- |
+| **1-5**               | HITRUST CSF v11.2.0       | 07.a - Secure Development Life Cycle |
+| **2-3**               | HITRUST CSF v11.2.0       | 07.d - Vulnerability Assessment |
+| **3-4**               | HITRUST CSF v11.2.0       | 14.f - Third-Party Risk Assessment |
 | **1-5**               | SOC 2                      | CC8.1                 |
 | **1-5**               | NIST SP 800-161            |                       |
 

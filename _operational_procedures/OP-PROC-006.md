@@ -33,6 +33,9 @@ This section maps the procedure steps to specific controls from relevant informa
 
 | **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**        |
 | --------------------- | -------------------------- | ---------------------------- |
+| **1-7**               | HITRUST CSF v11.2.0       | 13.c - Terms and Conditions of Employment |
+| **4-5**               | HITRUST CSF v11.2.0       | 13.b - Information Security Awareness |
+| **1-7**               | HITRUST CSF v11.2.0       | 02.b - Information Security Roles and Responsibilities |
 | **1-7**               | SOC 2                      | CC2.1, CC2.2                 |
 | **1-7**               | HIPAA Security Rule        | 45 CFR § 164.308(a)(3)(i)    |
 

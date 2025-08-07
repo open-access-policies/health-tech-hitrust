@@ -330,6 +330,13 @@ This policy is designed to comply with and support the following industry standa
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
+|**All**|HITRUST CSF v11.2.0|15.a - Incident Response Program|
+|**3.1, 3.2**|HITRUST CSF v11.2.0|15.b - Incident Detection|
+|**3.3**|HITRUST CSF v11.2.0|15.c - Incident Investigation|
+|**3.4**|HITRUST CSF v11.2.0|15.d - Incident Response Procedures|
+|**3.5**|HITRUST CSF v11.2.0|15.e - External Communications|
+|**3.6**|HITRUST CSF v11.2.0|15.f - Incident Recovery|
+|**3.7**|HITRUST CSF v11.2.0|15.g - Incident Lessons Learned|
 |**All**|HIPAA Security Rule|45 CFR § 164.308(a)(6) - Security Incident Procedures|
 |**3.5.1**|HIPAA Breach Notification Rule|45 CFR § 164.400-414 - Notification Requirements|
 |**3.3, 3.4**|HIPAA Security Rule|45 CFR § 164.312(b) - Audit Controls|

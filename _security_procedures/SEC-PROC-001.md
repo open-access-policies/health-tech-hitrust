@@ -29,6 +29,8 @@ This procedure outlines the process for scheduling and conducting Information Se
 
 | **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**     |
 | --------------------- | -------------------------- | ------------------------- |
+| **1-5**               | HITRUST CSF v11.2.0       | 01.b - Information Security Program Charter |
+| **1-5**               | HITRUST CSF v11.2.0       | 01.f - Information Security Governance |
 | **1-5**               | SOC 2                      | CC2.1                     |
 | **1-5**               | HIPAA/HITECH               | 45 CFR § 164.308(a)(2)    |
 

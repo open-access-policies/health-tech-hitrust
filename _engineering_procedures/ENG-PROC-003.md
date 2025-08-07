@@ -30,6 +30,10 @@ This procedure outlines the standard workflow for managing changes. It begins wi
 
 | **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**        |
 | --------------------- | -------------------------- | ---------------------------- |
+| **1-6**               | HITRUST CSF v11.2.0       | 07.a - Secure Development Life Cycle |
+| **2-4**               | HITRUST CSF v11.2.0       | 07.b - Security Testing in Development |
+| **5**                 | HITRUST CSF v11.2.0       | 07.c - Production Security Testing |
+| **1-6**               | HITRUST CSF v11.2.0       | 12.a - System Configuration Management |
 | **1-6**               | SOC 2                      | CC8.1                        |
 | **1-6**               | HIPAA Security Rule        | 45 CFR § 164.312(b)          |
 | **1-6**               | HIPAA Security Rule        | 45 CFR § 164.312(c)(1)       |

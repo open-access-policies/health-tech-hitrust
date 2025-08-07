@@ -32,6 +32,9 @@ This section maps the procedure steps to specific controls from relevant informa
 
 | **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**        |
 | --------------------- | -------------------------- | ---------------------------- |
+| **1-6**               | HITRUST CSF v11.2.0       | 13.e - Disciplinary Process |
+| **2-3**               | HITRUST CSF v11.2.0       | 13.b - Information Security Awareness |
+| **4-5**               | HITRUST CSF v11.2.0       | 13.d - Termination Responsibilities |
 | **1-6**               | HIPAA Security Rule        | 45 CFR § 164.308(a)(1)(ii)(C) |
 
 ### 6. Artifact(s)

@@ -241,6 +241,12 @@ This policy is designed to comply with and support the following industry standa
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
+|**All**|HITRUST CSF v11.2.0|03.a - Portable Media Security Policy|
+|**3.2, 3.3**|HITRUST CSF v11.2.0|03.b - Media Handling|
+|**3.4**|HITRUST CSF v11.2.0|03.c - Secure Media Disposal|
+|**3.1**|HITRUST CSF v11.2.0|19.e - Data Retention Requirements|
+|**3.5**|HITRUST CSF v11.2.0|03.d - Media Transportation|
+|**3.6**|HITRUST CSF v11.2.0|03.e - Media Access Controls|
 |**3.1.2**|HIPAA Security Rule|45 CFR § 164.308(a)(4)(ii)(A) - Information Access Management|
 |**3.3, 3.4**|HIPAA Security Rule|45 CFR § 164.310(d)(2)(i) - Media Disposal|
 |**3.1.2**|HIPAA Privacy Rule|45 CFR § 164.530(j)(2) - Record Retention|
@@ -248,7 +254,6 @@ This policy is designed to comply with and support the following industry standa
 |**All**|SOC 2 Trust Services Criteria|CC6.5 - Data Disposal|
 |**3.7**|SOC 2 Trust Services Criteria|CC2.1 - Communication and Information|
 |**3.8**|SOC 2 Trust Services Criteria|CC4.1 - Monitoring Activities|
-|**All**|ISO/IEC 27001:2022|A.8.3 - Media Handling|
 
 ### 5. Definitions
 

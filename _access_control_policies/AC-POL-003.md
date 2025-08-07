@@ -66,6 +66,10 @@ This policy is designed to comply with and support the following industry standa
 
 | **Policy Section** | **Standard/Framework**        | **Control Reference**                                                                                                            |
 | ------------------ | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **All**            | HITRUST CSF v11.2.0          | 11.g - Remote Access Control                                                                                                    |
+| **3.1, 3.2**       | HITRUST CSF v11.2.0          | 08.e - Network Security Controls                                                                                                |
+| **3.3**            | HITRUST CSF v11.2.0          | 02.f - Remote Endpoint Security                                                                                                 |
+| **3.2**            | HITRUST CSF v11.2.0          | 09.f - Secure Remote Access                                                                                                     |
 | **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(1)(ii)(B) - Authorization and/or supervision                                                                 |
 | **3.1, 3.2**       | HIPAA Security Rule           | 45 CFR § 164.312(e)(1) - Transmission Security                                                                                   |
 | **3.2, 3.3**       | HIPAA Security Rule           | 45 CFR § 164.310(d)(1) - Device and Media Controls                                                                               |

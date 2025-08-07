@@ -35,6 +35,8 @@ This section maps the procedure steps to specific controls from relevant informa
 
 | **Procedure Step(s)** | **Standard/Framework** | **Control Reference**                 |
 | --------------------- | ---------------------- | ------------------------------------- |
+| **1-5**               | HITRUST CSF v11.2.0   | 11.b - User Access Management        |
+| **1-5**               | HITRUST CSF v11.2.0   | 15.c - Incident Investigation        |
 | **1-5**               | SOC 2                  | CC6.8                                 |
 | **1-5**               | HIPAA                  | 45 CFR § 164.308(a)(5)(ii)(B)         |
 

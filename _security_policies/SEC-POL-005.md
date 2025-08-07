@@ -203,6 +203,12 @@ This policy is designed to comply with and support the following industry standa
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
+|**All**|HITRUST CSF v11.2.0|14.a - Third Party Assurance Policy|
+|**3.1, 3.3**|HITRUST CSF v11.2.0|14.b - Third Party Risk Assessment|
+|**3.2**|HITRUST CSF v11.2.0|14.c - Third Party Service Agreements|
+|**3.4**|HITRUST CSF v11.2.0|14.d - Third Party Access Management|
+|**3.5**|HITRUST CSF v11.2.0|14.e - Third Party Monitoring|
+|**3.6**|HITRUST CSF v11.2.0|14.f - Service Delivery Management|
 |**3.2.1**|HIPAA Security Rule|45 CFR § 164.314(a)(1) - Business Associate Contracts|
 |**3.2.1**|HIPAA Security Rule|45 CFR § 164.314(a)(2) - Business Associate Safeguards|
 |**3.1, 3.3**|HIPAA Security Rule|45 CFR § 164.308(a)(1)(ii)(A) - Risk Assessment|
@@ -212,7 +218,6 @@ This policy is designed to comply with and support the following industry standa
 |**3.1, 3.3**|SOC 2 Trust Services Criteria|CC9.2 - Vendor Risk Assessment|
 |**3.2**|SOC 2 Trust Services Criteria|CC9.3 - Vendor Agreements|
 |**3.6**|SOC 2 Trust Services Criteria|A1.2 - System Capacity|
-|**All**|ISO/IEC 27001:2022|A.5.19 - Information security in supplier relationships|
 
 ### 5. Definitions
 

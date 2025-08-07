@@ -47,6 +47,10 @@ This procedure outlines the required security testing for applications, includin
 
 | **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**     |
 | --------------------- | -------------------------- | ------------------------- |
+| **4.1 - 4.3**         | HITRUST CSF v11.2.0       | 07.a - Secure Development Life Cycle |
+| **4.1**               | HITRUST CSF v11.2.0       | 07.b - Security Testing in Development |
+| **4.2**               | HITRUST CSF v11.2.0       | 07.c - Production Security Testing |
+| **4.3**               | HITRUST CSF v11.2.0       | 07.d - Vulnerability Assessment |
 | **4.1 - 4.3**         | SOC 2                      | CC7.1, CC8.1              |
 | **4.1 - 4.3**         | HIPAA Security Rule        | 45 CFR § 164.308(a)(8)    |
 

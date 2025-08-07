@@ -112,6 +112,13 @@ Located in `_includes/my-head.html` and `/assets/fonts/`:
 
 ## Content Guidelines
 
+### HITRUST CSF Compliance Focus
+- **Primary Framework**: HITRUST Common Security Framework (CSF) v11.2.0 with detailed control mappings
+- **Control Domains**: Information Protection (01), Endpoint Protection (02), Portable Media Security (03), Mobile Device Security (04), Wireless Network Security (05), Configuration Management (06), Vulnerability Management (07), Network Protection (08), Transmission Protection (09), Password Protection (10), Access Control (11), Audit Logging and Monitoring (12), Education, Training and Awareness (13), Third Party Assurance (14), Incident Response (15), Business Continuity Management (16), Risk Management (17), Physical and Environmental Security (18), Data Protection and Privacy (19)
+- **Control References**: Use specific format `01.a - Information Security Management Program` with descriptive titles
+- **Maturity Levels**: Documents address Implementation (Level 1), Management (Level 2), and Oversight (Level 3) requirements
+- **Assessment Readiness**: Content structured to support HITRUST validated assessments and certifications
+
 ### SOC 2 Compliance Focus
 - **Primary Framework**: SOC 2 Trust Services Criteria with detailed control mappings
 - **Trust Services Categories**: Security (CC6.x), Availability (A1.x), Confidentiality (C1.x), Processing Integrity (PI1.x)

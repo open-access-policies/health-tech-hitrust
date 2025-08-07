@@ -29,8 +29,10 @@ This section maps the procedure steps to specific controls from relevant informa
 
 | **Procedure Step(s)** | **Standard/Framework**     | **Control Reference** |
 | --------------------- | -------------------------- | --------------------- |
-| **[e.g., 1-3]**       | [e.g., ISO/IEC 27001:2022] | [e.g., A.5.18]        |
-| **[e.g., 3]**         | [e.g., PCI-DSS v4.0]       | [e.g., Req. 7.2.2]    |
+| **[e.g., 1-3]**       | HITRUST CSF v11.2.0       | [e.g., 11.a - Access Control Policy] |
+| **[e.g., 2-3]**       | SOC 2 Trust Services Criteria | [e.g., CC6.1 - Logical Access Security] |
+| **[e.g., 1-3]**       | HIPAA Security Rule        | [e.g., 45 CFR § 164.308(a)(4)] |
+| **[e.g., 3]**         | NIST Cybersecurity Framework | [e.g., PR.AC-1] |
 
 ### 6. Artifact(s)
 

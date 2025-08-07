@@ -85,6 +85,11 @@ This policy is designed to comply with and support the following industry standa
 
 | **Policy Section** | **Standard/Framework**        | **Control Reference**                                                                                                            |
 | ------------------ | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **All**            | HITRUST CSF v11.2.0          | 02.a - Endpoint Protection Policy                                                                                                |
+| **3.1, 3.3**       | HITRUST CSF v11.2.0          | 02.b - Malware Protection                                                                                                        |
+| **3.2**            | HITRUST CSF v11.2.0          | 02.c - Software Management                                                                                                       |
+| **3.4**            | HITRUST CSF v11.2.0          | 02.d - Endpoint Configuration Management                                                                                         |
+| **3.5**            | HITRUST CSF v11.2.0          | 02.e - Endpoint Monitoring                                                                                                       |
 | All                | HIPAA Security Rule           | 45 CFR § 164.308(a)(1)(ii)(B) - Risk Management                                                                                  |
 | 3.1, 3.3           | HIPAA Security Rule           | 45 CFR § 164.308(a)(5)(ii)(B) - Protection from Malicious Software                                                               |
 | All                | SOC 2 Trust Services Criteria | CC6.8 - The entity implements controls to prevent or detect and act upon the introduction of unauthorized or malicious software. |

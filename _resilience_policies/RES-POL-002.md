@@ -304,6 +304,13 @@ This policy is designed to comply with and support the following industry standa
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
+|**All**|HITRUST CSF v11.2.0|16.a - Business Continuity Management Policy|
+|**3.1**|HITRUST CSF v11.2.0|16.b - Business Impact Analysis|
+|**3.2**|HITRUST CSF v11.2.0|16.c - System Resilience|
+|**3.3, 3.4**|HITRUST CSF v11.2.0|16.d - Business Continuity Procedures|
+|**3.5**|HITRUST CSF v11.2.0|16.e - Business Continuity Testing|
+|**3.6**|HITRUST CSF v11.2.0|16.f - Emergency Response|
+|**3.7**|HITRUST CSF v11.2.0|16.g - Disaster Recovery|
 |**All**|HIPAA Security Rule|45 CFR § 164.308(a)(7) - Contingency Plan|
 |**3.2.2**|HIPAA Security Rule|45 CFR § 164.308(a)(7)(ii)(A) - Data Backup Plan|
 |**3.7**|HIPAA Security Rule|45 CFR § 164.308(a)(7)(ii)(B) - Disaster Recovery Plan|
@@ -312,8 +319,7 @@ This policy is designed to comply with and support the following industry standa
 |**All**|SOC 2 Trust Services Criteria|A1.1 - Availability|
 |**3.2**|SOC 2 Trust Services Criteria|A1.2 - System Capacity|
 |**3.5**|SOC 2 Trust Services Criteria|A1.3 - System Monitoring|
-|**All**|ISO/IEC 27001:2022|A.17.1 - Business continuity planning|
-|**3.2**|NIST Cybersecurity Framework|RC.RP - Recovery Planning|
+|**All**|NIST Cybersecurity Framework|RC.RP - Recovery Planning|
 
 ### 5. Definitions
 

@@ -29,6 +29,10 @@ This plan provides a framework for responding to a business disruption. It detai
 
 | **Procedure Step(s)** | **Standard/Framework** | **Control Reference** |
 | --- | --- | --- |
+| **1-5** | HITRUST CSF v11.2.0 | 16.d - Business Continuity Procedures |
+| **1-2** | HITRUST CSF v11.2.0 | 16.f - Emergency Response |
+| **3** | HITRUST CSF v11.2.0 | 16.a - Business Continuity Management Policy |
+| **4-5** | HITRUST CSF v11.2.0 | 16.c - System Resilience |
 | **1-5** | SOC 2 | A1.1 |
 | **1-5** | HIPAA Security Rule | 45 CFR § 164.308(a)(7)(ii)(C) |
 

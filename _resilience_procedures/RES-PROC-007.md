@@ -28,6 +28,10 @@ This procedure ensures that the organization's BCDR plans are effective and up-t
 
 | **Procedure Step(s)** | **Standard/Framework** | **Control Reference**      |
 | --------------------- | ---------------------- | -------------------------- |
+| **1-4**               | HITRUST CSF v11.2.0   | 16.e - Business Continuity Testing |
+| **1-2**               | HITRUST CSF v11.2.0   | 16.a - Business Continuity Management Policy |
+| **3**                 | HITRUST CSF v11.2.0   | 16.d - Business Continuity Procedures |
+| **4**                 | HITRUST CSF v11.2.0   | 01.g - Information Security Management Program Review |
 | **1-4**               | SOC 2                  | A1.3                       |
 | **1-4**               | HIPAA Security Rule    | 45 CFR § 164.308(a)(7)(ii)(D) |
 

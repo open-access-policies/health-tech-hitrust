@@ -302,6 +302,14 @@ This policy is designed to comply with and support the following industry standa
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
+|**All**|HITRUST CSF v11.2.0|08.a - Network Protection Policy|
+|**3.1, 3.2**|HITRUST CSF v11.2.0|08.b - Network Security Controls|
+|**3.3**|HITRUST CSF v11.2.0|08.c - Network Monitoring|
+|**3.4**|HITRUST CSF v11.2.0|08.d - Network Access Control|
+|**3.5**|HITRUST CSF v11.2.0|06.a - Configuration Management Policy|
+|**3.6, 3.7**|HITRUST CSF v11.2.0|16.c - System Resilience|
+|**3.8**|HITRUST CSF v11.2.0|15.b - Incident Detection|
+|**3.1.2**|HITRUST CSF v11.2.0|05.a - Wireless Network Security Policy|
 |**All**|HIPAA Security Rule|45 CFR § 164.308(a)(1) - Security Management Process|
 |**3.2**|HIPAA Security Rule|45 CFR § 164.308(a)(4) - Information Access Management|
 |**3.4**|HIPAA Security Rule|45 CFR § 164.312(a)(2)(iv) - Encryption and Decryption|
@@ -314,7 +322,6 @@ This policy is designed to comply with and support the following industry standa
 |**3.8**|SOC 2 Trust Services Criteria|CC7.1 - System Monitoring|
 |**All**|NIST Cybersecurity Framework|PR.AC - Identity Management|
 |**3.3**|NIST Cybersecurity Framework|PR.DS - Data Security|
-|**All**|CIS Controls|Critical Security Controls|
 
 ### 5. Definitions
 

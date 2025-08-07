@@ -186,6 +186,11 @@ This policy is designed to comply with and support the following industry standa
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
+|**All**|HITRUST CSF v11.2.0|09.a - Transmission Protection Policy|
+|**3.1**|HITRUST CSF v11.2.0|09.b - Cryptographic Controls|
+|**3.2**|HITRUST CSF v11.2.0|09.c - Key Management|
+|**3.3**|HITRUST CSF v11.2.0|09.d - Digital Signatures|
+|**3.4**|HITRUST CSF v11.2.0|09.e - Network Security Controls|
 |**3.1.1**|HIPAA Security Rule|45 CFR § 164.312(a)(2)(iv) - Encryption and Decryption|
 |**3.1.1**|HIPAA Security Rule|45 CFR § 164.312(e)(2)(ii) - Encryption|
 |**All**|HIPAA Security Rule|45 CFR § 164.312(e)(1) - Transmission Security|
@@ -195,7 +200,6 @@ This policy is designed to comply with and support the following industry standa
 |**All**|NIST Cybersecurity Framework|PR.DS-1: Data-at-rest is protected.|
 |**All**|NIST Cybersecurity Framework|PR.DS-2: Data-in-transit is protected.|
 |**3.2**|NIST SP 800-57|Recommendation for Key Management|
-|**All**|ISO/IEC 27001:2022|A.8.24 - Use of cryptography|
 
 ### 5. Definitions
 

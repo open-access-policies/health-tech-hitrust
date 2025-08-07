@@ -147,9 +147,20 @@ This policy is designed to comply with and support the following industry standa
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
+|**All**|HITRUST CSF v11.2.0|17.a - Risk Management Program|
+|**3.1**|HITRUST CSF v11.2.0|17.b - Risk Management Framework|
+|**3.2, 3.3**|HITRUST CSF v11.2.0|17.c - Risk Assessment Process|
+|**3.4, 3.5**|HITRUST CSF v11.2.0|17.d - Risk Treatment|
+|**3.6**|HITRUST CSF v11.2.0|17.e - Risk Monitoring and Review|
+|**3.7**|HITRUST CSF v11.2.0|14.b - Third Party Risk Assessment|
+|**3.8**|HITRUST CSF v11.2.0|16.b - Business Impact Analysis|
 |**All**|HIPAA Security Rule|45 CFR § 164.308(a)(1)(ii)(A) - Conduct risk assessments|
 |**All**|HIPAA Security Rule|45 CFR § 164.308(a)(1)(ii)(B) - Implement security measures|
 |**3.3**|HIPAA Security Rule|45 CFR § 164.308(a)(1)(ii)(A) - Periodic risk assessment|
+|**All**|SOC 2 Trust Services Criteria|CC3.1 - Risk Assessment Process|
+|**3.2, 3.3**|SOC 2 Trust Services Criteria|CC3.2 - Risk Identification|
+|**3.4, 3.5**|SOC 2 Trust Services Criteria|CC3.3 - Risk Mitigation|
+|**3.6**|SOC 2 Trust Services Criteria|CC3.4 - Risk Assessment Updates|
 |**3.7**|HIPAA Security Rule|45 CFR § 164.314(a)(1) - Business Associate contracts|
 |**All**|SOC 2 Trust Services Criteria|CC3.1 - Risk Assessment Process|
 |**3.2, 3.3**|SOC 2 Trust Services Criteria|CC3.2 - Risk Identification and Analysis|

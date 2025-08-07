@@ -29,6 +29,8 @@ This procedure details the steps for a workforce member to register a personal d
 
 | **Procedure Step(s)** | **Standard/Framework** | **Control Reference**         |
 | --------------------- | ---------------------- | ----------------------------- |
+| **1-5**               | HITRUST CSF v11.2.0   | 04.b - Mobile Device Management |
+| **1-5**               | HITRUST CSF v11.2.0   | 11.b - User Access Management   |
 | **1-5**               | SOC 2                  | CC6.1, CC6.6                  |
 | **1-5**               | HIPAA                  | 45 CFR § 164.310(d)(1)        |
 

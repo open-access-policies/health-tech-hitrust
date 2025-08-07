@@ -141,6 +141,15 @@ This policy is designed to comply with and support the following industry standa
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
+|**All**|HITRUST CSF v11.2.0|01.a - Information Security Management Program|
+|**3.1**|HITRUST CSF v11.2.0|01.b - Information Security Program Charter|
+|**3.2**|HITRUST CSF v11.2.0|17.a - Risk Management Program|
+|**3.4**|HITRUST CSF v11.2.0|11.a - Access Control Policy|
+|**3.5**|HITRUST CSF v11.2.0|13.a - Education, Training and Awareness|
+|**3.6**|HITRUST CSF v11.2.0|15.a - Incident Response Program|
+|**3.7**|HITRUST CSF v11.2.0|16.a - Business Continuity Management|
+|**3.8**|HITRUST CSF v11.2.0|14.a - Third Party Assurance|
+|**3.9**|HITRUST CSF v11.2.0|12.a - Audit Logging and Monitoring|
 |**All**|HIPAA Security Rule|45 CFR § 164.308(a)(1) - Security Management Process|
 |**3.1**|HIPAA Security Rule|45 CFR § 164.308(a)(2) - Assigned Security Responsibility|
 |**3.2**|HIPAA Security Rule|45 CFR § 164.308(a)(1)(ii)(A) - Conduct periodic risk assessment|

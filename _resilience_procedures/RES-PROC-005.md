@@ -32,6 +32,10 @@ This document outlines the technical steps for the IT Disaster Recovery Team to 
 
 | **Procedure Step(s)** | **Standard/Framework** | **Control Reference** |
 | --- | --- | --- |
+| **1-8** | HITRUST CSF v11.2.0 | 16.g - Disaster Recovery |
+| **3** | HITRUST CSF v11.2.0 | 16.f - Emergency Response |
+| **4-6** | HITRUST CSF v11.2.0 | 16.c - System Resilience |
+| **7** | HITRUST CSF v11.2.0 | 16.e - Business Continuity Testing |
 | **1-8** | SOC 2 | A1.2 |
 | **1-8** | HIPAA Security Rule | 45 CFR § 164.308(a)(7)(ii)(B) |
 

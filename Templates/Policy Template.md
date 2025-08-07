@@ -31,9 +31,10 @@ This section maps the policy requirements to specific controls from relevant inf
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
-|**[e.g., 3.1]**|[e.g., ISO/IEC 27001:2022]|[e.g., A.5.15]|
-|**[e.g., 3.2]**|[e.g., PCI-DSS v4.0]|[e.g., Req. 8.3.1]|
-|**[e.g., 3.3]**|[e.g., HIPAA Security Rule]|[e.g., § 164.312(a)(2)(i)]|
+|**[e.g., 3.1]**|HITRUST CSF v11.2.0|[e.g., 01.a - Information Security Management Program]|
+|**[e.g., 3.2]**|SOC 2 Trust Services Criteria|[e.g., CC6.1 - Logical Access Security]|
+|**[e.g., 3.3]**|HIPAA Security Rule|[e.g., 45 CFR § 164.312(a)(2)(i)]|
+|**[e.g., 3.1]**|NIST Cybersecurity Framework|[e.g., ID.GV-1]|
 
 ### 5. Definitions
 

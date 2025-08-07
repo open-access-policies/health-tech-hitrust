@@ -88,6 +88,10 @@ This policy is designed to comply with and support the following industry standa
 
 | **Policy Section** | **Standard/Framework**        | **Control Reference**                                                                 |
 | ------------------ | ----------------------------- | ------------------------------------------------------------------------------------- |
+| **All**            | HITRUST CSF v11.2.0          | 06.a - Configuration Management Policy                                               |
+| **3.1, 3.2**       | HITRUST CSF v11.2.0          | 06.b - Configuration Change Control                                                  |
+| **3.3**            | HITRUST CSF v11.2.0          | 06.c - Configuration Management Tools                                                |
+| **3.4**            | HITRUST CSF v11.2.0          | 06.d - Configuration Change Control                                                  |
 | **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(1)(ii)(C) - Authorization and/or supervision                      |
 | **3.1, 3.2**       | HIPAA Security Rule           | 45 CFR § 164.312(c)(1) - Integrity                                                    |
 | **3.4**            | HIPAA Security Rule           | 45 CFR § 164.312(b) - Audit Controls                                                  |

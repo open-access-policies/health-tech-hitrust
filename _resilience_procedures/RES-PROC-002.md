@@ -27,6 +27,9 @@ This procedure details the steps for conducting a formal risk assessment to dete
 
 | **Procedure Step(s)** | **Standard/Framework**        | **Control Reference**     |
 | --------------------- | ----------------------------- | ------------------------- |
+| **1-3**               | HITRUST CSF v11.2.0         | 15.b - Incident Detection and Analysis |
+| **1-3**               | HITRUST CSF v11.2.0         | 15.f - Post-Incident Activities |
+| **2-3**               | HITRUST CSF v11.2.0         | 19.g - Privacy Impact Assessment |
 | **1-3**               | HIPAA Breach Notification Rule| 45 CFR § 164.400-414      |
 
 ### 6. Artifact(s)

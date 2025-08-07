@@ -236,6 +236,13 @@ This policy is designed to comply with and support the following industry standa
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
+|**All**|HITRUST CSF v11.2.0|18.a - Physical and Environmental Security Policy|
+|**3.1**|HITRUST CSF v11.2.0|18.b - Physical Access Controls|
+|**3.2**|HITRUST CSF v11.2.0|18.c - Workstation Security|
+|**3.3**|HITRUST CSF v11.2.0|18.d - Equipment Protection|
+|**3.4**|HITRUST CSF v11.2.0|18.e - Secure Disposal|
+|**3.5**|HITRUST CSF v11.2.0|18.f - Environmental Controls|
+|**3.6**|HITRUST CSF v11.2.0|18.g - Facility Security|
 |**All**|HIPAA Security Rule|45 CFR § 164.310(a)(1) - Facility Access Controls|
 |**3.1**|HIPAA Security Rule|45 CFR § 164.310(a)(2)(i) - Authorized Access Procedures|
 |**3.2**|HIPAA Security Rule|45 CFR § 164.310(b) - Workstation Use|
@@ -244,8 +251,6 @@ This policy is designed to comply with and support the following industry standa
 |**All**|SOC 2 Trust Services Criteria|CC6.4 - Physical Access Controls|
 |**3.5**|SOC 2 Trust Services Criteria|A1.1 - System Availability|
 |**3.3**|SOC 2 Trust Services Criteria|CC9.1 - Vendor Management|
-|**All**|ISO/IEC 27001:2022|A.7.1 - Physical security perimeters|
-|**3.2**|ISO/IEC 27001:2022|A.7.2 - Physical entry controls|
 
 ### 5. Definitions
 

@@ -88,6 +88,11 @@ This policy is designed to comply with and support the following industry standa
 
 | **Policy Section** | **Standard/Framework**        | **Control Reference**                                         |
 | ------------------ | ----------------------------- | ------------------------------------------------------------- |
+| **All**            | HITRUST CSF v11.2.0          | 11.a - Access Control Policy                                 |
+| **3.2, 3.3**       | HITRUST CSF v11.2.0          | 11.b - User Access Management                                |
+| **3.4**            | HITRUST CSF v11.2.0          | 11.c - User Responsibilities                                 |
+| **3.5**            | HITRUST CSF v11.2.0          | 11.d - Network Access Control                                |
+| **3.6**            | HITRUST CSF v11.2.0          | 11.e - Operating System Access Control                       |
 | **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(4) - Information Access Management        |
 | **3.2, 3.5**       | HIPAA Security Rule           | 45 CFR § 164.312(a)(1) - Access Control                       |
 | **3.5**            | HIPAA Security Rule           | 45 CFR § 164.312(a)(2)(i) - Unique User Identification        |

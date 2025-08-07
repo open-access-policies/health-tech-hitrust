@@ -28,6 +28,9 @@ This procedure outlines the annual process for identifying and prioritizing crit
 
 | **Procedure Step(s)** | **Standard/Framework** | **Control Reference**      |
 | --------------------- | ---------------------- | -------------------------- |
+| **1-4**               | HITRUST CSF v11.2.0   | 16.b - Business Impact Analysis |
+| **2-3**               | HITRUST CSF v11.2.0   | 16.c - System Resilience |
+| **1-4**               | HITRUST CSF v11.2.0   | 16.a - Business Continuity Management Policy |
 | **1-4**               | SOC 2                  | A1.1                       |
 | **1-4**               | HIPAA Security Rule    | 45 CFR § 164.308(a)(7)     |
 

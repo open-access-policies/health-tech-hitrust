@@ -67,6 +67,11 @@ This policy is designed to comply with and support the following industry standa
 
 | **Policy Section** | **Standard/Framework**        | **Control Reference**                                                                             |
 | ------------------ | ----------------------------- | ------------------------------------------------------------------------------------------------- |
+| **All**            | HITRUST CSF v11.2.0          | 13.a - Education, Training and Awareness Policy                                                  |
+| **3.1, 3.2**       | HITRUST CSF v11.2.0          | 13.b - Information Security Awareness                                                            |
+| **3.1**            | HITRUST CSF v11.2.0          | 13.c - Terms and Conditions of Employment                                                        |
+| **3.3**            | HITRUST CSF v11.2.0          | 13.d - Termination Responsibilities                                                              |
+| **3.4**            | HITRUST CSF v11.2.0          | 13.e - Disciplinary Process                                                                      |
 | **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(3)(i) - Workforce Security                                                    |
 | **3.3**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(3)(ii)(C) - Termination Procedures                                            |
 | **3.4**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(1)(ii)(C) - Sanction Policy                                                   |

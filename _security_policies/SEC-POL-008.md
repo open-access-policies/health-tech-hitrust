@@ -112,9 +112,15 @@ This policy is designed to comply with and support the following industry standa
 
 | **Policy Section** | **Standard/Framework**        | **Control Reference**                                                                       |
 | ------------------ | ----------------------------- | ------------------------------------------------------------------------------------------- |
+| **All**            | HITRUST CSF v11.2.0          | 07.a - Vulnerability Management Policy                                                     |
+| **3.1**            | HITRUST CSF v11.2.0          | 07.b - Vulnerability Identification                                                        |
+| **3.2, 3.3**       | HITRUST CSF v11.2.0          | 07.c - Vulnerability Assessment                                                            |
+| **3.4**            | HITRUST CSF v11.2.0          | 07.d - Vulnerability Remediation                                                           |
+| **3.5**            | HITRUST CSF v11.2.0          | 06.d - Configuration Change Control                                                        |
 | **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(1)(ii)(A) - Risk Analysis                                               |
 | **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(1)(ii)(B) - Risk Management                                             |
 | **3.1, 3.2**       | SOC 2 Trust Services Criteria | CC7.1 - The entity uses detection and monitoring procedures to identify... vulnerabilities. |
+| **3.4**            | SOC 2 Trust Services Criteria | CC8.1 - Change Management                                                                   |
 
 ### 5. Definitions
 

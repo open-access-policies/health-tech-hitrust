@@ -28,6 +28,9 @@ This procedure ensures that after a significant incident, a formal review is con
 
 | **Procedure Step(s)** | **Standard/Framework**     | **Control Reference** |
 | --------------------- | -------------------------- | --------------------- |
+| **1-4**               | HITRUST CSF v11.2.0       | 15.f - Post-Incident Activities |
+| **1-4**               | HITRUST CSF v11.2.0       | 15.g - Incident Documentation |
+| **3**                 | HITRUST CSF v11.2.0       | 01.g - Information Security Management Program Review |
 | **1-4**               | SOC 2                      | CC2.1                 |
 | **1-4**               | NIST Cybersecurity Framework | RC.IM                 |
 

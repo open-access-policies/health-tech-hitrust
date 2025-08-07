@@ -34,6 +34,13 @@ This procedure outlines the formal process for managing information security inc
 
 | **Procedure Step(s)** | **Standard/Framework** | **Control Reference** |
 | --- | --- | --- |
+| **1-10** | HITRUST CSF v11.2.0 | 15.a - Incident Response Process |
+| **3-5** | HITRUST CSF v11.2.0 | 15.b - Incident Detection and Analysis |
+| **6-8** | HITRUST CSF v11.2.0 | 15.c - Incident Containment |
+| **7** | HITRUST CSF v11.2.0 | 15.d - Incident Eradication |
+| **8** | HITRUST CSF v11.2.0 | 15.e - Incident Recovery |
+| **9-10** | HITRUST CSF v11.2.0 | 15.f - Post-Incident Activities |
+| **9-10** | HITRUST CSF v11.2.0 | 15.g - Incident Documentation |
 | **1-10** | SOC 2 | CC7.1, CC7.2 |
 | **1-10** | HIPAA Security Rule | 45 CFR § 164.308(a)(6) |
 

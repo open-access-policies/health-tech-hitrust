@@ -263,6 +263,12 @@ This policy is designed to comply with and support the following industry standa
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
+|**All**|HITRUST CSF v11.2.0|01.d - Information Security Governance|
+|**3.1**|HITRUST CSF v11.2.0|01.e - Information Handling Requirements|
+|**3.2**|HITRUST CSF v11.2.0|19.a - Data Protection and Privacy Policy|
+|**3.3**|HITRUST CSF v11.2.0|13.b - Information Security Awareness|
+|**3.4**|HITRUST CSF v11.2.0|12.b - Audit Logging Requirements|
+|**3.5**|HITRUST CSF v11.2.0|17.f - Emerging Technology Risk|
 |**3.2.1**|HIPAA Security Rule|45 CFR § 164.308(a)(4) - Information Access Management|
 |**3.2.1**|HIPAA Privacy Rule|45 CFR § 164.502(b) - Minimum Necessary Standard|
 |**3.2.2**|HIPAA Security Rule|45 CFR § 164.314(a)(1) - Business Associate Contracts|
@@ -271,7 +277,6 @@ This policy is designed to comply with and support the following industry standa
 |**3.2**|SOC 2 Trust Services Criteria|CC6.7 - Data Transmission and Disposal|
 |**3.1**|SOC 2 Trust Services Criteria|CC2.1 - Communication and Information|
 |**3.5**|SOC 2 Trust Services Criteria|CC8.1 - System Development|
-|**All**|EU AI Act|Risk-based AI governance and compliance|
 |**3.3**|NIST AI Risk Management Framework|AI risk management and governance|
 
 ### 5. Definitions

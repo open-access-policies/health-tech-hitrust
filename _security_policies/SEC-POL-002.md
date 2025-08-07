@@ -103,6 +103,10 @@ This policy is designed to comply with and support the following industry standa
 
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
+|**All**|HITRUST CSF v11.2.0|10.a - Password Protection Policy|
+|**3.1, 3.2**|HITRUST CSF v11.2.0|10.b - Password Creation and Management|
+|**3.3, 3.4**|HITRUST CSF v11.2.0|10.c - Password Protection Systems|
+|**3.5**|HITRUST CSF v11.2.0|11.b - User Access Management|
 |**3.1, 3.2, 3.4**|HIPAA Security Rule|45 CFR § 164.308(a)(5)(ii)(D) - Password Management|
 |**3.3, 3.5**|HIPAA Security Rule|45 CFR § 164.312(a)(2)(i) - Unique User Identification|
 |**3.3**|HIPAA Security Rule|45 CFR § 164.312(d) - Person or Entity Authentication|

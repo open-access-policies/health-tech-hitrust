@@ -29,6 +29,10 @@ This procedure outlines the standardized steps for managing physical access. It 
 
 | **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**           |
 | --------------------- | -------------------------- | ------------------------------- |
+| **1-5**               | HITRUST CSF v11.2.0       | 18.b - Physical Access Controls |
+| **3**                 | HITRUST CSF v11.2.0       | 18.g - Facility Security |
+| **4**                 | HITRUST CSF v11.2.0       | 11.d - User Access Review |
+| **5**                 | HITRUST CSF v11.2.0       | 13.d - Termination Responsibilities |
 | **1-5**               | SOC 2                      | CC6.4                           |
 | **1-5**               | HIPAA/HITECH               | 45 CFR § 164.310(a)(2)(i)       |
 

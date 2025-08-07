@@ -31,6 +31,10 @@ Note: If the security team determines the configuration drift is critical, an in
 
 | **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**     |
 | --------------------- | -------------------------- | ------------------------- |
+| **1-5**               | HITRUST CSF v11.2.0       | 12.a - System Configuration Management |
+| **2-3**               | HITRUST CSF v11.2.0       | 12.b - Secure Configuration Standards |
+| **4-5**               | HITRUST CSF v11.2.0       | 12.c - Configuration Monitoring |
+| **1**                 | HITRUST CSF v11.2.0       | 09.b - System Development Controls |
 | **1-5**               | SOC 2                      | CC6.1                     |
 | **2, 4**              | CIS Controls               | Control 4, 5              |
 | **1-5**               | HIPAA Security Rule        | 45 CFR § 164.308(a)(1)    |
