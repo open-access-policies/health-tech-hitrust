@@ -24,55 +24,33 @@ All identity management and authentication systems shall generate detailed audit
 
 The following authentication and authorization events shall be logged by all applicable systems:
 
-- **User Authentication Events:**
-    - Successful and failed user authentication attempts with source IP address and user agent information
-    - Account lockout events due to failed authentication attempts or security policy violations
-    - Password changes, resets, and expiration events with administrative approval tracking
-    - Multi-factor authentication events including setup, usage, and failure scenarios
-    - Single sign-on (SSO) authentication events and cross-system authentication propagation
-    - Service account and API key authentication events with application context
+##### 3.1.1.1 User Authentication Events
 
-- **Authorization and Privilege Events:**
-    - Account creation, modification, deletion, and privilege changes with administrative approval tracking
-    - Role assignments and group membership changes with effective permission modifications
-    - Privilege escalation and administrative access activities with justification and approval documentation
-    - Session establishment, termination, and timeout events with session duration and activity tracking
-    - Delegation of administrative privileges and proxy authentication events
-    - Emergency access activations and break-glass procedure usage
+Successful and failed user authentication attempts shall be logged with source IP address and user agent information. Account lockout events due to failed authentication attempts or security policy violations shall be logged. Password changes, resets, and expiration events shall be logged with administrative approval tracking. Multi-factor authentication events including setup, usage, and failure scenarios shall be logged. Single sign-on (SSO) authentication events and cross-system authentication propagation shall be logged. Service account and API key authentication events shall be logged with application context.
 
-- **Identity Management System Events:**
-    - Identity provider configuration changes and federation relationship modifications
-    - Authentication policy changes and security parameter modifications
-    - Certificate and key management activities for authentication infrastructure
-    - Directory service modifications and schema changes affecting user access
-    - Integration configuration changes with connected applications and services
-    - Backup and recovery operations for identity management systems
+##### 3.1.1.2 Authorization and Privilege Events
+
+Account creation, modification, deletion, and privilege changes shall be logged with administrative approval tracking. Role assignments and group membership changes shall be logged with effective permission modifications. Privilege escalation and administrative access activities shall be logged with justification and approval documentation. Session establishment, termination, and timeout events shall be logged with session duration and activity tracking. Delegation of administrative privileges and proxy authentication events shall be logged. Emergency access activations and break-glass procedure usage shall be logged.
+
+##### 3.1.1.3 Identity Management System Events
+
+Identity provider configuration changes and federation relationship modifications shall be logged. Authentication policy changes and security parameter modifications shall be logged. Certificate and key management activities for authentication infrastructure shall be logged. Directory service modifications and schema changes affecting user access shall be logged. Integration configuration changes with connected applications and services shall be logged. Backup and recovery operations for identity management systems shall be logged.
 
 ##### 3.1.2 Authentication Log Content Standards
 
 All authentication audit log entries shall contain the following minimum information:
 
-- **Temporal and Session Information:**
-    - Precise timestamp synchronized with authoritative time source (NTP) with millisecond precision
-    - Time zone information for accurate correlation across geographic locations
-    - Session identification and correlation identifiers for multi-system authentication flows
-    - Event sequence numbers for authentication session ordering and completeness validation
+##### 3.1.2.1 Temporal and Session Information
 
-- **Identity and Source Context:**
-    - User identification (username, user ID, email address, or service account identifier)
-    - Source system, IP address, geographic location, and network segment information
-    - User agent information, device fingerprinting, and client system identification
-    - Authentication method used (password, MFA, certificate, biometric, etc.)
-    - Identity provider or authentication service processing the request
-    - Referring application or service requesting authentication
+Precise timestamp synchronized with authoritative time source (NTP) shall be recorded with millisecond precision. Time zone information shall be included for accurate correlation across geographic locations. Session identification and correlation identifiers shall be maintained for multi-system authentication flows. Event sequence numbers shall be maintained for authentication session ordering and completeness validation.
 
-- **Authentication Event Details:**
-    - Authentication event type and category classification (login, logout, privilege escalation, etc.)
-    - Success or failure status with detailed error codes and failure reasons
-    - Risk assessment and fraud detection scores where available
-    - Policy violations detected during authentication process
-    - Security context and privilege level granted or requested
-    - Conditional access policy evaluation results and applied restrictions
+##### 3.1.2.2 Identity and Source Context
+
+User identification (username, user ID, email address, or service account identifier) shall be recorded. Source system, IP address, geographic location, and network segment information shall be captured. User agent information, device fingerprinting, and client system identification shall be logged. Authentication method used (password, MFA, certificate, biometric, etc.) shall be documented. Identity provider or authentication service processing the request shall be identified. Referring application or service requesting authentication shall be recorded.
+
+##### 3.1.2.3 Authentication Event Details
+
+Authentication event type and category classification (login, logout, privilege escalation, etc.) shall be documented. Success or failure status shall be recorded with detailed error codes and failure reasons. Risk assessment and fraud detection scores shall be included where available. Policy violations detected during authentication process shall be logged. Security context and privilege level granted or requested shall be documented. Conditional access policy evaluation results and applied restrictions shall be recorded.
 
 #### 3.2 Network Security Event Logging
 

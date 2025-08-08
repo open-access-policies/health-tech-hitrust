@@ -24,24 +24,38 @@ All access rights shall be granted based on the principle of least privilege. Wo
 
 Access rights shall be managed throughout the entire duration of a user's relationship with the company.
 
-- **Provisioning:** Access for new workforce members shall be requested by their direct manager through the official IT service request process. Access rights shall be assigned based on pre-defined roles and responsibilities documented in the user's job description.
-    
-- **Modification:** When a workforce member changes roles or responsibilities within the company, their manager shall submit a request to modify access rights. All previous access rights that are no longer required for the new role shall be revoked, and new access rights shall be granted according to the principle of least privilege.
-    
-- **Deprovisioning:** Upon termination of employment or contract, all access to company systems, applications, and physical facilities shall be revoked in a timely manner. **Critical/High-Risk Terminations** (involuntary terminations, security incidents, executive departures): All logical and physical access shall be revoked within **[Number, e.g., 2]** hours. **Standard Terminations** (voluntary resignations, contract completions): All access shall be revoked within **[Number, e.g., 24]** hours from the official termination time. **Low-Risk Extended Transitions** (retirements, internal transfers): Access revocation may be coordinated over **[Number, e.g., 72]** hours to ensure smooth knowledge transfer.
+##### 3.2.1 Access Provisioning
+
+Access for new workforce members shall be provisioned through a formal request submitted by their direct manager via the official IT service request process. Access rights shall be assigned exclusively based on pre-defined roles and responsibilities documented in the user's job description and organizational role matrix.
+
+##### 3.2.2 Access Modification
+
+When a workforce member changes roles or responsibilities within the company, their manager shall submit a formal request to modify access rights through the designated change management process. All previous access rights that are no longer required for the new role shall be immediately revoked. New access rights shall be granted strictly according to the principle of least privilege and the requirements of the new role.
+
+##### 3.2.3 Access Deprovisioning
+
+Upon termination of employment or contract, all access to company systems, applications, and physical facilities shall be revoked according to risk-based timelines. **Critical/High-Risk Terminations** (involuntary terminations, security incidents, executive departures): All logical and physical access shall be revoked within **[Number, e.g., 2]** hours of notification. **Standard Terminations** (voluntary resignations, contract completions): All access shall be revoked within **[Number, e.g., 24]** hours from the official termination time. **Low-Risk Extended Transitions** (retirements, internal transfers): Access revocation shall be coordinated over **[Number, e.g., 72]** hours to ensure smooth knowledge transfer while maintaining security controls.
     
 
 #### 3.3 Automated Access Reviews and Monitoring
 
 To ensure access rights remain appropriate while minimizing administrative overhead, access reviews shall utilize automated monitoring and exception-based reviews rather than manual quarterly attestations.
 
-- **Automated Monitoring:** Identity and access management systems shall be configured to automatically detect and alert on access anomalies including: dormant accounts (no login for **[Duration, e.g., 90 days]**), privilege escalation, unusual access patterns, and accounts without recent manager validation.
-    
-- **Role-Based Access Control (RBAC):** Access rights shall be primarily managed through automated role assignment based on job function, department, and manager hierarchy integrated with the HR information system. When employees change roles, access shall be automatically adjusted based on their new role assignment.
-    
-- **Exception-Based Reviews:** Formal access reviews shall be triggered by specific events rather than fixed quarterly schedules: **High-Risk Systems** (ePHI, financial data, production environments): Semi-annual reviews or when automated monitoring identifies exceptions. **Standard Systems**: Annual reviews or when significant access anomalies are detected. **Low-Risk Systems** (internal tools, development environments): Exception-based reviews only when security concerns are identified.
-    
-- **Escalation and Remediation:** Automated alerts for access anomalies shall be sent to system owners and managers for resolution within **[Number, e.g., 7]** business days. Failure to respond to access alerts shall result in automatic escalation to the Security Officer and potential access suspension for high-risk systems.
+##### 3.3.1 Automated Monitoring Requirements
+
+Identity and access management systems shall be configured to automatically detect and alert on access anomalies. These monitoring systems shall identify dormant accounts with no login activity for **[Duration, e.g., 90 days]**, privilege escalation events, unusual access patterns, and accounts without recent manager validation.
+
+##### 3.3.2 Role-Based Access Control Implementation
+
+Access rights shall be managed primarily through automated role assignment based on job function, department, and manager hierarchy integrated with the HR information system. When employees change roles, access shall be automatically adjusted based on their new role assignment without manual intervention.
+
+##### 3.3.3 Exception-Based Review Schedule
+
+Formal access reviews shall be triggered by specific events rather than fixed quarterly schedules. **High-Risk Systems** (ePHI, financial data, production environments) shall undergo semi-annual reviews or when automated monitoring identifies exceptions. **Standard Systems** shall undergo annual reviews or when significant access anomalies are detected. **Low-Risk Systems** (internal tools, development environments) shall undergo exception-based reviews only when security concerns are identified.
+
+##### 3.3.4 Escalation and Remediation Process
+
+Automated alerts for access anomalies shall be sent to system owners and managers for resolution within **[Number, e.g., 7]** business days. Failure to respond to access alerts shall result in automatic escalation to the Security Officer and potential access suspension for high-risk systems.
 
 ##### 3.3.1 Automated Access Review Implementation
 
@@ -87,13 +101,21 @@ To ensure access rights remain appropriate while minimizing administrative overh
 
 Logical access to systems and networks shall be secured through standardized authentication and session management controls.
 
-- **Unique Identification:** Every user shall be assigned a unique user ID. The use of shared or generic user accounts is strictly prohibited.
-    
-- **Authentication:** All access shall be authenticated through a combination of a unique user ID and a strong password, as defined in the Password Policy (SEC-POL-002). Multi-factor authentication (MFA) is required for all systems containing sensitive data including ePHI.
-    
-- **Session Timeouts:** Systems shall be configured to automatically terminate user sessions after a defined period of inactivity, not to exceed **[Duration, e.g., 15 minutes]** for systems containing ePHI.
-    
-- **Network Segregation:** Network access controls shall restrict user access to only authorized network segments and resources based on role and business need.
+##### 3.4.1 Unique User Identification
+
+Every user shall be assigned a unique user ID for all system access. The use of shared or generic user accounts is strictly prohibited across all company systems and applications.
+
+##### 3.4.2 Authentication Requirements
+
+All system access shall be authenticated through a combination of a unique user ID and a strong password, as defined in the Password Policy (SEC-POL-002). Multi-factor authentication (MFA) shall be required for all systems containing sensitive data including ePHI.
+
+##### 3.4.3 Session Management
+
+Systems shall be configured to automatically terminate user sessions after a defined period of inactivity, not to exceed **[Duration, e.g., 15 minutes]** for systems containing ePHI. Session timeouts shall be enforced at both the application and network levels.
+
+##### 3.4.4 Network Access Controls
+
+Network access controls shall restrict user access to only authorized network segments and resources based on role and business need. Network segregation shall be implemented and maintained to enforce access boundaries.
 
 #### 3.5 Privileged Access Management
 
@@ -104,13 +126,17 @@ Accounts with elevated administrative privileges are subject to enhanced control
 
 Prior to granting any access, all third parties shall undergo a formal security and compliance review, as defined in the Vendor Management Policy. Any third party that will access, store, or process ePHI on behalf of **[Company Name]** shall have a signed Business Associate Agreement (BAA) in place before access is provisioned.
 
-Third-party access shall be:
+##### 3.6.1 Third-Party Security Review
 
-- Limited to only the specific systems and data required for their function.
-    
-- Time-bound, with access automatically expiring upon contract termination.
-    
-- Monitored, with all activities logged and reviewed.
+Prior to granting any access, all third parties shall undergo a formal security and compliance review, as defined in the Vendor Management Policy. Any third party that will access, store, or process ePHI on behalf of **[Company Name]** shall have a signed Business Associate Agreement (BAA) in place before access is provisioned.
+
+##### 3.6.2 Third-Party Access Restrictions
+
+Third-party access shall be limited to only the specific systems and data required for their contractual function. Access scope shall be documented and approved by the system owner and security team before provisioning.
+
+##### 3.6.3 Third-Party Access Management
+
+Third-party access shall be time-bound, with access automatically expiring upon contract termination or completion of work. All third-party activities shall be monitored, with all access attempts and activities logged and reviewed according to the organization's monitoring standards.
 
 #### 3.7 Remote Access
 

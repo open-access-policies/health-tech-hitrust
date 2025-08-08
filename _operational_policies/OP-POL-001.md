@@ -24,36 +24,29 @@ Encryption shall be implemented using cloud provider managed services for all se
 
 The following data types and scenarios require encryption using cloud-managed services:
 
-- **Electronic Protected Health Information (ePHI):**
-- **At Rest**: AWS S3 Server-Side Encryption, Azure Storage Service Encryption, or GCP encryption at rest using AES-256
-- **In Transit**: TLS 1.2 or higher automatically managed by cloud load balancers and API gateways
-- **Database**: AWS RDS/Aurora encryption, Azure SQL Database Transparent Data Encryption, or GCP Cloud SQL encryption
+##### 3.1.1.1 Electronic Protected Health Information (ePHI) Encryption
 
-- **Application and System Data:**
-- **Application Secrets**: AWS Secrets Manager, Azure Key Vault, or GCP Secret Manager for API keys, passwords, and connection strings
-- **Configuration Data**: Cloud-native parameter stores with automatic encryption (AWS Systems Manager Parameter Store, Azure App Configuration)
-- **File Storage**: Automatic encryption for cloud file storage (AWS EFS, Azure Files, GCP Filestore)
-- **Backup and Archives**: Cloud backup services with automatic encryption (AWS Backup, Azure Backup, GCP Cloud Storage)
+**At Rest**: AWS S3 Server-Side Encryption, Azure Storage Service Encryption, or GCP encryption at rest using AES-256 shall be implemented for all ePHI storage. **In Transit**: TLS 1.2 or higher automatically managed by cloud load balancers and API gateways shall be implemented for all ePHI transmission. **Database**: AWS RDS/Aurora encryption, Azure SQL Database Transparent Data Encryption, or GCP Cloud SQL encryption shall be implemented for all databases containing ePHI.
+
+##### 3.1.1.2 Application and System Data Encryption
+
+**Application Secrets**: AWS Secrets Manager, Azure Key Vault, or GCP Secret Manager shall be used for API keys, passwords, and connection strings. **Configuration Data**: Cloud-native parameter stores with automatic encryption (AWS Systems Manager Parameter Store, Azure App Configuration) shall be implemented. **File Storage**: Automatic encryption for cloud file storage (AWS EFS, Azure Files, GCP Filestore) shall be enabled. **Backup and Archives**: Cloud backup services with automatic encryption (AWS Backup, Azure Backup, GCP Cloud Storage) shall be implemented.
 
 ##### 3.1.2 Cloud-Native Encryption Standards
 
 Only cloud provider default encryption implementations and approved algorithms shall be used:
 
-- **Approved Cloud Encryption Services:**
-- **AWS**: KMS-managed keys, S3 encryption, RDS encryption, EBS encryption
-- **Azure**: Key Vault, Storage Service Encryption, SQL Database TDE, Disk Encryption
-- **GCP**: Cloud KMS, default encryption at rest, Cloud SQL encryption
+##### 3.1.2.1 Approved Cloud Encryption Services
 
-- **Approved Algorithms (Cloud Provider Defaults):**
-    - AES-256 for symmetric encryption (cloud provider default)
-    - RSA-3072 or ECC-256 for asymmetric encryption (cloud provider managed)
-    - SHA-256 for hashing and digital signatures (cloud provider managed)
+**AWS**: KMS-managed keys, S3 encryption, RDS encryption, EBS encryption shall be implemented. **Azure**: Key Vault, Storage Service Encryption, SQL Database TDE, Disk Encryption shall be implemented. **GCP**: Cloud KMS, default encryption at rest, Cloud SQL encryption shall be implemented.
 
-- **Prohibited Implementations:**
-    - Custom encryption implementations without Security Officer approval
-    - Encryption using deprecated algorithms (DES, 3DES, MD5, SHA-1)
-    - Unmanaged encryption keys or self-implemented key management
-    - SSL/TLS versions below 1.2
+##### 3.1.2.2 Approved Algorithms
+
+AES-256 for symmetric encryption (cloud provider default) shall be used. RSA-3072 or ECC-256 for asymmetric encryption (cloud provider managed) shall be implemented. SHA-256 for hashing and digital signatures (cloud provider managed) shall be used.
+
+##### 3.1.2.3 Prohibited Implementations
+
+Custom encryption implementations without Security Officer approval shall be prohibited. Encryption using deprecated algorithms (DES, 3DES, MD5, SHA-1) shall be prohibited. Unmanaged encryption keys or self-implemented key management shall be prohibited. SSL/TLS versions below 1.2 shall be prohibited.
 
 #### 3.2 Cloud-Managed Key Management
 
@@ -61,37 +54,53 @@ Cryptographic keys shall be managed using cloud provider key management services
 
 ##### 3.2.1 Key Management Principles
 
-- **Cloud-Native**: Use cloud provider key management services (AWS KMS, Azure Key Vault, GCP Cloud KMS) as the primary key management solution
-- **Customer-Managed Encryption Keys (CMEK)**: Implement CMEK for ePHI and sensitive data to maintain control over encryption keys
-- **Automated Lifecycle**: Leverage automatic key rotation, backup, and lifecycle management provided by cloud services
-- **Least Privilege Access**: Restrict key access using cloud IAM policies and service-specific permissions
+##### 3.2.1.1 Cloud-Native Implementation
+
+Cloud provider key management services (AWS KMS, Azure Key Vault, GCP Cloud KMS) shall be used as the primary key management solution.
+
+##### 3.2.1.2 Customer-Managed Encryption Keys
+
+Customer-Managed Encryption Keys (CMEK) shall be implemented for ePHI and sensitive data to maintain control over encryption keys.
+
+##### 3.2.1.3 Automated Lifecycle Management
+
+Automatic key rotation, backup, and lifecycle management provided by cloud services shall be leveraged.
+
+##### 3.2.1.4 Access Control
+
+Key access shall be restricted using cloud IAM policies and service-specific permissions according to least privilege principles.
 
 ##### 3.2.2 Cloud Key Management Implementation
 
-- **AWS Key Management Service (KMS):**
-    - Use AWS-managed keys for standard encryption requirements
-    - Implement Customer-Managed Keys (CMK) for ePHI and sensitive data
-    - Enable automatic key rotation where supported
-    - Configure cross-region key replication for disaster recovery
+##### 3.2.2.1 AWS Key Management Service Implementation
 
-- **Azure Key Vault:**
-    - Use Azure-managed keys for standard encryption requirements
-    - Implement customer-managed keys for ePHI and sensitive data
-    - Enable key auto-rotation and versioning
-    - Configure geo-redundant backup for key availability
+AWS-managed keys shall be used for standard encryption requirements. Customer-Managed Keys (CMK) shall be implemented for ePHI and sensitive data. Automatic key rotation shall be enabled where supported. Cross-region key replication shall be configured for disaster recovery.
 
-- **Google Cloud Key Management Service:**
-    - Use Google-managed encryption keys for standard requirements
-    - Implement customer-managed encryption keys (CMEK) for sensitive data
-    - Enable automatic key rotation and version management
-    - Configure multi-region key replication for availability
+##### 3.2.2.2 Azure Key Vault Implementation
+
+Azure-managed keys shall be used for standard encryption requirements. Customer-managed keys shall be implemented for ePHI and sensitive data. Key auto-rotation and versioning shall be enabled. Geo-redundant backup shall be configured for key availability.
+
+##### 3.2.2.3 Google Cloud Key Management Service Implementation
+
+Google-managed encryption keys shall be used for standard requirements. Customer-managed encryption keys (CMEK) shall be implemented for sensitive data. Automatic key rotation and version management shall be enabled. Multi-region key replication shall be configured for availability.
 
 ##### 3.2.3 Access Control and Monitoring
 
-- **IAM Integration**: Key access controlled through cloud IAM roles and policies
-- **MFA Required**: Multi-factor authentication required for key management console access
-- **Automated Monitoring**: Cloud-native monitoring and alerting for key usage, access, and lifecycle events
-- **Audit Logging**: Automatic audit trail through cloud logging services (CloudTrail, Azure Monitor, Cloud Audit Logs)
+##### 3.2.3.1 IAM Integration
+
+Key access shall be controlled through cloud IAM roles and policies.
+
+##### 3.2.3.2 Multi-Factor Authentication
+
+Multi-factor authentication shall be required for key management console access.
+
+##### 3.2.3.3 Automated Monitoring
+
+Cloud-native monitoring and alerting for key usage, access, and lifecycle events shall be implemented.
+
+##### 3.2.3.4 Audit Logging
+
+Automatic audit trail through cloud logging services (CloudTrail, Azure Monitor, Cloud Audit Logs) shall be maintained.
 
 ##### 3.2.4 Cloud-Native Key Management Implementation
 
@@ -137,17 +146,39 @@ Encryption shall be integrated into application development using cloud-native s
 
 ##### 3.3.1 Application-Level Encryption
 
-- **Secrets Management**: Use cloud secrets management services (AWS Secrets Manager, Azure Key Vault, GCP Secret Manager) for application credentials
-- **API Security**: Implement TLS termination at cloud load balancers with automatic certificate management
-- **Data Processing**: Use cloud encryption APIs for data processing and storage operations
-- **Container Security**: Enable encryption for container orchestration platforms (EKS, AKS, GKE) using cloud-managed keys
+##### 3.3.1.1 Secrets Management
+
+Cloud secrets management services (AWS Secrets Manager, Azure Key Vault, GCP Secret Manager) shall be used for application credentials.
+
+##### 3.3.1.2 API Security
+
+TLS termination at cloud load balancers with automatic certificate management shall be implemented.
+
+##### 3.3.1.3 Data Processing
+
+Cloud encryption APIs shall be used for data processing and storage operations.
+
+##### 3.3.1.4 Container Security
+
+Encryption for container orchestration platforms (EKS, AKS, GKE) using cloud-managed keys shall be enabled.
 
 ##### 3.3.2 Development and Deployment
 
-- **Infrastructure as Code**: Define encryption configurations in infrastructure code (Terraform, CloudFormation, ARM templates)
-- **CI/CD Integration**: Implement encryption validation and configuration checks in automated deployment pipelines
-- **Environment Parity**: Ensure encryption configurations are consistent across development, staging, and production environments
-- **Security Scanning**: Use cloud security scanning tools to validate encryption implementations
+##### 3.3.2.1 Infrastructure as Code
+
+Encryption configurations shall be defined in infrastructure code (Terraform, CloudFormation, ARM templates).
+
+##### 3.3.2.2 CI/CD Integration
+
+Encryption validation and configuration checks shall be implemented in automated deployment pipelines.
+
+##### 3.3.2.3 Environment Parity
+
+Encryption configurations shall be consistent across development, staging, and production environments.
+
+##### 3.3.2.4 Security Scanning
+
+Cloud security scanning tools shall be used to validate encryption implementations.
 
 #### 3.4 Performance and Cost Optimization
 
@@ -155,17 +186,39 @@ Cloud-native encryption implementations shall be optimized for performance and c
 
 ##### 3.4.1 Performance Optimization
 
-- **Default Encryption**: Leverage cloud provider default encryption that provides minimal performance impact
-- **Regional Deployment**: Deploy encryption services in regions close to data and applications to minimize latency
-- **Caching**: Implement appropriate caching strategies for encrypted data and key operations
-- **Auto-Scaling**: Use cloud auto-scaling features to handle encryption processing loads
+##### 3.4.1.1 Default Encryption
+
+Cloud provider default encryption that provides minimal performance impact shall be leveraged.
+
+##### 3.4.1.2 Regional Deployment
+
+Encryption services shall be deployed in regions close to data and applications to minimize latency.
+
+##### 3.4.1.3 Caching
+
+Appropriate caching strategies for encrypted data and key operations shall be implemented.
+
+##### 3.4.1.4 Auto-Scaling
+
+Cloud auto-scaling features shall be used to handle encryption processing loads.
 
 ##### 3.4.2 Cost Management
 
-- **Service Tier Selection**: Choose appropriate cloud encryption service tiers based on usage requirements
-- **Key Usage Optimization**: Optimize key usage patterns to minimize cloud KMS API charges
-- **Storage Class Selection**: Use appropriate cloud storage classes for encrypted backup and archive data
-- **Regular Review**: Conduct quarterly reviews of encryption service costs and optimization opportunities
+##### 3.4.2.1 Service Tier Selection
+
+Appropriate cloud encryption service tiers shall be chosen based on usage requirements.
+
+##### 3.4.2.2 Key Usage Optimization
+
+Key usage patterns shall be optimized to minimize cloud KMS API charges.
+
+##### 3.4.2.3 Storage Class Selection
+
+Appropriate cloud storage classes for encrypted backup and archive data shall be used.
+
+##### 3.4.2.4 Regular Review
+
+Quarterly reviews of encryption service costs and optimization opportunities shall be conducted.
 
 ### 4. Standards Compliance
 

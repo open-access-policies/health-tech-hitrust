@@ -48,12 +48,12 @@ This policy applies to all **[Company Name]** workforce members, contractors, an
 - **Third-Party Testing Providers:** Qualified third-party penetration testing vendors with **[Required Certifications, e.g., CISSP, CEH, OSCP]** and healthcare industry experience shall be engaged for testing activities.
 
 - **Testing Methodology:** Penetration testing shall include:
-  - Pre-testing reconnaissance to identify external-facing systems, network ranges, and application attack surfaces
-  - Automated vulnerability scanning using **[Scanning Tools, e.g., Nessus, Qualys, OpenVAS]** across all in-scope systems
-  - Network penetration testing including external perimeter testing, internal network lateral movement, and wireless network security assessment
-  - Web application security testing using **[Testing Methodology, e.g., OWASP Testing Guide]** for all applications handling sensitive data
-  - Social engineering assessment including phishing simulation, physical security testing, and employee security awareness validation
-  - Cloud infrastructure security testing including IAM controls, storage security, network configurations, and container security
+  - Pre-testing reconnaissance shall be conducted to identify external-facing systems, network ranges, and application attack surfaces.
+  - Automated vulnerability scanning using **[Scanning Tools, e.g., Nessus, Qualys, OpenVAS]** shall be performed across all in-scope systems.
+  - Network penetration testing shall be conducted including external perimeter testing, internal network lateral movement, and wireless network security assessment.
+  - Web application security testing using **[Testing Methodology, e.g., OWASP Testing Guide]** shall be performed for all applications handling sensitive data.
+  - Social engineering assessment shall be conducted including phishing simulation, physical security testing, and employee security awareness validation.
+  - Cloud infrastructure security testing shall be performed including IAM controls, storage security, network configurations, and container security.
 
 - **Vulnerability Documentation:** All identified vulnerabilities shall be documented with risk ratings using **[Risk Rating System, e.g., CVSS v3.1]** and exploitation evidence.
 
@@ -66,12 +66,12 @@ This policy applies to all **[Company Name]** workforce members, contractors, an
 - **Targeted Testing:** Penetration testing shall be performed within **[Duration, e.g., 30 days]** of significant system changes, new application deployments, or security incidents.
 
 - Risk identification shall consider internal and external threats, including but not limited to:
-  - Cybersecurity threats (malware, phishing, unauthorized access)
-  - Natural disasters and environmental hazards
-  - Human error and insider threats
-  - Technology failures and system outages
-  - Regulatory and compliance changes
-  - Third-party and vendor risks
+  - Cybersecurity threats (malware, phishing, unauthorized access) shall be identified and assessed for organizational impact.
+  - Natural disasters and environmental hazards shall be evaluated for their potential impact on information systems and business operations.
+  - Human error and insider threats shall be considered as potential sources of information security risks.
+  - Technology failures and system outages shall be assessed for their impact on data availability and business continuity.
+  - Regulatory and compliance changes shall be monitored and evaluated for their impact on organizational risk posture.
+  - Third-party and vendor risks shall be identified and assessed as part of the comprehensive risk management program.
 
 #### 3.3 Risk Assessment and Analysis
 
@@ -80,17 +80,17 @@ All identified risks shall be analyzed to determine their potential impact and l
 - Risk assessment shall consider both inherent risk (before controls) and residual risk (after controls are applied).
 
 - Impact assessment shall evaluate potential consequences across multiple dimensions:
-  - Financial impact (direct costs, regulatory fines, business disruption)
-  - Operational impact (service disruption, productivity loss)
-  - Reputational impact (customer trust, market confidence)
-  - Regulatory impact (compliance violations, sanctions)
-  - Patient safety and privacy implications
+  - Financial impact (direct costs, regulatory fines, business disruption) shall be quantified where possible to support risk-based decision making.
+  - Operational impact (service disruption, productivity loss) shall be assessed for its effect on business operations and service delivery.
+  - Reputational impact (customer trust, market confidence) shall be evaluated for its potential long-term consequences to organizational standing.
+  - Regulatory impact (compliance violations, sanctions) shall be assessed for potential legal and regulatory consequences.
+  - Patient safety and privacy implications shall be evaluated for their impact on healthcare delivery and regulatory compliance.
 
 - Likelihood assessment shall consider:
-  - Threat actor capabilities and motivations
-  - Asset vulnerabilities and exposure
-  - Effectiveness of existing controls
-  - Historical incident data and industry trends
+  - Threat actor capabilities and motivations shall be evaluated based on available threat intelligence and industry analysis.
+  - Asset vulnerabilities and exposure shall be assessed through vulnerability scanning and security assessments.
+  - Effectiveness of existing controls shall be evaluated through testing, monitoring, and audit activities.
+  - Historical incident data and industry trends shall be analyzed to inform likelihood assessments and improve accuracy.
 
 - Risk levels shall be determined using a standardized risk matrix. The criteria for impact, likelihood, and the resulting risk levels (**High**, **Medium**, **Low**) shall be formally documented and approved by the Information Security Committee.
 
@@ -99,18 +99,18 @@ All identified risks shall be analyzed to determine their potential impact and l
 - **[Company Name]** shall implement appropriate risk treatment strategies based on risk levels and business priorities.
 
 - Risk treatment options include:
-  - **Accept:** Acknowledge and monitor risks that fall within acceptable tolerance levels
-  - **Avoid:** Eliminate the risk by discontinuing or modifying activities
-  - **Mitigate:** Implement controls to reduce likelihood or impact
-  - **Transfer:** Share or transfer risk through insurance, contracts, or outsourcing
+  - **Accept:** Acknowledge and monitor risks that fall within acceptable tolerance levels shall be documented with clear justification and approval.
+  - **Avoid:** Eliminate the risk by discontinuing or modifying activities shall be considered when risks exceed organizational tolerance.
+  - **Mitigate:** Implement controls to reduce likelihood or impact shall be the primary approach for managing significant risks.
+  - **Transfer:** Share or transfer risk through insurance, contracts, or outsourcing shall be utilized where appropriate and cost-effective.
 
 - High-risk items shall be addressed with priority and escalated to executive leadership for treatment decisions.
 
 - Risk treatment plans shall include:
-  - Specific actions and controls to be implemented
-  - Responsible parties and timelines
-  - Resource requirements and budget allocations
-  - Success criteria and monitoring measures
+  - Specific actions and controls to be implemented shall be clearly defined with measurable objectives and outcomes.
+  - Responsible parties and timelines shall be assigned to ensure accountability and timely implementation.
+  - Resource requirements and budget allocations shall be identified and approved through appropriate organizational processes.
+  - Success criteria and monitoring measures shall be established to evaluate the effectiveness of risk treatment activities.
 
 - The effectiveness of risk treatments shall be monitored and measured regularly.
 
@@ -137,11 +137,11 @@ Risk information shall be communicated effectively to all relevant stakeholders 
 - Critical risks and significant risk changes shall be escalated immediately to appropriate management levels.
 
 - Risk communication shall include:
-  - Current risk landscape and trends
-  - Status of risk treatment activities
-  - Emerging threats and vulnerabilities
-  - Recommendations for risk mitigation
-  - Compliance and regulatory implications
+  - Current risk landscape and trends shall be reported to provide situational awareness to stakeholders.
+  - Status of risk treatment activities shall be communicated to track progress and identify issues requiring attention.
+  - Emerging threats and vulnerabilities shall be shared to enable proactive risk management and response planning.
+  - Recommendations for risk mitigation shall be provided to support evidence-based decision making.
+  - Compliance and regulatory implications shall be communicated to ensure awareness of legal and regulatory requirements.
 
 #### 3.7 Third-Party Risk Management
 

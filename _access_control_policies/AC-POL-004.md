@@ -22,21 +22,35 @@ Privileged access management shall be based on fundamental security principles t
 
 ##### 3.1.1 Least Privilege and Separation of Duties
 
-- **Minimal Privilege Assignment:** Privileged accounts shall be granted only the minimum level of access necessary to perform specific administrative functions. Broad administrative privileges shall be avoided in favor of granular, function-specific permissions.
+##### 3.1.1.1 Minimal Privilege Assignment
 
-- **Role-Based Privilege Assignment:** Privileged access shall be assigned based on clearly defined administrative roles with documented responsibilities and access requirements. Role definitions shall be regularly reviewed and updated to reflect current business needs.
+Privileged accounts shall be granted only the minimum level of access necessary to perform specific administrative functions. Broad administrative privileges shall be avoided in favor of granular, function-specific permissions.
 
-- **Separation of Duties:** Critical administrative functions shall be divided among multiple individuals to prevent single points of failure and reduce the risk of unauthorized actions. No single individual shall have complete administrative control over critical systems.
+##### 3.1.1.2 Role-Based Privilege Assignment
 
-- **Temporary Privilege Elevation:** Standard user accounts shall be used for routine activities, with privilege elevation requested only when administrative functions are required. Permanent assignment of elevated privileges shall be minimized.
+Privileged access shall be assigned based on clearly defined administrative roles with documented responsibilities and access requirements. Role definitions shall be regularly reviewed and updated to reflect current business needs.
+
+##### 3.1.1.3 Separation of Duties
+
+Critical administrative functions shall be divided among multiple individuals to prevent single points of failure and reduce the risk of unauthorized actions. No single individual shall have complete administrative control over critical systems.
+
+##### 3.1.1.4 Temporary Privilege Elevation
+
+Standard user accounts shall be used for routine activities, with privilege elevation requested only when administrative functions are required. Permanent assignment of elevated privileges shall be minimized.
 
 ##### 3.1.2 Enhanced Authentication and Authorization
 
-- **Multi-Factor Authentication (MFA):** All privileged accounts shall require multi-factor authentication using approved authentication methods. Hardware tokens or biometric authentication may be required for critical infrastructure access.
+##### 3.1.2.1 Multi-Factor Authentication Requirements
 
-- **Privileged Access Workstations (PAWs):** Dedicated secured workstations shall be used for privileged access to critical systems, isolated from general-purpose computing activities.
+All privileged accounts shall require multi-factor authentication using approved authentication methods. Hardware tokens or biometric authentication may be required for critical infrastructure access.
 
-- **Network-Based Access Controls:** Privileged access shall be restricted to authorized networks and locations, with additional controls for remote privileged access.
+##### 3.1.2.2 Privileged Access Workstation Requirements
+
+Dedicated secured workstations shall be used for privileged access to critical systems, isolated from general-purpose computing activities.
+
+##### 3.1.2.3 Network-Based Access Controls
+
+Privileged access shall be restricted to authorized networks and locations, with additional controls for remote privileged access.
 
 #### 3.2 Just-in-Time (JIT) Access Implementation
 
@@ -44,22 +58,31 @@ Privileged access shall be granted on a time-limited, just-in-time basis to mini
 
 ##### 3.2.1 Time-Limited Access Sessions
 
-- **Session Duration Limits:**
-  - **Critical Infrastructure Access** (production databases, cloud administrative consoles): Maximum session duration of **[Duration, e.g., 4 hours]** with automatic termination
-  - **Standard Administrative Access** (system administration, application management): Maximum session duration of **[Duration, e.g., 8 hours]** with renewal available
-  - **Development and Testing Access**: Maximum session duration of **[Duration, e.g., 24 hours]** with self-service renewal
+##### 3.2.1.1 Session Duration Limits
 
-- **Automatic Session Termination:** Privileged access sessions shall automatically terminate upon expiration, with no automatic renewal. Users must request new access through established approval processes.
+**Critical Infrastructure Access** (production databases, cloud administrative consoles) shall have a maximum session duration of **[Duration, e.g., 4 hours]** with automatic termination. **Standard Administrative Access** (system administration, application management) shall have a maximum session duration of **[Duration, e.g., 8 hours]** with renewal available. **Development and Testing Access** shall have a maximum session duration of **[Duration, e.g., 24 hours]** with self-service renewal.
 
-- **Emergency Access Procedures:** Break-glass access procedures shall be established for emergency situations, with enhanced monitoring and immediate notification requirements.
+##### 3.2.1.2 Automatic Session Termination
+
+Privileged access sessions shall automatically terminate upon expiration, with no automatic renewal. Users shall request new access through established approval processes.
+
+##### 3.2.1.3 Emergency Access Procedures
+
+Break-glass access procedures shall be established for emergency situations, with enhanced monitoring and immediate notification requirements.
 
 ##### 3.2.2 Dynamic Access Approval
 
-- **Request-Based Access:** Privileged access shall be requested through automated workflows with business justification and approval requirements. Standing privileged access shall be minimized.
+##### 3.2.2.1 Request-Based Access
 
-- **Approval Workflows:** Access requests shall require approval from appropriate managers and security personnel based on the risk level and scope of requested privileges.
+Privileged access shall be requested through automated workflows with business justification and approval requirements. Standing privileged access shall be minimized.
 
-- **Access Reviews:** All active privileged access sessions shall be reviewed regularly to ensure continued business justification and appropriate usage.
+##### 3.2.2.2 Approval Workflows
+
+Access requests shall require approval from appropriate managers and security personnel based on the risk level and scope of requested privileges.
+
+##### 3.2.2.3 Access Reviews
+
+All active privileged access sessions shall be reviewed regularly to ensure continued business justification and appropriate usage.
 
 #### 3.3 Privileged Account Provisioning and Management
 
@@ -101,19 +124,31 @@ Comprehensive monitoring and recording of privileged access sessions shall provi
 
 ##### 3.4.1 Real-Time Session Monitoring
 
-- **Continuous Monitoring:** All privileged access sessions shall be monitored in real-time by security personnel or automated systems. Suspicious activities shall trigger immediate alerts and investigation.
+##### 3.4.1.1 Continuous Monitoring
 
-- **Behavioral Analysis:** User behavior analytics shall identify anomalous privileged access patterns, unusual command execution, or potential insider threats.
+All privileged access sessions shall be monitored in real-time by security personnel or automated systems. Suspicious activities shall trigger immediate alerts and investigation.
 
-- **Geographic and Time-Based Monitoring:** Privileged access from unusual locations or outside normal business hours shall trigger enhanced monitoring and approval requirements.
+##### 3.4.1.2 Behavioral Analysis
+
+User behavior analytics shall identify anomalous privileged access patterns, unusual command execution, or potential insider threats.
+
+##### 3.4.1.3 Geographic and Time-Based Monitoring
+
+Privileged access from unusual locations or outside normal business hours shall trigger enhanced monitoring and approval requirements.
 
 ##### 3.4.2 Session Recording and Audit
 
-- **Comprehensive Session Recording:** All privileged access sessions shall be recorded including keystrokes, commands, screen activity, and file access for audit and forensic purposes.
+##### 3.4.2.1 Comprehensive Session Recording
 
-- **Audit Trail Maintenance:** Complete audit trails shall be maintained for all privileged account activities with secure storage and tamper-evident controls.
+All privileged access sessions shall be recorded including keystrokes, commands, screen activity, and file access for audit and forensic purposes.
 
-- **Forensic Capabilities:** Session recordings and audit logs shall provide sufficient detail for incident investigation and forensic analysis.
+##### 3.4.2.2 Audit Trail Maintenance
+
+Complete audit trails shall be maintained for all privileged account activities with secure storage and tamper-evident controls.
+
+##### 3.4.2.3 Forensic Capabilities
+
+Session recordings and audit logs shall provide sufficient detail for incident investigation and forensic analysis.
 
 #### 3.5 Separated Administrative Accounts
 
@@ -121,19 +156,31 @@ Administrative functions shall be performed using dedicated accounts separate fr
 
 ##### 3.5.1 Account Separation Requirements
 
-- **Dedicated Administrative Accounts:** Workforce members with administrative privileges shall use separate, dedicated accounts for administrative functions. These accounts shall not be used for general productivity tasks.
+##### 3.5.1.1 Dedicated Administrative Accounts
 
-- **Standard Account Usage:** Routine business activities including email, web browsing, and document creation shall be performed using standard, non-privileged user accounts.
+Workforce members with administrative privileges shall use separate, dedicated accounts for administrative functions. These accounts shall not be used for general productivity tasks.
 
-- **Account Naming Conventions:** Administrative accounts shall follow standardized naming conventions to clearly identify their privileged nature and associated user.
+##### 3.5.1.2 Standard Account Usage
+
+Routine business activities including email, web browsing, and document creation shall be performed using standard, non-privileged user accounts.
+
+##### 3.5.1.3 Account Naming Conventions
+
+Administrative accounts shall follow standardized naming conventions to clearly identify their privileged nature and associated user.
 
 ##### 3.5.2 Administrative Account Security
 
-- **Enhanced Security Controls:** Administrative accounts shall be subject to additional security controls including stronger authentication requirements, network access restrictions, and enhanced monitoring.
+##### 3.5.2.1 Enhanced Security Controls
 
-- **Limited Network Access:** Administrative accounts shall only be permitted to access systems and networks necessary for their administrative functions.
+Administrative accounts shall be subject to additional security controls including stronger authentication requirements, network access restrictions, and enhanced monitoring.
 
-- **Regular Security Assessments:** Administrative accounts shall undergo regular security assessments to validate proper configuration and usage.
+##### 3.5.2.2 Limited Network Access
+
+Administrative accounts shall only be permitted to access systems and networks necessary for their administrative functions.
+
+##### 3.5.2.3 Regular Security Assessments
+
+Administrative accounts shall undergo regular security assessments to validate proper configuration and usage.
 
 #### 3.6 Emergency Access and Break-Glass Procedures
 
@@ -141,19 +188,31 @@ Emergency access procedures shall provide rapid access to critical systems durin
 
 ##### 3.6.1 Emergency Access Procedures
 
-- **Break-Glass Account Management:** Emergency access accounts shall be maintained for critical systems with enhanced monitoring and immediate notification when accessed.
+##### 3.6.1.1 Break-Glass Account Management
 
-- **Emergency Approval Process:** Emergency access shall require approval from designated emergency responders and security personnel, with justification documented.
+Emergency access accounts shall be maintained for critical systems with enhanced monitoring and immediate notification when accessed.
 
-- **Post-Emergency Review:** All emergency access usage shall be reviewed within **[Duration, e.g., 24 hours]** to validate appropriateness and document lessons learned.
+##### 3.6.1.2 Emergency Approval Process
+
+Emergency access shall require approval from designated emergency responders and security personnel, with justification documented.
+
+##### 3.6.1.3 Post-Emergency Review
+
+All emergency access usage shall be reviewed within **[Duration, e.g., 24 hours]** to validate appropriateness and document lessons learned.
 
 ##### 3.6.2 Emergency Access Monitoring
 
-- **Immediate Notification:** Emergency access activation shall trigger immediate notifications to security personnel, management, and relevant stakeholders.
+##### 3.6.2.1 Immediate Notification
 
-- **Enhanced Logging:** All emergency access activities shall be subject to enhanced logging and monitoring with detailed audit trails.
+Emergency access activation shall trigger immediate notifications to security personnel, management, and relevant stakeholders.
 
-- **Incident Response Integration:** Emergency access procedures shall be integrated with incident response processes to ensure coordinated response activities.
+##### 3.6.2.2 Enhanced Logging
+
+All emergency access activities shall be subject to enhanced logging and monitoring with detailed audit trails.
+
+##### 3.6.2.3 Incident Response Integration
+
+Emergency access procedures shall be integrated with incident response processes to ensure coordinated response activities.
 
 ### 4. Standards Compliance
 

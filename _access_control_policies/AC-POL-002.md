@@ -17,41 +17,67 @@ All use of **[Company Name]**'s network resources must be conducted in a legal, 
 
 #### 3.1 General Use and Ownership
 
-- **Company Property:** All network infrastructure, systems, and the data created or transmitted over them are the property of **[Company Name]**.
-    
-- **No Expectation of Privacy:** Workforce members should have no expectation of privacy in their use of company network resources. To ensure compliance and protect information assets, network traffic is actively monitored for security threats and potential policy violations, in accordance with applicable laws.
-    
-- **Business Purpose:** Network resources are provided primarily for business-related activities. Limited and incidental personal use is permitted, provided it does not interfere with job performance, consume significant resources, or violate any other provision of this policy.
+##### 3.1.1 Company Property Rights
+
+All network infrastructure, systems, and the data created or transmitted over them shall be considered the property of **[Company Name]**. Workforce members shall acknowledge that their use of these resources is subject to company policies and applicable laws.
+
+##### 3.1.2 Privacy Expectations
+
+Workforce members shall have no expectation of privacy in their use of company network resources. To ensure compliance and protect information assets, network traffic shall be actively monitored for security threats and potential policy violations, in accordance with applicable laws.
+
+##### 3.1.3 Business Purpose Requirements
+
+Network resources shall be provided primarily for business-related activities. Limited and incidental personal use shall be permitted, provided it does not interfere with job performance, consume significant resources, or violate any other provision of this policy.
     
 
 #### 3.2 Security and Data Protection
 
 Workforce members are responsible for maintaining the security of the network and protecting company data.
 
-- **Credentials:** Workforce members shall not share their account credentials or allow others to use their accounts to access the network.
-    
-- **Malicious Software:** Intentionally introducing malicious software (e.g., viruses, worms, spyware) into the network is strictly prohibited. Workforce members shall exercise caution when opening email attachments or clicking on links from unknown sources. To support this, workforce members shall complete annual security awareness training, which provides specific guidance on identifying and avoiding threats like phishing and malware.
-    
-- **Security Incidents:** Any suspected security incident, unauthorized access, or vulnerability shall be reported immediately to the IT Department and the Security Officer.
-    
-- **Data Handling:** The transmission of ePHI or other data classified as Confidential over the network shall be done using company-approved, encrypted methods.
+##### 3.2.1 Credential Security
+
+Workforce members shall not share their account credentials or allow others to use their accounts to access the network. Account credentials shall be protected as confidential information and used only by the authorized individual.
+
+##### 3.2.2 Malicious Software Prevention
+
+Intentionally introducing malicious software (e.g., viruses, worms, spyware) into the network shall be strictly prohibited. Workforce members shall exercise caution when opening email attachments or clicking on links from unknown sources. To support this requirement, workforce members shall complete annual security awareness training, which provides specific guidance on identifying and avoiding threats like phishing and malware.
+
+##### 3.2.3 Security Incident Reporting
+
+Any suspected security incident, unauthorized access, or vulnerability shall be reported immediately to the IT Department and the Security Officer. Workforce members shall not attempt to investigate or remediate security incidents independently.
+
+##### 3.2.4 Data Protection Requirements
+
+The transmission of ePHI or other data classified as Confidential over the network shall be conducted using company-approved, encrypted methods. Unencrypted transmission of sensitive data shall be prohibited.
     
 
 #### 3.3 Prohibited Activities
 
 The following activities are strictly prohibited when using **[Company Name]**'s network resources:
 
-- **Illegal or Unethical Activities:** Engaging in any activity that is illegal under local, state, or federal law, including but not limited to harassment, copyright infringement, or fraudulent activities.
-    
-- **Circumventing Security:** Attempting to bypass or disable any security controls, such as firewalls, content filters, or monitoring software.
-    
-- **Unauthorized Access:** Attempting to access systems, data, or accounts for which the user does not have explicit authorization.
-    
-- **Disruptive Behavior:** Engaging in any activity that could disrupt network services or degrade performance for other users, such as initiating a denial-of-service attack or sending spam.
-    
-- **Unauthorized Data Transfer:** Using unapproved peer-to-peer file-sharing services or transferring company data to unauthorized personal cloud storage accounts.
-    
-- **Inappropriate Content:** Accessing, downloading, or distributing content that is obscene, defamatory, harassing, or otherwise violates **[Company Name]**'s professional conduct policies.
+##### 3.3.1 Prohibited Illegal Activities
+
+Engaging in any activity that is illegal under local, state, or federal law shall be strictly prohibited, including but not limited to harassment, copyright infringement, or fraudulent activities.
+
+##### 3.3.2 Security Control Circumvention
+
+Attempting to bypass or disable any security controls, such as firewalls, content filters, or monitoring software, shall be strictly prohibited.
+
+##### 3.3.3 Unauthorized System Access
+
+Attempting to access systems, data, or accounts for which the user does not have explicit authorization shall be strictly prohibited.
+
+##### 3.3.4 Network Disruption Activities
+
+Engaging in any activity that could disrupt network services or degrade performance for other users shall be strictly prohibited, such as initiating a denial-of-service attack or sending spam.
+
+##### 3.3.5 Unauthorized Data Transfer
+
+Using unapproved peer-to-peer file-sharing services or transferring company data to unauthorized personal cloud storage accounts shall be strictly prohibited.
+
+##### 3.3.6 Inappropriate Content Access
+
+Accessing, downloading, or distributing content that is obscene, defamatory, harassing, or otherwise violates **[Company Name]**'s professional conduct policies shall be strictly prohibited.
     
 
 Compliance with these prohibitions is enforced through a combination of administrative oversight and technical controls, including but not limited to, web content filtering, intrusion detection systems, and data loss prevention (DLP) tools.

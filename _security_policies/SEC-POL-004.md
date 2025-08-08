@@ -52,49 +52,49 @@ Information classification shall be assigned by designated information owners an
 Specific security controls shall be implemented based on information classification levels.
 
 ##### 3.3.1 Public Information
-- No special access restrictions required
-- Standard backup and archival procedures apply
-- May be stored on standard business systems
-- Can be transmitted via standard email or file sharing
+- No special access restrictions shall be required for public information.
+- Standard backup and archival procedures shall be applied to public information.
+- Public information may be stored on standard business systems without additional security controls.
+- Public information can be transmitted via standard email or file sharing without encryption requirements.
 
 ##### 3.3.2 Internal Information
-- Access restricted to authorized **[Company Name]** workforce members
-- Password-protected when stored on portable devices
-- Transmitted via secure channels (encrypted email, secure file transfer)
-- Stored on company-approved systems with appropriate access controls
-- Covered by confidentiality agreements for third-party access
+- Access shall be restricted to authorized **[Company Name]** workforce members.
+- Internal information shall be password-protected when stored on portable devices.
+- Internal information shall be transmitted via secure channels (encrypted email, secure file transfer).
+- Internal information shall be stored on company-approved systems with appropriate access controls.
+- Internal information shall be covered by confidentiality agreements for third-party access.
 
 ##### 3.3.3 Confidential Information
-- Access granted only on a need-to-know basis with formal approval
-- Encrypted when stored on laptops, mobile devices, or removable media
-- Transmitted only via encrypted channels (secure email, VPN, HTTPS)
-- Stored on hardened systems with enhanced access controls and audit logging
-- Protected by multi-factor authentication for system access
-- Requires Non-Disclosure Agreements (NDAs) for third-party access
-- Must be clearly labeled or marked to indicate classification level
+- Access shall be granted only on a need-to-know basis with formal approval.
+- Confidential information shall be encrypted when stored on laptops, mobile devices, or removable media.
+- Confidential information shall be transmitted only via encrypted channels (secure email, VPN, HTTPS).
+- Confidential information shall be stored on hardened systems with enhanced access controls and audit logging.
+- Systems containing confidential information shall be protected by multi-factor authentication for system access.
+- Non-Disclosure Agreements (NDAs) shall be required for third-party access to confidential information.
+- Confidential information must be clearly labeled or marked to indicate classification level.
 
 ##### 3.3.4 Restricted Information
-- Access granted only to specifically authorized individuals with business justification
-- Encrypted at rest using **[Encryption Standard, e.g., AES-256]** or equivalent
-- Encrypted in transit using **[Protocol, e.g., TLS 1.3]** or equivalent
-- Stored only on systems specifically approved for Restricted data
-- Protected by multi-factor authentication and privileged access controls
-- All access logged and monitored for unauthorized activity
-- Requires Business Associate Agreements (BAAs) for third-party handling
-- Must be clearly labeled and handled according to regulatory requirements
-- Subject to data loss prevention (DLP) monitoring and controls
+- Access shall be granted only to specifically authorized individuals with documented business justification.
+- Restricted information shall be encrypted at rest using **[Encryption Standard, e.g., AES-256]** or equivalent.
+- Restricted information shall be encrypted in transit using **[Protocol, e.g., TLS 1.3]** or equivalent.
+- Restricted information shall be stored only on systems specifically approved for Restricted data.
+- Systems containing restricted information shall be protected by multi-factor authentication and privileged access controls.
+- All access to restricted information shall be logged and monitored for unauthorized activity.
+- Business Associate Agreements (BAAs) shall be required for third-party handling of restricted information.
+- Restricted information must be clearly labeled and handled according to regulatory requirements.
+- Restricted information shall be subject to data loss prevention (DLP) monitoring and controls.
 
 #### 3.4 Electronic Protected Health Information (ePHI) Handling
 
 ePHI represents a subset of Restricted information requiring special handling under HIPAA regulations.
 
 - ePHI shall be classified as Restricted and subject to all applicable controls
-- Access limited to workforce members whose job functions require ePHI to perform their duties
-- Minimum necessary standard applied to all ePHI access, use, and disclosure
-- All ePHI access logged with user identification, date/time, and specific information accessed
-- ePHI transmitted only via HIPAA-compliant secure methods
-- Regular audits conducted to verify appropriate ePHI access and usage
-- Breach notification procedures followed for any suspected ePHI compromise
+- Access to ePHI shall be limited to workforce members whose job functions require ePHI to perform their duties
+- Minimum necessary standard shall be applied to all ePHI access, use, and disclosure
+- All ePHI access shall be logged with user identification, date/time, and specific information accessed
+- ePHI shall be transmitted only via HIPAA-compliant secure methods
+- Regular audits shall be conducted to verify appropriate ePHI access and usage
+- Breach notification procedures shall be followed for any suspected ePHI compromise
 
 #### 3.5 Data Labeling and Marking
 
@@ -113,7 +113,7 @@ Storage requirements shall be implemented based on information classification le
 
 - All information systems shall maintain access control lists (ACLs) restricting access based on classification and business need
 - Confidential and Restricted information shall be stored only on systems with appropriate security controls
-- Cloud storage of Confidential and Restricted information requires encryption and compliance with security standards
+- Cloud storage of Confidential and Restricted information shall require encryption and compliance with security standards
 - Regular access reviews shall be conducted quarterly for Restricted information and annually for Confidential information
 - Automated tools shall be used where possible to enforce classification-based access controls
 
@@ -134,9 +134,9 @@ Information shall be retained according to business requirements and regulatory 
 - Retention schedules shall be established for each information type considering business, legal, and regulatory requirements
 - ePHI shall be retained in accordance with HIPAA requirements and state regulations
 - Secure disposal methods shall be used for all Confidential and Restricted information:
-  - Electronic media: Cryptographic erasure, degaussing, or physical destruction
-  - Physical documents: Cross-cut shredding or incineration
-  - Optical media: Physical destruction
+  - Electronic media: Cryptographic erasure, degaussing, or physical destruction shall be performed according to NIST SP 800-88 guidelines.
+  - Physical documents: Cross-cut shredding or incineration shall be performed to prevent information recovery.
+  - Optical media: Physical destruction shall be performed to ensure complete data destruction.
 - Disposal activities shall be documented and verified for Restricted information
 - Third-party disposal services shall provide certificates of destruction and maintain appropriate insurance coverage
 

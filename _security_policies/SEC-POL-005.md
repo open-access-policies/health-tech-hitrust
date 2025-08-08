@@ -28,16 +28,16 @@ Vendors shall be classified into three practical risk tiers with appropriate ass
     - Development and deployment platform providers
 
 - **Tier 2 - Business Risk (Internal Data and Business-Critical Services):**
-    - Business applications with internal data access (CRM, HR systems, financial tools)
-    - Communication and collaboration platforms (Slack, email providers)
-    - Backup and disaster recovery services
-    - Legal and professional services with confidential data access
+    - Business applications with internal data access (CRM, HR systems, financial tools) shall be included in this risk tier.
+    - Communication and collaboration platforms (Slack, email providers) shall be classified as business risk tier.
+    - Backup and disaster recovery services shall be evaluated under business risk assessment requirements.
+    - Legal and professional services with confidential data access shall be subject to business risk tier controls.
 
 - **Tier 3 - Standard Risk (Limited Access and Commodity Services):**
-    - Marketing and analytics tools with minimal data access
-    - Development tools and services without production data
-    - Office productivity tools and subscriptions
-    - Professional services without data access
+    - Marketing and analytics tools with minimal data access shall be included in the standard risk tier.
+    - Development tools and services without production data shall be classified as standard risk.
+    - Office productivity tools and subscriptions shall be subject to standard risk assessment requirements.
+    - Professional services without data access shall be evaluated under standard risk tier controls.
 
 ##### 3.1.2 Streamlined Assessment Requirements
 
@@ -49,15 +49,15 @@ Vendors shall be classified into three practical risk tiers with appropriate ass
 - **Insurance**: Cyber liability insurance verification ($**[Amount, e.g., 5-10 million]** minimum)
 
 - **Tier 2 - Business Risk Assessment:**
-- **Basic Security Review**: Security questionnaire or self-attestation
-- **Contract Terms**: Standard security clauses in service agreement
-- **Data Protection**: Basic data protection and incident notification requirements
-- **Insurance**: General liability and professional insurance verification
+- **Basic Security Review**: Security questionnaire or self-attestation shall be conducted to assess basic security posture.
+- **Contract Terms**: Standard security clauses shall be included in service agreement to establish security expectations.
+- **Data Protection**: Basic data protection and incident notification requirements shall be documented in contractual terms.
+- **Insurance**: General liability and professional insurance verification shall be performed to ensure adequate coverage.
 
 - **Tier 3 - Standard Risk Assessment:**
-- **Service Agreement**: Standard terms of service with basic security provisions
-- **Privacy Policy**: Review of vendor privacy policy and data handling practices
-- **Minimal Due Diligence**: Basic vendor legitimacy and reputation verification
+- **Service Agreement**: Standard terms of service with basic security provisions shall be reviewed and accepted.
+- **Privacy Policy**: Review of vendor privacy policy and data handling practices shall be conducted to ensure alignment with organizational requirements.
+- **Minimal Due Diligence**: Basic vendor legitimacy and reputation verification shall be performed through public sources and references.
 
 #### 3.2 Automated Vendor Risk Assessment
 
@@ -65,17 +65,17 @@ Leverage automated tools and vendor risk assessment platforms to streamline the 
 
 ##### 3.2.1 Third-Party Risk Assessment Platforms
 
-- **Vendor Risk Management Tools**: Use platforms like SecurityScorecard, BitSight, or UpGuard for automated vendor security ratings
-- **Questionnaire Automation**: Leverage shared security questionnaire databases and automated assessment tools
-- **Continuous Monitoring**: Automated monitoring of vendor security posture and incident notifications
-- **Compliance Databases**: Use compliance databases to verify vendor certifications and attestations
+- **Vendor Risk Management Tools**: Platforms like SecurityScorecard, BitSight, or UpGuard shall be used for automated vendor security ratings.
+- **Questionnaire Automation**: Shared security questionnaire databases and automated assessment tools shall be leveraged to streamline evaluation processes.
+- **Continuous Monitoring**: Automated monitoring of vendor security posture and incident notifications shall be implemented for ongoing risk visibility.
+- **Compliance Databases**: Compliance databases shall be used to verify vendor certifications and attestations.
 
 ##### 3.2.2 Cloud Provider Security Posture
 
-- **Shared Responsibility Model**: Understand and document cloud provider vs. customer security responsibilities
-- **Compliance Center**: Regular review of cloud provider compliance center documentation and certifications
-- **Service Health**: Monitor cloud provider service health dashboards and security advisories
-- **Configuration Reviews**: Quarterly review of cloud service security configurations and settings
+- **Shared Responsibility Model**: Cloud provider vs. customer security responsibilities shall be understood and documented.
+- **Compliance Center**: Regular review of cloud provider compliance center documentation and certifications shall be conducted.
+- **Service Health**: Cloud provider service health dashboards and security advisories shall be monitored continuously.
+- **Configuration Reviews**: Quarterly review of cloud service security configurations and settings shall be performed.
 
 #### 3.3 Business Associate Agreements and Practical Contract Terms
 

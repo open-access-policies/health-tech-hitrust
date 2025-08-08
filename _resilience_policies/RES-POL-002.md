@@ -22,27 +22,27 @@ This policy applies to all **[Company Name]** workforce members, business units,
 ##### 3.1.1 Business Continuity Principles
 
 - **Life Safety Priority:**
-    - The safety and security of workforce members, patients, and visitors is the highest priority in all emergency situations
-    - Emergency evacuation and safety procedures take precedence over business operations
-    - Clear communication channels and emergency coordination procedures shall be maintained
+    - The safety and security of workforce members, patients, and visitors shall be the highest priority in all emergency situations.
+    - Emergency evacuation and safety procedures shall take precedence over business operations.
+    - Clear communication channels and emergency coordination procedures shall be maintained at all times.
 
 - **Essential Services Continuity:**
-    - Critical business functions shall be identified and prioritized for continuity
-    - Minimum service levels shall be defined for essential operations
-    - Alternative methods and resources shall be available to maintain critical services
-    - Patient care and safety functions receive highest priority for resource allocation
+    - Critical business functions shall be identified and prioritized for continuity during disruptions.
+    - Minimum service levels shall be defined for essential operations to ensure baseline service delivery.
+    - Alternative methods and resources shall be available to maintain critical services during emergencies.
+    - Patient care and safety functions shall receive highest priority for resource allocation.
 
 - **Regulatory Compliance:**
-    - Business continuity plans shall ensure continued compliance with HIPAA, HITECH, and other applicable regulations
-    - ePHI availability and protection shall be maintained during disruptions
-    - Audit trails and documentation requirements shall be met even during emergency operations
-    - Regulatory notification requirements shall be incorporated into emergency procedures
+    - Business continuity plans shall ensure continued compliance with HIPAA, HITECH, and other applicable regulations.
+    - ePHI availability and protection shall be maintained during disruptions according to regulatory requirements.
+    - Audit trails and documentation requirements shall be met even during emergency operations.
+    - Regulatory notification requirements shall be incorporated into emergency procedures.
 
 - **Stakeholder Communication:**
-    - Clear, timely, and accurate communication shall be maintained with all stakeholders
-    - Multiple communication channels shall be available for redundancy
-    - Regular updates shall be provided during extended disruptions
-    - Post-incident communication shall address lessons learned and improvements
+    - Clear, timely, and accurate communication shall be maintained with all stakeholders throughout disruptions.
+    - Multiple communication channels shall be available for redundancy to ensure reliable communications.
+    - Regular updates shall be provided during extended disruptions to maintain stakeholder awareness.
+    - Post-incident communication shall address lessons learned and improvements implemented.
 
 ##### 3.1.2 Business Impact Analysis (BIA)
 
