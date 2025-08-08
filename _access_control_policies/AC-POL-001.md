@@ -1,20 +1,20 @@
 ---
-title: Access Control Policy (AC-POL-001)
+title: Identity and Access Management (IAM) Policy (AC-POL-001)
 parent: Access Control Policies
 nav_order: 1
 ---
 
 ### 1. Objective
 
-The objective of this policy is to define the requirements for managing access to **[Company Name]**'s information systems, data, and physical facilities. This policy ensures that access is granted based on the principles of least privilege and separation of duties, thereby protecting the confidentiality, integrity, and availability of corporate and customer information, including electronic Protected Health Information (ePHI).
+The objective of this policy is to define the requirements for managing user identities and access rights to **[Company Name]**'s information systems and data throughout the complete user lifecycle. This policy ensures that access is granted based on the principles of least privilege and separation of duties, while implementing automated access management processes that minimize administrative overhead and enhance security effectiveness. This policy focuses on standard user access management, while privileged access is addressed in the Privileged Access Management Policy (AC-POL-004) and remote access is covered in the Remote Work Policy (AC-POL-003).
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, third-party contractors, and vendors who require access to any company information asset. This includes, but is not limited to, applications, servers, databases, network devices, and cloud services. This policy applies to all physical and virtual locations where company information assets are accessed, stored, or processed, including corporate offices, remote work locations, and third-party sites.
+This policy applies to all **[Company Name]** workforce members, third-party contractors, and vendors who require access to company information assets. This includes standard user access to applications, file shares, collaboration tools, and business systems. This policy applies to all physical and virtual locations where company information assets are accessed, stored, or processed, including corporate offices and approved remote work locations. This policy does not cover privileged administrative access (see AC-POL-004) or remote work security requirements (see AC-POL-003).
 
 ### 3. Policy
 
-Access to all **[Company Name]** information assets shall be managed through a formal, documented process that is consistently applied and audited.
+Access to all **[Company Name]** information assets shall be managed through a formal, documented process that implements automated access management and exception-based reviews to ensure appropriate access while minimizing administrative overhead.
 
 #### 3.1 Principle of Least Privilege
 
@@ -83,67 +83,21 @@ To ensure access rights remain appropriate while minimizing administrative overh
     - Annual reviews of the automated access monitoring program shall include effectiveness assessment, cost-benefit analysis, and recommendations for process improvements
     
 
-#### 3.4 Privileged Access Management
+#### 3.4 System and Network Access Controls
 
-Accounts with elevated (administrative) privileges pose a significant risk and shall be subject to enhanced controls utilizing modern just-in-time access principles.
-
-- **Just-In-Time (JIT) Access:** Administrative access shall be granted on a limited, time-bound basis using automated JIT access systems where technically feasible. **Critical Infrastructure Access** (production databases, cloud administrative consoles): Maximum session duration of **[Duration, e.g., 4 hours]** with automatic termination. **Standard Administrative Access** (system administration, application management): Maximum session duration of **[Duration, e.g., 8 hours]** with renewal available. **Development and Testing Access**: Maximum session duration of **[Duration, e.g., 24 hours]** with self-service renewal.
-    
-- **Separated Administrative Accounts:** Workforce members with administrative privileges shall use dedicated administrative accounts separate from their standard user accounts. Standard day-to-day activities shall be performed using non-privileged accounts with automatic elevation requests for administrative tasks when needed.
-    
-- **Enhanced Authentication:** Multi-Factor Authentication (MFA) is mandatory for all privileged access accounts. Additional authentication factors (hardware tokens, biometrics) may be required for critical infrastructure access.
-    
-- **Automated Monitoring and Alerting:** All privileged account activities shall be automatically logged and monitored. Real-time alerts shall be generated for unusual privileged access patterns, after-hours usage, and potential privilege abuse.
-
-##### 3.4.1 Privileged Account Management Implementation
-
-- **Privileged Account Provisioning and Approval:**
-    - Privileged account requests shall be submitted through **[Access Management System]** with business justification, required access level, and duration specification
-    - Hiring managers shall review and approve privileged account requests confirming business need and appropriate access level for role responsibilities
-    - Information Security Officer shall conduct risk assessment for privileged account requests evaluating access scope, duration, and potential security impact
-    - Privileged accounts shall be created with minimum necessary permissions and configured with multi-factor authentication requirements
-    - All privileged accounts shall be enrolled in Privileged Access Management (PAM) system with session recording and access approval workflows
-
-- **Privileged Account Security Controls:**
-    - Account owners shall complete privileged account security training within **[Duration, e.g., 5 business days]** of account creation
-    - PAM system shall require approval for each privileged session through **[Approval Process, e.g., manager approval, security team approval]**
-    - All privileged account usage shall be monitored in real-time by the Security Operations Center with investigation of suspicious activities within **[Duration, e.g., 15 minutes]**
-    - PAM system shall record all privileged sessions including keystrokes, commands, and file access for audit and investigation purposes
-    - Emergency access accounts and break-glass procedures shall be implemented with enhanced monitoring and immediate notification requirements
-
-- **Privileged Account Monitoring and Reporting:**
-    - Daily privileged account usage reports shall be generated including login times, commands executed, and systems accessed
-    - Weekly privileged account activity reports shall be reviewed by the Information Security Officer to investigate any anomalous or unauthorized usage patterns
-    - Monthly reviews of assigned privileged accounts shall be conducted by account managers to verify continued business need and appropriate access levels
-    - Real-time monitoring shall include detection of privileged access anomalies, unusual command execution, and potential abuse patterns
-    - Integration with SIEM systems shall provide comprehensive visibility into privileged account activities across all systems and platforms
-
-- **Privileged Account Lifecycle Management:**
-    - Human Resources shall immediately disable privileged accounts upon employee termination, role change, or extended leave of absence
-    - Quarterly comprehensive review of all privileged accounts shall be performed including access validation, usage analysis, and compliance assessment
-    - Privileged account passwords shall be rotated quarterly using **[Password Management System]** with **[Complexity Requirements, e.g., 20+ characters]**
-    - Annual privileged access risk assessment shall be conducted with updates to access controls based on threat landscape and business requirements
-    - Privileged account deprovisioning shall include secure deletion of recorded sessions and access logs according to retention policies
-
-- **Privileged Account Compliance and Audit:**
-    - Privileged account audit logs and session recordings shall be maintained for minimum **[Retention Period, e.g., 7 years]** for regulatory compliance requirements
-    - Compliance officer shall maintain documentation of privileged account requests, approvals, reviews, and modifications for audit purposes
-    - Regular compliance assessments shall ensure privileged account management meets regulatory requirements and industry standards
-    - Incident response procedures shall address privileged account compromise and unauthorized usage scenarios
-    - Integration with organizational privacy and data protection requirements for privileged account audit data and session recordings
-    
-
-#### 3.5 System and Network Access Controls
-
-Logical access to systems and networks shall be secured as follows:
+Logical access to systems and networks shall be secured through standardized authentication and session management controls.
 
 - **Unique Identification:** Every user shall be assigned a unique user ID. The use of shared or generic user accounts is strictly prohibited.
     
-- **Authentication:** All access shall be authenticated through a combination of a unique user ID and a strong password, as defined in the Password Policy (SEC-POL-002). MFA is required for all sensitive systems.
+- **Authentication:** All access shall be authenticated through a combination of a unique user ID and a strong password, as defined in the Password Policy (SEC-POL-002). Multi-factor authentication (MFA) is required for all systems containing sensitive data including ePHI.
     
 - **Session Timeouts:** Systems shall be configured to automatically terminate user sessions after a defined period of inactivity, not to exceed **[Duration, e.g., 15 minutes]** for systems containing ePHI.
     
-- **Network Segregation:** The corporate network shall be segregated into logical zones (e.g., production, development, DMZ) with access controls and firewalls in place to restrict traffic between zones to only what is explicitly authorized.
+- **Network Segregation:** Network access controls shall restrict user access to only authorized network segments and resources based on role and business need.
+
+#### 3.5 Privileged Access Management
+
+Accounts with elevated administrative privileges are subject to enhanced controls as defined in the Privileged Access Management Policy (AC-POL-004). Standard users requiring administrative access shall follow the just-in-time access procedures and enhanced authentication requirements specified in that policy.
     
 
 #### 3.6 Third-Party Access
@@ -157,6 +111,10 @@ Third-party access shall be:
 - Time-bound, with access automatically expiring upon contract termination.
     
 - Monitored, with all activities logged and reviewed.
+
+#### 3.7 Remote Access
+
+Remote access to company systems and data is governed by the Remote Work Policy (AC-POL-003), which establishes comprehensive security requirements for accessing company resources from locations outside corporate offices. All workforce members working remotely must comply with the network connectivity, device security, and data handling requirements specified in that policy.
     
 
 ### 4. Standards Compliance
@@ -168,36 +126,27 @@ This policy is designed to comply with and support the following industry standa
 | **All**            | HITRUST CSF v11.2.0          | 11.a - Access Control Policy                                 |
 | **3.2, 3.3**       | HITRUST CSF v11.2.0          | 11.b - User Access Management                                |
 | **3.3.1**          | HITRUST CSF v11.2.0          | 11.c - User Responsibilities                                 |
-| **3.4**            | HITRUST CSF v11.2.0          | 11.c - User Responsibilities                                 |
-| **3.4.1**          | HITRUST CSF v11.2.0          | 11.a - User Access Provisioning                              |
-| **3.4.1**          | HITRUST CSF v11.2.0          | 11.b - Privileged Access Management                          |
-| **3.4.1**          | HITRUST CSF v11.2.0          | 11.c - User Access Review                                    |
-| **3.4.1**          | HITRUST CSF v11.2.0          | 11.d - User Access Revocation                                |
-| **3.4.1**          | HITRUST CSF v11.2.0          | 12.a - Audit Logging and Monitoring                          |
-| **3.5**            | HITRUST CSF v11.2.0          | 11.d - Network Access Control                                |
+| **3.4**            | HITRUST CSF v11.2.0          | 11.d - Network Access Control                                |
 | **3.6**            | HITRUST CSF v11.2.0          | 11.e - Operating System Access Control                       |
 | **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(4) - Information Access Management        |
-| **3.2, 3.5**       | HIPAA Security Rule           | 45 CFR § 164.312(a)(1) - Access Control                       |
+| **3.2, 3.4**       | HIPAA Security Rule           | 45 CFR § 164.312(a)(1) - Access Control                       |
 | **3.3.1**          | HIPAA Security Rule           | 45 CFR § 164.312(a)(1) - Access Control                       |
-| **3.4.1**          | HIPAA Security Rule           | 45 CFR § 164.308(a)(4) - Access Management                    |
-| **3.4.1**          | HIPAA Security Rule           | 45 CFR § 164.312(b) - Audit Controls                          |
-| **3.5**            | HIPAA Security Rule           | 45 CFR § 164.312(a)(2)(i) - Unique User Identification        |
+| **3.4**            | HIPAA Security Rule           | 45 CFR § 164.312(a)(2)(i) - Unique User Identification        |
 | **All**            | SOC 2 Trust Services Criteria | CC6.1 - Logical Access Security                               |
 | **3.2, 3.3**       | SOC 2 Trust Services Criteria | CC6.2 - Prior to issuing system credentials...                |
 | **3.3.1**          | SOC 2 Trust Services Criteria | CC6.2 - Access Authorization                                  |
 | **3.3.1**          | SOC 2 Trust Services Criteria | CC6.3 - Access Reviews                                        |
-| **3.4.1**          | SOC 2 Trust Services Criteria | CC6.2 - Logical Access Controls                               |
-| **3.4.1**          | SOC 2 Trust Services Criteria | CC6.3 - Multi-Factor Authentication                           |
-| **3.4.1**          | SOC 2 Trust Services Criteria | CC7.2 - System Monitoring                                     |
 | **3.2, 3.6**       | SOC 2 Trust Services Criteria | CC6.3 - Authorization, modification, and removal of access... |
 
 ### 5. Definitions
 
+- **Identity and Access Management (IAM):** System of policies, processes, and technologies used to manage digital identities and control access to resources based on user roles and responsibilities.
+    
 - **Least Privilege:** The security principle of restricting access rights for users to the bare minimum permissions they need to perform their work.
     
 - **Role-Based Access Control (RBAC):** A method of restricting network access based on the roles of individual users within an enterprise.
     
-- **Privileged Account:** A user account with elevated permissions, such as administrator, root, or system accounts.
+- **Account Lifecycle:** Complete process of user account creation, modification, review, and termination aligned with employment status and role changes.
     
 - **Business Associate Agreement (BAA):** A written contract between a covered entity and a business associate as required by HIPAA.
     
@@ -206,12 +155,11 @@ This policy is designed to comply with and support the following industry standa
 
 | **Role**                     | **Responsibility**                                                                                                                |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| **Security Officer / Team**  | Own, review, and update this policy annually. Audit access controls and review compliance. Configure automated monitoring rules, review access anomalies, and coordinate exception-based reviews. Approve privileged account requests, conduct quarterly reviews, and coordinate compliance assessments. |
+| **Security Officer / Team**  | Own, review, and update this policy annually. Audit access controls and review compliance. Configure automated monitoring rules, review access anomalies, and coordinate exception-based reviews. |
 | **IT Department**            | Implement, manage, and monitor technical access controls. Process access provisioning, modification, and deprovisioning requests. |
 | **Platform Engineer**        | Implement RBAC systems, configure automated remediation, and maintain IAM integrations with HR systems. |
-| **System Administrator**     | Create privileged accounts, configure PAM systems, generate usage reports, and rotate passwords according to schedule. |
 | **DevOps Engineer**          | Set up automated alerting, monitor system performance, and optimize alert thresholds. |
-| **Managers / System Owners** | Request and approve access for their direct reports. Conduct periodic access reviews for their teams and systems. Respond to access validation requests and approve access changes for their team members or systems. Conduct monthly reviews of assigned privileged accounts and verify continued business need for access. |
-| **HR Department**            | Maintain accurate role and manager information in HR systems for automated access management. Immediately notify IT of employee terminations and role changes affecting privileged access. |
-| **Compliance Officer**       | Maintain audit logs and session recordings for regulatory compliance and retention requirements. |
+| **Managers / System Owners** | Request and approve access for their direct reports. Conduct periodic access reviews for their teams and systems. Respond to access validation requests and approve access changes for their team members or systems. |
+| **HR Department**            | Maintain accurate role and manager information in HR systems for automated access management. Immediately notify IT of employee terminations and role changes. |
+| **Compliance Officer**       | Maintain access management documentation for audit purposes and ensure regulatory compliance requirements are met. |
 | **All Workforce Members**    | Adhere to this policy, use only their assigned accounts, and report any unauthorized access or suspicious activity.               |

@@ -1,19 +1,19 @@
 ---
-title: Incident Response Policy (RES-POL-001)
+title: Incident Response Framework and Team Management Policy (RES-POL-001)
 parent: Resilience Policies
 nav_order: 1
 ---
 ### 1. Objective
 
-The objective of this policy is to establish a comprehensive incident response framework for **[Company Name]** to effectively detect, respond to, contain, and recover from information security incidents. This policy ensures that security incidents are handled in a coordinated, timely, and effective manner to minimize impact on business operations, protect electronic Protected Health Information (ePHI) and other sensitive data, maintain regulatory compliance with HIPAA, HITECH, and SOC 2 mandates, and preserve evidence for potential legal proceedings.
+The objective of this policy is to establish the foundational framework and team management structure for **[Company Name]**'s incident response program. This policy defines the overall incident response lifecycle, establishes incident classification criteria, creates the organizational structure for incident response team management, and ensures post-incident learning and improvement processes. By implementing a comprehensive incident response framework with clearly defined roles, responsibilities, and governance structures, **[Company Name]** ensures coordinated and effective response to security incidents while protecting electronic Protected Health Information (ePHI), maintaining regulatory compliance with HIPAA, HITECH, and SOC 2 requirements, and enabling continuous improvement of security capabilities.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, third parties, and business associates who may detect, report, or respond to information security incidents. It encompasses all information systems, applications, networks, devices, and data owned, operated, or managed by **[Company Name]**, including cloud services, mobile devices, and third-party systems. This policy covers all types of security incidents including but not limited to data breaches, malware infections, unauthorized access, denial of service attacks, and physical security breaches.
+This policy applies to all **[Company Name]** workforce members, contractors, third parties, and business associates involved in incident response planning, team management, or improvement activities. It encompasses the governance structure for all types of security incidents including data breaches, malware infections, unauthorized access, denial of service attacks, and physical security breaches. This policy establishes the framework that is implemented through the Security Event Detection and Monitoring Policy (RES-POL-003) and Incident Communication and Regulatory Compliance Policy (RES-POL-004), covering all information systems, applications, networks, devices, and data owned, operated, or managed by **[Company Name]**.
 
 ### 3. Policy
 
-- **[Company Name]** shall maintain a formal incident response capability that enables rapid detection, assessment, containment, eradication, and recovery from security incidents while ensuring compliance with regulatory notification mandates.
+**[Company Name]** shall maintain a comprehensive incident response framework that establishes clear governance structures, team management processes, and continuous improvement mechanisms to ensure effective coordination of all incident response activities across the organization, implemented through specialized policies for detection and monitoring (RES-POL-003) and communication and compliance (RES-POL-004).
 
 #### 3.1 Incident Response Framework
 
@@ -142,162 +142,17 @@ Additional team members may be activated based on incident type and severity:
 - External legal counsel and regulatory specialists
 - Business unit leaders and system owners
 
-#### 3.3 Incident Detection and Reporting
+#### 3.3 Security Event Detection and Monitoring
 
-Multiple detection methods shall be employed to identify potential security incidents as early as possible.
+All security event detection, monitoring, and initial reporting activities shall be implemented as defined in the Security Event Detection and Monitoring Policy (RES-POL-003). This includes automated detection systems, manual observation methods, event reporting procedures, and triage processes that determine when incident response activities should be activated.
 
-##### 3.3.1 Detection Methods
+#### 3.4 Incident Response Procedures and Compliance
 
-- **Automated Detection:**
-    - Security Information and Event Management (SIEM) system alerts
-    - Intrusion Detection System (IDS) and Intrusion Prevention System (IPS) alerts
-    - Antivirus and anti-malware system notifications
-    - Data Loss Prevention (DLP) system alerts
-    - Network anomaly detection and behavioral analysis
-    - File integrity monitoring and system change detection
+All incident response procedures, stakeholder communication, and regulatory compliance activities shall be implemented as defined in the Incident Communication and Regulatory Compliance Policy (RES-POL-004). This includes standardized response procedures, containment and recovery activities, HIPAA breach notification requirements, and comprehensive communication protocols with internal and external stakeholders.
 
-- **Manual Detection:**
-    - Workforce member reports of suspicious activity
-    - System administrator observation of anomalous behavior
-    - Security team proactive monitoring and hunting activities
-    - Third-party security service provider notifications
-    - Customer or partner reports of potential compromise
-    - Physical security observations and reports
+#### 3.5 Post-Incident Activities and Organizational Learning
 
-##### 3.3.2 Incident Reporting Procedures
-
-- **Immediate Reporting Channels:**
-    - 24/7 security hotline: **[Phone Number]**
-    - Email reporting: **[Email Address]**
-    - Online incident reporting portal: **[URL]**
-    - In-person reporting to Security Officer or designee
-
-- **Reporting Requirements:**
-    - All suspected incidents shall be reported within **[Timeframe, e.g., 2 hours]** of discovery
-    - Initial reports may be verbal with written follow-up mandated within **[Timeframe, e.g., 24 hours]**
-    - Reports shall include all available information about the incident
-    - Workforce members shall not attempt to investigate incidents independently
-    - No retaliation for good faith incident reporting
-
-#### 3.4 Incident Response Procedures
-
-Standardized procedures shall be followed for responding to different types of security incidents.
-
-##### 3.4.1 Initial Response Procedures
-
-- **Incident Verification:**
-    - Confirm that a security incident has actually occurred
-    - Gather initial information about the scope and impact
-    - Classify the incident according to established criteria
-    - Activate appropriate incident response procedures
-    - Notify relevant incident response team members
-
-- **Evidence Preservation:**
-    - Preserve all relevant evidence in its original state
-    - Document all actions taken and decisions made
-    - Maintain chain of custody for digital and physical evidence
-    - Take system snapshots or images before making changes
-    - Collect network traffic captures and log files
-
-##### 3.4.2 Containment Procedures
-
-- **Short-term Containment:**
-    - Isolate affected systems from the network
-    - Disable compromised user accounts and change passwords
-    - Block malicious IP addresses and domains
-    - Implement temporary firewall rules to prevent spread
-    - Preserve system state for forensic analysis
-
-- **Long-term Containment:**
-    - Rebuild compromised systems from clean backups
-    - Implement enhanced monitoring on affected systems
-    - Apply security patches and configuration hardening
-    - Conduct security validation before system restoration
-    - Monitor for signs of persistent compromise
-
-##### 3.4.3 Eradication and Recovery Procedures
-
-- **Threat Eradication:**
-    - Remove malware and malicious artifacts from systems
-    - Close security vulnerabilities that enabled the incident
-    - Improve security controls to prevent recurrence
-    - Validate that all traces of compromise have been eliminated
-    - Conduct security assessment of remediated systems
-
-- **System Recovery:**
-    - Restore systems and data from clean backups
-    - Implement additional security monitoring and controls
-    - Gradually restore full system functionality
-    - Conduct user acceptance testing and validation
-    - Monitor systems for signs of compromise or instability
-
-#### 3.5 Regulatory and Legal Compliance
-
-Incident response procedures shall ensure compliance with all applicable legal and regulatory mandates.
-
-##### 3.5.1 HIPAA Breach Notification Requirements
-
-- **Breach Assessment:**
-    - Determine whether incident constitutes a HIPAA breach
-    - Assess the probability that ePHI has been compromised
-    - Evaluate risk of harm to affected individuals
-    - Document the breach assessment decision and rationale
-
-- **Notification Timelines:**
-    - HHS notification within **60 days** of breach discovery
-    - Individual notification within **60 days** of breach discovery
-    - Media notification if breach affects **500 or more individuals** in a state/jurisdiction
-    - Immediate notification to HHS if breach affects **500 or more individuals** nationwide
-
-##### 3.5.2 Other Regulatory Requirements
-
-- **State Data Breach Notification Laws:**
-    - Comply with applicable state notification requirements
-    - Determine residency of affected individuals for notification purposes
-    - Meet varying state timelines and notification methods
-    - Coordinate with state attorneys general as required
-
-- **Federal and Industry Requirements:**
-    - SEC notification for material cybersecurity incidents (public companies)
-    - Financial industry notifications (if applicable)
-    - Professional licensing board notifications (if applicable)
-    - Insurance carrier notification and claim procedures
-
-#### 3.6 Communication and Coordination
-
-Effective communication shall be maintained throughout the incident response process.
-
-##### 3.6.1 Internal Communications
-
-- **Executive Reporting:**
-    - Immediate notification to CEO/Executive Leadership for Critical incidents
-    - Regular status updates throughout incident response
-    - Final incident report with lessons learned and recommendations
-    - Board of Directors notification for significant incidents
-
-- **Workforce Communications:**
-    - Need-to-know basis for incident details
-    - General security awareness messages as appropriate
-    - Post-incident training and awareness updates
-    - Recognition for effective incident reporting and response
-
-##### 3.6.2 External Communications
-
-- **Customer Communications:**
-    - Timely notification of customers potentially affected by incidents
-    - Clear explanation of incident impact and remediation efforts
-    - Regular updates on investigation and recovery progress
-    - Contact information for customer questions and concerns
-
-- **Vendor and Partner Communications:**
-    - Notification of business associates and vendors as required
-    - Coordination with third-party service providers for response activities
-    - Information sharing with industry partners and threat intelligence communities
-    - Coordination with insurance carriers and coverage providers
-
-#### 3.7 Post-Incident Activities
-
-Comprehensive post-incident activities shall ensure organizational learning and improvement.
+Comprehensive post-incident activities shall ensure organizational learning and continuous improvement of the incident response framework.
 
 ##### 3.7.1 Incident Documentation
 
@@ -332,36 +187,28 @@ This policy is designed to comply with and support the following industry standa
 |---|---|---|
 |**All**|HITRUST CSF v11.2.0|15.a - Incident Response Program|
 |**3.1, 3.2**|HITRUST CSF v11.2.0|15.b - Incident Detection|
-|**3.3**|HITRUST CSF v11.2.0|15.c - Incident Investigation|
-|**3.4**|HITRUST CSF v11.2.0|15.d - Incident Response Procedures|
-|**3.5**|HITRUST CSF v11.2.0|15.e - External Communications|
-|**3.6**|HITRUST CSF v11.2.0|15.f - Incident Recovery|
-|**3.7**|HITRUST CSF v11.2.0|15.g - Incident Lessons Learned|
+|**3.5**|HITRUST CSF v11.2.0|15.g - Incident Lessons Learned|
+|**3.1.2**|HITRUST CSF v11.2.0|15.c - Incident Investigation|
 |**All**|HIPAA Security Rule|45 CFR § 164.308(a)(6) - Security Incident Procedures|
-|**3.5.1**|HIPAA Breach Notification Rule|45 CFR § 164.400-414 - Notification Requirements|
-|**3.3, 3.4**|HIPAA Security Rule|45 CFR § 164.312(b) - Audit Controls|
+|**3.5**|HIPAA Security Rule|45 CFR § 164.312(b) - Audit Controls|
 |**All**|SOC 2 Trust Services Criteria|CC7.1 - System Monitoring|
-|**3.4, 3.6**|SOC 2 Trust Services Criteria|CC7.2 - Controls Monitor Effectiveness|
-|**3.7**|SOC 2 Trust Services Criteria|CC2.1 - Communication and Information|
+|**3.5**|SOC 2 Trust Services Criteria|CC2.1 - Communication and Information|
 |**All**|NIST Cybersecurity Framework|RS.RP - Response Planning|
-|**3.4**|NIST Cybersecurity Framework|RS.CO - Communications|
-|**3.7**|NIST Cybersecurity Framework|RC.IM - Improvements|
+|**3.5**|NIST Cybersecurity Framework|RC.IM - Improvements|
 
 ### 5. Definitions
 
-- **Business Associate:** A person or entity that performs functions or activities on behalf of a covered entity involving access to ePHI.
+- **Incident Classification:** Systematic categorization of security incidents based on severity, impact, and required response level.
 
-- **Chain of Custody:** Documentation of the chronological transfer of evidence from collection to presentation.
+- **Incident Commander:** Individual with overall authority and responsibility for incident response coordination and decision-making.
 
-- **Incident Commander:** Individual with overall authority and responsibility for incident response coordination.
+- **Incident Response Framework:** Structured approach to managing security incidents through defined phases, procedures, and governance structures.
 
-- **Incident Response Team (IRT):** Designated group of individuals responsible for detecting, responding to, and recovering from security incidents.
+- **Incident Response Team (IRT):** Designated group of individuals responsible for coordinating organizational response to security incidents.
 
-- **Indicators of Compromise (IOCs):** Artifacts observed on networks or operating systems that indicate computer intrusion.
+- **Mean Time to Recovery (MTTR):** Average time to restore normal operations after a security incident.
 
-- **Mean Time to Detection (MTTD):** Average time between when an incident occurs and when it is detected.
-
-- **Mean Time to Recovery (MTTR):** Average time to restore normal operations after an incident.
+- **Post-Incident Review:** Formal process to analyze incident response effectiveness and identify improvement opportunities.
 
 - **Security Incident:** Any event that could result in unauthorized access to, disclosure, modification, or destruction of information assets.
 
@@ -369,12 +216,11 @@ This policy is designed to comply with and support the following industry standa
 
 |**Role**|**Responsibility**|
 |---|---|
-|**Security Officer**|Develop incident response policies, maintain incident response team, oversee incident investigations, and ensure regulatory compliance.|
-|**Incident Commander**|Lead incident response activities, coordinate team efforts, communicate with stakeholders, and make critical response decisions.|
-|**Privacy Officer**|Assess HIPAA breach requirements, coordinate breach notifications, manage patient communications, and ensure privacy compliance.|
-|**IT Security Team**|Detect and analyze security incidents, perform technical investigations, implement containment measures, and conduct system recovery.|
-|**Legal Counsel**|Provide legal guidance, coordinate law enforcement relations, manage litigation holds, and ensure regulatory compliance.|
-|**Communications Team**|Manage internal and external communications, coordinate media relations, and support crisis communications.|
-|**System Administrators**|Implement technical containment measures, perform system restoration, maintain evidence integrity, and support forensic activities.|
-|**Human Resources**|Support insider threat investigations, manage workforce communications, coordinate with legal team, and handle personnel actions.|
-|**All Workforce Members**|Report suspected incidents promptly, cooperate with investigations, follow incident response procedures, and participate in post-incident training.|
+|**Security Officer**|Develop incident response framework and policies, maintain incident response team structure, oversee incident response program, and ensure compliance with regulatory requirements.|
+|**Incident Commander**|Lead incident response activities, coordinate team efforts, make critical response decisions, communicate with stakeholders, and ensure effective incident management.|
+|**IT Security Team**|Support incident response framework implementation, provide technical expertise to incident response team, maintain incident response tools and capabilities, and participate in team training.|
+|**Privacy Officer**|Coordinate with incident response team on privacy-related incidents, support HIPAA compliance activities, and participate in incident response training and exercises.|
+|**Legal Counsel**|Provide legal guidance for incident response framework, support incident response team during legal matters, and participate in incident response planning and training.|
+|**Executive Leadership**|Provide strategic guidance and resources for incident response program, support incident response team authority, and ensure organizational commitment to incident response capabilities.|
+|**Human Resources**|Support incident response team with workforce-related incidents, coordinate with legal team on personnel matters, and participate in incident response training programs.|
+|**All Workforce Members**|Understand incident response procedures, participate in incident response training, support incident response activities when requested, and follow incident response policies and procedures.|

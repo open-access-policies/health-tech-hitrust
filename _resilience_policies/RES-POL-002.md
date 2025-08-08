@@ -1,19 +1,19 @@
 ---
-title: Business Continuity and Disaster Recovery Policy (RES-POL-002)
+title: Business Continuity Management Policy (RES-POL-002)
 parent: Resilience Policies
 nav_order: 2
 ---
 ### 1. Objective
 
-The objective of this policy is to establish a comprehensive business continuity and disaster recovery framework for **[Company Name]** that ensures the continuation of critical business operations and the timely recovery of information systems following disruptions. This policy ensures that **[Company Name]** can maintain the availability of essential services, protect electronic Protected Health Information (ePHI) and other sensitive data, meet regulatory obligations under HIPAA, HITECH, and SOC 2, and minimize the impact of disruptions on patients, customers, and business operations.
+The objective of this policy is to establish a comprehensive business continuity management framework for **[Company Name]** that ensures the continuation of critical business operations and essential services during disruptions. This policy focuses on business process continuity, stakeholder communication, alternative operating procedures, and organizational resilience while technical disaster recovery capabilities are addressed in the Disaster Recovery and Technical Operations Policy (RES-POL-005). By implementing structured business continuity capabilities including business impact analysis, emergency response procedures, and alternative operations, **[Company Name]** maintains essential service delivery to patients and customers, protects electronic Protected Health Information (ePHI), meets regulatory obligations under HIPAA, HITECH, and SOC 2, and minimizes business impact during various types of disruptions.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, facilities, information systems, business processes, and third-party service providers that support critical business operations. It encompasses all types of disruptions including natural disasters, technology failures, cyber attacks, pandemic events, supply chain disruptions, and other events that could impact business operations. This policy covers both preventive measures to reduce the likelihood of disruptions and responsive measures to ensure rapid recovery when disruptions occur.
+This policy applies to all **[Company Name]** workforce members, business units, facilities, business processes, and third-party service providers that support critical business operations. It encompasses business continuity planning and response for all types of disruptions including natural disasters, pandemics, civil emergencies, supply chain disruptions, workforce shortages, and other events that could impact business operations. This policy covers business process continuity, stakeholder management, emergency communications, alternative work arrangements, and vendor continuity management, while technical system recovery is addressed through the Disaster Recovery and Technical Operations Policy (RES-POL-005).
 
 ### 3. Policy
 
-- **[Company Name]** shall maintain comprehensive business continuity and disaster recovery capabilities that enable the organization to continue critical operations during disruptions and recover normal operations within acceptable timeframes.
+**[Company Name]** shall maintain comprehensive business continuity management capabilities that enable the organization to continue critical business operations during disruptions through alternative procedures, emergency response coordination, and stakeholder management, with technical system recovery addressed through the Disaster Recovery and Technical Operations Policy (RES-POL-005).
 
 #### 3.1 Business Continuity Framework
 
@@ -75,48 +75,9 @@ The Business Continuity Manager, in coordination with Business Unit Leaders, sha
     - Administrative systems: **[Duration, e.g., 4 hours]** maximum data loss
     - Development systems: **[Duration, e.g., 24 hours]** maximum data loss
 
-#### 3.2 Disaster Recovery Planning
+#### 3.2 Technical Disaster Recovery Integration
 
-Comprehensive disaster recovery plans shall be developed for all critical information systems and infrastructure.
-
-##### 3.2.1 IT Disaster Recovery Strategy
-
-- **Primary Data Center Protection:**
-    - Redundant systems and infrastructure components
-    - Uninterruptible Power Supply (UPS) and backup generator systems
-    - Fire suppression and environmental monitoring systems
-    - Physical security and access controls
-    - Network redundancy with multiple internet service providers
-
-- **Secondary Site Operations:**
-    - Geographically separated backup data center located **[Distance, e.g., 100+ miles]** from primary site
-    - Real-time data replication for critical systems
-    - Standby infrastructure capable of supporting minimum service levels
-    - Alternative network connectivity and communication systems
-    - Pre-positioned equipment and supplies for extended operations
-
-- **Cloud-Based Recovery:**
-    - Cloud infrastructure for scalable recovery capabilities
-    - Hybrid cloud strategy combining on-premises and cloud resources
-    - Multi-cloud approach to avoid single vendor dependency
-    - Automated failover and recovery procedures where technically feasible
-    - Data sovereignty and regulatory compliance in cloud environments
-
-##### 3.2.2 Data Backup and Recovery
-
-- **Backup Strategy:**
-- **3-2-1 Backup Rule:** 3 copies of critical data, 2 different media types, 1 offsite location
-    - Daily incremental backups for all production systems
-    - Weekly full backups with long-term retention
-    - Real-time replication for critical databases and applications
-    - Encrypted backup storage for all sensitive information
-
-- **Backup Testing and Validation:**
-    - Monthly restore testing for critical systems
-    - Quarterly full disaster recovery testing
-    - Annual comprehensive business continuity exercise
-    - Documentation of all test results and identified improvements
-    - Regular validation of backup integrity and completeness
+All technical disaster recovery planning, data backup and recovery systems, IT infrastructure recovery, and system restoration procedures shall be implemented as defined in the Disaster Recovery and Technical Operations Policy (RES-POL-005). This includes comprehensive IT disaster recovery strategy, backup systems management, system recovery procedures, and technical performance monitoring that supports the business continuity requirements defined in this policy.
 
 #### 3.3 Emergency Response Procedures
 
@@ -260,66 +221,71 @@ Business continuity requirements shall be incorporated into vendor management an
     - Audit and compliance requirements for emergency operations
     - Data backup and recovery requirements for ePHI systems
 
-#### 3.7 Recovery and Restoration
+#### 3.6 Business Recovery and Restoration
 
-Systematic procedures shall guide the restoration of normal operations following emergency situations.
+Systematic business recovery procedures shall guide the restoration of normal business operations following emergency situations, with technical system recovery coordinated through RES-POL-005.
 
-##### 3.7.1 Recovery Procedures
+##### 3.6.1 Business Recovery Procedures
 
-- **Damage Assessment:**
-    - Comprehensive assessment of facilities, equipment, and systems
-    - Safety inspection and clearance for facility reoccupancy
-    - Data integrity validation and system functionality testing
+- **Operational Damage Assessment:**
+    - Comprehensive assessment of facilities, equipment, and business capabilities
+    - Safety inspection and clearance for facility reoccupancy and operations
+    - Business process and service capability evaluation and validation
     - Workforce accountability and fitness for duty assessment
-    - Business process and service capability evaluation
+    - Vendor and supply chain impact assessment and alternative sourcing
 
-- **Phased Recovery Approach:**
-- **Phase 1:** Life safety and immediate emergency response
-- **Phase 2:** Critical system restoration and essential service resumption
-- **Phase 3:** Full operational capability restoration
-- **Phase 4:** Normal operations resumption and lessons learned integration
+- **Phased Business Recovery Approach:**
+    - **Phase 1**: Life safety and immediate emergency response coordination
+    - **Phase 2**: Critical business process restoration and essential service resumption
+    - **Phase 3**: Full operational capability restoration and normal service levels
+    - **Phase 4**: Normal operations resumption and lessons learned integration
+    - Business process dependencies mapping and coordinated restoration
 
-##### 3.7.2 Post-Incident Review
+##### 3.6.2 Post-Incident Review and Improvement
 
-Following any activation of the BCDR plan, a formal post-incident review shall be conducted.
+Following any activation of the business continuity plan, a formal post-incident review shall be conducted to ensure organizational learning and improvement.
 
-- **Comprehensive Analysis:**
-    - A formal Post-Incident Report shall be created, detailing the timeline of events, response effectiveness, and root cause analysis.
-    - Root cause analysis and contributing factor identification
-    - Cost analysis and financial impact assessment
-    - Stakeholder feedback collection and analysis
-    - Regulatory compliance validation and reporting
+- **Comprehensive Business Impact Analysis:**
+    - Formal Post-Incident Report detailing business impact, response effectiveness, and operational lessons learned
+    - Business process performance analysis and service level achievement assessment
+    - Financial impact assessment and cost analysis of business disruption and response
+    - Stakeholder feedback collection and satisfaction analysis
+    - Regulatory compliance validation and business requirement fulfillment
 
-- **Improvement Implementation:**
-    - All findings and lessons learned shall be documented.
-    - Action items for improvement shall be assigned an owner and due date and tracked to completion in a formal Plan of Action and Milestones (POA&M).
-    - The BCDR plan and related procedures shall be updated based on the approved action items.
-    - Training program updates and workforce development
-    - Technology and infrastructure improvements
-    - Vendor relationship and agreement modifications
+- **Business Process Improvement Implementation:**
+    - All business findings and lessons learned shall be documented and prioritized
+    - Business improvement action items shall be assigned owners and due dates and tracked to completion
+    - Business continuity plans and procedures shall be updated based on approved improvements
+    - Business training programs and workforce development based on lessons learned
+    - Vendor relationships and service agreements modifications and improvements
+    - Integration of business process improvements with technical disaster recovery enhancements
 
-### 4. Standards Compliance
+## 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
+This Business Continuity Management Policy aligns with and supports compliance requirements from multiple regulatory frameworks, professional standards, and industry best practices, specifically addressing business operational continuity requirements while coordinating with technical disaster recovery through RES-POL-005.
 
-|**Policy Section**|**Standard/Framework**|**Control Reference**|
-|---|---|---|
-|**All**|HITRUST CSF v11.2.0|16.a - Business Continuity Management Policy|
-|**3.1**|HITRUST CSF v11.2.0|16.b - Business Impact Analysis|
-|**3.2**|HITRUST CSF v11.2.0|16.c - System Resilience|
-|**3.3, 3.4**|HITRUST CSF v11.2.0|16.d - Business Continuity Procedures|
-|**3.5**|HITRUST CSF v11.2.0|16.e - Business Continuity Testing|
-|**3.6**|HITRUST CSF v11.2.0|16.f - Emergency Response|
-|**3.7**|HITRUST CSF v11.2.0|16.g - Disaster Recovery|
-|**All**|HIPAA Security Rule|45 CFR § 164.308(a)(7) - Contingency Plan|
-|**3.2.2**|HIPAA Security Rule|45 CFR § 164.308(a)(7)(ii)(A) - Data Backup Plan|
-|**3.7**|HIPAA Security Rule|45 CFR § 164.308(a)(7)(ii)(B) - Disaster Recovery Plan|
-|**3.4**|HIPAA Security Rule|45 CFR § 164.308(a)(7)(ii)(C) - Emergency Mode Operation|
-|**3.5**|HIPAA Security Rule|45 CFR § 164.308(a)(7)(ii)(D) - Testing and Revision|
-|**All**|SOC 2 Trust Services Criteria|A1.1 - Availability|
-|**3.2**|SOC 2 Trust Services Criteria|A1.2 - System Capacity|
-|**3.5**|SOC 2 Trust Services Criteria|A1.3 - System Monitoring|
-|**All**|NIST Cybersecurity Framework|RC.RP - Recovery Planning|
+### 4.1 Regulatory Compliance Mapping
+
+| **Policy Section** | **Standard/Framework** | **Control Reference** |
+| ------------------ | ---------------------- | --------------------- |
+| **3.1, 3.2** | HITRUST CSF v11.2.0 | 16.a - Business Continuity Management |
+| **3.2, 3.3** | HITRUST CSF v11.2.0 | 16.b - Business Impact Analysis |
+| **3.3, 3.4** | HITRUST CSF v11.2.0 | 16.c - Business Continuity and Contingency Planning |
+| **3.4, 3.5** | HITRUST CSF v11.2.0 | 16.d - Business Continuity Plan Development |
+| **3.5, 3.6** | HITRUST CSF v11.2.0 | 16.e - Business Continuity Plan Testing |
+| **3.6** | HITRUST CSF v11.2.0 | 16.f - Business Continuity Plan Maintenance |
+| **3.2, 3.3** | HIPAA Security Rule | 45 CFR § 164.308(a)(7)(i) - Contingency Plan Standard |
+| **3.4** | HIPAA Security Rule | 45 CFR § 164.308(a)(7)(ii)(A) - Data Backup Plan |
+| **3.5** | HIPAA Security Rule | 45 CFR § 164.308(a)(7)(ii)(C) - Emergency Access Procedure |
+| **3.3, 3.4** | HIPAA Security Rule | 45 CFR § 164.308(a)(7)(ii)(D) - Emergency Mode Operation Procedures |
+| **3.1, 3.4** | SOC 2 Trust Services Criteria | A1.1 - Availability Risk Assessment |
+| **3.3, 3.4** | SOC 2 Trust Services Criteria | A1.2 - Recovery Planning |
+| **3.5** | SOC 2 Trust Services Criteria | A1.3 - Recovery Testing |
+| **3.1, 3.2** | ISO 27001:2013 | A.17.1 - Information Security Aspects of Business Continuity Management |
+| **3.2, 3.3** | ISO 27001:2013 | A.17.1.1 - Planning Information Security Continuity |
+| **3.5** | ISO 27001:2013 | A.17.1.3 - Verify, Review and Evaluate Information Security Continuity |
+| **3.4, 3.5** | NIST SP 800-34 Rev. 1 | Business Process Contingency Planning |
+| **3.6** | NIST Cybersecurity Framework | RS.RP-1 - Recovery Plan Development and Implementation |
 
 ### 5. Definitions
 
@@ -341,14 +307,16 @@ This policy is designed to comply with and support the following industry standa
 
 ### 6. Responsibilities
 
+The following roles and responsibilities apply specifically to business continuity management functions, with technical disaster recovery responsibilities defined in RES-POL-005.
+
 |**Role**|**Responsibility**|
 |---|---|
-|**Executive Leadership**|Provide strategic direction and resources for business continuity program, approve plans and resource allocation, and communicate with stakeholders during emergencies.|
-|**Business Continuity Manager**|Develop and maintain business continuity plans, coordinate testing and training, manage emergency response activities, and ensure regulatory compliance.|
-|**IT Recovery Team**|Implement disaster recovery procedures, restore IT systems and data, maintain backup systems, and coordinate technical recovery activities.|
-|**Emergency Response Team**|Coordinate emergency response activities, manage emergency operations center, communicate with stakeholders, and ensure workforce safety.|
-|**Facilities Management**|Maintain emergency systems and supplies, coordinate with emergency services, assess facility damage, and manage alternate facility arrangements.|
-|**Human Resources**|Manage workforce accountability and communications, coordinate with families, support workforce welfare, and maintain emergency contact information.|
-|**Legal and Compliance**|Ensure regulatory compliance during emergencies, manage legal implications of incidents, coordinate with authorities, and handle insurance claims.|
-|**Business Unit Leaders**|Implement business unit specific continuity plans, coordinate with recovery teams, manage departmental communications, and support workforce needs.|
-|**All Workforce Members**|Follow emergency procedures, participate in training and drills, report safety concerns, and support recovery efforts as assigned.|
+|**Executive Leadership**|Provide strategic direction and resources for business continuity program, approve business operational plans and resource allocation, and communicate with external stakeholders during business emergencies.|
+|**Business Continuity Manager**|Develop and maintain business continuity plans, coordinate business impact analysis and testing, manage business emergency response activities, and ensure business operational compliance.|
+|**Business Unit Leaders**|Implement business unit specific continuity plans, coordinate business process restoration, manage departmental business communications, and support workforce business needs.|
+|**Emergency Operations Team**|Coordinate business emergency response activities, manage emergency operations center for business functions, communicate with business stakeholders, and ensure workforce safety and business operations.|
+|**Human Resources**|Manage workforce accountability and business communications, coordinate with families, support workforce welfare during business disruptions, and maintain emergency contact information.|
+|**Legal and Compliance**|Ensure regulatory compliance during business emergencies, manage legal implications of business incidents, coordinate with business authorities, and handle business insurance claims.|
+|**Communications Team**|Manage external business communications, coordinate with media and customers, handle business crisis communications, and maintain business stakeholder relationships.|
+|**Facilities Management**|Maintain business facility emergency systems, coordinate with emergency services for business facilities, assess business facility damage, and manage alternate business facility arrangements.|
+|**All Workforce Members**|Follow business emergency procedures, participate in business continuity training and drills, report business safety concerns, and support business recovery efforts as assigned.|
