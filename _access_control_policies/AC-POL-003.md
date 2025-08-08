@@ -13,44 +13,34 @@ This policy applies to all **[Company Name]** workforce members (including emplo
 
 ### 3. Policy
 
-All remote work must be conducted in a manner that actively protects company information and systems from unauthorized access, disclosure, or damage.
+All remote work must be conducted in a manner that actively protects company information and systems from unauthorized access, disclosure, or damage. This policy focuses on network connectivity, workspace security, and data handling requirements. Device security requirements are comprehensively addressed in the Mobile Device Security Policy (OP-POL-002).
 
-#### 3.1 Secure Network Connectivity
+#### 3.1 General Remote Work Security
 
-Workforce members are responsible for ensuring they use a secure network connection for all remote work.
+Remote work arrangements shall be formally authorized and conducted in accordance with documented security procedures. Workforce members shall maintain the same level of information security when working remotely as when working in company facilities.
 
-##### 3.1.1 VPN Requirements
+#### 3.3 Network Security
+
+Workforce members shall ensure secure network connectivity for all remote work activities.
+
+##### 3.3.1 VPN Requirements
 
 All access to internal company systems, applications, and data repositories shall be established through the company-approved Virtual Private Network (VPN). The VPN client shall remain active for the entire duration of the remote work session.
 
-##### 3.1.2 Network Security Restrictions
+##### 3.3.2 Network Security Restrictions
 
 The use of public or untrusted Wi-Fi networks (e.g., in cafes, airports, hotels) for accessing or transmitting ePHI or other data classified as Confidential shall be strictly prohibited. If such a network must be used for general tasks, the VPN shall be mandatory.
 
-##### 3.1.3 Home Network Security Standards
+##### 3.3.3 Home Network Security Standards
 
 Workforce members shall secure their home wireless networks with strong encryption (WPA2 or better) and a complex, unique password. As part of their annual security attestation, all workforce members shall formally attest that their primary remote work network is secured in accordance with this policy.
     
 
-#### 3.2 Device Security Requirements
+#### 3.2 Endpoint Device Security Requirements
 
-Any device used to access company resources remotely, whether company-provided or personally-owned, shall meet the following minimum security standards. Compliance with these requirements is enforced through the company's security software (such as Mobile Device Management (MDM) or Endpoint Detection and Response (EDR) solutions). Devices that do not meet these minimum standards may be blocked from accessing corporate resources.
+All devices used to access company resources remotely shall comply with the comprehensive security requirements defined in the Mobile Device Security Policy (OP-POL-002). This includes but is not limited to encryption, access controls, malware protection, patch management, and mobile device management (MDM) enrollment requirements.
 
-##### 3.2.1 Encryption Requirements
-
-Full-disk encryption shall be enabled on all devices used to access company resources remotely.
-
-##### 3.2.2 Access Control Standards
-
-The device shall be protected by a strong password or biometric control, compliant with the Password Policy (SEC-POL-002), and shall be configured to automatically lock after **[Number, e.g., 15]** minutes of inactivity.
-
-##### 3.2.3 Malware Protection
-
-Company-approved anti-malware software shall be installed, active, and configured to receive automatic updates on all remote access devices.
-
-##### 3.2.4 Patch Management
-
-The operating system and all applications shall be kept up-to-date with the latest security patches according to company patch management schedules.
+Workforce members shall ensure their devices meet all applicable security standards as specified in OP-POL-002 before accessing company systems remotely. Device compliance verification and ongoing monitoring shall be conducted according to the procedures established in the Mobile Device Security Policy.
     
 
 #### 3.3 Data Handling and Physical Security
@@ -61,25 +51,33 @@ Workforce members shall take precautions to protect the physical and digital pri
 
 Storing ePHI or other Confidential data on the local hard drive of a personally-owned device shall be strictly prohibited. All sensitive data shall be accessed and stored exclusively on company-managed cloud platforms or network shares.
 
-##### 3.3.2 Physical Privacy Controls
+#### 3.4 Data Handling and Storage
 
-Workforce members shall take reasonable measures to prevent unauthorized viewing of their screens in public or shared spaces. This shall include the use of privacy screens where appropriate and positioning screens away from public view.
+Workforce members shall take precautions to protect the confidentiality and integrity of company information when working remotely.
 
-##### 3.3.3 Verbal Confidentiality
+##### 3.4.1 Data Storage Restrictions
 
-Confidential or sensitive information shall not be discussed in public areas where conversations can be overheard.
+Storing ePHI or other Confidential data on the local hard drive of any remote device shall be strictly prohibited. All sensitive data shall be accessed and stored exclusively on company-managed cloud platforms or network shares.
 
-##### 3.3.4 Document Security
+##### 3.4.2 Physical Privacy Controls
 
-Any printed documents containing sensitive information shall be handled securely and physically destroyed (e.g., via shredding) when no longer needed. Documents shall not be left unattended in unsecured locations.
+Workforce members shall ensure their remote workspace provides adequate visual and auditory privacy to prevent unauthorized access to or disclosure of ePHI. This includes positioning screens away from public view and using privacy screens when working in shared environments.
 
-##### 3.3.5 Asset Protection Requirements
+#### 3.5 Physical Security of Remote Workspace
 
-Workforce members shall be responsible for the physical security of company-provided equipment. Devices shall never be left unattended in vehicles or unsecured public locations. Any loss or theft of a device used for company business shall be reported immediately to the IT Department and the Security Officer, and in no case later than **[Number, e.g., 24]** hours after discovery.
+The remote workspace shall be secured against unauthorized physical access to company equipment and information.
 
-##### 3.3.6 Data Removal After Employment
+##### 3.5.1 Workspace Security
 
-Upon termination, workforce members shall cooperate with the IT Department to ensure the secure removal of all company data, applications, and access credentials from any personally-owned devices used for work.
+Company equipment and sensitive information shall be secured when not in use. Workstations shall be locked when unattended, and devices shall be stored securely.
+
+##### 3.5.2 Visitor Access Controls
+
+Workforce members shall ensure that visitors to their remote workspace do not have access to company equipment or confidential information unless authorized.
+
+#### 3.6 Incident Reporting
+
+Any security incident, including but not limited to loss or theft of devices, suspected unauthorized access, or potential data breaches, shall be reported immediately to the Security Officer or IT Department according to the Incident Response Policy (RES-POL-001).
     
 
 #### 3.4 Use of Personal Equipment (BYOD)
@@ -93,15 +91,15 @@ This policy is designed to comply with and support the following industry standa
 | **Policy Section** | **Standard/Framework**        | **Control Reference**                                                                                                            |
 | ------------------ | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | **All**            | HITRUST CSF v11.2.0          | 11.g - Remote Access Control                                                                                                    |
-| **3.1, 3.2**       | HITRUST CSF v11.2.0          | 08.e - Network Security Controls                                                                                                |
-| **3.3**            | HITRUST CSF v11.2.0          | 02.f - Remote Endpoint Security                                                                                                 |
-| **3.2**            | HITRUST CSF v11.2.0          | 09.f - Secure Remote Access                                                                                                     |
+| **3.3**            | HITRUST CSF v11.2.0          | 08.e - Network Security Controls                                                                                                |
+| **3.2**            | HITRUST CSF v11.2.0          | 02.f - Remote Endpoint Security (via OP-POL-002)                                                                               |
+| **3.3**            | HITRUST CSF v11.2.0          | 09.f - Secure Remote Access                                                                                                     |
 | **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(1)(ii)(B) - Authorization and/or supervision                                                                 |
-| **3.1, 3.2**       | HIPAA Security Rule           | 45 CFR § 164.312(e)(1) - Transmission Security                                                                                   |
-| **3.2, 3.3**       | HIPAA Security Rule           | 45 CFR § 164.310(d)(1) - Device and Media Controls                                                                               |
+| **3.3**            | HIPAA Security Rule           | 45 CFR § 164.312(e)(1) - Transmission Security                                                                                   |
+| **3.2, 3.4**       | HIPAA Security Rule           | 45 CFR § 164.310(d)(1) - Device and Media Controls (via OP-POL-002)                                                            |
 | **All**            | SOC 2 Trust Services Criteria | CC6.1 - Logical Access Security                                                                                                  |
-| **3.2, 3.3**       | SOC 2 Trust Services Criteria | CC6.6 - The entity implements logical access security measures for assets...                                                     |
-| **3.3**            | SOC 2 Trust Services Criteria | CC6.8 - The entity implements controls to prevent or detect and act upon the introduction of unauthorized or malicious software. |
+| **3.2, 3.4**       | SOC 2 Trust Services Criteria | CC6.6 - The entity implements logical access security measures for assets...                                                     |
+| **3.5**            | SOC 2 Trust Services Criteria | CC6.8 - The entity implements controls to prevent or detect and act upon the introduction of unauthorized or malicious software. |
 
 ### 5. Definitions
 
