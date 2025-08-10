@@ -4,8 +4,6 @@ parent: Annexes
 nav_order: 1
 ---
 
-# Annex: Glossary
-
 This annex consolidates and standardizes definitions used across the ISMS policy and procedure set. Individual documents should reference this annex instead of including their own glossary sections.
 
 How to use:

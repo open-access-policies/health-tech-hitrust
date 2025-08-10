@@ -4,8 +4,6 @@ parent: Annexes
 nav_order: 2
 ---
 
-# Annex: Control Mapping
-
 This annex consolidates all regulatory and framework mappings referenced across the policy and procedure set. Individual documents should replace embedded mapping tables with a pointer to this annex.
 
 How to use:
@@ -17,6 +15,7 @@ How to use:
 ### HITRUST CSF v11.2.0
 
 #### 01.g — Information Security Management Program Review
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | SEC-PROC-002 Internal Audit Procedure | 1-6 |
@@ -24,17 +23,20 @@ How to use:
 | RES-PROC-007 BCDR Testing and Exercise Procedure | 4 |
 
 #### 02.b — Information Security Roles and Responsibilities
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | OP-PROC-006 Workforce Screening and Background Check Procedure | 1-7 |
 
 #### 03.b — Media Handling; 03.c — Secure Media Disposal
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | OP-POL-003 Data Retention and Disposal Policy | 3.4 (03.b), 3.2 (03.c) |
 | OP-PROC-004 Secure Media Disposal and Sanitization Procedure | 4.1 (NIST SP 800-88), 4.1-4.2 |
 
 #### 04.a–04.f — Mobile Device Security
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | OP-POL-002 Mobile Device Security Policy | Section A (04.a), 3.2 (04.b), 3.2, 3.6 (04.c), 3.3 (04.d), 3.7 (04.e), 3.8 (04.f) |
@@ -42,11 +44,13 @@ How to use:
 | OP-PROC-003 Lost or Stolen Mobile Device Response Procedure | 1-5 (04.f) |
 
 #### 05.a–05.b — Wireless Network Security
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-004 Network Security Policy | 3.5 (05.a, 05.b) |
 
 #### 06.a–06.d — Configuration and Change Control
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-002 Change Control Policy | All (06.a); 3.1, 3.2 (06.b); 3.3 (06.c); 3.4 (06.d) |
@@ -55,6 +59,7 @@ How to use:
 | ENG-PROC-004 Emergency Change Management Procedure | 1-5 (12.a) |
 
 #### 06.e — Secure Development
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-001 Secure Software Development Lifecycle (SDLC) Policy | 3.1 |
@@ -62,6 +67,7 @@ How to use:
 | ENG-POL-006 Third-Party Component Management Policy | 3.2 |
 
 #### 07.a–07.d — Vulnerability Management
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-001 SDLC Policy | All (07.a) |
@@ -73,23 +79,27 @@ How to use:
 | ENG-PROC-004 Emergency Change Management Procedure | 3 (07.b) |
 
 #### 08.a–08.h — Network Protection
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-003 Cloud and Core Infrastructure Security Policy | 3.1 (08.a) |
 | ENG-POL-004 Network Security Policy | All (08.a); 3.1 (08.b); 3.2 (08.c); 3.7 (08.d); 3.3 (08.e); 3.4 (08.g); 3.1.1 (08.f, 08.h) |
 
 #### 09.a–09.b — Data Protection and Cryptography
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-003 Cloud and Core Infrastructure Security Policy | 3.3 (09.a); 3.5 (09.b) |
 | OP-POL-001 Encryption and Key Management Policy | All (09.a, 09.b, 09.c) |
 
 #### 10.c — Password Protection Systems
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | SEC-PROC-003 Password Policy Exception Procedure | 1-3 |
 
 #### 11.a — Access Control Policy
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-003 Cloud and Core Infrastructure Security Policy | 3.2 |
@@ -97,6 +107,7 @@ How to use:
 | SEC-POL-001 Information Security Policy | 3.4 |
 
 #### 12.a–12.f — Audit Logging and Monitoring
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | RES-POL-003 Security Event Detection and Monitoring Policy | 3.1 (12.a); 3.1.1 (12.d); 3.4 (12.c) |
@@ -107,6 +118,7 @@ How to use:
 | ENG-PROC-004 Emergency Change Management Procedure | 1-5 (12.a) |
 
 #### 13.a–13.e — Education, Training and Awareness; Disciplinary
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-001 SDLC Policy | 3.4 (13.a) |
@@ -115,6 +127,7 @@ How to use:
 | OP-POL-004 Workforce Security Policy | All (13.a–13.e) |
 
 #### 14.a–14.g — Third Party Assurance and Supplier Management
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | SEC-PROC-005 Vendor Risk Assessment and Onboarding Procedure | 1-6 (14.b); 2-4 (14.f); 3 (14.a); 5-6 (14.c) |
@@ -122,6 +135,7 @@ How to use:
 | ENG-PROC-002 Third-Party Component Security Review Procedure | 3-4 (14.f) |
 
 #### 15.a–15.g — Incident Response
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | RES-POL-001 Incident Response Framework and Team Management Policy | All (15.a); 3.1, 3.2 (15.b); 3.1.2 (15.c); 3.5 (15.g) |
@@ -133,6 +147,7 @@ How to use:
 | RES-PROC-003 Post-Incident Review Procedure | 1-4 (15.f, 15.g) |
 
 #### 16.a–16.i — Business Continuity and Disaster Recovery
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | RES-POL-002 Business Continuity Management Policy | 3.1–3.6 (16.a–16.f) |
@@ -143,6 +158,7 @@ How to use:
 | RES-PROC-007 BCDR Testing and Exercise Procedure | 1-4 (16.e, 16.a, 16.d) |
 
 #### 17.a–17.e — Risk Management
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | SEC-PROC-004 Risk Assessment Procedure | 1-6 (17.c); 1-2 (17.b); 3-4 (17.d); 5-6 (17.e) |
@@ -150,6 +166,7 @@ How to use:
 | SEC-PROC-003 Password Policy Exception Procedure | 2 (17.c) |
 
 #### 19.e — Data Retention Requirements; 19.g — Privacy Impact Assessment
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | OP-POL-003 Data Retention and Disposal Policy | 3.1, 3.2 (19.e) |
@@ -160,6 +177,7 @@ How to use:
 ### SOC 2 Trust Services Criteria
 
 #### CC6.1 — Logical Access Security
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | SEC-POL-001 Information Security Policy | 3.4 |
@@ -170,6 +188,7 @@ How to use:
 | SEC-PROC-003 Password Policy Exception Procedure | 1-3 |
 
 #### CC6.6 — Network Security; CC6.7 — Data Transmission; CC6.8 — System Security
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-004 Network Security Policy | 3.1 (CC6.6); All (CC6.7) |
@@ -178,6 +197,7 @@ How to use:
 | ENG-POL-005 Secure Coding and Testing Policy | 3.1 (CC6.8) |
 
 #### CC7.1–CC7.2 — System Monitoring
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | RES-POL-003 Security Event Detection and Monitoring Policy | All (CC7.1); 3.1.1 (CC7.2) |
@@ -187,6 +207,7 @@ How to use:
 | RES-PROC-001 Incident Response Plan (IRP) | 1-10 (CC7.1, CC7.2) |
 
 #### CC8.1 — Change Management
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-001 SDLC Policy | All |
@@ -198,6 +219,7 @@ How to use:
 | ENG-PROC-004 Emergency Change Management Procedure | 1-5 |
 
 #### A1.1–A1.3 — Availability
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | RES-POL-002 Business Continuity Management Policy | 3.1, 3.4 (A1.1); 3.3, 3.4 (A1.2); 3.5 (A1.3) |
@@ -205,11 +227,13 @@ How to use:
 | RES-PROC-004/006/007 BIA/BCP/BCDR Tests | 1-4/1-5/1-4 |
 
 #### PI1.1–PI1.2 — Processing Integrity (from OP-POL-002)
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | OP-POL-002 Mobile Device Security Policy | 3.5 (PI1.1, PI1.2) |
 
 #### CC2.1–CC2.2 — Communication and Information
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | SEC-POL-001 Information Security Policy | 3.1 (CC2.1) |
@@ -223,6 +247,7 @@ How to use:
 ### HIPAA Security Rule (45 CFR § 164)
 
 #### § 164.308(a)(1) — Security Management Process
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | SEC-POL-008 Vulnerability Management Policy | All |
@@ -231,6 +256,7 @@ How to use:
 | ENG-POL-006 Third-Party Component Management Policy | All |
 
 #### § 164.308(a)(2) — Assigned Security Responsibility; (a)(3) — Workforce Security; (a)(4) — Information Access Management; (a)(5) — Security Awareness and Training; (a)(6) — Security Incident Procedures; (a)(7) — Contingency Plan; (a)(8) — Evaluation
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | SEC-POL-001 Information Security Policy | 3.1 (a)(2); 3.4 (a)(4); 3.5 (a)(5); 3.6 (a)(6); 3.7 (a)(7); 3.9 (a)(8) |
@@ -243,11 +269,13 @@ How to use:
 | ENG-PROC-001 AppSec Testing Procedure | 4.1-4.3 (a)(8) |
 
 #### § 164.310(d)(2)(i) — Media Disposal
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | OP-PROC-004 Secure Media Disposal and Sanitization Procedure | 4.1-4.2 |
 
 #### § 164.312 — Technical Safeguards
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | Access Control (a)(1), (a)(2)(i), (a)(2)(iv) | ENG-POL-005 3.1 (a)(1); ENG-POL-005 3.1.1 (a)(2)(i); OP-POL-001 3.1.1, 3.2.4 (a)(2)(iv); ENG-POL-003 3.3 (a)(2)(iv) |
@@ -257,6 +285,7 @@ How to use:
 | Business Associate (164.314(a)(1)) | ENG-POL-006 3.3 |
 
 #### HIPAA Breach Notification Rule — § 164.400–414
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | RES-POL-004 Incident Communication and Regulatory Compliance Policy | 3.2.1 |
@@ -267,6 +296,7 @@ How to use:
 ### NIST Cybersecurity Framework (CSF)
 
 #### PR.AC — Identity Management and Access Control
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-003 Cloud and Core Infrastructure Security Policy | All |
@@ -274,6 +304,7 @@ How to use:
 | OP-POL-002 Mobile Device Security Policy | 3.2 |
 
 #### PR.DS — Data Security; PR.IP-1 — Baseline Security; PR.PT — Protective Technology; PR.AT-1 — Awareness & Training
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-003 Cloud and Core Infrastructure Security Policy | 3.3 (PR.DS); 3.5 (PR.PT) |
@@ -282,6 +313,7 @@ How to use:
 | OP-POL-002 Mobile Device Security Policy | 3.11 (PR.AT) |
 
 #### DE.CM — Security Continuous Monitoring; DE.AE — Anomalies and Events
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-003 Cloud and Core Infrastructure Security Policy | 3.7 (DE.CM, DE.AE) |
@@ -289,6 +321,7 @@ How to use:
 | RES-POL-003 Security Event Detection and Monitoring Policy | All (DE.CM); 3.1 (DE.AE) |
 
 #### RS.MI — Mitigation; RS.CO — Communications; RS.RP — Response Planning; RC.IM — Improvements; RC.RP — Recovery Planning; RC.CO — Recovery Communications
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-003 Cloud and Core Infrastructure Security Policy | 3.7 (RS.MI) |
@@ -302,12 +335,14 @@ How to use:
 ### ISO/IEC 27001:2013
 
 #### A.17.1 — Information Security Aspects of Business Continuity Management
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | RES-POL-002 Business Continuity Management Policy | 3.1, 3.2 |
 | RES-PROC-007 BCDR Testing and Exercise Procedure | 1-4 (verify/review) |
 
 #### A.17.1.1 — Planning Information Security Continuity; A.17.1.3 — Verify, Review and Evaluate
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | RES-POL-002 Business Continuity Management Policy | 3.2, 3.3 (A.17.1.1); 3.5 (A.17.1.3) |
@@ -317,27 +352,32 @@ How to use:
 ### Other Referenced Frameworks and Standards
 
 #### CIS Controls — Control 4, 5
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-003 Cloud and Core Infrastructure Security Policy | 3.1.2 |
 
 #### OWASP SAMM; OWASP Top 10
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-001 SDLC Policy | All (OWASP SAMM) |
 | ENG-POL-005 Secure Coding and Testing Policy | 3.1 (OWASP Top 10) |
 
 #### NIST SP 800-88 — Media Sanitization
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | OP-PROC-004 Secure Media Disposal and Sanitization Procedure | 4.1 |
 
 #### NIST SP 800-34 Rev. 1 — Business Process Contingency Planning
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | RES-POL-002 Business Continuity Management Policy | 3.4, 3.5 |
 
 #### NIST SP 800-161 — Supply Chain Risk Management; NIST SP 800-218 — SSDF
+
 | Implementing Document | Section/Steps |
 | --- | --- |
 | ENG-POL-006 Third-Party Component Management Policy | 3.1 (800-161); 3.2 (800-218) |
