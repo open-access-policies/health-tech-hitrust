@@ -27,24 +27,11 @@ This procedure defines the workflow for emergency changes. It starts with the id
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**     |
-| --------------------- | -------------------------- | ------------------------- |
-| **1-5**               | HITRUST CSF v11.2.0       | 12.a - System Configuration Management |
-| **1-5**               | HITRUST CSF v11.2.0       | 15.a - Incident Response Process |
-| **3**                 | HITRUST CSF v11.2.0       | 07.b - Security Testing in Development |
-| **5**                 | HITRUST CSF v11.2.0       | 15.f - Post-Incident Activities |
-| **1-5**               | SOC 2                      | CC8.1                     |
-| **1-5**               | HIPAA Security Rule        | 45 CFR § 164.312(b)       |
-
-### 6. Artifact(s)
-
-An emergency change ticket with documented approvals and a link to a post-mortem report.
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 7. Definitions
 
-- **Post-Mortem Review:** A formal meeting and report that analyzes an incident or emergency change to understand the cause, impact, and actions taken, and to identify lessons learned to prevent recurrence.
-
-- **Critical Issue:** An issue that causes a service outage, data corruption, a severe security vulnerability, or significantly impacts customers' ability to use the service.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

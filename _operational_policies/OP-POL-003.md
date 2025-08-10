@@ -229,34 +229,11 @@ For rare cases requiring specialized disposal:
 
 ### 5. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-| **Policy Section** | **Standard/Framework** | **Control Reference** |
-| ------------------ | ---------------------- | --------------------- |
-| **3.1, 3.2** | HITRUST CSF v11.2.0 | 19.e - Data Retention Requirements |
-| **3.2** | HITRUST CSF v11.2.0 | 03.c - Secure Media Disposal |
-| **3.4** | HITRUST CSF v11.2.0 | 03.b - Media Handling |
-| **3.1.1** | HIPAA Security Rule | 45 CFR § 164.308(a)(4)(ii)(A) - Information Access Management |
-| **3.2** | HIPAA Security Rule | 45 CFR § 164.310(d)(2)(i) - Media Disposal |
-| **3.1.1** | HIPAA Privacy Rule | 45 CFR § 164.530(j)(2) - Record Retention |
-| **3.2** | NIST SP 800-88 | Guidelines for Media Sanitization |
-| **All** | SOC 2 Trust Services Criteria | CC6.5 - Data Disposal |
-| **4, 5** | SOC 2 Trust Services Criteria | CC2.1 - Communication and Information |
-| **3.4** | SOC 2 Trust Services Criteria | CC4.1 - Monitoring Activities |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Definitions
 
-- **Automated Lifecycle Management:** Technology-driven processes that manage data retention and disposal without manual intervention.
-
-- **Cloud Storage Lifecycle:** Cloud provider services that automatically move or delete data based on predefined rules and timelines.
-
-- **Cryptographic Erasure:** Data destruction method that renders data unrecoverable by destroying encryption keys rather than overwriting data.
-
-- **Legal Hold:** Technical flag or process that prevents automated deletion of specific data sets during legal proceedings.
-
-- **Retention Policy:** Automated rules that determine how long data is kept before deletion or archival.
-
-- **Soft Deletion:** Application-level logical deletion that marks data as deleted while preserving it temporarily before physical removal.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 7. Related Policies and Procedures
 

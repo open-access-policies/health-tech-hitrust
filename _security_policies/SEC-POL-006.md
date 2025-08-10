@@ -25,7 +25,7 @@ Physical access to all **[Company Name]** facilities shall be controlled and mon
     - Electronic badge access systems shall be implemented for all corporate facilities
     - Multi-factor authentication required for access to areas containing sensitive information
     - Visitor management system with registration, identification verification, and escort requirements
-    - Access permissions based on role and business need with quarterly access reviews
+    - Access permissions based on role and business need with access reviews following the cadence defined in AC-POL-001 (IAM) and AC-POL-004 (PAM)
     - Emergency access procedures and override capabilities for authorized personnel
 
 - **Physical Security Zones:**
@@ -232,43 +232,11 @@ Comprehensive workplace security measures shall protect workforce members and ma
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-|**Policy Section**|**Standard/Framework**|**Control Reference**|
-|---|---|---|
-|**All**|HITRUST CSF v11.2.0|18.a - Physical and Environmental Security Policy|
-|**3.1**|HITRUST CSF v11.2.0|18.b - Physical Access Controls|
-|**3.2**|HITRUST CSF v11.2.0|18.c - Workstation Security|
-|**3.3**|HITRUST CSF v11.2.0|18.d - Equipment Protection|
-|**3.4**|HITRUST CSF v11.2.0|18.e - Secure Disposal|
-|**3.5**|HITRUST CSF v11.2.0|18.f - Environmental Controls|
-|**3.6**|HITRUST CSF v11.2.0|18.g - Facility Security|
-|**All**|HIPAA Security Rule|45 CFR § 164.310(a)(1) - Facility Access Controls|
-|**3.1**|HIPAA Security Rule|45 CFR § 164.310(a)(2)(i) - Authorized Access Procedures|
-|**3.2**|HIPAA Security Rule|45 CFR § 164.310(b) - Workstation Use|
-|**3.2, 3.4**|HIPAA Security Rule|45 CFR § 164.310(d)(1) - Device and Media Controls|
-|**3.2.2**|HIPAA Security Rule|45 CFR § 164.310(d)(2)(i) - Media Disposal|
-|**All**|SOC 2 Trust Services Criteria|CC6.4 - Physical Access Controls|
-|**3.5**|SOC 2 Trust Services Criteria|A1.1 - System Availability|
-|**3.3**|SOC 2 Trust Services Criteria|CC9.1 - Vendor Management|
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Clean Desk Policy:** Security practice requiring sensitive materials to be secured when workspaces are unattended.
-
-- **Cloud Service Provider:** Third-party organization providing cloud computing services including infrastructure, platforms, or software.
-
-- **Environmental Controls:** Systems and procedures designed to protect against environmental hazards such as fire, flood, temperature extremes, and power failures.
-
-- **Follow-Me Printing:** Secure printing system requiring user authentication at the printer before documents are released.
-
-- **Multi-Factor Authentication:** Security process requiring two or more authentication factors for access verification.
-
-- **Physical Security Perimeter:** Physical boundary around facilities, systems, or areas requiring protection.
-
-- **Tailgating:** Unauthorized access gained by following an authorized person through a controlled access point.
-
-- **Visitor Management System:** Automated system for registering, tracking, and managing facility visitors.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

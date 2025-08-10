@@ -30,24 +30,11 @@ This document outlines the technical steps for the IT Disaster Recovery Team to 
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework** | **Control Reference** |
-| --- | --- | --- |
-| **1-8** | HITRUST CSF v11.2.0 | 16.g - Disaster Recovery |
-| **3** | HITRUST CSF v11.2.0 | 16.f - Emergency Response |
-| **4-6** | HITRUST CSF v11.2.0 | 16.c - System Resilience |
-| **7** | HITRUST CSF v11.2.0 | 16.e - Business Continuity Testing |
-| **1-8** | SOC 2 | A1.2 |
-| **1-8** | HIPAA Security Rule | 45 CFR § 164.308(a)(7)(ii)(B) |
-
-### 6. Artifact(s)
-
-A log of all recovery activities performed, including timelines, actions taken, and the results of system validation tests.
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 7. Definitions
 
-- **Failover:** The process of switching to a redundant or standby computer server, system, or network upon the failure or abnormal termination of the previously active application, server, system, or network.
-
-- **Disaster Recovery (DR) Site:** A secondary location where an organization can relocate its technology and operations following a disaster.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

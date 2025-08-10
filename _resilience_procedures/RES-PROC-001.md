@@ -32,27 +32,11 @@ This procedure outlines the formal process for managing information security inc
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework** | **Control Reference** |
-| --- | --- | --- |
-| **1-10** | HITRUST CSF v11.2.0 | 15.a - Incident Response Process |
-| **3-5** | HITRUST CSF v11.2.0 | 15.b - Incident Detection and Analysis |
-| **6-8** | HITRUST CSF v11.2.0 | 15.c - Incident Containment |
-| **7** | HITRUST CSF v11.2.0 | 15.d - Incident Eradication |
-| **8** | HITRUST CSF v11.2.0 | 15.e - Incident Recovery |
-| **9-10** | HITRUST CSF v11.2.0 | 15.f - Post-Incident Activities |
-| **9-10** | HITRUST CSF v11.2.0 | 15.g - Incident Documentation |
-| **1-10** | SOC 2 | CC7.1, CC7.2 |
-| **1-10** | HIPAA Security Rule | 45 CFR § 164.308(a)(6) |
-
-### 6. Artifact(s)
-
-A completed Incident Report for each declared incident.
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 7. Definitions
 
-- **Incident:** An event that actually or potentially jeopardizes the confidentiality, integrity, or availability of an information system or the information the system processes, stores, or transmits.
-
-- **Incident Response Team (IRT):** A dedicated or virtual team responsible for responding to security incidents.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

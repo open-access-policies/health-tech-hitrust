@@ -104,36 +104,11 @@ All development team members shall receive comprehensive security training appro
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-|**Policy Section**|**Standard/Framework**|**Control Reference**|
-|---|---|---|
-|**All**|HITRUST CSF v11.2.0|07.a - Vulnerability Management Policy|
-|**3.1**|HITRUST CSF v11.2.0|06.e - Secure Development|
-|**3.4**|HITRUST CSF v11.2.0|13.a - Security Training and Awareness|
-|**All**|HIPAA Security Rule|45 CFR § 164.308(a)(1) - Security Management Process|
-|**3.1**|HIPAA Security Rule|45 CFR § 164.308(a)(5) - Information System Activity Review|
-|**3.4**|HIPAA Security Rule|45 CFR § 164.308(a)(5)(ii)(C) - Information System Training|
-|**All**|SOC 2 Trust Services Criteria|CC8.1 - System Development|
-|**3.1**|SOC 2 Trust Services Criteria|CC7.1 - System Monitoring|
-|**3.4**|SOC 2 Trust Services Criteria|CC1.4 - Human Resources|
-|**All**|OWASP SAMM|Software Assurance Maturity Model|
-|**All**|NIST Cybersecurity Framework|PR.IP-1 - Baseline Security|
-|**3.4**|NIST Cybersecurity Framework|PR.AT-1 - Security Awareness and Training|
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Secure Software Development Lifecycle (SDLC):** Structured approach to software development that systematically integrates security controls and activities into every phase of the development process.
-
-- **Security Gates:** Formal checkpoints in the development process where security requirements must be verified and approved before proceeding to the next phase.
-
-- **Threat Modeling:** Structured approach to identifying, analyzing, and mitigating potential security threats to applications and systems during the design phase.
-
-- **Security Requirements:** Specific security controls and protections that must be implemented in an application or system to protect against identified threats and meet compliance obligations.
-
-- **Security Training:** Formal education and awareness programs designed to ensure development team members understand secure development practices and their security responsibilities.
-
-- **Security Champions Program:** Initiative to designate and train specific team members to serve as security advocates and subject matter experts within their development teams.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

@@ -59,7 +59,7 @@ Access to information systems and data shall be controlled through formal proces
 
 - Multi-factor authentication shall be required for all systems containing sensitive information, including ePHI.
 
-- Access rights shall be reviewed at least quarterly for systems containing Confidential or Restricted data and at least annually for all other systems. These reviews shall be documented.
+- Access review cadence is defined in the IAM Policy (AC-POL-001) for standard access and the Privileged Access Management Policy (AC-POL-004) for privileged access. See AC-POL-001 and AC-POL-004 for authoritative requirements.
 
 - Privileged access shall be subject to additional controls, including time-limited sessions, enhanced monitoring, and separate administrative accounts.
 
@@ -165,55 +165,11 @@ The information security program shall be subject to continuous monitoring and i
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-|**Policy Section**|**Standard/Framework**|**Control Reference**|
-|---|---|---|
-|**All**|HITRUST CSF v11.2.0|01.a - Information Security Management Program|
-|**3.1**|HITRUST CSF v11.2.0|01.b - Information Security Program Charter|
-|**3.2**|HITRUST CSF v11.2.0|17.a - Risk Management Program|
-|**3.4**|HITRUST CSF v11.2.0|11.a - Access Control Policy|
-|**3.5**|HITRUST CSF v11.2.0|13.a - Education, Training and Awareness|
-|**3.6**|HITRUST CSF v11.2.0|15.a - Incident Response Program|
-|**3.7**|HITRUST CSF v11.2.0|16.a - Business Continuity Management|
-|**3.8**|HITRUST CSF v11.2.0|14.a - Third Party Assurance|
-|**3.9**|HITRUST CSF v11.2.0|12.a - Audit Logging and Monitoring|
-|**3.10.1**|HITRUST CSF v11.2.0|12.a - Audit Logging and Monitoring|
-|**3.10.1**|HITRUST CSF v11.2.0|15.a - Incident Response|
-|**3.10.1**|HITRUST CSF v11.2.0|15.b - Incident Analysis and Response|
-|**3.10.1**|HITRUST CSF v11.2.0|08.a - Network Controls|
-|**All**|HIPAA Security Rule|45 CFR § 164.308(a)(1) - Security Management Process|
-|**3.1**|HIPAA Security Rule|45 CFR § 164.308(a)(2) - Assigned Security Responsibility|
-|**3.2**|HIPAA Security Rule|45 CFR § 164.308(a)(1)(ii)(A) - Conduct periodic risk assessment|
-|**3.4**|HIPAA Security Rule|45 CFR § 164.308(a)(4) - Information Access Management|
-|**3.5**|HIPAA Security Rule|45 CFR § 164.308(a)(5) - Security Awareness and Training|
-|**3.6**|HIPAA Security Rule|45 CFR § 164.308(a)(6) - Security Incident Procedures|
-|**3.7**|HIPAA Security Rule|45 CFR § 164.308(a)(7) - Contingency Plan|
-|**3.9**|HIPAA Security Rule|45 CFR § 164.308(a)(8) - Evaluation|
-|**3.10.1**|HIPAA Security Rule|45 CFR § 164.308(a)(1)(ii)(D) - Information Access Management|
-|**3.10.1**|HIPAA Security Rule|45 CFR § 164.308(a)(6) - Security Incident Procedures|
-|**All**|SOC 2 Trust Services Criteria|CC1.1 - Control Environment|
-|**3.1**|SOC 2 Trust Services Criteria|CC2.1 - Communication and Information|
-|**3.2**|SOC 2 Trust Services Criteria|CC3.1 - Risk Assessment Process|
-|**3.4**|SOC 2 Trust Services Criteria|CC6.1 - Logical Access Security|
-|**3.6**|SOC 2 Trust Services Criteria|CC7.1 - System Monitoring|
-|**3.7**|SOC 2 Trust Services Criteria|A1.1 - Availability|
-|**3.10.1**|SOC 2 Trust Services Criteria|CC7.2 - System Monitoring|
-|**3.10.1**|SOC 2 Trust Services Criteria|CC7.4 - Incident Response|
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Business Associate Agreement (BAA):** A written contract between a covered entity and a business associate as required by HIPAA, establishing permitted uses and disclosures of ePHI.
-
-- **Electronic Protected Health Information (ePHI):** Individually identifiable health information that is created, stored, transmitted, or maintained electronically.
-
-- **Information Security Management System (ISMS):** A systematic approach to managing sensitive company information to keep it secure, including policies, procedures, and controls.
-
-- **Least Privilege:** The security principle of restricting access rights for users to the bare minimum permissions needed to perform their work.
-
-- **Risk Assessment:** The process of identifying vulnerabilities and threats to information assets and determining the risk posed by those threats.
-
-- **Security Incident:** Any event that could result in unauthorized access to, or disclosure, modification, or destruction of information assets.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

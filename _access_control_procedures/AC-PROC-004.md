@@ -36,14 +36,7 @@ This procedure covers the end-to-end management of user access, from initial pro
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework** | **Control Reference**                                  |
-| --------------------- | ---------------------- | ------------------------------------------------------ |
-| **4.1, 4.2**          | HITRUST CSF v11.2.0   | 11.a - User Access Management |
-| **4.1**               | HITRUST CSF v11.2.0   | 11.b - User Access Provisioning |
-| **4.2**               | HITRUST CSF v11.2.0   | 11.c - User Access Termination |
-| **4.1, 4.2**          | HITRUST CSF v11.2.0   | 13.d - Termination Responsibilities |
-| **4.1, 4.2**          | SOC 2                  | CC6.1, CC6.3                                           |
-| **4.1, 4.2**          | HIPAA                  | 45 CFR § 164.308(a)(3)(ii)(C), 45 CFR § 164.308(a)(4)   |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -51,8 +44,7 @@ A completed access request ticket showing the full request, approval chain, and 
 
 ### 7. Definitions
 
-*   **System Owner:** The individual or group responsible for the overall procurement, development, integration, modification, operation, and maintenance of an information system.
-*   **Information Owner:** The individual with statutory or operational authority for specified information and responsibility for establishing the controls for its generation, collection, processing, dissemination, and disposal.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

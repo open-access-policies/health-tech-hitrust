@@ -27,12 +27,7 @@ This procedure details the rapid response actions mandated to mitigate the secur
 
 ### 5. Standards Compliance
 
-This section maps the procedure steps to specific controls from relevant information security standards.
-
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**        |
-| --------------------- | -------------------------- | ---------------------------- |
-| **1-5**               | SOC 2                      | CC7.1                        |
-| **1-5**               | HIPAA Security Rule        | 45 CFR § 164.310(d)(1)       |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -40,9 +35,7 @@ A completed incident report documenting the loss/theft, response actions, and re
 
 ### 7. Definitions
 
-- **Remote Lock:** A feature of MDM software that allows an administrator to remotely make a device inaccessible.
-
-- **Remote Wipe:** A feature of MDM software that allows an administrator to remotely delete all data from a device.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

@@ -45,14 +45,7 @@ This procedure outlines the required security testing for applications, includin
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**     |
-| --------------------- | -------------------------- | ------------------------- |
-| **4.1 - 4.3**         | HITRUST CSF v11.2.0       | 07.a - Secure Development Life Cycle |
-| **4.1**               | HITRUST CSF v11.2.0       | 07.b - Security Testing in Development |
-| **4.2**               | HITRUST CSF v11.2.0       | 07.c - Production Security Testing |
-| **4.3**               | HITRUST CSF v11.2.0       | 07.d - Vulnerability Assessment |
-| **4.1 - 4.3**         | SOC 2                      | CC7.1, CC8.1              |
-| **4.1 - 4.3**         | HIPAA Security Rule        | 45 CFR § 164.308(a)(8)    |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -60,11 +53,7 @@ A test report from the relevant security tool (SAST, DAST) or a final penetratio
 
 ### 7. Definitions
 
-- **DAST (Dynamic Application Security Testing):** A method of testing an application during its running state to find security vulnerabilities.
-
-- **ePHI (electronic Protected Health Information):** Any protected health information that is created, stored, transmitted, or received in any electronic format.
-
-- **SAST (Static Application Security Testing):** A method of testing an application's source code, bytecode, or binary code to find security vulnerabilities without executing the application.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

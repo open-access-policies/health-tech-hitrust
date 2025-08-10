@@ -25,12 +25,7 @@ This procedure details the steps for conducting a formal risk assessment to dete
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework**        | **Control Reference**     |
-| --------------------- | ----------------------------- | ------------------------- |
-| **1-3**               | HITRUST CSF v11.2.0         | 15.b - Incident Detection and Analysis |
-| **1-3**               | HITRUST CSF v11.2.0         | 15.f - Post-Incident Activities |
-| **2-3**               | HITRUST CSF v11.2.0         | 19.g - Privacy Impact Assessment |
-| **1-3**               | HIPAA Breach Notification Rule| 45 CFR § 164.400-414      |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -38,9 +33,7 @@ A completed and signed HIPAA Breach Risk Assessment form.
 
 ### 7. Definitions
 
-- **ePHI (electronic Protected Health Information):** Any protected health information (PHI) that is created, stored, transmitted, or received in any electronic format.
-
-- **Breach:** The acquisition, access, use, or disclosure of protected health information in a manner not permitted under the HIPAA Privacy Rule which compromises the security or privacy of the protected health information.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

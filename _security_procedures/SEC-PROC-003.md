@@ -25,13 +25,7 @@ This procedure outlines the steps for submitting, evaluating, and documenting re
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**           |
-| --------------------- | -------------------------- | ------------------------------- |
-| **1-3**               | HITRUST CSF v11.2.0       | 10.c - Password Protection Systems |
-| **2**                 | HITRUST CSF v11.2.0       | 17.c - Risk Assessment Process |
-| **3**                 | HITRUST CSF v11.2.0       | 01.g - Information Security Management Program Review |
-| **1-3**               | SOC 2                      | CC6.1                           |
-| **1-3**               | HIPAA/HITECH               | 45 CFR § 164.308(a)(5)(ii)(D)   |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -39,7 +33,7 @@ A completed and approved Password Policy Exception Request form.
 
 ### 7. Definitions
 
-N/A
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

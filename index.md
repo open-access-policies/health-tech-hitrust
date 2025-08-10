@@ -11,24 +11,27 @@ permalink: /
 
 #### Policies
 
-* [Access Control Policy (AC-POL-001)](./access_control_policies/AC-POL-001)
+* [Identity and Access Management (IAM) Policy (AC-POL-001)](./access_control_policies/AC-POL-001)
 * [Network Acceptable Use Policy (AC-POL-002)](./access_control_policies/AC-POL-002)
 * [Remote Work Policy (AC-POL-003)](./access_control_policies/AC-POL-003)
+* [Privileged Access Management (PAM) Policy (AC-POL-004)](./access_control_policies/AC-POL-004)
 
 #### Procedures
 
 * [Acceptable Use Policy Violation Investigation Procedure (AC-PROC-001)](./access_control_procedures/AC-PROC-001)
 * [Bring Your Own Device (BYOD) Onboarding Procedure (AC-PROC-002)](./access_control_procedures/AC-PROC-002)
-* [User Access Review Procedure (AC-PROC-003)](./access_control_procedures/AC-PROC-003)
 * [Access Control Management Procedure (AC-PROC-004)](./access_control_procedures/AC-PROC-004)
 
 ### Engineering
 
 #### Policies
 
-* [Secure Software Development Policy (ENG-POL-001)](./engineering_policies/ENG-POL-001)
+* [Secure Software Development Lifecycle (SDLC) Policy (ENG-POL-001)](./engineering_policies/ENG-POL-001)
 * [Change Control Policy (ENG-POL-002)](./engineering_policies/ENG-POL-002)
-* [Infrastructure Security Policy (ENG-POL-003)](./engineering_policies/ENG-POL-003)
+* [Cloud and Core Infrastructure Security Policy (ENG-POL-003)](./engineering_policies/ENG-POL-003)
+* [Network Security Policy (ENG-POL-004)](./engineering_policies/ENG-POL-004)
+* [Secure Coding and Testing Policy (ENG-POL-005)](./engineering_policies/ENG-POL-005)
+* [Third-Party Component Management Policy (ENG-POL-006)](./engineering_policies/ENG-POL-006)
 
 #### Procedures
 
@@ -36,7 +39,6 @@ permalink: /
 * [Third-Party Component Security Review Procedure (ENG-PROC-002)](./engineering_procedures/ENG-PROC-002)
 * [Standard Change Management Procedure (ENG-PROC-003)](./engineering_procedures/ENG-PROC-003)
 * [Emergency Change Management Procedure (ENG-PROC-004)](./engineering_procedures/ENG-PROC-004)
-* [System Hardening and Baselining Procedure (ENG-PROC-005)](./engineering_procedures/ENG-PROC-005)
 * [Privileged Infrastructure Access Review Procedure (ENG-PROC-006)](./engineering_procedures/ENG-PROC-006)
 
 ### Operational
@@ -51,7 +53,6 @@ permalink: /
 
 #### Procedures
 
-* [Cryptographic Key Lifecycle Management Procedure (OP-PROC-001)](./operational_procedures/OP-PROC-001)
 * [Mobile Device Onboarding and Security Configuration Procedure (OP-PROC-002)](./operational_procedures/OP-PROC-002)
 * [Lost or Stolen Mobile Device Response Procedure (OP-PROC-003)](./operational_procedures/OP-PROC-003)
 * [Secure Media Disposal and Sanitization Procedure (OP-PROC-004)](./operational_procedures/OP-PROC-004)
@@ -67,6 +68,9 @@ permalink: /
 
 * [Incident Response Policy (RES-POL-001)](./resilience_policies/RES-POL-001)
 * [Business Continuity and Disaster Recovery Policy (RES-POL-002)](./resilience_policies/RES-POL-002)
+* [Security Event Detection and Monitoring Policy (RES-POL-003)](./resilience_policies/RES-POL-003)
+* [Incident Communication and Regulatory Compliance Policy (RES-POL-004)](./resilience_policies/RES-POL-004)
+* [Disaster Recovery and Technical Operations Policy (RES-POL-005)](./resilience_policies/RES-POL-005)
 
 #### Procedures
 
@@ -90,6 +94,11 @@ permalink: /
 * [Physical Security Policy (SEC-POL-006)](./security_policies/SEC-POL-006)
 * [AI Acceptable Use Policy (SEC-POL-007)](./security_policies/SEC-POL-007)
 * [Vulnerability Management Policy (SEC-POL-008)](./security_policies/SEC-POL-008)
+* [Audit Logging Framework and Coordination Policy (SEC-POL-009)](./security_policies/SEC-POL-009)
+* [Authentication and Network Audit Logging Policy (SEC-POL-010)](./security_policies/SEC-POL-010)
+* [Data Access and Compliance Audit Logging Policy (SEC-POL-011)](./security_policies/SEC-POL-011)
+* [AI Development and Deployment Security Policy (SEC-POL-012)](./security_policies/SEC-POL-012)
+* [AI Ethics and Compliance Policy (SEC-POL-013)](./security_policies/SEC-POL-013)
 
 #### Procedures
 
@@ -102,6 +111,11 @@ permalink: /
 * [AI Tool Risk Assessment and Approval Procedure (SEC-PROC-007)](./security_procedures/SEC-PROC-007)
 * [Vulnerability Management Procedure (SEC-PROC-008)](./security_procedures/SEC-PROC-008)
 * [Vulnerability Management Exception Procedure (SEC-PROC-009)](./security_procedures/SEC-PROC-009)
+
+### Annexes
+
+* [Annex: Glossary](./annexes/glossary)
+* [Annex: Control Mapping](./annexes/control_mapping)
 
 ### ISMS Supplements
 
@@ -131,7 +145,7 @@ Contributions are welcome and encouraged! If you have suggestions for improving 
 
 ## Disclaimer of Liability
 
-These templates are provided on an "as-is" basis, without warranty of any kind, express or implied. The authors and contributors of this project are not lawyers or compliance consultants. The information provided here is for general informational purposes only and does not constitute legal or professional advice. By using these templates, you agree that you are solely responsible for ensuring your organization's compliance with all applicable laws, regulations, and standards. The authors and contributors of this repository assume no liability for any damages, losses, or legal issues that may arise from the use, misuse, or interpretation of these documents. **Always consult with a qualified professional for advice tailored to your specific situation.**
+These templates are provided on an "as-is" basis, without warranty of any kind, express or implied. The authors and contributors of this project are not lawyers or compliance consultants. The information provided here is for general informational purposes only and does not constitute legal or professional advice. By using these templates, you agree that you are solely responsible for ensuring your organization's compliance with all applicable laws, regulations, and standards. The authors and contributors of this repository assume no liability for any damages, losses, or legal issues that may arise from the use, misuse, or interpretation of these documents. **Always consult with a qualified professional for advice tailored to your specific situation.**
 
 ---
 

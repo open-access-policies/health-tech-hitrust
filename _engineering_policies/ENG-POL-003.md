@@ -262,52 +262,11 @@ Comprehensive monitoring and incident response capabilities shall provide early 
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-|**Policy Section**|**Standard/Framework**|**Control Reference**|
-|---|---|---|
-|**All**|HITRUST CSF v11.2.0|06.a - Configuration Management Policy|
-|**3.1**|HITRUST CSF v11.2.0|08.a - Network Protection Policy|
-|**3.2**|HITRUST CSF v11.2.0|11.a - Access Control Policy|
-|**3.3**|HITRUST CSF v11.2.0|09.a - Data Protection Policy|
-|**3.4**|HITRUST CSF v11.2.0|06.a - Configuration Management Policy|
-|**3.5**|HITRUST CSF v11.2.0|09.b - System Development Controls|
-|**3.6**|HITRUST CSF v11.2.0|16.c - System Resilience|
-|**3.7**|HITRUST CSF v11.2.0|15.b - Incident Detection|
-|**3.1.2**|HITRUST CSF v11.2.0|12.a - System Configuration Management|
-|**3.1.2**|HITRUST CSF v11.2.0|12.b - Secure Configuration Standards|
-|**3.1.2**|HITRUST CSF v11.2.0|12.c - Configuration Monitoring|
-|**All**|HIPAA Security Rule|45 CFR § 164.308(a)(1) - Security Management Process|
-|**3.2**|HIPAA Security Rule|45 CFR § 164.308(a)(4) - Information Access Management|
-|**3.3**|HIPAA Security Rule|45 CFR § 164.312(a)(2)(iv) - Encryption and Decryption|
-|**3.3**|HIPAA Security Rule|45 CFR § 164.312(e)(1) - Transmission Security|
-|**3.7**|HIPAA Security Rule|45 CFR § 164.312(b) - Audit Controls|
-|**All**|SOC 2 Trust Services Criteria|CC6.1 - Logical Access Security|
-|**3.3**|SOC 2 Trust Services Criteria|CC6.7 - Data Transmission|
-|**3.6**|SOC 2 Trust Services Criteria|A1.1 - System Availability|
-|**3.7**|SOC 2 Trust Services Criteria|CC7.1 - System Monitoring|
-|**3.4**|SOC 2 Trust Services Criteria|CC8.1 - Change Management|
-|**All**|NIST Cybersecurity Framework|PR.AC - Identity Management|
-|**3.3**|NIST Cybersecurity Framework|PR.DS - Data Security|
-|**3.7**|NIST Cybersecurity Framework|DE.CM - Security Continuous Monitoring|
-|**3.7**|NIST Cybersecurity Framework|DE.AE - Anomalies and Events|
-|**3.7**|NIST Cybersecurity Framework|RS.MI - Mitigation|
-|**3.5**|NIST Cybersecurity Framework|PR.PT - Protective Technology|
-|**3.1.2**|CIS Controls|Control 4, 5|
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Container:** Lightweight, portable software package that includes application code and all dependencies needed to run the application.
-
-- **Customer-Managed Encryption Keys (CMEK):** Encryption keys that are created and managed by the customer rather than the cloud provider.
-
-- **Defense in Depth:** Security strategy employing multiple layers of defense to protect information and computing systems.
-
-- **Infrastructure as Code (IaC):** Practice of managing and provisioning computing infrastructure through machine-readable definition files.
-
-- **Serverless Computing:** Cloud computing model where the cloud provider manages infrastructure and automatically allocates computing resources.
-
-- **Transparent Data Encryption (TDE):** Database encryption method that encrypts data files at the storage level.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

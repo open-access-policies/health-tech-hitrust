@@ -234,52 +234,11 @@ Authentication and network audit logs shall provide comprehensive support for se
 
 ### 4. Standards Compliance
 
-This Authentication and Network Audit Logging Policy aligns with and supports compliance requirements from multiple regulatory frameworks, specifically addressing authentication, authorization, and network security logging while coordinating with data access logging requirements in SEC-POL-011.
-
-### 4.1 Regulatory Compliance Mapping
-
-| **Policy Section** | **Standard/Framework** | **Control Reference** |
-| ------------------ | ---------------------- | --------------------- |
-| **3.1** | HITRUST CSF v11.2.0 | 11.a - Access Control Policy |
-| **3.1** | HITRUST CSF v11.2.0 | 11.b - User Access Management |
-| **3.1** | HITRUST CSF v11.2.0 | 11.c - User Access Provisioning |
-| **3.2** | HITRUST CSF v11.2.0 | 08.a - Network Protection Policy |
-| **3.2** | HITRUST CSF v11.2.0 | 08.b - Network Security Controls |
-| **3.2** | HITRUST CSF v11.2.0 | 08.c - Network Connection Control |
-| **3.3** | HITRUST CSF v11.2.0 | 12.a - Audit Logging Policy |
-| **3.4** | HITRUST CSF v11.2.0 | 12.b - Log Management |
-| **3.4** | HITRUST CSF v11.2.0 | 12.c - Log Monitoring |
-| **3.5** | HITRUST CSF v11.2.0 | 15.a - Incident Response Policy |
-| **3.1** | HIPAA Security Rule | 45 CFR § 164.312(d) - Person or Entity Authentication |
-| **3.1** | HIPAA Security Rule | 45 CFR § 164.308(a)(4) - Information Access Management |
-| **3.4** | HIPAA Security Rule | 45 CFR § 164.312(b) - Audit Controls |
-| **3.4** | HIPAA Security Rule | 45 CFR § 164.308(a)(1)(ii)(D) - Information System Activity Review |
-| **3.1, 3.2** | SOC 2 Trust Services Criteria | CC6.1 - Logical Access Security |
-| **3.1** | SOC 2 Trust Services Criteria | CC6.2 - Logical Access - Authentication |
-| **3.1** | SOC 2 Trust Services Criteria | CC6.3 - Logical Access - Authorization |
-| **3.4** | SOC 2 Trust Services Criteria | CC7.1 - System Monitoring |
-| **3.5** | SOC 2 Trust Services Criteria | CC7.2 - System Monitoring - Detection of Incidents |
-| **3.1, 3.2** | NIST Cybersecurity Framework | PR.AC - Identity Management |
-| **3.2** | NIST Cybersecurity Framework | PR.PT - Protective Technology |
-| **3.4** | NIST Cybersecurity Framework | DE.AE - Anomalies and Events |
-| **3.4** | NIST Cybersecurity Framework | DE.CM - Security Continuous Monitoring |
-| **3.5** | NIST Cybersecurity Framework | RS.AN - Analysis |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Authentication Event:** A security event related to verifying the identity of a user, device, or service attempting to access a system or resource.
-
-- **Authorization Event:** A security event related to granting or denying access permissions to authenticated entities based on their privileges and roles.
-
-- **Network Flow:** A sequence of packets from a source to a destination that share common characteristics such as IP addresses, ports, and protocols.
-
-- **Privilege Escalation:** The act of gaining elevated access permissions beyond those initially granted to a user or service account.
-
-- **Session Correlation:** The process of linking related authentication and access events across multiple systems using session identifiers.
-
-- **Threat Intelligence:** Information about current and potential security threats used to enhance detection and analysis capabilities.
-
-- **User Agent:** Information about the client software, operating system, and device characteristics used for authentication requests.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

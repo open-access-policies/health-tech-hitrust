@@ -26,14 +26,7 @@ This procedure ensures that the organization's BCDR plans are effective and up-t
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework** | **Control Reference**      |
-| --------------------- | ---------------------- | -------------------------- |
-| **1-4**               | HITRUST CSF v11.2.0   | 16.e - Business Continuity Testing |
-| **1-2**               | HITRUST CSF v11.2.0   | 16.a - Business Continuity Management Policy |
-| **3**                 | HITRUST CSF v11.2.0   | 16.d - Business Continuity Procedures |
-| **4**                 | HITRUST CSF v11.2.0   | 01.g - Information Security Management Program Review |
-| **1-4**               | SOC 2                  | A1.3                       |
-| **1-4**               | HIPAA Security Rule    | 45 CFR § 164.308(a)(7)(ii)(D) |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -42,9 +35,7 @@ This procedure ensures that the organization's BCDR plans are effective and up-t
 
 ### 7. Definitions
 
-- **Tabletop Exercise:** A discussion-based session where team members meet in an informal, classroom setting to discuss their roles during an emergency and their responses to a particular emergency situation.
-
-- **Full DR Simulation:** A comprehensive test where the organization's IT systems are actually failed over to the disaster recovery site and operated from there for a period of time.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 
@@ -52,4 +43,4 @@ This procedure ensures that the organization's BCDR plans are effective and up-t
 | ------------------------------ | -------------------------------------------------------------------------------------------------------------- |
 | **Business Continuity Manager**| Owns the overall testing process, from planning and coordination to creating the final post-exercise report.     |
 | **Test Participants**          | Actively engage in the test execution according to their defined BCDR roles and responsibilities.                |
-| **BCDR Steering Committee**    | Reviews and approves the annual test plan and post-exercise reports.                                           |
+| **BCDR Steering Committee**    | Reviews and approves the annual test plan and post-exercise reports.

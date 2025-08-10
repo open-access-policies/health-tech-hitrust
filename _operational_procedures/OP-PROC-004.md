@@ -37,13 +37,7 @@ This procedure outlines the mandated methods for disposing of or sanitizing medi
 
 ### 5. Standards Compliance
 
-This section maps the procedure steps to specific controls from relevant information security standards.
-
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**        |
-| --------------------- | -------------------------- | ---------------------------- |
-| **4.1-4.2**           | SOC 2                      | CC6.5                        |
-| **4.1**               | NIST                       | SP 800-88                    |
-| **4.1-4.2**           | HIPAA Security Rule        | 45 CFR § 164.310(d)(2)(i)    |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -51,11 +45,7 @@ A completed disposal record in the asset management system or a certificate of d
 
 ### 7. Definitions
 
-- **Cryptographic Erasure:** The process of using encryption software to render targeted data on a storage device unreadable.
-
-- **Degaussing:** The process of reducing or eliminating an unwanted magnetic field (or data) stored on tape and disk media.
-
-- **Physical Destruction:** The process of rendering media unusable and its data unrecoverable by physically altering it (e.g., shredding, pulverizing).
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

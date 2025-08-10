@@ -27,23 +27,11 @@ This procedure describes the process for managing the security of third-party co
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference** |
-| --------------------- | -------------------------- | --------------------- |
-| **1-5**               | HITRUST CSF v11.2.0       | 07.a - Secure Development Life Cycle |
-| **2-3**               | HITRUST CSF v11.2.0       | 07.d - Vulnerability Assessment |
-| **3-4**               | HITRUST CSF v11.2.0       | 14.f - Third-Party Risk Assessment |
-| **1-5**               | SOC 2                      | CC8.1                 |
-| **1-5**               | NIST SP 800-161            |                       |
-
-### 6. Artifact(s)
-
-A record of the SCA scan results and a formal approval or denial for the component in the project documentation or tracking system.
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 7. Definitions
 
-- **SCA (Software Composition Analysis):** An automated process that identifies the open-source software in a codebase to evaluate security, license compliance, and code quality.
-
-- **CVE (Common Vulnerabilities and Exposures):** A list of publicly disclosed computer security flaws.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

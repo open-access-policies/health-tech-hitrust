@@ -114,7 +114,7 @@ Storage requirements shall be implemented based on information classification le
 - All information systems shall maintain access control lists (ACLs) restricting access based on classification and business need
 - Confidential and Restricted information shall be stored only on systems with appropriate security controls
 - Cloud storage of Confidential and Restricted information shall require encryption and compliance with security standards
-- Regular access reviews shall be conducted quarterly for Restricted information and annually for Confidential information
+- Access reviews shall follow the cadence defined in AC-POL-001 (IAM) for standard access and AC-POL-004 (PAM) for privileged access
 - Automated tools shall be used where possible to enforce classification-based access controls
 
 #### 3.7 Information Transmission and Sharing
@@ -205,48 +205,11 @@ Comprehensive security controls shall be implemented for portable media and digi
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-|**Policy Section**|**Standard/Framework**|**Control Reference**|
-|---|---|---|
-|**All**|HITRUST CSF v11.2.0|19.a - Data Protection and Privacy Policy|
-|**3.1, 3.2**|HITRUST CSF v11.2.0|01.c - Information Asset Classification|
-|**3.3**|HITRUST CSF v11.2.0|19.b - Data Handling Requirements|
-|**3.4**|HITRUST CSF v11.2.0|19.c - Privacy Controls|
-|**3.5, 3.6**|HITRUST CSF v11.2.0|09.a - Transmission Protection|
-|**3.7**|HITRUST CSF v11.2.0|19.d - Data Retention and Disposal|
-|**3.8**|HITRUST CSF v11.2.0|11.f - Application and Information Access|
-|**3.11**|HITRUST CSF v11.2.0|03.a - Portable Media Security|
-|**3.11**|HITRUST CSF v11.2.0|03.b - Portable Media Management|
-|**3.11**|HITRUST CSF v11.2.0|03.c - Information Disposal|
-|**All**|HIPAA Security Rule|45 CFR § 164.308(a)(4) - Information Access Management|
-|**3.4**|HIPAA Security Rule|45 CFR § 164.502(b) - Minimum Necessary|
-|**3.4, 3.8**|HIPAA Security Rule|45 CFR § 164.312(a)(1) - Access Control|
-|**3.3.4, 3.7**|HIPAA Security Rule|45 CFR § 164.312(e)(1) - Transmission Security|
-|**3.3.4, 3.6**|HIPAA Security Rule|45 CFR § 164.312(a)(2)(iv) - Encryption|
-|**3.4**|HIPAA Security Rule|45 CFR § 164.312(b) - Audit Controls|
-|**3.11**|HIPAA Security Rule|45 CFR § 164.310(d)(1) - Device and Media Controls|
-|**3.11**|HIPAA Security Rule|45 CFR § 164.310(d)(2) - Data Disposal|
-|**All**|SOC 2 Trust Services Criteria|CC6.1 - Logical Access Security|
-|**3.6, 3.7**|SOC 2 Trust Services Criteria|CC6.7 - Data Transmission|
-|**3.8**|SOC 2 Trust Services Criteria|CC6.5 - Data Disposal|
-|**3.9**|SOC 2 Trust Services Criteria|CC7.2 - System Monitoring|
-|**3.11**|SOC 2 Trust Services Criteria|CC6.7 - Data Transmission and Disposal|
-|**3.11**|NIST SP 800-88|Media Sanitization Guidelines|
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Business Associate Agreement (BAA):** A written contract between a covered entity and a business associate establishing permitted uses and disclosures of ePHI.
-
-- **Data Loss Prevention (DLP):** Technology and processes designed to detect and prevent unauthorized transmission of sensitive information.
-
-- **Electronic Protected Health Information (ePHI):** Protected health information that is created, stored, transmitted, or maintained electronically.
-
-- **Information Owner:** The person responsible for the business content and context of information, including classification and access decisions.
-
-- **Minimum Necessary:** The HIPAA principle requiring that uses and disclosures of ePHI be limited to the smallest amount necessary to accomplish the intended purpose.
-
-- **Non-Disclosure Agreement (NDA):** A legal contract establishing confidential relationships and restricting information sharing.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

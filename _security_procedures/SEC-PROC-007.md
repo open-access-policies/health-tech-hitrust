@@ -27,10 +27,7 @@ This procedure outlines the workflow for the review and approval of new AI tools
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework**            | **Control Reference** |
-| --------------------- | --------------------------------- | --------------------- |
-| **1-5**               | SOC 2                             | CC2.1                 |
-| **1-5**               | NIST AI Risk Management Framework | Entire Framework      |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -38,7 +35,7 @@ A completed AI Risk Assessment and Approval Form.
 
 ### 7. Definitions
 
-- **AI:** Artificial Intelligence.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

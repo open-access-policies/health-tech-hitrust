@@ -26,13 +26,7 @@ This procedure ensures that after a significant incident, a formal review is con
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference** |
-| --------------------- | -------------------------- | --------------------- |
-| **1-4**               | HITRUST CSF v11.2.0       | 15.f - Post-Incident Activities |
-| **1-4**               | HITRUST CSF v11.2.0       | 15.g - Incident Documentation |
-| **3**                 | HITRUST CSF v11.2.0       | 01.g - Information Security Management Program Review |
-| **1-4**               | SOC 2                      | CC2.1                 |
-| **1-4**               | NIST Cybersecurity Framework | RC.IM                 |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -40,7 +34,7 @@ A Post-Incident Report including a "lessons learned" section and an action item 
 
 ### 7. Definitions
 
-- **Action Item Tracking Log:** A formal record used to document, assign, and monitor the status of corrective actions identified during a post-incident review.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

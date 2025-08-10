@@ -222,43 +222,11 @@ Quarterly reviews of encryption service costs and optimization opportunities sha
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations:
-
-|**Policy Section**|**Standard/Framework**|**Control Reference**|
-|---|---|---|
-|**All**|HITRUST CSF v11.2.0|09.a - Transmission Protection Policy|
-|**3.1**|HITRUST CSF v11.2.0|09.b - Cryptographic Controls|
-|**3.2**|HITRUST CSF v11.2.0|09.c - Key Management|
-|**3.2.4**|HITRUST CSF v11.2.0|01.k - Cryptographic Key Management|
-|**3.2.4**|HITRUST CSF v11.2.0|01.c - Encryption Implementation|
-|**3.2.4**|HITRUST CSF v11.2.0|12.c - Audit Logging and Monitoring|
-|**3.1.1**|HIPAA Security Rule|45 CFR § 164.312(a)(2)(iv) - Encryption and Decryption|
-|**3.1.1**|HIPAA Security Rule|45 CFR § 164.312(e)(2)(ii) - Encryption|
-|**3.2.4**|HIPAA Security Rule|45 CFR § 164.312(a)(2)(iv) - Encryption|
-|**3.2.4**|HIPAA Security Rule|45 CFR § 164.312(e)(2)(ii) - Encryption of ePHI|
-|**All**|HIPAA Security Rule|45 CFR § 164.312(e)(1) - Transmission Security|
-|**3.2**|SOC 2 Trust Services Criteria|CC6.1 - Logical Access Security|
-|**3.1, 3.2**|SOC 2 Trust Services Criteria|CC6.6 - Other Controls to Achieve Logical Access Security Objectives|
-|**3.2**|SOC 2 Trust Services Criteria|CC6.8 - Restricts Access to Encrypted Data|
-|**3.2.4**|SOC 2 Trust Services Criteria|CC6.8 - Data Encryption|
-|**All**|NIST Cybersecurity Framework|PR.DS-1: Data-at-rest is protected.|
-|**All**|NIST Cybersecurity Framework|PR.DS-2: Data-in-transit is protected.|
-|**3.2.4**|NIST Cybersecurity Framework|PR.DS-1 - Data-at-rest Protection|
-|**3.2.4**|NIST Cybersecurity Framework|DE.AE-3 - Event Data Analysis|
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Advanced Encryption Standard (AES):** A symmetric encryption algorithm adopted as a U.S. Federal Government standard used by cloud providers.
-
-- **Cloud Key Management Service (KMS):** A managed service that makes it easy to create and control cryptographic keys for encrypting data.
-
-- **Customer-Managed Encryption Keys (CMEK):** Encryption keys that are created, owned, and managed by the customer while using cloud encryption services.
-
-- **Infrastructure as Code (IaC):** The practice of managing and provisioning computing infrastructure through machine-readable definition files.
-
-- **Transport Layer Security (TLS):** A cryptographic protocol for secure communication over computer networks, successor to SSL.
-
-- **Transparent Data Encryption (TDE):** Database encryption technology that encrypts data files at rest without requiring application changes.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

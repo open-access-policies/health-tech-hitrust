@@ -28,25 +28,11 @@ This procedure outlines the standard workflow for managing changes. It begins wi
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**        |
-| --------------------- | -------------------------- | ---------------------------- |
-| **1-6**               | HITRUST CSF v11.2.0       | 07.a - Secure Development Life Cycle |
-| **2-4**               | HITRUST CSF v11.2.0       | 07.b - Security Testing in Development |
-| **5**                 | HITRUST CSF v11.2.0       | 07.c - Production Security Testing |
-| **1-6**               | HITRUST CSF v11.2.0       | 12.a - System Configuration Management |
-| **1-6**               | SOC 2                      | CC8.1                        |
-| **1-6**               | HIPAA Security Rule        | 45 CFR § 164.312(b)          |
-| **1-6**               | HIPAA Security Rule        | 45 CFR § 164.312(c)(1)       |
-
-### 6. Artifact(s)
-
-A merged GitHub pull request containing all required reviews, approvals, test results, and a link to the original issue ticket.
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 7. Definitions
 
-- **Pull Request:** A mechanism for a developer to notify team members that they have completed a feature. It allows others to review, discuss, and approve the code before it is merged into the main codebase.
-
-- **Feature Branch:** A source-control branch used to develop a new feature in isolation. When the feature is complete, the branch is merged back into the main branch.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

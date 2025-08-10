@@ -32,42 +32,15 @@ This procedure leverages automated RBAC systems, just-in-time access controls, a
 | **10** | IT Operations Team | Configure real-time alerting for privileged access anomalies and integrate alerts with security monitoring systems. |
 | **11** | Platform Engineer | Implement automated monthly validation of privileged access assignments against current HR data and generate exception reports. |
 | **12** | Security Officer | Conduct targeted access reviews only for high-risk exceptions identified by automated monitoring rather than comprehensive quarterly reviews. |
+| **13** | Security Officer | Conduct and document a quarterly privileged access review covering all privileged accounts and sessions, with sign-off by system owners and the Security Officer. |
 
 ### 5. Standards Compliance
 
-This procedure is designed to comply with and support the following industry standards and regulations.
-
-| **Procedure Section** | **Standard/Framework** | **Control Reference** |
-| --------------------- | ---------------------- | --------------------- |
-| **4.1, 4.3** | HITRUST CSF v11.2.0 | 11.a - User Access Management |
-| **4.3, 4.5** | HITRUST CSF v11.2.0 | 11.d - User Access Review |
-| **4.2, 4.6** | HITRUST CSF v11.2.0 | 11.f - Privileged Access Management |
-| **4.1** | HITRUST CSF v11.2.0 | 02.b - Information Security Roles and Responsibilities |
-| **All** | SOC 2 Trust Services Criteria | CC6.1 - Logical Access Security |
-| **4.3** | SOC 2 Trust Services Criteria | CC6.2 - Access Management |
-| **4.1-4.6** | HIPAA Security Rule | 45 CFR § 164.308(a)(4) - Information Access Management |
-| **4.3** | NIST Cybersecurity Framework | PR.AC-4 - Access Permissions Management |
-| **4.2** | NIST Cybersecurity Framework | PR.AC-6 - Identity and Credential Management |
-
-### 6. Artifact(s)
-
-- Automated access control logs and audit trails from cloud provider services
-- Monthly exception reports showing access anomalies and remediation actions
-- JIT access request and approval logs with business justifications
-- Automated compliance dashboards showing access control effectiveness
-- Break-glass access logs and post-incident review documentation
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 7. Definitions
 
-- **Role-Based Access Control (RBAC):** Access control method that assigns permissions to users based on their organizational roles rather than individual identity.
-
-- **Just-In-Time (JIT) Access:** Security approach that provides temporary elevated access for specific tasks with automatic expiration.
-
-- **Exception-Based Monitoring:** Monitoring approach that focuses on identifying and alerting on deviations from normal patterns rather than comprehensive periodic reviews.
-
-- **Break-Glass Access:** Emergency access procedure that allows bypassing normal access controls during critical incidents with comprehensive logging and review.
-
-- **Workload Identity:** Cloud-native identity management for applications and services that eliminates the need for static credentials.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

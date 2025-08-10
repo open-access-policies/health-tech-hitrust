@@ -28,14 +28,7 @@ This procedure ensures that security policy violations are handled in a structur
 
 ### 5. Standards Compliance
 
-This section maps the procedure steps to specific controls from relevant information security standards.
-
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**        |
-| --------------------- | -------------------------- | ---------------------------- |
-| **1-6**               | HITRUST CSF v11.2.0       | 13.e - Disciplinary Process |
-| **2-3**               | HITRUST CSF v11.2.0       | 13.b - Information Security Awareness |
-| **4-5**               | HITRUST CSF v11.2.0       | 13.d - Termination Responsibilities |
-| **1-6**               | HIPAA Security Rule        | 45 CFR § 164.308(a)(1)(ii)(C) |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -43,9 +36,7 @@ A formal disciplinary action form or memo detailing the policy violation, the fi
 
 ### 7. Definitions
 
-- **Sanction:** A penalty or disciplinary action imposed for violating a policy or rule.
-
-- **Commensurate:** Corresponding in size, extent, amount, or degree; proportionate.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

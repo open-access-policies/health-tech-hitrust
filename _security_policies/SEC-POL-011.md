@@ -240,51 +240,11 @@ Data access and compliance logs shall provide comprehensive support for security
 
 ### 4. Standards Compliance
 
-This Data Access and Compliance Audit Logging Policy aligns with and supports compliance requirements from multiple regulatory frameworks, specifically addressing data protection, privacy, and compliance logging while coordinating with authentication and network logging requirements in SEC-POL-010.
-
-### 4.1 Regulatory Compliance Mapping
-
-| **Policy Section** | **Standard/Framework** | **Control Reference** |
-| ------------------ | ---------------------- | --------------------- |
-| **3.1** | HITRUST CSF v11.2.0 | 19.a - Data Protection and Privacy Policy |
-| **3.1** | HITRUST CSF v11.2.0 | 19.b - Data Classification and Handling |
-| **3.1** | HITRUST CSF v11.2.0 | 19.c - Data Retention and Disposal |
-| **3.2** | HITRUST CSF v11.2.0 | 12.a - Audit Logging Policy |
-| **3.2** | HITRUST CSF v11.2.0 | 12.f - Audit Review |
-| **3.3** | HITRUST CSF v11.2.0 | 19.d - Privacy Controls |
-| **3.4** | HITRUST CSF v11.2.0 | 12.c - Log Monitoring |
-| **3.6** | HITRUST CSF v11.2.0 | 15.a - Incident Response Policy |
-| **3.1** | HIPAA Security Rule | 45 CFR § 164.312(b) - Audit Controls |
-| **3.1** | HIPAA Security Rule | 45 CFR § 164.308(a)(1)(ii)(D) - Information System Activity Review |
-| **3.2** | HIPAA Security Rule | 45 CFR § 164.308(a)(1) - Security Management Process |
-| **3.2** | HIPAA Privacy Rule | 45 CFR § 164.528 - Accounting of Disclosures |
-| **3.2** | HIPAA Privacy Rule | 45 CFR § 164.530(j) - Documentation |
-| **3.3** | HIPAA Privacy Rule | 45 CFR § 164.522 - Rights to Request Privacy Protection |
-| **3.1, 3.3** | SOC 2 Trust Services Criteria | PI1.1 - Privacy Notice and Communication |
-| **3.1** | SOC 2 Trust Services Criteria | PI1.2 - Privacy Choice and Consent |
-| **3.4** | SOC 2 Trust Services Criteria | CC7.1 - System Monitoring |
-| **3.4** | SOC 2 Trust Services Criteria | CC7.2 - System Monitoring - Detection of Incidents |
-| **3.3** | SOC 2 Trust Services Criteria | PI1.3 - Privacy Collection |
-| **3.1** | NIST Cybersecurity Framework | PR.DS - Data Security |
-| **3.3** | NIST Privacy Framework | GV.PO - Governance and Privacy Objectives |
-| **3.4** | NIST Cybersecurity Framework | DE.AE - Anomalies and Events |
-| **3.6** | NIST Cybersecurity Framework | RS.AN - Analysis |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Data Subject Rights:** Individual rights under privacy regulations including access, rectification, erasure, portability, and restriction of processing.
-
-- **Electronic Protected Health Information (ePHI):** Individually identifiable health information transmitted or maintained in electronic media.
-
-- **Minimum Necessary Rule:** HIPAA requirement to limit use and disclosure of ePHI to the minimum necessary to accomplish the intended purpose.
-
-- **Privacy Controls:** Technical and administrative measures implemented to protect personal information and ensure privacy compliance.
-
-- **Data Classification:** The process of categorizing data based on sensitivity level and regulatory requirements.
-
-- **Data Lifecycle Management:** The process of managing data from creation through disposal including retention, archiving, and secure destruction.
-
-- **Pseudonymization:** A data processing technique that replaces identifying information with artificial identifiers to reduce privacy risks.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

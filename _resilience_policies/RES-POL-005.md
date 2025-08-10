@@ -228,45 +228,11 @@ Comprehensive monitoring and performance management shall ensure effective disas
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-| **Policy Section** | **Standard/Framework**        | **Control Reference**                                     |
-| ------------------ | ----------------------------- | --------------------------------------------------------- |
-| **All**            | HITRUST CSF v11.2.0          | 16.c - System Resilience                                 |
-| **3.1**            | HITRUST CSF v11.2.0          | 16.g - Disaster Recovery                                 |
-| **3.2**            | HITRUST CSF v11.2.0          | 16.h - Data Backup and Recovery                          |
-| **3.3**            | HITRUST CSF v11.2.0          | 16.i - System Recovery                                   |
-| **3.4**            | HITRUST CSF v11.2.0          | 06.e - Cloud Infrastructure Security                     |
-| **3.5**            | HITRUST CSF v11.2.0          | 12.d - System Monitoring                                 |
-| **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(7) - Contingency Plan               |
-| **3.2**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(7)(ii)(A) - Data Backup Plan        |
-| **3.3**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(7)(ii)(B) - Disaster Recovery Plan  |
-| **3.1**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(7)(ii)(C) - Emergency Mode Operation|
-| **3.5**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(7)(ii)(D) - Testing and Revision    |
-| **All**            | SOC 2 Trust Services Criteria | A1.1 - System Availability                               |
-| **3.1**            | SOC 2 Trust Services Criteria | A1.2 - System Capacity                                   |
-| **3.5**            | SOC 2 Trust Services Criteria | A1.3 - System Monitoring                                 |
-| **All**            | NIST Cybersecurity Framework  | RC.RP - Recovery Planning                                |
-| **3.3**            | NIST Cybersecurity Framework  | RC.CO - Recovery Communications                          |
-| **3.5**            | NIST Cybersecurity Framework  | RC.IM - Recovery Improvements                            |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Disaster Recovery:** Technical process of restoring IT infrastructure, systems, and data following a disaster or significant disruption.
-
-- **Recovery Point Objective (RPO):** Maximum acceptable amount of data loss measured in time from the point of failure.
-
-- **Recovery Time Objective (RTO):** Maximum acceptable length of time to restore IT systems and services following a disaster.
-
-- **Real-time Replication:** Continuous data synchronization between primary and secondary systems with minimal delay.
-
-- **Failover:** Automatic switching to a standby system, server, or network upon the failure of the primary system.
-
-- **3-2-1 Backup Rule:** Best practice of maintaining 3 copies of data, on 2 different media types, with 1 copy stored offsite.
-
-- **Air-gapped Backup:** Backup system that is physically isolated from networked systems to prevent cyber attacks.
-
-- **Infrastructure-as-Code (IaC):** Practice of managing and provisioning infrastructure through machine-readable definition files.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

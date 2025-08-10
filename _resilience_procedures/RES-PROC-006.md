@@ -27,14 +27,7 @@ This plan provides a framework for responding to a business disruption. It detai
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework** | **Control Reference** |
-| --- | --- | --- |
-| **1-5** | HITRUST CSF v11.2.0 | 16.d - Business Continuity Procedures |
-| **1-2** | HITRUST CSF v11.2.0 | 16.f - Emergency Response |
-| **3** | HITRUST CSF v11.2.0 | 16.a - Business Continuity Management Policy |
-| **4-5** | HITRUST CSF v11.2.0 | 16.c - System Resilience |
-| **1-5** | SOC 2 | A1.1 |
-| **1-5** | HIPAA Security Rule | 45 CFR § 164.308(a)(7)(ii)(C) |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -43,9 +36,7 @@ This plan provides a framework for responding to a business disruption. It detai
 
 ### 7. Definitions
 
-- **Emergency Operations Center (EOC):** A central command and control facility responsible for carrying out the principles of emergency preparedness and emergency management, or disaster management functions at a strategic level during an emergency.
-
-- **Emergency Notification System:** A platform used to rapidly communicate with employees, stakeholders, and other contacts in the event of an emergency.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

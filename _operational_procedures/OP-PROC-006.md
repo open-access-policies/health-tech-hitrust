@@ -29,15 +29,7 @@ This procedure ensures that all individuals with access to company information a
 
 ### 5. Standards Compliance
 
-This section maps the procedure steps to specific controls from relevant information security standards.
-
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**        |
-| --------------------- | -------------------------- | ---------------------------- |
-| **1-7**               | HITRUST CSF v11.2.0       | 13.c - Terms and Conditions of Employment |
-| **4-5**               | HITRUST CSF v11.2.0       | 13.b - Information Security Awareness |
-| **1-7**               | HITRUST CSF v11.2.0       | 02.b - Information Security Roles and Responsibilities |
-| **1-7**               | SOC 2                      | CC2.1, CC2.2                 |
-| **1-7**               | HIPAA Security Rule        | 45 CFR § 164.308(a)(3)(i)    |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -45,9 +37,7 @@ A completed background check report and the candidate's consent form, stored sec
 
 ### 7. Definitions
 
-- **Contingent Offer:** An offer of employment that is dependent on the successful fulfillment of certain conditions, such as a background check or drug screening.
-
-- **Adverse Findings:** Information discovered during a background check that could negatively impact a hiring decision (e.g., a criminal conviction).
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

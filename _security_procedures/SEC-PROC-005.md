@@ -28,14 +28,7 @@ This procedure outlines the steps for conducting due diligence on prospective ve
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**           |
-| --------------------- | -------------------------- | ------------------------------- |
-| **1-6**               | HITRUST CSF v11.2.0       | 14.b - Third Party Risk Assessment |
-| **2-4**               | HITRUST CSF v11.2.0       | 14.f - Service Delivery Management |
-| **3**                 | HITRUST CSF v11.2.0       | 14.a - Third Party Assurance Policy |
-| **5-6**               | HITRUST CSF v11.2.0       | 14.c - Third Party Service Agreements |
-| **1-6**               | SOC 2                      | CC9.2                           |
-| **1-6**               | HIPAA/HITECH               | 45 CFR § 164.308(a)(1)(ii)(A)   |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -43,7 +36,7 @@ A completed Vendor Risk Assessment Report.
 
 ### 7. Definitions
 
-- **SOC 2 Report:** A report on controls at a service organization relevant to security, availability, processing integrity, confidentiality, or privacy.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

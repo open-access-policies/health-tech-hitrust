@@ -28,14 +28,7 @@ This procedure details the methodology for conducting risk assessments. It cover
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**           |
-| --------------------- | -------------------------- | ------------------------------- |
-| **1-6**               | HITRUST CSF v11.2.0       | 17.c - Risk Assessment Process |
-| **1-2**               | HITRUST CSF v11.2.0       | 17.b - Risk Management Framework |
-| **3-4**               | HITRUST CSF v11.2.0       | 17.d - Risk Treatment |
-| **5-6**               | HITRUST CSF v11.2.0       | 17.e - Risk Monitoring and Review |
-| **1-6**               | SOC 2                      | CC3.2                           |
-| **1-6**               | HIPAA/HITECH               | 45 CFR § 164.308(a)(1)(ii)(A)   |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -43,7 +36,7 @@ An updated Risk Register and a formal Risk Assessment Report.
 
 ### 7. Definitions
 
-- **Risk Register:** A log of identified risks, their characteristics, and their status.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

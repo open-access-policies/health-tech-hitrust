@@ -215,42 +215,11 @@ Comprehensive post-incident activities shall ensure organizational learning, pro
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-| **Policy Section** | **Standard/Framework**        | **Control Reference**                                      |
-| ------------------ | ----------------------------- | ---------------------------------------------------------- |
-| **All**            | HITRUST CSF v11.2.0          | 15.d - Incident Response Procedures                       |
-| **3.2**            | HITRUST CSF v11.2.0          | 15.e - External Communications                            |
-| **3.3**            | HITRUST CSF v11.2.0          | 15.f - Incident Recovery                                  |
-| **3.4**            | HITRUST CSF v11.2.0          | 15.g - Incident Lessons Learned                           |
-| **3.1**            | HITRUST CSF v11.2.0          | 15.c - Incident Investigation                             |
-| **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(6) - Security Incident Procedures    |
-| **3.2.1**          | HIPAA Breach Notification Rule | 45 CFR § 164.400-414 - Notification Requirements         |
-| **3.2.3**          | HIPAA Security Rule           | 45 CFR § 164.312(b) - Audit Controls                     |
-| **All**            | SOC 2 Trust Services Criteria | CC7.2 - Controls Monitor Effectiveness                    |
-| **3.3**            | SOC 2 Trust Services Criteria | CC2.1 - Communication and Information                     |
-| **3.4**            | SOC 2 Trust Services Criteria | CC2.2 - Internal Communication                            |
-| **All**            | NIST Cybersecurity Framework  | RS.CO - Communications                                    |
-| **3.1**            | NIST Cybersecurity Framework  | RS.RP - Response Planning                                 |
-| **3.4**            | NIST Cybersecurity Framework  | RC.IM - Improvements                                      |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Breach Assessment:** Formal evaluation process to determine whether a security incident constitutes a reportable breach under applicable regulations.
-
-- **Chain of Custody:** Documentation of the chronological transfer of evidence from collection through analysis to presentation in legal proceedings.
-
-- **Eradication:** Process of removing threats and vulnerabilities from affected systems to prevent recurrence of security incidents.
-
-- **Legal Hold:** Process of preserving all relevant documents and electronic information when litigation is anticipated or ongoing.
-
-- **Lessons Learned:** Post-incident analysis process to identify improvements in procedures, controls, and response capabilities.
-
-- **Litigation Hold:** Legal requirement to preserve documents and electronic information relevant to current or anticipated litigation.
-
-- **Recovery:** Process of restoring affected systems and services to normal operations after incident containment and eradication.
-
-- **Regulatory Notification:** Required communication to government agencies and regulatory bodies regarding security incidents and breaches.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

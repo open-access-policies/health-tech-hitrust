@@ -262,48 +262,11 @@ Following any activation of the business continuity plan, a formal post-incident
 
 ## 4. Standards Compliance
 
-This Business Continuity Management Policy aligns with and supports compliance requirements from multiple regulatory frameworks, professional standards, and industry best practices, specifically addressing business operational continuity requirements while coordinating with technical disaster recovery through RES-POL-005.
-
-### 4.1 Regulatory Compliance Mapping
-
-| **Policy Section** | **Standard/Framework** | **Control Reference** |
-| ------------------ | ---------------------- | --------------------- |
-| **3.1, 3.2** | HITRUST CSF v11.2.0 | 16.a - Business Continuity Management |
-| **3.2, 3.3** | HITRUST CSF v11.2.0 | 16.b - Business Impact Analysis |
-| **3.3, 3.4** | HITRUST CSF v11.2.0 | 16.c - Business Continuity and Contingency Planning |
-| **3.4, 3.5** | HITRUST CSF v11.2.0 | 16.d - Business Continuity Plan Development |
-| **3.5, 3.6** | HITRUST CSF v11.2.0 | 16.e - Business Continuity Plan Testing |
-| **3.6** | HITRUST CSF v11.2.0 | 16.f - Business Continuity Plan Maintenance |
-| **3.2, 3.3** | HIPAA Security Rule | 45 CFR § 164.308(a)(7)(i) - Contingency Plan Standard |
-| **3.4** | HIPAA Security Rule | 45 CFR § 164.308(a)(7)(ii)(A) - Data Backup Plan |
-| **3.5** | HIPAA Security Rule | 45 CFR § 164.308(a)(7)(ii)(C) - Emergency Access Procedure |
-| **3.3, 3.4** | HIPAA Security Rule | 45 CFR § 164.308(a)(7)(ii)(D) - Emergency Mode Operation Procedures |
-| **3.1, 3.4** | SOC 2 Trust Services Criteria | A1.1 - Availability Risk Assessment |
-| **3.3, 3.4** | SOC 2 Trust Services Criteria | A1.2 - Recovery Planning |
-| **3.5** | SOC 2 Trust Services Criteria | A1.3 - Recovery Testing |
-| **3.1, 3.2** | ISO 27001:2013 | A.17.1 - Information Security Aspects of Business Continuity Management |
-| **3.2, 3.3** | ISO 27001:2013 | A.17.1.1 - Planning Information Security Continuity |
-| **3.5** | ISO 27001:2013 | A.17.1.3 - Verify, Review and Evaluate Information Security Continuity |
-| **3.4, 3.5** | NIST SP 800-34 Rev. 1 | Business Process Contingency Planning |
-| **3.6** | NIST Cybersecurity Framework | RS.RP-1 - Recovery Plan Development and Implementation |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Business Continuity:** The capability to continue delivery of products or services at predefined levels following a disruptive incident.
-
-- **Business Impact Analysis (BIA):** Process to determine the impact of losing business functions and processes.
-
-- **Disaster Recovery:** Process of restoring IT infrastructure and systems following a disaster.
-
-- **Emergency Operations Center (EOC):** Centralized location for emergency response coordination and decision-making.
-
-- **Recovery Point Objective (RPO):** Maximum acceptable amount of data loss measured in time.
-
-- **Recovery Time Objective (RTO):** Maximum acceptable length of time to restore business functions.
-
-- **Resilience:** Ability to adapt and recover quickly from disruptions while maintaining operations.
-
-- **Risk Assessment:** Process of identifying threats and vulnerabilities that could impact business operations.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

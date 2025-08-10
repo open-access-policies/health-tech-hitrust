@@ -150,45 +150,11 @@ Comprehensive dynamic testing shall validate the security of applications in run
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-| **Policy Section** | **Standard/Framework**        | **Control Reference**                                                                 |
-| ------------------ | ----------------------------- | ------------------------------------------------------------------------------------- |
-| **3.1**            | HITRUST CSF v11.2.0          | 07.b - Vulnerability Identification                                                  |
-| **3.2, 3.3**       | HITRUST CSF v11.2.0          | 07.c - Vulnerability Assessment                                                      |
-| **3.2.2**          | HITRUST CSF v11.2.0          | 07.d - Vulnerability Remediation                                                     |
-| **3.1, 3.2**       | HITRUST CSF v11.2.0          | 06.e - Secure Development                                                            |
-| **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(1) - Security Management Process                                |
-| **3.1**            | HIPAA Security Rule           | 45 CFR § 164.312(a)(1) - Access Control                                             |
-| **3.1.1**          | HIPAA Security Rule           | 45 CFR § 164.312(a)(2)(i) - Unique User Identification                              |
-| **3.1.1**          | HIPAA Security Rule           | 45 CFR § 164.312(e)(1) - Transmission Security                                      |
-| **3.3**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(8) - Evaluation                                                 |
-| **All**            | SOC 2 Trust Services Criteria | CC8.1 - System Development                                                           |
-| **3.2, 3.3**       | SOC 2 Trust Services Criteria | CC7.1 - System Monitoring                                                            |
-| **3.1**            | SOC 2 Trust Services Criteria | CC6.8 - System Security                                                              |
-| **All**            | OWASP SAMM                    | Software Assurance Maturity Model                                                    |
-| **3.1**            | OWASP Top 10                  | Web Application Security Risks                                                       |
-| **All**            | NIST Cybersecurity Framework  | PR.IP-1 - Baseline Security                                                          |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Dynamic Application Security Testing (DAST):** Security testing method that analyzes applications in their running state to identify vulnerabilities.
-
-- **Interactive Application Security Testing (IAST):** Security testing that combines static and dynamic analysis to provide real-time vulnerability detection.
-
-- **Penetration Testing:** Simulated cyber attack against applications or systems to evaluate security defenses.
-
-- **Static Application Security Testing (SAST):** Security testing method that analyzes source code to identify potential vulnerabilities.
-
-- **Secure Coding Standards:** Set of guidelines and best practices for writing code that is resistant to security vulnerabilities and attacks.
-
-- **Code Review:** Systematic examination of computer source code intended to find and fix mistakes and improve the overall quality and security of software.
-
-- **Cross-Site Scripting (XSS):** Security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users.
-
-- **SQL Injection:** Code injection technique that exploits security vulnerabilities in database applications by inserting malicious SQL statements.
-
-- **Cross-Site Request Forgery (CSRF):** Attack that forces an end user to execute unwanted actions on a web application in which they are currently authenticated.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

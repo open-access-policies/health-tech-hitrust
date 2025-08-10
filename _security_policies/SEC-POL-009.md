@@ -177,27 +177,7 @@ Log management systems shall be monitored and maintained to ensure adequate perf
 
 ### 4. Standards Compliance
 
-This Audit Logging Framework and Coordination Policy aligns with and supports compliance requirements from multiple regulatory frameworks while coordinating specialized logging requirements through SEC-POL-010 (Authentication and Network Audit Logging Policy) and SEC-POL-011 (Data Access and Compliance Audit Logging Policy).
-
-### 4.1 Regulatory Compliance Mapping
-
-| **Policy Section** | **Standard/Framework** | **Control Reference** |
-| ------------------ | ---------------------- | --------------------- |
-| **3.1** | HITRUST CSF v11.2.0 | 12.a - Audit Logging Policy |
-| **3.2** | HITRUST CSF v11.2.0 | 12.b - Log Management |
-| **3.3** | HITRUST CSF v11.2.0 | 12.e - Log Protection |
-| **3.4** | HITRUST CSF v11.2.0 | 12.c - Log Monitoring |
-| **3.4** | HITRUST CSF v11.2.0 | 12.f - Audit Review |
-| **3.5** | HITRUST CSF v11.2.0 | 15.a - Incident Response Policy |
-| **3.1, 3.2** | HIPAA Security Rule | 45 CFR § 164.312(b) - Audit Controls |
-| **3.4** | HIPAA Security Rule | 45 CFR § 164.308(a)(1)(ii)(D) - Information System Activity Review |
-| **3.5** | HIPAA Security Rule | 45 CFR § 164.308(a)(6) - Security Incident Procedures |
-| **3.1, 3.4** | SOC 2 Trust Services Criteria | CC7.1 - System Monitoring |
-| **3.4, 3.5** | SOC 2 Trust Services Criteria | CC7.2 - System Monitoring - Detection of Incidents |
-| **3.3** | SOC 2 Trust Services Criteria | CC6.1 - Logical Access Security |
-| **3.2** | SOC 2 Trust Services Criteria | CC6.5 - Data Disposal |
-| **3.1, 3.4** | NIST Cybersecurity Framework | DE.AE - Anomalies and Events |
-| **3.4** | NIST Cybersecurity Framework | DE.CM - Security Continuous Monitoring |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 4.2 Policy Coordination References
 
@@ -209,19 +189,7 @@ This framework policy coordinates with specialized logging policies to ensure co
 
 ### 5. Definitions
 
-- **Audit Logging Framework:** The comprehensive system of policies, procedures, and technologies that coordinate audit logging across all security domains.
-
-- **Cross-Domain Correlation:** The process of analyzing and linking related events across authentication, network, and data access logging domains.
-
-- **Event Integration:** The technical capability to combine and analyze security events from multiple specialized logging domains.
-
-- **Log Coordination:** The process of ensuring consistent standards, formats, and procedures across all specialized logging policies.
-
-- **Policy Integration:** The coordination between specialized logging policies to ensure comprehensive coverage without gaps or overlaps.
-
-- **Security Information and Event Management (SIEM):** A technology that provides real-time analysis of security alerts generated from authentication, network, and data access sources.
-
-- **Unified Monitoring:** The capability to monitor and analyze security events across all logging domains through integrated platforms and procedures.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

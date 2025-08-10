@@ -28,12 +28,7 @@ This procedure details the end-to-end process for the annual internal audit of t
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**     |
-| --------------------- | -------------------------- | ------------------------- |
-| **1-6**               | HITRUST CSF v11.2.0       | 01.g - Information Security Management Program Review |
-| **1-6**               | HITRUST CSF v11.2.0       | 12.f - Audit Logging and Monitoring Review |
-| **2-3**               | HITRUST CSF v11.2.0       | 17.e - Risk Monitoring and Review |
-| **1-6**               | HIPAA/HITECH               | 45 CFR § 164.308(a)(8)    |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -41,7 +36,7 @@ A final internal audit report and a corrective action tracking log.
 
 ### 7. Definitions
 
-- **ISMS:** Information Security Management System.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

@@ -163,45 +163,11 @@ Comprehensive assessment and mitigation of supply chain risks associated with th
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-| **Policy Section** | **Standard/Framework**        | **Control Reference**                                          |
-| ------------------ | ----------------------------- | -------------------------------------------------------------- |
-| **3.1**            | HITRUST CSF v11.2.0          | 14.g - Third Party Development                                |
-| **3.1.1**          | HITRUST CSF v11.2.0          | 07.b - Vulnerability Identification                           |
-| **3.1.2**          | HITRUST CSF v11.2.0          | 07.d - Vulnerability Remediation                              |
-| **3.2**            | HITRUST CSF v11.2.0          | 06.e - Secure Development                                     |
-| **3.3**            | HITRUST CSF v11.2.0          | 14.a - Supplier Relationships                                 |
-| **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(1) - Security Management Process         |
-| **3.2.2**          | HIPAA Security Rule           | 45 CFR § 164.312(a)(1) - Access Control                      |
-| **3.2.2**          | HIPAA Security Rule           | 45 CFR § 164.312(e)(1) - Transmission Security               |
-| **3.3**            | HIPAA Security Rule           | 45 CFR § 164.314(a)(1) - Business Associate Contracts        |
-| **All**            | SOC 2 Trust Services Criteria | CC8.1 - System Development                                    |
-| **3.2**            | SOC 2 Trust Services Criteria | CC6.8 - System Security                                       |
-| **3.3**            | SOC 2 Trust Services Criteria | CC9.1 - Vendor and Business Partner Management                |
-| **All**            | NIST Cybersecurity Framework  | PR.IP-1 - Baseline Security                                   |
-| **3.1**            | NIST SP 800-161               | Supply Chain Risk Management                                   |
-| **3.2**            | NIST SP 800-218               | Secure Software Development Framework                          |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Software Composition Analysis (SCA):** Automated process of identifying open source and third-party components and their associated security vulnerabilities.
-
-- **Continuous Integration/Continuous Deployment (CI/CD):** Development practice that enables frequent integration and automated deployment of code changes.
-
-- **Infrastructure as Code (IaC):** Practice of managing and provisioning infrastructure through machine-readable definition files.
-
-- **Software Bill of Materials (SBOM):** Formal record containing the details and supply chain relationships of various components used in building software.
-
-- **Supply Chain Attack:** Cyber attack that targets less-secure elements in the supply chain to compromise the primary target.
-
-- **Secrets Management:** Practice of securely storing, managing, and auditing access to sensitive information like passwords, API keys, and certificates.
-
-- **Third-Party Component:** Any software library, framework, tool, or service developed by an external organization and used in the development process.
-
-- **Vulnerability Database:** Centralized repository containing information about known security vulnerabilities in software components.
-
-- **Container Security:** Practice of securing containerized applications and their runtime environments throughout the development and deployment lifecycle.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

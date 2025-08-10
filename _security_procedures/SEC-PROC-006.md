@@ -22,19 +22,12 @@ This procedure outlines the standardized steps for managing physical access. It 
 | **1**    | Hiring Manager/HR            | Submits a facility access request form for a new employee or contractor.                                                            |
 | **2**    | Facilities/Security Team     | Provisions and issues a physical access badge based on the approved request, corresponding to the individual's role and location.    |
 | **3**    | Employee/Host                | Registers visitors at the front desk. Visitors must sign in, be issued a temporary badge, and be escorted at all times.              |
-| **4**    | Facilities/Security Team     | Conducts and documents quarterly reviews of all physical access permissions to ensure they are still required and appropriate.      |
+| **4**    | Facilities/Security Team     | Conducts and documents annual reviews of all physical access permissions to ensure they are still required and appropriate.      |
 | **5**    | Manager/HR                   | Notifies the Facilities/Security Team immediately upon termination of an employee or contractor to revoke physical access.           |
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**           |
-| --------------------- | -------------------------- | ------------------------------- |
-| **1-5**               | HITRUST CSF v11.2.0       | 18.b - Physical Access Controls |
-| **3**                 | HITRUST CSF v11.2.0       | 18.g - Facility Security |
-| **4**                 | HITRUST CSF v11.2.0       | 11.d - User Access Review |
-| **5**                 | HITRUST CSF v11.2.0       | 13.d - Termination Responsibilities |
-| **1-5**               | SOC 2                      | CC6.4                           |
-| **1-5**               | HIPAA/HITECH               | 45 CFR § 164.310(a)(2)(i)       |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -42,7 +35,7 @@ A completed access request form and an access review log.
 
 ### 7. Definitions
 
-N/A
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

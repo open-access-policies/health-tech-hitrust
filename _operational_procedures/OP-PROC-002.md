@@ -29,12 +29,7 @@ This procedure describes the process for onboarding a mobile device, from obtain
 
 ### 5. Standards Compliance
 
-This section maps the procedure steps to specific controls from relevant information security standards.
-
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**        |
-| --------------------- | -------------------------- | ---------------------------- |
-| **1-7**               | SOC 2                      | CC6.1, CC6.3                 |
-| **1-7**               | HIPAA Security Rule        | 45 CFR § 164.312(a)(1)       |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -42,9 +37,7 @@ A record of MDM enrollment and a compliance verification report stored within th
 
 ### 7. Definitions
 
-- **MDM (Mobile Device Management):** Software that allows an organization to secure, monitor, and manage mobile devices, such as smartphones and tablets.
-
-- **BYOD (Bring Your Own Device):** A policy that allows employees to use their personal devices for work-related purposes.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

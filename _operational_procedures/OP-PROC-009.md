@@ -19,20 +19,13 @@ This procedure outlines the streamlined, ticket-based workflow for managing new 
 | 1        | Workforce Member | Submits a "New Software Request" ticket via the IT helpdesk system. The request shall include the software/extension name, a link to its official source, and a clear business justification. |
 | 2        | Security Team    | Receives and reviews the ticket. Conducts a risk assessment based on the software's function, the data it accesses, its permissions, vendor reputation, and any known vulnerabilities.       |
 | 3        | Security Team    | Based on the assessment, formally approves or denies the request within the ticket, providing a brief rationale for the decision.                                                            |
-| 4        | IT Department    | If approved, adds the software to the official **Software Allowlist** and, if necessary, assists the user with a secure installation.                                                        |
+| 4        | IT Department    | If approved, adds the software to the official
+**Software Allowlist**
+and, if necessary, assists the user with a secure installation.                                                        |
 
 #### **5. Standards Compliance**
 
-This procedure is designed to comply with and support the following industry standards and regulations.
-
-| **Procedure Step(s)** | **Standard/Framework**        | **Control Reference**                                                                                                            |
-| --------------------- | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| **1-4**               | HITRUST CSF v11.2.0          | 02.e - Software Installation and Maintenance |
-| **2-3**               | HITRUST CSF v11.2.0          | 07.d - Vulnerability Assessment |
-| **1-4**               | HITRUST CSF v11.2.0          | 12.b - Secure Configuration Standards |
-| **1-4**               | SOC 2 Trust Services Criteria | CC6.8 - The entity implements controls to prevent or detect and act upon the introduction of unauthorized or malicious software. |
-| **2-3**               | SOC 2 Trust Services Criteria | CC7.1 - The entity uses detection and monitoring procedures to identify changes... that are indicative of a control failure.     |
-| **1-4**               | HIPAA Security Rule           | 45 CFR § 164.308(a)(5)(ii)(B) - Protection from Malicious Software                                                               |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 #### **6. Artifact(s)**
 
@@ -40,10 +33,7 @@ A completed IT helpdesk ticket that documents the initial request, the security 
 
 #### **7. Definitions**
 
-- **Software Allowlist:** An official, centrally managed list of all software and browser extensions that have been vetted and are approved for installation on company endpoints.
-    
-- **Risk Assessment:** The process of identifying potential security risks associated with a piece of software, evaluating their potential impact, and determining the appropriate course of action.
-    
+See [Annex: Glossary](../_annexes/glossary.md)
 
 #### **8. Responsibilities**
 

@@ -81,30 +81,11 @@ The IT Department will use endpoint management tools to enforce this policy and 
 
 #### **4. Standards Compliance**
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-| **Policy Section** | **Standard/Framework**        | **Control Reference**                                                                                                            |
-| ------------------ | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| **All**            | HITRUST CSF v11.2.0          | 02.a - Endpoint Protection Policy                                                                                                |
-| **3.1, 3.3**       | HITRUST CSF v11.2.0          | 02.b - Malware Protection                                                                                                        |
-| **3.2**            | HITRUST CSF v11.2.0          | 02.c - Software Management                                                                                                       |
-| **3.4**            | HITRUST CSF v11.2.0          | 02.d - Endpoint Configuration Management                                                                                         |
-| **3.5**            | HITRUST CSF v11.2.0          | 02.e - Endpoint Monitoring                                                                                                       |
-| All                | HIPAA Security Rule           | 45 CFR § 164.308(a)(1)(ii)(B) - Risk Management                                                                                  |
-| 3.1, 3.3           | HIPAA Security Rule           | 45 CFR § 164.308(a)(5)(ii)(B) - Protection from Malicious Software                                                               |
-| All                | SOC 2 Trust Services Criteria | CC6.8 - The entity implements controls to prevent or detect and act upon the introduction of unauthorized or malicious software. |
-| 3.5                | SOC 2 Trust Services Criteria | CC7.1 - The entity uses detection and monitoring procedures to identify changes... that are indicative of a control failure.     |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 #### **5. Definitions**
 
-- **Endpoint:** Any company-owned or managed computing device, such as a laptop or workstation.
-    
-- **Software Allowlist:** An official, centrally managed list of all software and browser extensions that have been vetted and are approved for installation on company endpoints.
-    
-- **Software Blocklist:** An official list of specific software applications or categories that are explicitly forbidden from being installed on company endpoints.
-    
-- **Shadow IT:** Technology, software, or services used inside an organization without explicit organizational approval.
-    
+See [Annex: Glossary](../_annexes/glossary.md)
 
 #### **6. Responsibilities**
 

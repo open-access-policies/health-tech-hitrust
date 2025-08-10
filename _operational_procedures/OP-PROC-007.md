@@ -38,12 +38,7 @@ This procedure establishes standardized checklists for the security-related aspe
 
 ### 5. Standards Compliance
 
-This section maps the procedure steps to specific controls from relevant information security standards.
-
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**              |
-| --------------------- | -------------------------- | ---------------------------------- |
-| **4.1-4.2**           | HIPAA Security Rule        | 45 CFR § 164.308(a)(3)(i)          |
-| **4.2**               | HIPAA Security Rule        | 45 CFR § 164.308(a)(3)(ii)(C)       |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -51,11 +46,7 @@ A completed and signed onboarding/offboarding checklist stored in the employee's
 
 ### 7. Definitions
 
-- **Onboarding:** The process of integrating a new employee into an organization.
-
-- **Offboarding:** The formal process of separation when an employee leaves a company.
-
-- **AUP (Acceptable Use Policy):** A document stipulating constraints and practices that a user must agree to for access to a corporate network or the Internet.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

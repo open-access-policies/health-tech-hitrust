@@ -181,36 +181,11 @@ Comprehensive post-incident activities shall ensure organizational learning and 
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-|**Policy Section**|**Standard/Framework**|**Control Reference**|
-|---|---|---|
-|**All**|HITRUST CSF v11.2.0|15.a - Incident Response Program|
-|**3.1, 3.2**|HITRUST CSF v11.2.0|15.b - Incident Detection|
-|**3.5**|HITRUST CSF v11.2.0|15.g - Incident Lessons Learned|
-|**3.1.2**|HITRUST CSF v11.2.0|15.c - Incident Investigation|
-|**All**|HIPAA Security Rule|45 CFR § 164.308(a)(6) - Security Incident Procedures|
-|**3.5**|HIPAA Security Rule|45 CFR § 164.312(b) - Audit Controls|
-|**All**|SOC 2 Trust Services Criteria|CC7.1 - System Monitoring|
-|**3.5**|SOC 2 Trust Services Criteria|CC2.1 - Communication and Information|
-|**All**|NIST Cybersecurity Framework|RS.RP - Response Planning|
-|**3.5**|NIST Cybersecurity Framework|RC.IM - Improvements|
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Incident Classification:** Systematic categorization of security incidents based on severity, impact, and required response level.
-
-- **Incident Commander:** Individual with overall authority and responsibility for incident response coordination and decision-making.
-
-- **Incident Response Framework:** Structured approach to managing security incidents through defined phases, procedures, and governance structures.
-
-- **Incident Response Team (IRT):** Designated group of individuals responsible for coordinating organizational response to security incidents.
-
-- **Mean Time to Recovery (MTTR):** Average time to restore normal operations after a security incident.
-
-- **Post-Incident Review:** Formal process to analyze incident response effectiveness and identify improvement opportunities.
-
-- **Security Incident:** Any event that could result in unauthorized access to, disclosure, modification, or destruction of information assets.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

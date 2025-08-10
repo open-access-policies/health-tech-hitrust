@@ -28,10 +28,7 @@ This procedure provides a structured pathway for managing situations where immed
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**           |
-| --------------------- | -------------------------- | ------------------------------- |
-| **1-6**               | SOC 2                      | CC7.1                           |
-| **1-6**               | HIPAA/HITECH               | 45 CFR § 164.308(a)(1)(ii)(B)   |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -39,8 +36,7 @@ A completed and approved Exception Request Form documented in the risk register.
 
 ### 7. Definitions
 
-- **SLA:** Service Level Agreement.
-- **CTO:** Chief Technology Officer.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

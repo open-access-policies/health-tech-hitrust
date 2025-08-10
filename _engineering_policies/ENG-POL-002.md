@@ -85,27 +85,11 @@ To enforce the change control process described in this policy, all `main`, `pro
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-| **Policy Section** | **Standard/Framework**        | **Control Reference**                                                                 |
-| ------------------ | ----------------------------- | ------------------------------------------------------------------------------------- |
-| **All**            | HITRUST CSF v11.2.0          | 06.a - Configuration Management Policy                                               |
-| **3.1, 3.2**       | HITRUST CSF v11.2.0          | 06.b - Configuration Change Control                                                  |
-| **3.3**            | HITRUST CSF v11.2.0          | 06.c - Configuration Management Tools                                                |
-| **3.4**            | HITRUST CSF v11.2.0          | 06.d - Configuration Change Control                                                  |
-| **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(1)(ii)(C) - Authorization and/or supervision                      |
-| **3.1, 3.2**       | HIPAA Security Rule           | 45 CFR § 164.312(c)(1) - Integrity                                                    |
-| **3.4**            | HIPAA Security Rule           | 45 CFR § 164.312(b) - Audit Controls                                                  |
-| **All**            | SOC 2 Trust Services Criteria | CC8.1 - The entity designs, develops, and implements controls over change management. |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Change:** Any modification to production code, system configurations, or database schemas.
-    
-- **Production Environment:** The live environment that serves **[Company Name]**'s customers and processes real data.
-    
-- **Pull Request:** A feature in GitHub that facilitates the peer review and merging of code from one branch into another.
-    
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

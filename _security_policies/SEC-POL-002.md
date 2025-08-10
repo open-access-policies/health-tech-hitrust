@@ -99,30 +99,11 @@ Non-interactive accounts (e.g., service accounts, API keys) must be securely man
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-|**Policy Section**|**Standard/Framework**|**Control Reference**|
-|---|---|---|
-|**All**|HITRUST CSF v11.2.0|10.a - Password Protection Policy|
-|**3.1, 3.2**|HITRUST CSF v11.2.0|10.b - Password Creation and Management|
-|**3.3, 3.4**|HITRUST CSF v11.2.0|10.c - Password Protection Systems|
-|**3.5**|HITRUST CSF v11.2.0|11.b - User Access Management|
-|**3.1, 3.2, 3.4**|HIPAA Security Rule|45 CFR § 164.308(a)(5)(ii)(D) - Password Management|
-|**3.3, 3.5**|HIPAA Security Rule|45 CFR § 164.312(a)(2)(i) - Unique User Identification|
-|**3.3**|HIPAA Security Rule|45 CFR § 164.312(d) - Person or Entity Authentication|
-|**All**|SOC 2 Trust Services Criteria|CC6.1 - Logical Access Security|
-|**3.2, 3.5**|SOC 2 Trust Services Criteria|CC6.2 - Prior to issuing system credentials...|
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **ePHI (electronic Protected Health Information):** Any protected health information (PHI) that is created, stored, transmitted, or received in any electronic format.
-    
-- **Workforce Member:** Employees, volunteers, trainees, and other persons whose conduct, in the performance of work for **[Company Name]**, is under the direct control of the company, whether or not they are paid by the company.
-    
-- **Multi-Factor Authentication (MFA):** An authentication method that requires the user to provide two or more verification factors to gain access to a resource.
-    
-- **Strong Password:** A password that meets the length and complexity requirements defined in section 3.1 of this policy.
-    
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

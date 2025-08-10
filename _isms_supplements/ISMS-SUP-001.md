@@ -10,10 +10,7 @@ These procedures shall be conducted and documented every three months to ensure 
 
 | **Procedure (Code)**                                                 | **Primary Owner**        | **Description**                                                                                                                    |
 | -------------------------------------------------------------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
-| **Information Security Committee Charter Procedure** (SEC-PROC-001)  | Committee Chair          | Defines the operating rules and responsibilities of the Information Security Committee, which holds quarterly meetings.            |
-| **Facility Access Management Procedure** (SEC-PROC-006)              | Facilities/Security Team | Describes the process for managing physical facility access, including conducting and documenting quarterly access reviews.        |
-| **User Access Review Procedure** (AC-PROC-003)                       | IT/Security Team         | Defines the process for conducting periodic reviews of user access rights to ensure adherence to the principle of least privilege. |
-| **Privileged Infrastructure Access Review Procedure** (ENG-PROC-006) | Security Team            | Outlines the steps for conducting and documenting the required quarterly reviews of all user accounts with privileged access.      |
+| **Privileged Infrastructure Access Review Procedure** (ENG-PROC-006) | Security Team            | Outlines the steps for conducting and documenting the required quarterly reviews of all user accounts with privileged access.      |
 
 #### **Annual Procedures**
 
@@ -21,13 +18,14 @@ These procedures shall be performed at least once per year to satisfy major comp
 
 | **Procedure (Code)**                                               | **Primary Owner**           | **Description**                                                                                                                              |
 | ------------------------------------------------------------------ | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Information Security Committee Charter Procedure** (SEC-PROC-001) | Committee Chair            | Defines the operating rules and responsibilities of the Information Security Committee; the charter shall be reviewed annually.              |
 | **Internal Audit Procedure** (SEC-PROC-002)                        | Head of Internal Audit      | Outlines the process for planning, conducting, and reporting on annual internal audits of the Information Security Management System.        |
 | **Risk Assessment Procedure** (SEC-PROC-004)                       | Security Officer            | Establishes a systematic process for conducting risk assessments annually and on an ad-hoc basis when significant changes occur.             |
 | **Incident Response Plan (IRP)** ([RES-PROC-001])                  | Security Team               | Provides actionable steps for responding to incidents, including conducting annual training and simulation exercises.                        |
 | **Business Impact Analysis (BIA) Procedure** ([RES-PROC-004])      | Business Continuity Manager | Defines the methodology for conducting the annual Business Impact Analysis to identify critical functions and establish recovery objectives. |
 | **BCDR Testing and Exercise Procedure** ([RES-PROC-007])           | Business Continuity Manager | Details the requirements for planning and executing the annual disaster recovery tests and business continuity exercises.                    |
-| **Cryptographic Key Lifecycle Management Procedure** (OP-PROC-001) | Security Engineering Team   | Provides technical steps for the secure lifecycle of cryptographic keys, including their annual rotation.                                    |
 | **Application Security Testing Procedure** (ENG-PROC-001)          | Security Team               | Details the process for conducting security testing, including annual penetration tests for applications handling sensitive data.            |
+| **Facility Access Management Procedure** (SEC-PROC-006)              | Facilities/Security Team | Describes the process for managing physical facility access, including conducting and documenting annual access reviews.        |
 
 #### **Ad-Hoc / As-Needed / Event-Driven Procedures**
 
@@ -57,4 +55,3 @@ These procedures are not performed on a fixed schedule but are triggered by spec
 | **Third-Party Component Security Review Procedure** (ENG-PROC-002)              | Development Team Lead        | Defines the steps for reviewing and approving the use of new third-party software components.                                           |
 | **Standard Change Management Procedure** (ENG-PROC-003)                         | Engineering Lead             | Details the process for managing a standard, non-emergency change to a production application or configuration.                         |
 | **Emergency Change Management Procedure** (ENG-PROC-004)                        | Engineering & Security Teams | Outlines the expedited process for authorizing and deploying an emergency change to resolve a critical issue.                           |
-| **System Hardening and Baselining Procedure** (ENG-PROC-005)                    | Security Team                | Describes the process for applying security baselines to new systems and verifying their ongoing compliance.                            |

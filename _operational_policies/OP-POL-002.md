@@ -383,72 +383,11 @@ Comprehensive support and training programs shall ensure effective mobile device
 
 ### 4. Standards Compliance
 
-This Mobile Device Security Policy aligns with and supports compliance requirements from multiple regulatory frameworks, providing comprehensive coverage for technical security, business usage, and BYOD program requirements.
-
-### 4.1 Regulatory Compliance Mapping
-
-| **Policy Section** | **Standard/Framework** | **Control Reference** |
-| ------------------ | ---------------------- | --------------------- |
-| **Section A - All** | HITRUST CSF v11.2.0 | 04.a - Mobile Device Security Policy |
-| **3.2** | HITRUST CSF v11.2.0 | 04.b - Mobile Device Management |
-| **3.2, 3.6** | HITRUST CSF v11.2.0 | 04.c - Mobile Device Access Control |
-| **3.3** | HITRUST CSF v11.2.0 | 04.d - Mobile Device Encryption |
-| **3.7** | HITRUST CSF v11.2.0 | 04.e - Mobile Application Security |
-| **3.8** | HITRUST CSF v11.2.0 | 04.f - Mobile Device Monitoring |
-| **3.9** | HITRUST CSF v11.2.0 | 15.a - Incident Response Policy |
-| **3.11** | HITRUST CSF v11.2.0 | 13.a - Information Security Education |
-| **3.11** | HITRUST CSF v11.2.0 | 13.b - Information Security Awareness |
-| **3.5** | HITRUST CSF v11.2.0 | 01.d - Information Security Governance |
-| **3.3** | HIPAA Security Rule | 45 CFR § 164.312(a)(2)(iv) - Encryption and Decryption |
-| **3.3** | HIPAA Security Rule | 45 CFR § 164.312(e)(1) - Transmission Security |
-| **3.2, 3.4** | HIPAA Security Rule | 45 CFR § 164.308(a)(4) - Information Access Management |
-| **3.8** | HIPAA Security Rule | 45 CFR § 164.312(b) - Audit Controls |
-| **3.11** | HIPAA Security Rule | 45 CFR § 164.308(a)(5) - Security Awareness and Training |
-| **3.5** | HIPAA Privacy Rule | 45 CFR § 164.530(b) - Workforce Training |
-| **3.5** | HIPAA Privacy Rule | 45 CFR § 164.522 - Rights to Request Privacy Protection |
-| **Section A - All** | SOC 2 Trust Services Criteria | CC6.1 - Logical Access Security |
-| **3.3** | SOC 2 Trust Services Criteria | CC6.7 - Data Transmission and Disposal |
-| **3.8** | SOC 2 Trust Services Criteria | CC7.1 - System Monitoring |
-| **3.2** | SOC 2 Trust Services Criteria | CC6.3 - Access Management |
-| **3.5** | SOC 2 Trust Services Criteria | PI1.1 - Privacy Notice and Communication |
-| **3.5** | SOC 2 Trust Services Criteria | PI1.2 - Privacy Choice and Consent |
-| **3.11** | SOC 2 Trust Services Criteria | CC2.1 - Communication and Information |
-| **3.1, 3.3** | NIST Cybersecurity Framework | PR.DS - Data Security |
-| **3.2** | NIST Cybersecurity Framework | PR.AC - Identity Management |
-| **3.8** | NIST Cybersecurity Framework | DE.CM - Security Continuous Monitoring |
-| **3.9** | NIST Cybersecurity Framework | RS.RP - Response Planning |
-| **3.11** | NIST Cybersecurity Framework | PR.AT - Security Awareness |
-| **3.5** | NIST Privacy Framework | GV.PO - Governance and Privacy Objectives |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Advanced Encryption Standard (AES):** Symmetric encryption algorithm used for securing data at rest and in transit.
-
-- **Bring Your Own Device (BYOD):** A policy allowing employees to use personal devices for business purposes with appropriate security controls.
-
-- **Business Access Level:** Classification system defining the scope of business information and applications accessible on mobile devices.
-
-- **Containerization:** Technology that separates business and personal data on mobile devices with distinct security policies.
-
-- **Data Classification:** System for categorizing data based on sensitivity level and business value to determine appropriate protection measures.
-
-- **Endpoint Detection and Response (EDR):** Security technology that monitors endpoint devices for threats and provides response capabilities.
-
-- **Hardware Security Module (HSM):** Physical computing device that provides secure key storage and cryptographic operations.
-
-- **Mobile Application Management (MAM):** Technology that manages and secures business applications on mobile devices.
-
-- **Mobile Device Management (MDM):** Centralized platform for managing, monitoring, and securing mobile devices across an organization.
-
-- **Mobile Threat Detection (MTD):** Security technology that identifies and responds to threats targeting mobile devices.
-
-- **Runtime Application Self-Protection (RASP):** Security technology that detects and prevents attacks on applications in real-time.
-
-- **Selective Wipe:** The ability to remotely delete only business data from a mobile device while preserving personal information.
-
-- **Transport Layer Security (TLS):** Cryptographic protocol for securing communications over computer networks.
-
-- **User Responsibility:** Obligations and accountabilities of individuals using mobile devices for business purposes.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 

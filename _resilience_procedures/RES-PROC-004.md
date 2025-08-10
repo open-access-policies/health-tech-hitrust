@@ -26,13 +26,7 @@ This procedure outlines the annual process for identifying and prioritizing crit
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework** | **Control Reference**      |
-| --------------------- | ---------------------- | -------------------------- |
-| **1-4**               | HITRUST CSF v11.2.0   | 16.b - Business Impact Analysis |
-| **2-3**               | HITRUST CSF v11.2.0   | 16.c - System Resilience |
-| **1-4**               | HITRUST CSF v11.2.0   | 16.a - Business Continuity Management Policy |
-| **1-4**               | SOC 2                  | A1.1                       |
-| **1-4**               | HIPAA Security Rule    | 45 CFR § 164.308(a)(7)     |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -40,9 +34,7 @@ A formally approved Business Impact Analysis (BIA) Report.
 
 ### 7. Definitions
 
-- **Recovery Time Objective (RTO):** The maximum tolerable length of time that a computer, system, network, or application can be down after a failure or disaster occurs.
-
-- **Recovery Point Objective (RPO):** The maximum acceptable amount of data loss an organization can tolerate, measured in time.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

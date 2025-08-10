@@ -28,11 +28,7 @@ This procedure ensures that all potentially relevant information is preserved an
 
 ### 5. Standards Compliance
 
-This section maps the procedure steps to specific controls from relevant information security standards.
-
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference** |
-| --------------------- | -------------------------- | --------------------- |
-| **1-6**               | SOC 2                      | CC2.1                 |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -42,9 +38,7 @@ This section maps the procedure steps to specific controls from relevant informa
 
 ### 7. Definitions
 
-- **Legal Hold:** A process that an organization uses to preserve all forms of relevant information when litigation is reasonably anticipated.
-
-- **Custodian:** An individual who has possession, custody, or control of potentially relevant information.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

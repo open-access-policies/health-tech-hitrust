@@ -82,7 +82,7 @@ Access requests shall require approval from appropriate managers and security pe
 
 ##### 3.2.2.3 Access Reviews
 
-All active privileged access sessions shall be reviewed regularly to ensure continued business justification and appropriate usage.
+All active privileged access shall be reviewed at least quarterly to ensure continued business justification and appropriate usage. Privileged access review cadence is authoritative in this policy; standard (non-privileged) access review cadence is defined in AC-POL-001 (annual).
 
 #### 3.3 Privileged Account Provisioning and Management
 
@@ -105,14 +105,13 @@ Comprehensive processes shall govern the creation, modification, and termination
   - Emergency access accounts and break-glass procedures shall be implemented with enhanced monitoring and immediate notification requirements
 
 - **Privileged Account Monitoring and Reporting:**
-  - Daily privileged account usage reports shall be generated including login times, commands executed, and systems accessed
-  - Weekly privileged account activity reports shall be reviewed by the Information Security Officer to investigate any anomalous or unauthorized usage patterns
+  - Quarterly privileged account usage reports and attestation reviews shall be generated and documented, including login times, commands executed, and systems accessed
+  - Quarterly privileged account activity summaries shall be reviewed by the Information Security Officer to investigate any anomalous or unauthorized usage patterns
   - Monthly reviews of assigned privileged accounts shall be conducted by account managers to verify continued business need and appropriate access levels
   - Real-time monitoring shall include detection of privileged access anomalies, unusual command execution, and potential abuse patterns
   - Integration with SIEM systems shall provide comprehensive visibility into privileged account activities across all systems and platforms
 
 - **Privileged Account Lifecycle Management:**
-  - Human Resources shall immediately disable privileged accounts upon employee termination, role change, or extended leave of absence
   - Quarterly comprehensive review of all privileged accounts shall be performed including access validation, usage analysis, and compliance assessment
   - Privileged account passwords shall be rotated quarterly using **[Password Management System]** with **[Complexity Requirements, e.g., 20+ characters]**
   - Annual privileged access risk assessment shall be conducted with updates to access controls based on threat landscape and business requirements
@@ -257,7 +256,7 @@ This policy is designed to comply with and support the following industry standa
 | **Security Officer**         | Develop privileged access policies, oversee PAM program implementation, approve high-risk privileged access requests, and conduct quarterly privileged access assessments. |
 | **Information Security Team** | Monitor privileged access activities, investigate security alerts, maintain PAM systems, and provide security guidance for privileged access requirements. |
 | **System Administrators**     | Create and manage privileged accounts, configure PAM systems, generate usage reports, rotate passwords according to schedule, and ensure compliance with privileged access controls. |
-| **Managers**                 | Approve privileged access requests for their team members, conduct monthly reviews of assigned privileged accounts, verify continued business need for privileged access, and ensure team compliance with privileged access policies. |
+| **Managers**                 | Approve privileged access requests for their team members, conduct quarterly reviews of assigned privileged accounts, verify continued business need for privileged access, and ensure team compliance with privileged access policies. |
 | **Human Resources**          | Immediately notify IT and Security teams of employee terminations and role changes affecting privileged access, maintain accurate role information for privileged access management. |
 | **Compliance Officer**       | Maintain audit logs and session recordings for regulatory compliance, document privileged access procedures for audit purposes, and ensure retention requirements are met. |
 | **Privileged Users**         | Use privileged accounts only for authorized administrative functions, complete required security training, report suspected privileged account compromise, and comply with session monitoring requirements. |

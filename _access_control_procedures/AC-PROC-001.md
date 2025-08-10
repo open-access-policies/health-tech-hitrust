@@ -31,14 +31,7 @@ Note: If the security team determines that the violation is critical, an inciden
 
 ### 5. Standards Compliance
 
-This section maps the procedure steps to specific controls from relevant information security standards.
-
-| **Procedure Step(s)** | **Standard/Framework** | **Control Reference**                 |
-| --------------------- | ---------------------- | ------------------------------------- |
-| **1-5**               | HITRUST CSF v11.2.0   | 11.b - User Access Management        |
-| **1-5**               | HITRUST CSF v11.2.0   | 15.c - Incident Investigation        |
-| **1-5**               | SOC 2                  | CC6.8                                 |
-| **1-5**               | HIPAA                  | 45 CFR § 164.308(a)(5)(ii)(B)         |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -46,7 +39,7 @@ A completed policy violation investigation report.
 
 ### 7. Definitions
 
-N/A
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

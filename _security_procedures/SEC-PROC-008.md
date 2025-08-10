@@ -28,10 +28,7 @@ This procedure outlines the systematic process for managing vulnerabilities. It 
 
 ### 5. Standards Compliance
 
-| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**           |
-| --------------------- | -------------------------- | ------------------------------- |
-| **1-6**               | SOC 2                      | CC7.1                           |
-| **1-6**               | HIPAA/HITECH               | 45 CFR § 164.308(a)(1)(ii)(B)   |
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 6. Artifact(s)
 
@@ -39,8 +36,7 @@ An entry in the vulnerability tracking system showing the lifecycle of a vulnera
 
 ### 7. Definitions
 
-- **CVSS:** Common Vulnerability Scoring System. A standard for assessing the severity of computer system security vulnerabilities.
-- **SLA:** Service Level Agreement. A commitment between a service provider and a client.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 8. Responsibilities
 

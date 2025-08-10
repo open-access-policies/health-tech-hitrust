@@ -261,57 +261,11 @@ Network performance monitoring shall ensure adequate capacity and optimal perfor
 
 ### 4. Standards Compliance
 
-This policy is designed to comply with and support the following industry standards and regulations.
-
-|**Policy Section**|**Standard/Framework**|**Control Reference**|
-|---|---|---|
-|**All**|HITRUST CSF v11.2.0|08.a - Network Protection Policy|
-|**3.1**|HITRUST CSF v11.2.0|08.b - Network Security Controls|
-|**3.2**|HITRUST CSF v11.2.0|08.c - Network Monitoring|
-|**3.7**|HITRUST CSF v11.2.0|08.d - Network Access Control|
-|**3.1.1**|HITRUST CSF v11.2.0|08.f - Network Segregation|
-|**3.1.1**|HITRUST CSF v11.2.0|08.h - Network Connection Control|
-|**3.6**|HITRUST CSF v11.2.0|11.a - User Access Provisioning|
-|**3.2, 3.6**|HITRUST CSF v11.2.0|12.a - Audit Logging and Monitoring|
-|**3.3**|HITRUST CSF v11.2.0|08.e - Intrusion Detection/Prevention|
-|**3.4**|HITRUST CSF v11.2.0|08.g - Firewall Management|
-|**3.2.2**|HITRUST CSF v11.2.0|15.a - Incident Response Process|
-|**3.5**|HITRUST CSF v11.2.0|05.a - Wireless Network Security|
-|**3.5**|HITRUST CSF v11.2.0|05.b - Wireless Access Point Configuration|
-|**All**|HIPAA Security Rule|45 CFR § 164.308(a)(1) - Security Management Process|
-|**3.7**|HIPAA Security Rule|45 CFR § 164.308(a)(4) - Information Access Management|
-|**3.6**|HIPAA Security Rule|45 CFR § 164.308(a)(4) - Access Management|
-|**3.5, 3.6**|HIPAA Security Rule|45 CFR § 164.312(e)(1) - Transmission Security|
-|**3.2, 3.5, 3.6**|HIPAA Security Rule|45 CFR § 164.312(b) - Audit Controls|
-|**All**|SOC 2 Trust Services Criteria|CC6.1 - Logical Access Security|
-|**3.1**|SOC 2 Trust Services Criteria|CC6.6 - Network Security|
-|**3.2, 3.6**|SOC 2 Trust Services Criteria|CC7.2 - System Monitoring|
-|**3.2, 3.3**|SOC 2 Trust Services Criteria|CC7.1 - System Monitoring|
-|**3.4**|SOC 2 Trust Services Criteria|CC8.1 - Change Management|
-|**All**|SOC 2 Trust Services Criteria|CC6.7 - Data Transmission|
-|**All**|NIST Cybersecurity Framework|PR.AC - Identity Management|
-|**3.2**|NIST Cybersecurity Framework|DE.CM - Security Continuous Monitoring|
-|**3.2, 3.3**|NIST Cybersecurity Framework|DE.AE - Anomalies and Events|
-|**3.2.2, 3.3**|NIST Cybersecurity Framework|RS.MI - Mitigation|
-|**3.3, 3.4**|NIST Cybersecurity Framework|PR.PT - Protective Technology|
+See [Annex: Control Mapping](../_annexes/control_mapping.md)
 
 ### 5. Definitions
 
-- **Defense in Depth:** Security strategy employing multiple layers of network defense to protect information and systems.
-
-- **DMZ (Demilitarized Zone):** Network segment that sits between internal and external networks, providing controlled access to external-facing services.
-
-- **Micro-segmentation:** Security technique that creates secure network zones to isolate workloads and limit lateral movement.
-
-- **Network Access Control (NAC):** Security solution that enforces policy on devices that access networks and can automatically remediate non-compliant devices.
-
-- **Software-Defined Perimeter (SDP):** Network security approach that creates secure, encrypted connections between users and network resources.
-
-- **Virtual Private Cloud (VPC):** Isolated virtual network environment within a public cloud infrastructure.
-
-- **Wireless Intrusion Detection System (WIDS):** Security system that monitors wireless networks for unauthorized access points and security threats.
-
-- **Zero Trust:** Security model that requires verification for every user and device trying to access network resources.
+See [Annex: Glossary](../_annexes/glossary.md)
 
 ### 6. Responsibilities
 
