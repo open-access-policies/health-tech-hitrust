@@ -1,5 +1,5 @@
 ---
-title: Annex: Control Mapping
+title: "Annex: Control Mapping"
 parent: Annexes
 nav_order: 2
 ---

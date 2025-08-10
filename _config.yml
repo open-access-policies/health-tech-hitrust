@@ -57,6 +57,9 @@ collections:
   isms_supplements:
     output: true
     permalink: /:collection/:path/
+  annexes:
+    output: true
+    permalink: /:collection/:path/
 
 # --- Navigation ---
 # This section defines the links that will appear in the sidebar.
@@ -155,6 +158,12 @@ defaults:
       layout: "page"
       hide_title: true # Add this line to hide page titles
       no_page_title: true # This removes the page title from the top of each page.
+  - scope:
+      type: "annexes"
+    values:
+      layout: "page"
+      hide_title: true
+      no_page_title: true
 
 # --- Build settings ---
 remote_theme: "hydecorp/hydejack@v9.2.1"

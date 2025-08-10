@@ -1,5 +1,5 @@
 ---
-title: Annex: Glossary
+title: "Annex: Glossary"
 parent: Annexes
 nav_order: 1
 ---
