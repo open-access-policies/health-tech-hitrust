@@ -4,6 +4,22 @@ description: "ISMS Template for Health Tech Companies"
 # url: "https://open-access-policies.github.io"
 baseurl: "/health-tech"
 
+# --- Include underscore directories for raw markdown access ---
+include:
+  - _access_control_policies
+  - _access_control_procedures
+  - _annexes
+  - _engineering_policies
+  - _engineering_procedures
+  - _isms_supplements
+  - _operational_policies
+  - _operational_procedures
+  - _resilience_policies
+  - _resilience_procedures
+  - _security_policies
+  - _security_procedures
+  - _templates
+
 # --- Hydejack Specific Settings ---
 hydejack:
   theme: theme-base-08
