@@ -276,7 +276,7 @@ async function loadDocument(path) {
     const parts = path.split('/');
     const collection = parts[0];
     const filename = decodeURIComponent(parts[1]);
-    const filePath = `_${collection}/${filename}.md`;
+    const filePath = `https://cdn.jsdelivr.net/gh/open-access-policies/health-tech-hitrust@main/_${collection}/${filename}.md`;
 
     const response = await fetch(filePath);
     if (!response.ok) throw new Error('Document not found');
