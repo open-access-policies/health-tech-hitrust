@@ -1,8 +1,4 @@
----
-title: Workforce Security Policy (OP-POL-004)
-parent: Operational Policies
-nav_order: 4
----
+# Workforce Security Policy (OP-POL-004)
 
 ### 1. Objective
 

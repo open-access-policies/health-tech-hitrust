@@ -1,8 +1,4 @@
----
-title: AI Ethics and Compliance Policy (SEC-POL-013)
-parent: Security Policies
-nav_order: 13
----
+# AI Ethics and Compliance Policy (SEC-POL-013)
 
 ### 1. Objective
 

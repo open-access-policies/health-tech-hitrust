@@ -1,8 +1,5 @@
----
-title: Data Classification and Handling Policy (SEC-POL-004)
-parent: Security Policies
-nav_order: 4
----
+# Data Classification and Handling Policy (SEC-POL-004)
+
 ### 1. Objective
 
 The objective of this policy is to establish a comprehensive framework for classifying, handling, and protecting **[Company Name]**'s information assets based on their sensitivity, value, and regulatory requirements. This policy ensures that appropriate security controls are applied consistently across all information types, with particular emphasis on protecting electronic Protected Health Information (ePHI) and other sensitive data in accordance with HIPAA, HITECH, and SOC 2 requirements.

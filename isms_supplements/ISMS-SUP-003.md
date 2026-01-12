@@ -1,8 +1,4 @@
----
-title: 12-Month ISMS Roadmap (ISMS-SUP-003)
-parent: ISMS Supplements
-nav_order: 3
----
+# 12-Month ISMS Roadmap (ISMS-SUP-003)
 
 #### **Quarter 1 (Months 1-3): Foundation & Visibility**
 

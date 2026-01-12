@@ -1,8 +1,5 @@
----
-title: Secure Software Development Lifecycle (SDLC) Policy (ENG-POL-001)
-parent: Engineering Policies
-nav_order: 1
----
+# Secure Software Development Lifecycle (SDLC) Policy (ENG-POL-001)
+
 ### 1. Objective
 
 The objective of this policy is to establish a comprehensive framework for integrating security controls throughout the Software Development Lifecycle (SDLC) at **[Company Name]**. This policy ensures that security considerations are systematically incorporated into every phase of software development, from initial requirements gathering through deployment and maintenance. By implementing a structured secure development lifecycle framework and comprehensive security training programs, **[Company Name]** ensures that all software applications and systems are designed, developed, and maintained with appropriate security safeguards to protect electronic Protected Health Information (ePHI) and maintain compliance with HIPAA, HITECH, and SOC 2 requirements.

@@ -1,8 +1,5 @@
----
-title: Remote Work Policy (AC-POL-003)
-parent: Access Control Policies
-nav_order: 3
----
+# Remote Work Policy (AC-POL-003)
+
 ### 1. Objective
 
 The objective of this policy is to establish the requirements for securely accessing **[Company Name]**'s information assets from locations outside of corporate offices. Because we handle sensitive health information, these security measures are not just company rules—they are essential for protecting patients, complying with laws like HIPAA, and maintaining the trust of our clients. This policy is designed to enable workforce productivity while ensuring the confidentiality, integrity, and availability of all data, including electronic Protected Health Information (ePHI), regardless of where work is performed.

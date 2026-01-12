@@ -1,8 +1,5 @@
----
-title: Incident Communication and Regulatory Compliance Policy (RES-POL-004)
-parent: Resilience Policies
-nav_order: 4
----
+# Incident Communication and Regulatory Compliance Policy (RES-POL-004)
+
 ### 1. Objective
 
 The objective of this policy is to establish comprehensive requirements for incident response procedures, communication protocols, and regulatory compliance activities during security incidents at **[Company Name]**. This policy ensures that security incidents are handled through standardized response procedures, appropriate stakeholders are notified in a timely manner, and all regulatory and legal obligations are met throughout the incident lifecycle. By implementing structured communication and compliance processes, **[Company Name]** maintains transparency with stakeholders, meets regulatory notification requirements, and preserves legal and regulatory standing while effectively managing incident response activities in coordination with the Incident Response Framework & Team Management Policy (RES-POL-001).

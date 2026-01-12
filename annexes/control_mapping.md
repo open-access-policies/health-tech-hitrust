@@ -1,8 +1,4 @@
----
-title: "Annex: Control Mapping"
-parent: Annexes
-nav_order: 2
----
+# Annex: Control Mapping
 
 This annex consolidates all regulatory and framework mappings referenced across the policy and procedure set. Individual documents should replace embedded mapping tables with a pointer to this annex.
 

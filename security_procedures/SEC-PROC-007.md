@@ -1,8 +1,5 @@
----
-title: AI Tool Risk Assessment and Approval Procedure (SEC-PROC-007)
-parent: Security Procedures
-nav_order: 7
----
+# AI Tool Risk Assessment and Approval Procedure (SEC-PROC-007)
+
 ### 1. Purpose
 
 To define the formal process for submitting a new AI tool for consideration and for the AI Governance Committee to perform a risk assessment to ensure its use aligns with company policies and risk appetite.

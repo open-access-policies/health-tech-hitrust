@@ -1,8 +1,5 @@
----
-title: Network Acceptable Use Policy (AC-POL-002)
-parent: Access Control Policies
-nav_order: 2
----
+# Network Acceptable Use Policy (AC-POL-002)
+
 ### 1. Objective
 
 The objective of this policy is to establish the rules governing the acceptable use of **[Company Name]**'s network, internet access, and communication systems. This policy is designed to protect the integrity and availability of our information resources, safeguard sensitive data such as electronic Protected Health Information (ePHI), and ensure a secure and productive work environment.

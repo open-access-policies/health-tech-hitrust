@@ -1,8 +1,5 @@
----
-title: Emergency Change Management Procedure (ENG-PROC-004)
-parent: Engineering Procedures
-nav_order: 4
----
+# Emergency Change Management Procedure (ENG-PROC-004)
+
 ### 1. Purpose
 
 The purpose of this procedure is to outline the expedited process for authorizing, deploying, and retrospectively documenting an emergency change to resolve a critical issue, such as a service outage or a severe security vulnerability.

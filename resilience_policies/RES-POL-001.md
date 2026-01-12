@@ -1,8 +1,5 @@
----
-title: Incident Response Framework and Team Management Policy (RES-POL-001)
-parent: Resilience Policies
-nav_order: 1
----
+# Incident Response Framework and Team Management Policy (RES-POL-001)
+
 ### 1. Objective
 
 The objective of this policy is to establish the foundational framework and team management structure for **[Company Name]**'s incident response program. This policy defines the overall incident response lifecycle, establishes incident classification criteria, creates the organizational structure for incident response team management, and ensures post-incident learning and improvement processes. By implementing a comprehensive incident response framework with clearly defined roles, responsibilities, and governance structures, **[Company Name]** ensures coordinated and effective response to security incidents while protecting electronic Protected Health Information (ePHI), maintaining regulatory compliance with HIPAA, HITECH, and SOC 2 requirements, and enabling continuous improvement of security capabilities.

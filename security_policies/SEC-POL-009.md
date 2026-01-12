@@ -1,8 +1,4 @@
----
-title: Audit Logging Framework and Coordination Policy (SEC-POL-009)
-parent: Security Policies
-nav_order: 9
----
+# Audit Logging Framework and Coordination Policy (SEC-POL-009)
 
 ### 1. Objective
 

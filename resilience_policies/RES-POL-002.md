@@ -1,8 +1,5 @@
----
-title: Business Continuity Management Policy (RES-POL-002)
-parent: Resilience Policies
-nav_order: 2
----
+# Business Continuity Management Policy (RES-POL-002)
+
 ### 1. Objective
 
 The objective of this policy is to establish a comprehensive business continuity management framework for **[Company Name]** that ensures the continuation of critical business operations and essential services during disruptions. This policy focuses on business process continuity, stakeholder communication, alternative operating procedures, and organizational resilience while technical disaster recovery capabilities are addressed in the Disaster Recovery and Technical Operations Policy (RES-POL-005). By implementing structured business continuity capabilities including business impact analysis, emergency response procedures, and alternative operations, **[Company Name]** maintains essential service delivery to patients and customers, protects electronic Protected Health Information (ePHI), meets regulatory obligations under HIPAA, HITECH, and SOC 2, and minimizes business impact during various types of disruptions.

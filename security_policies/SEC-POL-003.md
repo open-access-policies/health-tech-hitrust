@@ -1,8 +1,5 @@
----
-title: Risk Management Policy (SEC-POL-003)
-parent: Security Policies
-nav_order: 3
----
+# Risk Management Policy (SEC-POL-003)
+
 ### 1. Objective
 
 The objective of this policy is to establish a comprehensive risk management framework for identifying, assessing, treating, and monitoring information security risks across **[Company Name]**. This policy ensures that security risks are systematically managed to protect the confidentiality, integrity, and availability of information assets, particularly electronic Protected Health Information (ePHI), and to maintain compliance with regulatory requirements while supporting business objectives.

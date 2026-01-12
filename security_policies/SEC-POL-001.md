@@ -1,8 +1,5 @@
----
-title: Information Security Policy (SEC-POL-001)
-parent: Security Policies
-nav_order: 1
----
+# Information Security Policy (SEC-POL-001)
+
 ### 1. Objective
 
 The objective of this policy is to establish **[Company Name]**'s comprehensive Information Security Management System (ISMS) and define the overarching framework for protecting the confidentiality, integrity, and availability of all information assets. This policy serves as the foundation for all security controls and demonstrates **[Company Name]**'s commitment to safeguarding electronic Protected Health Information (ePHI), maintaining compliance with applicable regulations, and supporting business objectives through effective risk management.

@@ -1,8 +1,5 @@
----
-title: Business Continuity Plan (BCP) ([RES-PROC-006])
-parent: Resilience Procedures
-nav_order: 6
----
+# Business Continuity Plan (BCP) ([RES-PROC-006])
+
 ### 1. Purpose
 
 To outline the procedures for activating emergency response, managing communications, and continuing critical business functions during a disruption.

@@ -1,8 +1,5 @@
----
-title: Security Event Detection and Monitoring Policy (RES-POL-003)
-parent: Resilience Policies
-nav_order: 3
----
+# Security Event Detection and Monitoring Policy (RES-POL-003)
+
 ### 1. Objective
 
 The objective of this policy is to establish comprehensive requirements for the detection, monitoring, and initial reporting of security events and incidents within **[Company Name]**'s information systems and infrastructure. This policy ensures that security events are identified promptly through both automated and manual detection methods, properly reported through established channels, and appropriately triaged to determine if incident response procedures should be activated. By implementing robust detection and monitoring capabilities, **[Company Name]** can minimize the time between incident occurrence and detection, reducing potential impact on operations and electronic Protected Health Information (ePHI) while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements.

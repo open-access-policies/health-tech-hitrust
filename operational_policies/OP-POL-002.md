@@ -1,8 +1,4 @@
----
-title: Mobile Device Security Policy (OP-POL-002)
-parent: Operational Policies
-nav_order: 2
----
+# Mobile Device Security Policy (OP-POL-002)
 
 ### 1. Objective
 

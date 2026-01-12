@@ -1,8 +1,4 @@
----
-title: Data Access and Compliance Audit Logging Policy (SEC-POL-011)
-parent: Security Policies
-nav_order: 11
----
+# Data Access and Compliance Audit Logging Policy (SEC-POL-011)
 
 ### 1. Objective
 

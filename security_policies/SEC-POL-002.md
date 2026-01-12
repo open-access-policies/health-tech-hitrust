@@ -1,8 +1,5 @@
----
-title: Password Policy (SEC-POL-002)
-parent: Security Policies
-nav_order: 2
----
+# Password Policy (SEC-POL-002)
+
 ### 1. Objective
 
 The objective of this policy is to establish and enforce minimum standards for the creation, management, and protection of passwords. Strong password management is a critical control for safeguarding the confidentiality, integrity, and availability of **[Company Name]**'s information assets, particularly electronic Protected Health Information (ePHI), and for preventing unauthorized access to systems and data.

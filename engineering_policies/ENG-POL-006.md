@@ -1,8 +1,5 @@
----
-title: Third-Party Component Management Policy (ENG-POL-006)
-parent: Engineering Policies
-nav_order: 6
----
+# Third-Party Component Management Policy (ENG-POL-006)
+
 ### 1. Objective
 
 The objective of this policy is to establish comprehensive requirements for the secure management of third-party libraries, frameworks, components, and DevOps tools throughout the software development lifecycle at **[Company Name]**. This policy ensures that third-party dependencies are properly assessed, monitored, and maintained to minimize security risks, protect electronic Protected Health Information (ePHI), and maintain compliance with HIPAA, HITECH, and SOC 2 requirements. By implementing rigorous third-party component governance and DevOps security practices, **[Company Name]** reduces supply chain risks and ensures the integrity of its development and deployment processes.

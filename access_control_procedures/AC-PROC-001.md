@@ -1,8 +1,5 @@
----
-title: Acceptable Use Policy Violation Investigation Procedure (AC-PROC-001)
-parent: Access Control Procedures
-nav_order: 1
----
+# Acceptable Use Policy Violation Investigation Procedure (AC-PROC-001)
+
 ### 1. Purpose
 
 To define the process for investigating, documenting, and responding to reported violations of the network acceptable use policy.

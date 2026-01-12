@@ -1,8 +1,4 @@
----
-title: Identity and Access Management (IAM) Policy (AC-POL-001)
-parent: Access Control Policies
-nav_order: 1
----
+# Identity and Access Management (IAM) Policy (AC-POL-001)
 
 ### 1. Objective
 

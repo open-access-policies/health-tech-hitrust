@@ -1,8 +1,5 @@
----
-title: Password Policy Exception Procedure (SEC-PROC-003)
-parent: Security Procedures
-nav_order: 3
----
+# Password Policy Exception Procedure (SEC-PROC-003)
+
 ### 1. Purpose
 
 To provide a formal process for requesting, reviewing, and documenting exceptions to the Password Policy.

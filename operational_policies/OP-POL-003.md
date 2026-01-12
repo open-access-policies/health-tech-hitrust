@@ -1,8 +1,5 @@
----
-title: Data Retention and Disposal Policy (OP-POL-003)
-parent: Operational Policies
-nav_order: 3
----
+# Data Retention and Disposal Policy (OP-POL-003)
+
 ### 1. Objective
 
 The objective of this policy is to establish practical, cloud-native data retention and disposal practices that meet regulatory requirements for electronic Protected Health Information (ePHI) and business data while leveraging automated technical controls to minimize administrative overhead.

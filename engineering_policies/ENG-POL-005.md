@@ -1,8 +1,5 @@
----
-title: Secure Coding and Testing Policy (ENG-POL-005)
-parent: Engineering Policies
-nav_order: 5
----
+# Secure Coding and Testing Policy (ENG-POL-005)
+
 ### 1. Objective
 
 The objective of this policy is to establish comprehensive secure coding standards and testing requirements for all software development activities at **[Company Name]**. This policy ensures that security controls are integrated into coding practices and testing processes to prevent vulnerabilities, protect electronic Protected Health Information (ePHI), and maintain compliance with HIPAA, HITECH, and SOC 2 requirements. By implementing standardized secure coding practices and rigorous security testing, **[Company Name]** minimizes security risks and ensures applications are resilient against common attack vectors.

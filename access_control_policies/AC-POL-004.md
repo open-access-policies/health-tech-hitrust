@@ -1,8 +1,4 @@
----
-title: Privileged Access Management (PAM) Policy (AC-POL-004)
-parent: Access Control Policies
-nav_order: 4
----
+# Privileged Access Management (PAM) Policy (AC-POL-004)
 
 ### 1. Objective
 

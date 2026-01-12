@@ -1,8 +1,5 @@
----
-title: Mobile Device Onboarding and Security Configuration Procedure (OP-PROC-002)
-parent: Operational Procedures
-nav_order: 2
----
+# Mobile Device Onboarding and Security Configuration Procedure (OP-PROC-002)
+
 ### 1. Purpose
 
 To detail the steps for enrolling a new or personal device in the Mobile Device Management (MDM) system and ensuring it meets all security configuration mandates before being granted access to company resources.

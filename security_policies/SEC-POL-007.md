@@ -1,8 +1,4 @@
----
-title: AI Governance and Coordination Framework Policy (SEC-POL-007)
-parent: Security Policies
-nav_order: 7
----
+# AI Governance and Coordination Framework Policy (SEC-POL-007)
 
 ### 1. Objective
 

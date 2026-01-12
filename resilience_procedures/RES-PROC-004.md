@@ -1,8 +1,5 @@
----
-title: Business Impact Analysis (BIA) Procedure ([RES-PROC-004])
-parent: Resilience Procedures
-nav_order: 4
----
+# Business Impact Analysis (BIA) Procedure ([RES-PROC-004])
+
 ### 1. Purpose
 
 To define the methodology for conducting the annual Business Impact Analysis (BIA) to identify critical business functions and establish recovery objectives.

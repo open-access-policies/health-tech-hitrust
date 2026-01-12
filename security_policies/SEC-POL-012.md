@@ -1,8 +1,4 @@
----
-title: AI Development and Deployment Security Policy (SEC-POL-012)
-parent: Security Policies
-nav_order: 12
----
+# AI Development and Deployment Security Policy (SEC-POL-012)
 
 ### 1. Objective
 

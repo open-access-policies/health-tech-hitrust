@@ -1,8 +1,4 @@
----
-title: ISMS High-Level RACI Chart (ISMS-SUP-002)
-parent: ISMS Supplements
-nav_order: 2
----
+# ISMS High-Level RACI Chart (ISMS-SUP-002)
 
 - **RACI Definitions:**
 

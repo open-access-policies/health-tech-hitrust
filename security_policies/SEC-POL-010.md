@@ -1,8 +1,4 @@
----
-title: Authentication and Network Audit Logging Policy (SEC-POL-010)
-parent: Security Policies
-nav_order: 10
----
+# Authentication and Network Audit Logging Policy (SEC-POL-010)
 
 ### 1. Objective
 

@@ -1,8 +1,5 @@
----
-title: Workforce Screening and Background Check Procedure (OP-PROC-006)
-parent: Operational Procedures
-nav_order: 6
----
+# Workforce Screening and Background Check Procedure (OP-PROC-006)
+
 ### 1. Purpose
 
 To outline the formal process for conducting mandated background checks on all candidates for employment to verify their qualifications and identify any potential security risks.

@@ -1,8 +1,5 @@
----
-title: Cloud and Core Infrastructure Security Policy (ENG-POL-003)
-parent: Engineering Policies
-nav_order: 3
----
+# Cloud and Core Infrastructure Security Policy (ENG-POL-003)
+
 ### 1. Objective
 
 The objective of this policy is to establish comprehensive security requirements for the design, implementation, operation, and maintenance of **[Company Name]**'s cloud-based computing infrastructure and core IT systems. This policy ensures that all infrastructure components including cloud services, servers, containers, databases, storage systems, and supporting computing platforms are configured and managed with appropriate security controls to protect the confidentiality, integrity, and availability of information systems and electronic Protected Health Information (ePHI). This policy addresses cloud-native security, infrastructure-as-code, container security, system hardening, and hybrid cloud environments while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements.

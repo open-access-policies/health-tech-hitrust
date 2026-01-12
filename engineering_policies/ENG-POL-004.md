@@ -1,8 +1,5 @@
----
-title: Network Security Policy (ENG-POL-004)
-parent: Engineering Policies
-nav_order: 4
----
+# Network Security Policy (ENG-POL-004)
+
 ### 1. Objective
 
 The objective of this policy is to establish comprehensive security requirements for the design, implementation, operation, and monitoring of **[Company Name]**'s network infrastructure and communications. This policy ensures that all network components including perimeter security, internal network segmentation, wireless networks, and network traffic monitoring are configured and managed with appropriate security controls to protect the confidentiality, integrity, and availability of data in transit and electronic Protected Health Information (ePHI). This policy addresses network-level security controls, traffic monitoring, intrusion detection and prevention, and network access management while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements.

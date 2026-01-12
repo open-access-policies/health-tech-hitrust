@@ -1,8 +1,5 @@
----
-title: Disaster Recovery and Technical Operations Policy (RES-POL-005)
-parent: Resilience Policies
-nav_order: 5
----
+# Disaster Recovery and Technical Operations Policy (RES-POL-005)
+
 ### 1. Objective
 
 The objective of this policy is to establish comprehensive technical disaster recovery requirements for **[Company Name]**'s information systems, infrastructure, and technology operations. This policy ensures that critical IT systems and data can be rapidly restored following disasters, disruptions, or system failures while maintaining the integrity and availability of electronic Protected Health Information (ePHI) and other sensitive data. By implementing robust disaster recovery capabilities including data backup, system redundancy, and technical recovery procedures, **[Company Name]** minimizes technology-related business impact, ensures rapid restoration of IT services, and maintains compliance with HIPAA, HITECH, and SOC 2 technical safeguard requirements in coordination with the Business Continuity Management Policy (RES-POL-002).
