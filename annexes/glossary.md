@@ -10,6 +10,8 @@ How to use:
 
 - Access Review: A periodic or event-driven evaluation of user entitlements to verify they remain appropriate for role and business need.
 - Account Lifecycle: The end-to-end process of user account creation, modification, review, and termination aligned with employment status and role changes.
+- API Gateway: A service that manages, secures, authenticates, and monitors API traffic between clients and backend services, providing centralized access control and rate limiting.
+- Business Associate (BA): An entity that creates, receives, maintains, or transmits electronic Protected Health Information (ePHI) on behalf of a Covered Entity, subject to HIPAA requirements through a Business Associate Agreement.
 - Audit Logging Framework: The coordinated system of policies, procedures, and technologies that support logging across domains (authentication/network, data access, etc.).
 - Authentication Event: A security event related to verifying the identity of a user, device, or service attempting to access a system or resource.
 - Authorization Event: A security event related to granting or denying access permissions to authenticated entities based on their privileges and roles.
@@ -17,18 +19,22 @@ How to use:
 - BYOD (Bring Your Own Device): A practice that allows workforce members to use personal devices for work-related purposes subject to security controls.
 - Clean Desk Policy: Practice requiring sensitive materials to be secured when workspaces are unattended.
 - Cloud Service Provider: A third-party organization providing cloud computing services, including infrastructure, platforms, or software.
+- Covered Entity (CE): A health plan, healthcare clearinghouse, or healthcare provider that transmits health information electronically and is directly subject to HIPAA regulations.
 - Cross-Domain Correlation: The process of analyzing and linking related events across authentication, network, and data access logging domains.
 - Data Lifecycle Management: Managing data from creation through retention, archiving, and secure destruction.
 - Data Loss Prevention (DLP): Technology and processes that detect and prevent unauthorized transmission or use of sensitive data.
+- Data Pipeline: A series of automated data processing steps that transport and transform data from ingestion through storage, analytics, and reporting.
 - Electronic Protected Health Information (ePHI): Individually identifiable health information that is created, stored, transmitted, or maintained electronically.
 - Environmental Controls: Systems and procedures designed to protect against environmental hazards such as fire, flood, temperature extremes, and power failures.
 - Event Integration: The technical capability to combine and analyze security events from multiple specialized logging domains.
+- Feature Store: A centralized repository for storing, versioning, and serving machine learning features used in model training and inference.
 - Identity and Access Management (IAM): Policies, processes, and technologies used to manage digital identities and control access to resources based on user roles and responsibilities.
 - Information Owner: Individual with authority and responsibility for specific information, including establishing handling requirements and approving access.
 - Information Security Management System (ISMS): A systematic approach to managing sensitive company information to keep it secure, including policies, procedures, and controls.
 - Least Privilege: The principle of restricting access rights to the minimum permissions needed to perform work.
 - Mobile Device Management (MDM): Software that enables an organization to secure, monitor, and manage mobile devices used for business purposes.
 - Multi-Factor Authentication (MFA): A security process requiring two or more authentication factors (e.g., password plus token/biometric) for access verification.
+- Multi-Tenant Architecture: A software architecture where a single instance of an application serves multiple customers (tenants) with logical data separation and access controls preventing cross-tenant data access.
 - Network Flow: A sequence of packets from a source to a destination that share common characteristics such as IP addresses, ports, and protocols.
 - Privileged Access: Elevated administrative or system-level access that can modify configurations, security settings, or data beyond standard user capabilities.
 - Privilege Escalation: Gaining elevated access permissions beyond those initially granted to a user or service account.
@@ -41,6 +47,7 @@ How to use:
 - Session Correlation: Linking related authentication and access events across multiple systems using session identifiers.
 - System Owner: The individual or group responsible for the procurement, development, operation, and maintenance of an information system.
 - Tailgating: Unauthorized access gained by following an authorized person through a controlled physical access point.
+- Tenant Isolation: Security controls and architectural measures that prevent one customer (tenant) from accessing another tenant's data or resources in a multi-tenant environment.
 - Threat Intelligence: Information about current and potential security threats used to enhance detection and response.
 - User Agent: Information about the client software, operating system, and device characteristics used for requests such as authentication.
 - Visitor Management System: Automated system for registering, tracking, and managing facility visitors.

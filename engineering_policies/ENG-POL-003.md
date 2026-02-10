@@ -192,11 +192,43 @@ Specialized security controls shall be implemented for containerized application
     - Dependency management and vulnerability scanning for function dependencies shall be performed to identify and remediate security vulnerabilities.
     - Cold start security considerations and optimization shall be addressed to minimize security risks during function initialization.
 
-#### 3.6 Backup and Disaster Recovery
+#### 3.6 Multi-Tenant Architecture Security
+
+Comprehensive security controls shall be implemented for multi-tenant architectures to ensure customer data isolation and protection.
+
+##### 3.6.1 Tenant Isolation Controls
+
+- **Logical Separation:**
+    - Tenant data shall be logically separated through namespace isolation, database schemas, or row-level security controls.
+    - Container orchestration platforms shall implement namespace-level isolation with network policies restricting cross-namespace communication.
+    - Storage systems shall implement tenant-scoped access controls preventing cross-tenant data access.
+    - Cache and session systems shall implement key namespacing or separate instances to prevent cross-tenant data leakage.
+
+- **Tenant-Aware Access Controls:**
+    - All authentication and authorization mechanisms shall validate tenant context before granting access to resources.
+    - API authentication tokens shall include tenant identifiers and be validated against requested resource ownership.
+    - Service-to-service communications shall maintain and validate tenant context throughout request processing.
+    - Administrative access to tenant data shall require documented justification and be subject to enhanced logging.
+
+##### 3.6.2 Multi-Tenant Audit and Monitoring
+
+- **Tenant Context Logging:**
+    - All audit log entries shall include tenant identifiers for security event correlation and analysis.
+    - Cross-tenant access attempts or anomalies shall trigger automated alerting for security investigation.
+    - Tenant-specific log aggregation shall enable customer-facing audit log access where contractually required.
+    - Log retention and access controls shall maintain tenant data segregation throughout the logging lifecycle.
+
+- **Isolation Validation:**
+    - Regular security assessments shall validate tenant isolation controls effectiveness.
+    - Penetration testing shall include tenant isolation bypass attempts to identify vulnerabilities.
+    - Automated testing shall verify tenant context enforcement in CI/CD pipelines.
+    - Incident response procedures shall address potential tenant isolation failures with appropriate escalation.
+
+#### 3.7 Backup and Disaster Recovery
 
 Comprehensive backup and disaster recovery capabilities shall ensure business continuity and data protection.
 
-##### 3.6.1 Backup Security
+##### 3.7.1 Backup Security
 
 - **Backup Strategy Implementation:**
     - Regular automated backups shall be performed for all critical systems and data according to established schedules and retention requirements.
@@ -212,7 +244,7 @@ Comprehensive backup and disaster recovery capabilities shall ensure business co
     - Backup monitoring and alerting for failed or incomplete backups shall be implemented to ensure backup reliability and effectiveness.
     - Documentation of backup and recovery procedures shall be maintained and regularly updated to ensure accuracy and completeness.
 
-##### 3.6.2 Disaster Recovery Planning
+##### 3.7.2 Disaster Recovery Planning
 
 - **Recovery Infrastructure:**
     - Geographically separated disaster recovery infrastructure shall be maintained to ensure availability in case of regional disasters or outages.
@@ -228,11 +260,11 @@ Comprehensive backup and disaster recovery capabilities shall ensure business co
     - Post-incident review and improvement of recovery procedures shall be conducted after each activation to identify lessons learned and improvement opportunities.
     - Training and awareness for disaster recovery procedures shall be provided to relevant personnel to ensure readiness and capability.
 
-#### 3.7 Monitoring and Incident Response
+#### 3.8 Monitoring and Incident Response
 
 Comprehensive monitoring and incident response capabilities shall provide early threat detection and rapid response to security incidents.
 
-##### 3.7.1 Security Monitoring
+##### 3.8.1 Security Monitoring
 
 - **Infrastructure Monitoring:**
     - 24/7 monitoring of all infrastructure components and services shall be implemented to provide continuous visibility into system health and security status.
@@ -248,7 +280,7 @@ Comprehensive monitoring and incident response capabilities shall provide early 
     - Secure log storage and access controls for log data shall be implemented to protect log integrity and ensure only authorized personnel can access log information.
     - Log integrity protection and tampering detection shall be implemented to identify unauthorized modifications to log data.
 
-##### 3.7.2 Infrastructure Incident Response
+##### 3.8.2 Infrastructure Incident Response
 
 - **Infrastructure Incident Response:**
     - Automated incident response capabilities for infrastructure security events shall be implemented to enable rapid response to identified threats.

@@ -1,12 +1,15 @@
 # Health Tech ISMS Policy and Procedure Templates
-This repository contains a set of template policies and procedures for building an Information Security Management System (ISMS). These documents are specifically designed to provide a starting point for health tech companies, startups, and other organizations that need to comply with **HIPAA/HITECH** and **SOC 2**.
+This repository contains a set of template policies and procedures for building an Information Security Management System (ISMS). These documents are specifically designed for **cloud-native health technology companies providing data processing services** as Business Associates under HIPAA. The policy set supports compliance with **HIPAA/HITECH**, **HITRUST CSF**, and **SOC 2**.
 ## About This Project
 Navigating the complex landscape of health tech compliance can be challenging. The goal of this project is to provide a clear, comprehensive, and adaptable set of security policies that align with industry best practices and key regulatory frameworks. These templates are designed to be clear enough for non-technical stakeholders to understand while being robust enough to satisfy auditors.
+
+This policy set is oriented toward **Business Associate (BA)** organizations that process electronic Protected Health Information (ePHI) on behalf of Covered Entities. It addresses the unique requirements of cloud-native SaaS platforms, multi-tenant architectures, API-first integrations, and data pipeline operations.
 ## Who Is This For?
 This policy set is ideal for:
-- **Health Tech Startups** seeking to build a compliant security program from the ground up.
-- **Established Companies** looking to formalize or update their existing ISMS documentation.
-- **Compliance Officers and Security Professionals** who need a reliable baseline for their policy creation process.
+- **Cloud-Native Health Tech Companies** providing SaaS/PaaS services to healthcare organizations as Business Associates.
+- **Health Tech Startups** building compliant data processing platforms from the ground up.
+- **Established Companies** looking to formalize or update their ISMS documentation for BA operations.
+- **Compliance Officers and Security Professionals** who need a reliable baseline for BA-focused policy creation.
 
 ## How to Use These Templates
 **IMPORTANT:** These documents are **templates**, not a complete, out-of-the-box compliance solution. You must adapt them to fit your organization's specific technologies, processes, and risk tolerance.

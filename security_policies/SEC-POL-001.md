@@ -136,7 +136,7 @@ The information security program shall be subject to continuous monitoring and i
 
 - **[Company Name]** shall implement comprehensive threat intelligence and security information sharing processes as follows:
 
-- **Healthcare-Specific Threat Intelligence:** Subscriptions to healthcare-specific threat intelligence feeds including **[Threat Feeds, e.g., HHS HCCIC, FBI IC3, MS-ISAC]** shall be maintained to receive current threat information relevant to the healthcare sector.
+- **Healthcare and Cloud Security Threat Intelligence:** Subscriptions to healthcare-specific threat intelligence feeds including **[Threat Feeds, e.g., HHS HCCIC, FBI IC3, MS-ISAC]** shall be maintained, along with cloud provider security bulletins, container orchestration vulnerability sources, and SaaS-specific security intelligence to receive current threat information relevant to cloud-native health technology operations.
 
 - **Automated Threat Indicator Ingestion:** Automated ingestion of threat indicators including IoCs, TTPs, and vulnerability information shall be configured into **[Threat Intelligence Platform]** for systematic processing and analysis.
 
