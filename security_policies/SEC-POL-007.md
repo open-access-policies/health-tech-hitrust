@@ -19,7 +19,7 @@ A formal AI governance structure shall be established to oversee the evaluation,
 ##### 3.1.1 AI Governance Committee
 
 - **Committee Structure:**
-    - AI Governance Committee comprising representatives from Security, Privacy, Legal, Clinical, IT, and Business units
+    - AI Governance Committee comprising representatives from Security, Privacy, Legal, Customer Success, Data Engineering, IT, and Business units
     - Designated AI Ethics Officer responsible for ethical AI oversight and compliance
     - Regular committee meetings (monthly) to review AI initiatives and address emerging issues
     - Clear escalation procedures for AI-related risks and ethical concerns
@@ -88,7 +88,7 @@ AI systems shall be developed and deployed in accordance with ethical principles
 ##### 3.3.1 Ethical AI Principles
 
 - **Fairness and Non-Discrimination:**
-    - Regular testing for bias in AI systems affecting hiring, promotion, or patient care decisions
+    - Regular testing for bias in AI systems affecting hiring, promotion, or customer data processing decisions
     - Diverse training data and validation datasets to minimize algorithmic bias
     - Monitoring of AI system outcomes for disparate impact on protected groups
     - Remediation procedures for identified bias or discriminatory outcomes
@@ -196,7 +196,7 @@ Specific guidelines shall govern the appropriate use of AI technologies by workf
     - Research and information gathering for business purposes
 
 - **Prohibited AI Use Cases:**
-    - Clinical diagnosis or treatment recommendations without appropriate oversight
+    - Automated ePHI processing decisions that bypass required human review or contractual requirements
     - Automated decision-making for hiring, firing, or promotion without human review
     - Processing of ePHI through unauthorized AI systems
     - Generation of misleading, false, or deceptive content
@@ -204,12 +204,26 @@ Specific guidelines shall govern the appropriate use of AI technologies by workf
 
 ##### 3.6.2 Role-Specific Guidelines
 
-- **Healthcare and Clinical Staff:**
-    - AI clinical decision support tools must be FDA-approved or validated through appropriate processes
-    - Human clinician review required for all AI-generated clinical recommendations
-    - Patient consent required for AI system involvement in care delivery
-    - Documentation of AI system use in patient medical records
-    - Compliance with medical ethics and professional standards
+- **Customer-Facing Teams:**
+    - AI tools used in customer communications must be approved and validated for accuracy
+    - Human review required for AI-generated recommendations affecting customer data or services
+    - Disclosure to customers when AI systems are involved in processing their data as required by BAAs
+    - Documentation of AI system use in customer interaction and support records
+    - Compliance with customer contractual requirements and service level agreements
+
+- **Data Engineering Teams:**
+    - AI-assisted data pipeline development shall undergo security and accuracy validation
+    - Human review required for AI-generated data transformations affecting ePHI
+    - Data quality and integrity validation for AI-assisted data processing
+    - Documentation of AI tool usage in data pipeline development and operations
+    - Compliance with data governance and ePHI handling requirements
+
+- **ML/Analytics Teams:**
+    - Model training governance shall ensure customer data is used only per contractual authorization
+    - Bias testing and fairness evaluation required for models processing customer data
+    - Model validation and accuracy requirements before production deployment
+    - Documentation of training data sources, model versions, and performance metrics
+    - Compliance with customer data usage restrictions and privacy requirements
 
 - **Software Development Teams:**
     - Code review required for all AI-generated code before production deployment
@@ -241,7 +255,7 @@ Comprehensive training programs shall ensure workforce members understand AI pol
 - **Specialized Training:**
     - Advanced training for AI governance committee members
     - Technical training for AI system developers and administrators
-    - Clinical training for healthcare staff using AI decision support tools
+    - Data handling and privacy training for staff using AI tools with customer data
     - Legal and compliance training for AI oversight roles
     - Incident response training for AI-related security events
 

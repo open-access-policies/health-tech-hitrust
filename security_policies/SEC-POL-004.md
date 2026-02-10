@@ -93,6 +93,34 @@ ePHI represents a subset of Restricted information requiring special handling un
 - Regular audits shall be conducted to verify appropriate ePHI access and usage
 - Breach notification procedures shall be followed for any suspected ePHI compromise
 
+##### 3.4.1 Business Associate ePHI Responsibilities
+
+As a Business Associate processing ePHI on behalf of Covered Entity customers, **[Company Name]** shall implement additional controls:
+
+- **BAA Compliance:**
+    - ePHI shall be processed only in accordance with applicable Business Associate Agreements (BAAs)
+    - ePHI usage shall be limited to the purposes specified in each customer's BAA
+    - Subcontractor and third-party access to ePHI shall require flow-down of BAA requirements
+    - BAA compliance shall be validated through regular audits and assessments
+
+- **Customer ePHI Segregation:**
+    - Customer ePHI shall be segregated through tenant isolation controls as defined in SEC-POL-014
+    - Cross-tenant ePHI access shall be prohibited except where explicitly authorized
+    - Tenant context shall be validated for all ePHI access operations
+    - Audit logging shall include tenant identifiers for all ePHI access events
+
+- **Data Subject Request Coordination:**
+    - Data subject access, correction, and deletion requests shall be coordinated with the applicable Covered Entity customer
+    - Response timelines shall comply with HIPAA requirements and BAA terms
+    - Processes shall enable identification and extraction of specific individual data within tenant boundaries
+    - Documentation of data subject request handling shall be maintained for audit purposes
+
+- **Breach Notification Coordination:**
+    - Breach notification to Covered Entity customers shall follow BAA-defined timelines and procedures
+    - Investigation and remediation activities shall be coordinated with affected customers
+    - Breach documentation shall meet HIPAA requirements and support customer notification obligations
+    - Post-incident reviews shall address root causes and preventive measures
+
 #### 3.5 Data Labeling and Marking
 
 Information classification shall be clearly indicated through appropriate labeling mechanisms.

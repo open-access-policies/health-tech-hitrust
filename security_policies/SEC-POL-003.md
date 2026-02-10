@@ -81,7 +81,8 @@ All identified risks shall be analyzed to determine their potential impact and l
   - Operational impact (service disruption, productivity loss) shall be assessed for its effect on business operations and service delivery.
   - Reputational impact (customer trust, market confidence) shall be evaluated for its potential long-term consequences to organizational standing.
   - Regulatory impact (compliance violations, sanctions) shall be assessed for potential legal and regulatory consequences.
-  - Patient safety and privacy implications shall be evaluated for their impact on healthcare delivery and regulatory compliance.
+  - Customer data protection and regulatory compliance implications shall be evaluated for their impact on service delivery to Covered Entity customers.
+  - Customer/Tenant impact (cross-tenant risk, customer SLA violations) shall be assessed for multi-tenant architecture considerations.
 
 - Likelihood assessment shall consider:
   - Threat actor capabilities and motivations shall be evaluated based on available threat intelligence and industry analysis.

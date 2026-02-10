@@ -2,7 +2,7 @@
 
 ### 1. Objective
 
-The objective of this policy is to establish a comprehensive business continuity management framework for **[Company Name]** that ensures the continuation of critical business operations and essential services during disruptions. This policy focuses on business process continuity, stakeholder communication, alternative operating procedures, and organizational resilience while technical disaster recovery capabilities are addressed in the Disaster Recovery and Technical Operations Policy (RES-POL-005). By implementing structured business continuity capabilities including business impact analysis, emergency response procedures, and alternative operations, **[Company Name]** maintains essential service delivery to patients and customers, protects electronic Protected Health Information (ePHI), meets regulatory obligations under HIPAA, HITECH, and SOC 2, and minimizes business impact during various types of disruptions.
+The objective of this policy is to establish a comprehensive business continuity management framework for **[Company Name]** that ensures the continuation of critical business operations and essential services during disruptions. This policy focuses on business process continuity, stakeholder communication, alternative operating procedures, and organizational resilience while technical disaster recovery capabilities are addressed in the Disaster Recovery and Technical Operations Policy (RES-POL-005). By implementing structured business continuity capabilities including business impact analysis, emergency response procedures, and alternative operations, **[Company Name]** maintains essential service delivery to customers and Covered Entity partners, protects electronic Protected Health Information (ePHI), meets regulatory obligations under HIPAA, HITECH, and SOC 2, and minimizes business impact during various types of disruptions.
 
 ### 2. Scope
 
@@ -19,7 +19,7 @@ This policy applies to all **[Company Name]** workforce members, business units,
 ##### 3.1.1 Business Continuity Principles
 
 - **Life Safety Priority:**
-    - The safety and security of workforce members, patients, and visitors shall be the highest priority in all emergency situations.
+    - The safety and security of workforce members and visitors shall be the highest priority in all emergency situations.
     - Emergency evacuation and safety procedures shall take precedence over business operations.
     - Clear communication channels and emergency coordination procedures shall be maintained at all times.
 
@@ -27,7 +27,7 @@ This policy applies to all **[Company Name]** workforce members, business units,
     - Critical business functions shall be identified and prioritized for continuity during disruptions.
     - Minimum service levels shall be defined for essential operations to ensure baseline service delivery.
     - Alternative methods and resources shall be available to maintain critical services during emergencies.
-    - Patient care and safety functions shall receive highest priority for resource allocation.
+    - Customer-facing services and ePHI processing functions shall receive highest priority for resource allocation.
 
 - **Regulatory Compliance:**
     - Business continuity plans shall ensure continued compliance with HIPAA, HITECH, and other applicable regulations.
@@ -46,17 +46,17 @@ This policy applies to all **[Company Name]** workforce members, business units,
 The Business Continuity Manager, in coordination with Business Unit Leaders, shall conduct and formally document a comprehensive Business Impact Analysis (BIA) at least annually, or whenever a significant change to business operations occurs. The BIA report, which defines the recovery requirements for all critical functions, shall be reviewed and formally approved by the Information Security Committee.
 
 - **Critical Function Identification:**
-- **Immediate (0-4 hours):** Patient care systems, emergency services, life safety systems
-- **Urgent (4-24 hours):** Clinical documentation, pharmacy systems, laboratory services
-- **Important (1-3 days):** Billing systems, administrative functions, non-critical applications
-- **Deferrable (3+ days):** Training systems, development environments, archival processes
+- **Immediate (0-4 hours):** Customer-facing APIs, data ingestion pipelines, authentication services, core ePHI processing
+- **Urgent (4-24 hours):** Analytics platforms, ML inference services, reporting dashboards, customer portals
+- **Important (1-3 days):** Development environments, internal tooling, non-critical administrative systems
+- **Deferrable (3+ days):** Training environments, archival processes, model retraining pipelines
 
 - **Impact Assessment Criteria:**
 - **Financial Impact:** Revenue loss, additional costs, regulatory fines, contractual penalties
 - **Operational Impact:** Service disruption, productivity loss, customer dissatisfaction
 - **Regulatory Impact:** Compliance violations, reporting failures, audit findings
 - **Reputational Impact:** Public relations damage, loss of stakeholder confidence
-- **Patient Safety Impact:** Risk to patient care, safety concerns, clinical service disruption
+- **Customer Service Availability Impact:** API downtime, SLA violations, customer data processing interruption
 
 - **Recovery Time Objectives (RTO):**
     - Maximum acceptable downtime for each critical business function
@@ -106,7 +106,7 @@ Standardized emergency response procedures shall guide initial response actions 
 - **Stakeholder Communication:**
     - Immediate notification of executive leadership
     - Regular updates to workforce members and their families
-    - Communication with patients, customers, and business partners
+    - Communication with customers, business partners, and affected parties
     - Coordination with regulatory agencies and oversight bodies
     - Media relations and public communication management
 
@@ -133,10 +133,10 @@ Alternative operating procedures shall enable continuation of critical business 
 ##### 3.4.2 Critical System Alternatives
 
 - **Manual Procedures:**
-    - Paper-based backup procedures for critical electronic systems
-    - Manual patient registration and medical record procedures
-    - Alternative communication methods (phone, fax, radio)
-    - Cash-based transaction procedures for payment systems
+    - Documented fallback procedures for critical electronic systems
+    - Manual data ingestion and processing procedures for emergency operations
+    - Alternative communication methods (phone, backup messaging platforms)
+    - Backup transaction procedures for payment and billing systems
     - Physical key management for electronic access control failures
 
 - **Vendor Support Services:**

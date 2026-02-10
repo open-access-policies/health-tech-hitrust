@@ -19,9 +19,10 @@ A formal AI governance structure shall be established to oversee the ethical eva
 ##### 3.1.1 AI Governance Committee Structure
 
 - **Committee Composition and Leadership:**
-    - AI Governance Committee comprising representatives from Security, Privacy, Legal, Clinical, IT, Business units, and external ethics expertise
+    - AI Governance Committee comprising representatives from Security, Privacy, Legal, Customer Success, Data Engineering, IT, Business units, and external ethics expertise
     - Designated AI Ethics Officer responsible for ethical AI oversight, compliance coordination, and organizational ethics leadership
-    - Patient Advocate or Patient Representative for healthcare-related AI governance decisions
+    - Customer Success Lead for customer-facing AI governance decisions and contractual compliance
+    - Data Engineering Lead for data pipeline and model training governance
     - External Ethics Advisor or AI Ethics Consultant for independent perspective and specialized expertise
     - Executive Sponsor from senior leadership for strategic direction and resource allocation
 
@@ -45,7 +46,7 @@ A formal AI governance structure shall be established to oversee the ethical eva
     - **High Risk**: AI systems making automated decisions affecting individuals, processing ePHI or Restricted data, or having significant ethical implications
     - **Medium Risk**: AI systems providing recommendations influencing human decisions, processing Confidential data, or affecting business-critical functions
     - **Low Risk**: AI systems for content assistance, processing only Public or Internal data, with limited individual or business impact
-    - **Regulatory Risk**: Additional classification for AI systems subject to FDA approval, clinical validation, or other regulatory oversight
+    - **Regulatory Risk**: Additional classification for AI systems subject to regulatory oversight or customer-mandated validation requirements
     - Risk classification determines approval authority, monitoring requirements, and compliance obligations
 
 #### 3.2 AI Ethics and Fairness Framework
@@ -56,7 +57,7 @@ Comprehensive ethical principles and fairness measures shall guide AI developmen
 
 - **Fairness and Non-Discrimination:**
     - Commitment to preventing algorithmic bias and discrimination based on protected characteristics including race, gender, age, disability, and other legally protected categories
-    - Regular bias testing and fairness evaluation for AI systems affecting hiring, promotion, patient care, or other individual decisions
+    - Regular bias testing and fairness evaluation for AI systems affecting hiring, promotion, customer data processing, or other individual decisions
     - Diverse and representative training data and validation datasets to minimize algorithmic bias and ensure equitable outcomes
     - Ongoing monitoring of AI system outcomes for disparate impact on protected groups with corrective action procedures
     - Documentation and reporting of fairness measures, bias testing results, and remediation activities
@@ -65,7 +66,7 @@ Comprehensive ethical principles and fairness measures shall guide AI developmen
     - Clear documentation and communication of AI system capabilities, limitations, decision-making processes, and potential risks
     - Explainable AI (XAI) requirements for systems making decisions affecting individuals with understandable reasoning and justification
     - User notification and disclosure when individuals are interacting with AI systems or AI-generated content
-    - Model interpretability measures for critical business and clinical decisions with accessible explanations
+    - Model interpretability measures for critical business and data processing decisions with accessible explanations
     - Regular communication about AI system changes, updates, and performance to affected stakeholders
 
 ##### 3.2.2 Human Oversight and Control
@@ -81,21 +82,21 @@ Comprehensive ethical principles and fairness measures shall guide AI developmen
     - Right to human review for individuals affected by automated AI decisions with accessible appeal processes
     - Right to explanation for AI-generated decisions affecting individuals with clear and understandable reasoning
     - Opt-out procedures for individuals who prefer human-only decision-making where technically and operationally feasible
-    - Consent and notification requirements for AI system involvement in healthcare delivery and patient care
+    - Consent and notification requirements for AI system involvement in customer data processing as defined in BAAs
     - Protection of individual autonomy and decision-making authority in AI-assisted processes
 
 #### 3.3 Regulatory Compliance and Data Protection
 
 Comprehensive compliance controls shall ensure AI systems meet all applicable regulatory requirements and protect individual privacy and data rights.
 
-##### 3.3.1 Healthcare and Clinical AI Compliance
+##### 3.3.1 Business Associate Compliance Requirements
 
-- **Clinical AI Regulatory Requirements:**
-    - FDA approval or validation through appropriate regulatory processes for AI clinical decision support tools and medical devices
-    - Clinical evidence and validation requirements for AI systems providing diagnostic, therapeutic, or clinical recommendations
-    - Medical ethics and professional standards compliance for AI systems involved in patient care delivery
-    - Patient safety monitoring and adverse event reporting for AI systems with clinical applications
-    - Integration with clinical governance and quality assurance programs for AI-enabled healthcare delivery
+- **BA Regulatory Requirements:**
+    - Compliance with all applicable BAA terms governing AI usage for processing customer ePHI
+    - Validation and testing requirements for AI systems processing ePHI on behalf of Covered Entities
+    - Customer notification and consent requirements for AI system involvement in their data processing
+    - Service level and accuracy monitoring for AI systems supporting customer operations
+    - Integration with customer compliance and audit requirements for AI-enabled data processing
 
 - **HIPAA and ePHI Protection:**
     - Strict prohibition of ePHI processing in unauthorized AI systems without Business Associate Agreements (BAAs) and appropriate safeguards
@@ -134,7 +135,7 @@ Specific guidelines shall govern the appropriate and ethical use of AI technolog
     - Research and information gathering for business purposes with accuracy validation and source attribution
 
 - **Prohibited AI Use Cases and Activities:**
-    - Clinical diagnosis or treatment recommendations without appropriate medical oversight, validation, and regulatory compliance
+    - Automated ePHI processing decisions that bypass required human review or contractual requirements with Covered Entities
     - Automated decision-making for hiring, firing, promotion, or performance evaluation without human review and appeal processes
     - Processing of ePHI through unauthorized AI systems without BAAs and appropriate safeguards
     - Generation of misleading, false, or deceptive content including deepfakes, misinformation, or fraudulent materials
@@ -142,12 +143,12 @@ Specific guidelines shall govern the appropriate and ethical use of AI technolog
 
 ##### 3.4.2 Role-Specific AI Guidelines and Requirements
 
-- **Healthcare and Clinical Staff:**
-    - AI clinical decision support tools must be FDA-approved, clinically validated, or approved through institutional review processes
-    - Mandatory human clinician review and validation for all AI-generated clinical recommendations and decisions
-    - Patient consent and disclosure requirements for AI system involvement in care delivery with clear opt-out procedures
-    - Documentation of AI system use in patient medical records with decision rationale and human oversight
-    - Compliance with medical ethics, professional standards, and institutional clinical governance policies
+- **Customer Success and Data Engineering Teams:**
+    - AI tools used with customer data must be approved and validated per BAA requirements and organizational policies
+    - Human review required for AI-generated outputs that affect customer data processing or service delivery
+    - Customer disclosure requirements for AI system involvement in their data processing as defined in agreements
+    - Documentation of AI system use in customer service records with processing rationale and human oversight
+    - Compliance with customer contractual requirements, SLAs, and data governance policies
 
 - **Software Development Teams:**
     - Code review and security testing requirements for all AI-generated code before production deployment
@@ -200,7 +201,7 @@ Comprehensive training and awareness programs shall ensure workforce members und
 
 - **Specialized Ethics Training Programs:**
     - Advanced ethics training for AI Governance Committee members including ethical frameworks and decision-making models
-    - Clinical ethics training for healthcare staff using AI decision support tools with patient safety and care quality focus
+    - Data ethics training for data engineering and analytics staff using AI tools with customer data
     - Legal and compliance training for AI oversight roles including regulatory requirements and liability issues
     - Leadership training on AI ethics governance, organizational culture, and stakeholder communication
     - Train-the-trainer programs for internal AI ethics champions and subject matter experts
@@ -285,7 +286,8 @@ This AI Ethics and Compliance Policy aligns with and supports compliance require
 | **AI Governance Committee** | Approval of AI implementations, ethics and compliance review, policy decisions, and strategic guidance for responsible AI initiatives. |
 | **Privacy Officer** | AI privacy compliance oversight, ePHI protection validation, privacy impact assessments, and coordination with technical security controls. |
 | **Legal and Compliance Team** | Regulatory compliance validation, contract review for AI services, legal risk assessment, and coordination with technical implementation teams. |
-| **Clinical Leadership** | Healthcare AI governance, clinical validation requirements, patient safety oversight, and coordination with technical security measures. |
+| **Customer Success Leadership** | Customer-facing AI governance, BAA compliance validation, customer communication, and coordination with technical security measures. |
+| **Data Engineering Leadership** | Data pipeline AI governance, model training oversight, data quality validation, and coordination with technical teams. |
 | **Business Unit Leaders** | Team compliance with AI ethics policies, business requirement validation, responsible AI culture development, and coordination with technical teams. |
 | **Training and Development Team** | AI ethics education program delivery, competency assessment, and coordination with technical training requirements. |
 | **All Workforce Members** | Compliance with AI ethics and acceptable use policies, responsible AI practices, and coordination with technical security requirements. |

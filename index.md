@@ -32,6 +32,7 @@ permalink: /
 * [Network Security Policy (ENG-POL-004)](./engineering_policies/ENG-POL-004)
 * [Secure Coding and Testing Policy (ENG-POL-005)](./engineering_policies/ENG-POL-005)
 * [Third-Party Component Management Policy (ENG-POL-006)](./engineering_policies/ENG-POL-006)
+* [API and Integration Security Policy (ENG-POL-007)](./engineering_policies/ENG-POL-007)
 
 #### Procedures
 
@@ -99,6 +100,7 @@ permalink: /
 * [Data Access and Compliance Audit Logging Policy (SEC-POL-011)](./security_policies/SEC-POL-011)
 * [AI Development and Deployment Security Policy (SEC-POL-012)](./security_policies/SEC-POL-012)
 * [AI Ethics and Compliance Policy (SEC-POL-013)](./security_policies/SEC-POL-013)
+* [Multi-Tenant Data Security Policy (SEC-POL-014)](./security_policies/SEC-POL-014)
 
 #### Procedures
 
@@ -111,6 +113,7 @@ permalink: /
 * [AI Tool Risk Assessment and Approval Procedure (SEC-PROC-007)](./security_procedures/SEC-PROC-007)
 * [Vulnerability Management Procedure (SEC-PROC-008)](./security_procedures/SEC-PROC-008)
 * [Vulnerability Management Exception Procedure (SEC-PROC-009)](./security_procedures/SEC-PROC-009)
+* [Business Associate Agreement Management Procedure (SEC-PROC-010)](./security_procedures/SEC-PROC-010)
 
 ### Annexes
 
@@ -126,6 +129,8 @@ permalink: /
 ## About This Project
 
 Navigating the complex landscape of health tech compliance can be challenging. The goal of this project is to provide a clear, comprehensive, and adaptable set of security policies that align with industry best practices and key regulatory frameworks. These templates are designed to be clear enough for non-technical stakeholders to understand while being robust enough to satisfy auditors.
+
+This policy set is oriented toward **Business Associate (BA)** organizations—cloud-native health technology companies that process electronic Protected Health Information (ePHI) on behalf of Covered Entities. It addresses the unique requirements of SaaS platforms, multi-tenant architectures, API-first integrations, and data pipeline operations.
 
 ## Getting Started
 

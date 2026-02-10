@@ -87,6 +87,23 @@ For Tier 1 vendors with ePHI access:
 - **Audit Rights**: Right to review security practices and compliance evidence
 - **Subcontractor Requirements**: Flow-down of BAA requirements to subcontractors
 
+##### 3.3.1.1 Subcontractor Flow-Down Requirements
+
+As a Business Associate, **[Company Name]** shall ensure appropriate flow-down of BAA requirements to subcontractors:
+
+- **Subcontractor BAAs**: Written agreements with subcontractors accessing ePHI shall include all applicable HIPAA requirements and mirror protections in customer BAAs
+- **Customer Notification**: Covered Entity customers shall be notified of subcontractors with access to their ePHI as required by BAA terms
+- **Subcontractor Monitoring**: Ongoing monitoring of subcontractor compliance with BAA requirements shall be conducted
+- **Incident Coordination**: Subcontractor incident notification and response procedures shall align with customer BAA timelines
+- **Termination Procedures**: Subcontractor offboarding shall include secure data return or destruction verification
+
+##### 3.3.1.2 Cloud Provider Shared Responsibility
+
+- **Responsibility Documentation**: Cloud provider vs. **[Company Name]** security responsibilities shall be clearly documented and communicated
+- **Customer Communication**: Shared responsibility model implications shall be communicated to Covered Entity customers
+- **Gap Analysis**: Regular assessment shall verify that combined cloud provider and **[Company Name]** controls meet BAA requirements
+- **Compliance Evidence**: Cloud provider compliance certifications and SOC reports shall be maintained for customer and audit access
+
 ##### 3.3.2 Standard Security Contract Provisions
 
 For Tier 2 vendors:
