@@ -19,9 +19,7 @@ This procedure outlines the streamlined, ticket-based workflow for managing new 
 | 1        | Workforce Member | Submits a "New Software Request" ticket via the IT helpdesk system. The request shall include the software/extension name, a link to its official source, and a clear business justification. |
 | 2        | Security Team    | Receives and reviews the ticket. Conducts a risk assessment based on the software's function, the data it accesses, its permissions, vendor reputation, and any known vulnerabilities.       |
 | 3        | Security Team    | Based on the assessment, formally approves or denies the request within the ticket, providing a brief rationale for the decision.                                                            |
-| 4        | IT Department    | If approved, adds the software to the official
-**Software Allowlist**
-and, if necessary, assists the user with a secure installation.                                                        |
+| 4        | IT Department    | If approved, adds the software to the official **Software Allowlist** and, if necessary, assists the user with a secure installation.                                                        |
 
 #### **5. Standards Compliance**
 
